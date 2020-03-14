@@ -1,5 +1,9 @@
 # roadmap-developer
 
+> Guia para auxiliar quem está iniciando no desenvolvimento de software com links úteis para estudo.
+
+![](https://www.consignor.com/wp-content/uploads/2019/06/Senior-Front-End-Developer-1080x675.jpg)
+
 ## Requisitos (Trilha Comum)
 * Git <https://www.youtube.com/watch?v=UMhskLXJuq4>
 * Algoritmos (Lógica de programação) <https://youtu.be/8mei6uVttho>
