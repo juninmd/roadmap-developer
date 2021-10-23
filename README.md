@@ -82,6 +82,7 @@ com o que você possa já iniciar sua carreira ou até mesmo hobbie.
   * Relacional
     * [MySQL](https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)
     * [PostgreSQL](https://www.youtube.com/watch?v=j4Zx6qcLPbE)
+    * [Oracle](https://youtu.be/PfaYPJDsgR8)
   * Não Relacional
     * [MongoDB](https://www.youtube.com/watch?v=cmkretr_gOU)
     * [Redis](https://www.youtube.com/watch?v=HMEwYxXFTjM)
