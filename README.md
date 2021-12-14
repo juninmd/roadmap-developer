@@ -72,7 +72,8 @@ com o que você possa já iniciar sua carreira ou até mesmo hobbie.
     * [HapiJS](https://www.youtube.com/watch?v=wik-pzLcRG4)
 * Autenticação
   * [JWT](https://www.youtube.com/watch?v=KFNGgc34UXE)
-
+* Filas
+  * [Pub/Sub](https://www.youtube.com/watch?v=-KH5w-cUdhw)
 * Testes
   * [Integration Testing](https://www.youtube.com/watch?v=sa448ZG9p9U)
   * [Unit Testing](https://www.youtube.com/watch?v=7MxGt6zZbPY)
