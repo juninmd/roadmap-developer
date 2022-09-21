@@ -130,3 +130,7 @@ com o que você possa já iniciar sua carreira ou até mesmo hobbie.
 ## Créditos
 
 Inspirado em: <https://github.com/kamranahmedse/developer-roadmap>
+
+## Sites
+ - <https://techguide.sh/>
+ - <https://roadmap.sh/>
