@@ -51,3 +51,8 @@
     - Faculdade técnica de análise e desenvolvimento de sistemas por exemplo (Fatec)
     - Curso técnico de informática. (Etec)
     - Comece do zero, mesmo de estagiário, não tem milagre.
+
+  - Alguns sites também podem ser aliados na aprendizagem:
+  - https://www.rocketseat.com.br/
+  - https://www.pluralsight.com/
+  - https://www.udacity.com/
