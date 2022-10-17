@@ -52,7 +52,7 @@
     - Curso técnico de informática. (Etec)
     - Comece do zero, mesmo de estagiário, não tem milagre.
 
-  - Alguns sites também podem ser aliados na aprendizagem:
+  - Alguns sites também podem ser aliados na sua aprendizagem:
   - https://www.rocketseat.com.br/
   - https://www.pluralsight.com/
   - https://www.udacity.com/
