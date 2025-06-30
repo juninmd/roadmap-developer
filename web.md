@@ -1,0 +1,38 @@
+# Trilha Web
+
+* [HTML5](https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o)
+  * [Acessibilidade](https://www.youtube.com/watch?v=c_i2c9ZwrjQ)
+  * [SEO](https://www.youtube.com/watch?v=Q1_a_02iGgM)
+* [CSS3](https://www.youtube.com/watch?v=GPK8A-A156o&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV)
+  * [Flexbox](https://www.youtube.com/watch?v=K74l26pE4YA)
+  * [Grid](https://www.youtube.com/watch?v=t6CBkY_2_gA)
+  * [Pré-processadores](https://www.youtube.com/watch?v=z1nCtknvX1c)
+    * [Sass](https://www.youtube.com/watch?v=z1nCtknvX1c)
+  * Frameworks
+    * [Tailwind CSS](https://www.youtube.com/watch?v=r-7e06Gf-tM)
+    * [Bootstrap](https://www.youtube.com/watch?v=E_kK_1g0-Hw)
+* [JavaScript](https://www.youtube.com/watch?v=Ptbk2af68e8)
+  * [TypeScript](https://www.youtube.com/watch?v=0mYq5LrQN1s)
+  * Frameworks
+    * [React](https://www.youtube.com/watch?v=tbLziJchz48)
+      * [Next.js](https://www.youtube.com/watch?v=3wosbF-4-A8)
+      * [Remix](https://www.youtube.com/watch?v=Kx_1-Jj-S2M)
+    * [Angular](https://www.youtube.com/watch?v=tG_b1dG6_yY)
+    * [Vue.js](https://www.youtube.com/watch?v=Wy9q22isx3U)
+      * [Nuxt.js](https://www.youtube.com/watch?v=f_3-i24-aG4)
+    * [Svelte](https://www.youtube.com/watch?v=0-b_9d-m4bE)
+* [Gerenciamento de Estado](https://www.youtube.com/watch?v=D_yxtCD_Vi0)
+  * [Redux](https://www.youtube.com/watch?v=u9ye-xss8qk)
+  * [Zustand](https://www.youtube.com/watch?v=C_3-L_nKS8s)
+* Testes
+  * [Jest](https://www.youtube.com/watch?v=2G_mWfG0DZE)
+  * [React Testing Library](https://www.youtube.com/watch?v=sdkgUu5hr6g)
+  * [Cypress](https://www.youtube.com/watch?v=GhyE3Y5oS_0)
+* Arquitetura
+  * [Micro-frontends](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+  * [JAMstack](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+  * [State Management Patterns](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+* [WebSockets](https://www.youtube.com/watch?v=1BfCnjr_V2U)
+* [Web Assembly](https://www.youtube.com/watch?v=c-C-A2O_y_4)
+* [GraphQL](https://www.youtube.com/watch?v=X_1oKRqJb-o)
+* [Web Performance](https://www.youtube.com/watch?v=1-b_9d-m4bE)

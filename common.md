@@ -1,0 +1,26 @@
+# Trilha Comum
+
+* [Git](https://www.youtube.com/watch?v=UMhskLXJuq4)
+* [Algoritmos (Lógica de programação)](https://youtu.be/8mei6uVttho)
+* [Estruturas de Dados](https://www.youtube.com/watch?v=0p_e_g91-c4)
+* [Semantic Version](https://www.youtube.com/watch?v=sgheXCK-Rfw)
+* [Github](https://www.youtube.com/watch?v=UbJLOn1PAKw)
+* [APIS](https://www.youtube.com/watch?v=3LHSyha0xN0)
+  * [REST](https://www.youtube.com/watch?v=HeT-5A2lTE8)
+  * [GraphQL](https://www.youtube.com/watch?v=X_1oKRqJb-o)
+* [Gerenciador de Pacotes](https://www.youtube.com/watch?v=QYH-vX_7Cfo)
+  * [NPM](https://www.youtube.com/watch?v=QYH-vX_7Cfo)
+  * [Yarn](https://www.youtube.com/watch?v=3a-c_J8-R-8)
+* Internet
+  * [DNS](https://www.youtube.com/watch?v=YMmIRoJjICw)
+  * [Http](https://www.youtube.com/watch?v=hwttZtWkXTk)
+  * [Cors](https://www.youtube.com/watch?v=GZV-FUdeVwE)
+  * [Navegadores](https://www.youtube.com/watch?v=S5LKELK3fUU)
+* Sistemas Operacionais
+  * [Threads](https://www.youtube.com/watch?v=Tbwu55Iov5s)
+  * [Terminal](https://www.youtube.com/watch?v=xnb5nC7uH8w)
+  * [Memória](https://www.youtube.com/watch?v=Q8ZqjEafmNc)
+* [Docker](https://www.youtube.com/watch?v=3c-iBn73dDE)
+* [Web Servers](https://www.youtube.com/watch?v=Zt_jJ5eS-p0)
+  * [Nginx](https://www.youtube.com/watch?v=fm_nC3Bq3_c)
+  * [Apache](https://www.youtube.com/watch?v=tI4_j4-uX-M)
