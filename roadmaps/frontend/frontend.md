@@ -49,7 +49,7 @@ Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em inter
 - **Recursos:**
   - 📖 [Documentação de JavaScript (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   - 📖 [Documentação Oficial do React](https://pt-br.reactjs.org/docs/getting-started.html)
-  - 📖 [Documenta��ão Oficial do Angular](https://angular.io/docs)
+  - 📖 [Documentação Oficial do Angular](https://angular.io/docs)
   - 📖 [Documentação Oficial do Vue.js](https://vuejs.org/v2/guide/)
   - 📺 [Curso de JavaScript (Vídeo)](https://www.youtube.com/watch?v=Ptbk2af68e8)
 
@@ -82,6 +82,16 @@ Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em inter
   - 📖 [Documentação Oficial do Jest](https://jestjs.io/docs/pt-BR/getting-started)
   - 📖 [Documentação Oficial do Cypress](https://docs.cypress.io/)
   - 📺 [Testes no Frontend (Vídeo)](https://www.youtube.com/watch?v=2G_mWfG0DZE)
+
+---
+
+### 🎨 IA no Frontend: O Novo Designer Júnior
+
+A Inteligência Artificial está transformando como construímos interfaces. Não é apenas sobre gerar código, mas sobre criar experiências novas.
+
+- **Generative UI:** Ferramentas como **v0.dev** permitem que você descreva uma interface e receba o código React/Tailwind pronto.
+- **Chatbots Inteligentes:** Integrar o ChatGPT no seu site para suporte ou recomendação.
+- **Acessibilidade Automatizada:** Usar IA para gerar "alt text" para imagens ou legendas para vídeos automaticamente.
 
 ---
 
