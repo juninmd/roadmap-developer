@@ -16,6 +16,21 @@ Todo grande herói de uma saga de fantasia precisa de um mapa, uma espada e um c
 
 ---
 
+### 🤖 Alfabetização em IA: O Novo Superpoder
+
+A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenvolvedores que usam IA vão substituir os que não usam. Entender como interagir com essas ferramentas é hoje tão básico quanto saber pesquisar no Google.
+
+- **Conceitos Básicos:**
+  - **LLMs (Large Language Models):** Entenda que o ChatGPT/Claude não "sabe" a verdade, eles preveem a próxima palavra mais provável. Eles podem alucinar (inventar coisas). Sempre verifique!
+  - **Prompt Engineering Básico:** Saber pedir é uma arte. Seja específico, dê contexto e exemplos. "Escreva um código" é ruim. "Escreva uma função em Python que receba uma lista X e retorne Y, usando a biblioteca Z" é bom.
+
+- **IA como Mentor e Assistente:**
+  - **Aprendizado:** Use a IA para explicar conceitos complexos ("Explique Recursão como se eu tivesse 5 anos").
+  - **Debugging:** Cole seu erro e peça ajuda ("O que significa esse erro?").
+  - **Refatoração:** "Como posso melhorar a legibilidade deste código?".
+
+---
+
 ### 🧠 Algoritmos e Estruturas de Dados: O Livro de Feitiços
 
 - **O que são?** Algoritmos são como receitas de bolo: um passo a passo para resolver um problema. Estruturas de Dados são as "prateleiras" e "potes" onde você organiza seus ingredientes (dados) da forma mais eficiente.

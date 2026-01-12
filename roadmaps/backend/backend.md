@@ -104,6 +104,20 @@ Cada linguagem tem suas forças e fraquezas, como diferentes personagens em um j
 
 ---
 
+### 🤖 IA para Backend Devs: O Futuro Chegou
+
+- **Coding Assistants:** Ferramentas como **GitHub Copilot** e **Cursor** não escrevem o código por você, mas aceleram o processo, sugerem documentação e testes. Use-os como um "pair programmer" incansável.
+- **Integração de LLMs:** Aprenda a chamar APIs da OpenAI/Anthropic/Google em seu backend. Isso permite criar features como "resumir este texto", "classificar este sentimento" ou "extrair dados deste JSON".
+- **Vector Databases (Bancos de Dados Vetoriais):**
+  - Para criar sistemas de busca semântica (RAG), você precisará guardar "vetores" (representações numéricas de texto).
+  - Ferramentas: **pgvector** (extensão do Postgres), **Pinecone**, **Weaviate**.
+
+- **Recursos:**
+  - 📖 [LangChain para Backend Devs](https://python.langchain.com/docs/get_started/introduction)
+  - 📖 [pgvector: Busca Vetorial no Postgres](https://github.com/pgvector/pgvector)
+
+---
+
 ### 🏗️ Arquitetura: A Planta da Cidade
 
 - **O que é?** Como você organiza as "casas" e "prédios" (os componentes) da sua aplicação e como as "ruas" (as comunicações) são planejadas.

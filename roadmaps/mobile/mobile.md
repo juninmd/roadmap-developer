@@ -37,7 +37,7 @@
 
 ---
 
-### 🗄��� Banco de Dados Mobile: Guardando as Coisas no Celular
+### 🗄️ Banco de Dados Mobile: Guardando as Coisas no Celular
 
 - **O que é?** Muitas vezes, seu app precisa salvar informações diretamente no celular do usuário, para que funcionem offline ou para guardar preferências.
 
@@ -50,6 +50,16 @@
   - 📖 [Documentação do SQLite](https://www.sqlite.org/docs.html)
   - 📖 [Documentação do Firebase Realtime Database](https://firebase.google.com/docs/database)
   - 📺 [Bancos de Dados para Mobile (Vídeo)](https://www.youtube.com/watch?v=YgK6Al_ml-A)
+
+---
+
+### 📱 IA no Mobile: O Cérebro no Bolso
+
+A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente no dispositivo (sem internet) é o novo "estado da arte" do mobile.
+
+- **On-Device AI:** Rodar modelos leves (Small Language Models) direto no celular garante privacidade e funciona offline.
+  - **Ferramentas:** TensorFlow Lite, CoreML (Apple), Gemini Nano (Android).
+- **Features Inteligentes:** Reconhecimento de texto em imagens (OCR), Sugestão de respostas inteligentes (Smart Reply), Efeitos de câmera.
 
 ---
 
