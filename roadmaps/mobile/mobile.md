@@ -55,11 +55,17 @@
 
 ### 📱 IA no Mobile: O Cérebro no Bolso
 
-A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente no dispositivo (sem internet) é o novo "estado da arte" do mobile.
+A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente no dispositivo (sem internet) é o novo "estado da arte".
 
-- **On-Device AI:** Rodar modelos leves (Small Language Models) direto no celular garante privacidade e funciona offline.
-  - **Ferramentas:** TensorFlow Lite, CoreML (Apple), Gemini Nano (Android).
-- **Features Inteligentes:** Reconhecimento de texto em imagens (OCR), Sugestão de respostas inteligentes (Smart Reply), Efeitos de câmera.
+- **ExecuTorch (PyTorch Mobile):**
+  - A solução moderna da Meta para rodar modelos Llama e outros PyTorch models em dispositivos móveis com alta performance.
+
+- **Google ML Kit:**
+  - APIs prontas para usar: Escanear código de barras, traduzir texto, identificar objetos. Não requer conhecimento profundo de ML.
+
+- **Privacidade e Latência:**
+  - Rodar no dispositivo (Edge AI) significa que os dados do usuário nunca saem do celular. Ótimo para apps de saúde ou finanças.
+  - Resposta instantânea, sem esperar o servidor.
 
 ---
 

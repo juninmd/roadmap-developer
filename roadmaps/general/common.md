@@ -20,14 +20,18 @@ Todo grande herói de uma saga de fantasia precisa de um mapa, uma espada e um c
 
 A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenvolvedores que usam IA vão substituir os que não usam. Entender como interagir com essas ferramentas é hoje tão básico quanto saber pesquisar no Google.
 
-- **Conceitos Básicos:**
-  - **LLMs (Large Language Models):** Entenda que o ChatGPT/Claude não "sabe" a verdade, eles preveem a próxima palavra mais provável. Eles podem alucinar (inventar coisas). Sempre verifique!
-  - **Prompt Engineering Básico:** Saber pedir é uma arte. Seja específico, dê contexto e exemplos. "Escreva um código" é ruim. "Escreva uma função em Python que receba uma lista X e retorne Y, usando a biblioteca Z" é bom.
+- **Coding Assistants (Copilotos):**
+  - **GitHub Copilot:** O padrão da indústria. Ótimo para autocomplete e explicações rápidas.
+  - **Cursor / Windsurf:** Editores de código (forks do VS Code) nativos para IA. Permitem "conversar com seu código" inteiro (Context Awareness) e aplicar mudanças em múltiplos arquivos. *Experimente um destes!*
 
-- **IA como Mentor e Assistente:**
-  - **Aprendizado:** Use a IA para explicar conceitos complexos ("Explique Recursão como se eu tivesse 5 anos").
-  - **Debugging:** Cole seu erro e peça ajuda ("O que significa esse erro?").
-  - **Refatoração:** "Como posso melhorar a legibilidade deste código?".
+- **Prompt Engineering para Devs:**
+  - **Contexto é Rei:** Não diga apenas "Corrija o erro". Cole o erro, o trecho de código e explique o que você esperava.
+  - **Few-Shot Prompting:** Dê exemplos de como você quer a resposta. "Gere testes unitários seguindo este padrão: [exemplo]".
+  - **Chain of Thought:** Peça para a IA "pensar passo a passo" antes de dar a solução final para problemas lógicos.
+
+- **Soft Skills na Era da IA:**
+  - **Pensamento Crítico:** A IA erra (e mente) com confiança. Você é o revisor final. Nunca commite código que você não entende.
+  - **Arquitetura e Design:** Com a IA escrevendo o código "braçal", seu valor migra para desenhar *como* as peças se encaixam.
 
 ---
 
