@@ -87,11 +87,17 @@ Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em inter
 
 ### 🎨 IA no Frontend: O Novo Designer Júnior
 
-A Inteligência Artificial está transformando como construímos interfaces. Não é apenas sobre gerar código, mas sobre criar experiências novas.
+A Inteligência Artificial está transformando como construímos interfaces.
 
-- **Generative UI:** Ferramentas como **v0.dev** permitem que você descreva uma interface e receba o código React/Tailwind pronto.
-- **Chatbots Inteligentes:** Integrar o ChatGPT no seu site para suporte ou recomendação.
-- **Acessibilidade Automatizada:** Usar IA para gerar "alt text" para imagens ou legendas para vídeos automaticamente.
+- **Vercel AI SDK:** A biblioteca padrão para construir interfaces de chat em React/Next.js. Facilita o **Streaming** de respostas (texto aparecendo aos poucos).
+
+- **Client-Side Models (WebLLM):**
+  - Rode modelos Llama diretamente no navegador do usuário usando WebGPU. Zero custo de servidor!
+  - **Transformers.js:** Rode modelos de visão e texto do Hugging Face direto no browser.
+
+- **Generative UI:**
+  - Ferramentas como **v0.dev** permitem descrever uma interface e receber o código React/Tailwind pronto.
+  - **Dynamic UI:** O modelo decide qual componente renderizar (um gráfico, uma tabela) baseado na resposta.
 
 ---
 

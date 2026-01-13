@@ -1,103 +1,120 @@
 # 🤖 Trilha de Inteligência Artificial: Ensinando as Máquinas a Pensar
 
-"Qualquer tecnologia suficientemente avançada é indistinguível da magia." - Arthur C. Clarke. Bem-vindo(a) à trilha de IA, onde você será o(a) mágico(a). Aqui, você vai aprender a ensinar os computadores a reconhecer padrões, tomar decisões e, em alguns casos, até a "criar". Você não vai apenas programar, vai treinar modelos que podem prever o futuro, entender a linguagem humana e ver o mundo.
+"Qualquer tecnologia suficientemente avançada é indistinguível da magia." - Arthur C. Clarke. Bem-vindo(a) à trilha de IA, onde você será o(a) mágico(a). Aqui, você vai aprender a ensinar os computadores a reconhecer padrões, tomar decisões e, em alguns casos, até a "criar".
 
-Esta trilha foi desenhada para guiar você desde os primeiros passos até os conceitos mais avançados que estão moldando o futuro agora mesmo.
+Esta trilha foi desenhada para guiar você desde os primeiros passos até os conceitos mais avançados de IA Generativa e Agentes Autônomos.
 
 ---
 
 ## 🐣 Nível Iniciante: O Aprendiz de Feiticeiro
 
-Aqui você vai aprender a segurar a varinha. É a base de tudo: matemática, lógica e as ferramentas essenciais.
+Aqui construímos a fundação. Sem ela, seus modelos desmoronam.
 
-### 🧠 Fundamentos de IA e Machine Learning: O Gênese
-- **O que é?** Machine Learning (Aprendizado de Máquina) é onde, em vez de programar regras, você dá dados ao computador e ele aprende as regras sozinho.
-- **Conceitos Chave:**
-  - **Aprendizado Supervisionado:** Você ensina com exemplos (entrada + resposta correta). Ex: Classificar e-mails como SPAM ou não.
-  - **Aprendizado Não Supervisionado:** O modelo procura padrões sozinho, sem respostas prévias. Ex: Agrupar clientes parecidos.
+### 📐 Fundamentos Matemáticos (Essencial)
+Não fuja da matemática! Ela é o motor debaixo do capô.
+- **Álgebra Linear:** Entenda vetores, matrizes e tensores. É como os dados são representados.
+- **Cálculo:** Derivadas e gradientes são usados para "ensinar" a rede (Backpropagation).
+- **Probabilidade e Estatística:** Para entender incertezas e distribuições de dados.
 - **Recursos:**
-  - 📖 [Google AI for Anyone](https://ai.google/education/)
-  - 📺 [Curso Rápido de Machine Learning (Google)](https://developers.google.com/machine-learning/crash-course)
+  - 📖 [Khan Academy - Matemática](https://pt.khanacademy.org/)
+  - 📺 [3Blue1Brown - Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-### 🐍 Python para Data Science: A Língua dos Dados
-- **Por que Python?** É a "língua franca" da IA. Simples e poderosa.
-- **Ferramentas Essenciais:**
-  - **Pandas:** Para manipular tabelas de dados (DataFrames).
-  - **NumPy:** Para matemática pesada e matrizes.
-  - **Matplotlib/Seaborn:** Para criar gráficos e visualizar o que seus dados dizem.
+### 🧠 Machine Learning "Clássico"
+Antes de correr com Deep Learning, aprenda a andar com algoritmos clássicos.
+- **Conceitos:** Aprendizado Supervisionado vs Não Supervisionado, Overfitting/Underfitting, Bias-Variance Tradeoff.
+- **Algoritmos:** Regressão Linear/Logística, Árvores de Decisão, K-Means, SVM.
+- **Scikit-Learn:** A biblioteca padrão para ML em Python.
 - **Recursos:**
-  - 📖 [Documentação do Pandas](https://pandas.pydata.org/docs/)
-  - 📺 [Python para Data Science (Kaggle Learn)](https://www.kaggle.com/learn/python)
+  - 📖 [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+  - 📺 [StatQuest with Josh Starmer](https://www.youtube.com/user/joshstarmer) - *Explicações incríveis!*
 
-### 🧰 Scikit-Learn: Sua Primeira Caixa de Ferramentas
-- **O que é?** A biblioteca mais famosa para Machine Learning "clássico" (regressão, classificação, clustering).
-- **Recursos:**
-  - 📖 [Scikit-Learn: Getting Started](https://scikit-learn.org/stable/getting_started.html)
+### 🐍 Python para Dados
+- **Ferramentas:** Pandas (manipulação), NumPy (matemática), Matplotlib/Seaborn (visualização).
+- **Jupyter Notebooks:** Seu caderno de laboratório interativo.
+
+### 🛠️ Primeiro Projeto Prático
+- **Titanic Survival Prediction (Kaggle):** O "Hello World" de Data Science.
+- **Previsão de Preços de Casas:** Regressão clássica.
 
 ---
 
 ## 🚀 Nível Intermediário: O Mago Praticante
 
-Agora que você sabe o básico, vamos para a mágica pesada: Redes Neurais e Deep Learning.
+Hora de usar redes neurais para resolver problemas que o código clássico não consegue (visão, texto, áudio).
 
-### 🧠 Deep Learning e Redes Neurais
-- **O que é?** Imitar o cérebro humano com camadas de neurônios artificiais. É o que faz carros autônomos dirigirem e o ChatGPT falar.
-- **Bibliotecas:**
-  - **PyTorch:** A favorita da pesquisa e da indústria moderna (usada pela Meta/Tesla). Flexível e "pythonica".
-  - **TensorFlow/Keras:** A gigante do Google. Muito usada em produção.
+### 🕸️ Deep Learning
+- **Redes Neurais Artificiais (ANNs):** A base de tudo. Funções de ativação (ReLU, Sigmoid), Loss Functions.
+- **Frameworks:**
+  - **PyTorch:** O favorito da pesquisa e da indústria moderna de IA generativa.
+  - **TensorFlow/Keras:** Ainda muito forte em produção legada e mobile.
 - **Recursos:**
-  - 📖 [Deep Learning for Coders (fast.ai)](https://course.fast.ai/) - *Altamente recomendado!*
-  - 📺 [PyTorch Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+  - 📖 [Deep Learning for Coders (fast.ai)](https://course.fast.ai/) - *Aprenda fazendo.*
+  - 📖 [Neural Networks and Deep Learning (Michael Nielsen)](http://neuralnetworksanddeeplearning.com/)
 
-### 👁️ Visão Computacional
-- **O que é?** Ensinar o computador a "ver".
-- **Tarefas:** Detecção de objetos (YOLO), Segmentação, Reconhecimento Facial.
-- **Recursos:**
-  - 📖 [OpenCV](https://opencv.org/)
+### 👁️ Visão Computacional (CV)
+- **CNNs (Convolutional Neural Networks):** Como o computador vê bordas e formas.
+- **Arquiteturas Modernas:** Vision Transformers (ViT), YOLO (Detecção de Objetos).
+- **Projetos:** Classificador de raças de cachorro, Detector de máscaras.
 
-### 🗣️ NLP (Processamento de Linguagem Natural)
-- **O que é?** Ensinar o computador a ler, entender e falar.
-- **A Revolução dos Transformers:** A arquitetura que mudou tudo. Entenda como funciona o mecanismo de "Atenção".
-- **Hugging Face:** O "GitHub da IA". Onde vivem milhares de modelos prontos para usar.
-- **Recursos:**
-  - 📖 [Hugging Face Course](https://huggingface.co/course/chapter1/1) - *Essencial!*
+### 🗣️ Processamento de Linguagem Natural (NLP)
+- **O Caminho até os LLMs:** Bag of Words -> Word2Vec -> RNNs/LSTMs -> **Transformers**.
+- **Transformers:** Entenda "Attention is All You Need". Encoder vs Decoder.
+- **Hugging Face:** Aprenda a usar a biblioteca `transformers` e o Hub.
+
+### ⚙️ MLOps Básico
+Não basta treinar, tem que monitorar.
+- **Experiment Tracking:** Use MLflow ou Weights & Biases para salvar seus experimentos.
+- **Model Registry:** Onde guardar seus modelos versionados.
 
 ---
 
 ## 🧙‍♂️ Nível Avançado: O Arquimago da IA Generativa
 
-Bem-vindo à fronteira do conhecimento. Aqui falamos de IA que cria, raciocina e age.
+A fronteira da tecnologia atual. Aqui o foco é criar sistemas inteligentes complexos.
 
-### 🤖 LLMs (Large Language Models) e GenAI
-- **O que são?** Modelos gigantes (GPT-4, Claude, Llama) treinados em quase toda a internet.
-- **Engenharia de Prompt:** A arte de pedir corretamente para obter o melhor resultado.
-- **Fine-Tuning:** Ajustar um modelo gigante para ser especialista no seu problema específico.
+### 🤖 LLMs e Engenharia de IA
+- **Arquitetura:** Llama, Mistral, GPT. Entenda os parâmetros e quantização (FP16, INT8, GGUF).
+- **Rodando Localmente:**
+  - **Ollama / LM Studio:** Para rodar modelos no seu laptop.
+  - **vLLM / TGI:** Para servir modelos em produção com alta performance.
+- **RAG (Retrieval-Augmented Generation):**
+  - Chunking avançado, Re-ranking, Hybrid Search (Vetorial + Keywords).
+  - **Bancos Vetoriais:** Pinecone, Weaviate, Qdrant, pgvector.
 
-### 🛠️ Engenharia de IA (AI Engineering)
-- **RAG (Retrieval-Augmented Generation):** Conectar o LLM aos seus dados privados (PDFs, Banco de Dados) para que ele responda com base neles, sem alucinar.
-- **Vetores e Embeddings:** Transformar texto em números para buscar significado semântico.
-- **Vector Databases:** Bancos de dados especiais para IA (Pinecone, Chroma, Weaviate, pgvector).
-- **Frameworks:**
-  - **LangChain / LangGraph:** Para criar fluxos complexos e Agentes.
-  - **LlamaIndex:** Focado em ingestão e busca de dados para LLMs.
+### 🕵️ Agentes Autônomos (Agentic AI)
+O futuro da automação. O modelo não só fala, ele *faz*.
+- **Frameworks:** LangGraph (controle total), CrewAI (orquestração de times), AutoGen (Microsoft).
+- **Ferramentas (Function Calling):** Ensinar o LLM a usar APIs, Calculator, Google Search.
 
-### 🕵️ Agentes Autônomos
-- **O que são?** IAs que não só respondem, mas *usam ferramentas* (pesquisam na web, rodam código, mandam e-mail) para resolver tarefas complexas sozinhas.
+### ⚖️ Avaliação e Observabilidade (LLM Ops)
+Como saber se seu bot não está falando besteira?
+- **Evals:** RAGAS (para avaliar RAG), DeepEval, Arize Phoenix.
+- **Tracing:** LangSmith, Langfuse. Monitore cada passo do seu agente.
 
-### ⚖️ Ética, Segurança e Alinhamento
-- **Bias (Viés):** Como evitar que a IA seja preconceituosa.
-- **Alinhamento:** Garantir que a IA faça o que queremos, e não o que pedimos literalmente (o problema do Gênio da Lâmpada).
+### 🛡️ Ética e Segurança
+- **Prompt Injection:** Como hackers enganam LLMs e como se proteger.
+- **Alucinação:** Técnicas para mitigar respostas falsas.
 
 ---
 
-## 🗺️ Carreiras em IA
+## 🏗️ Projetos para Portfólio (Por Nível)
 
-- **Data Scientist:** Foca em análise, estatística, limpar dados e criar modelos preditivos para o negócio.
-- **Machine Learning Engineer:** Foca em colocar modelos em produção, escala, infraestrutura (MLOps).
-- **AI Engineer:** O "novo" perfil. Foca em *usar* modelos prontos (APIs de LLMs) para construir produtos. Usa LangChain, RAG e Engenharia de Prompt.
+1.  **Iniciante:** Dashboard no Streamlit analisando dados públicos do governo.
+2.  **Intermediário:** App que reconhece plantas por foto (usando PyTorch/FastAPI).
+3.  **Avançado:** "Chatbot com seu PDF" usando RAG local (Ollama + LangChain + Streamlit) ou um Agente que pesquisa notícias e resume no Slack.
 
-## 📚 Livros Recomendados
+---
 
-- **"Deep Learning"** (Ian Goodfellow) - A bíblia técnica.
-- **"Superintelligence"** (Nick Bostrom) - Sobre os riscos futuros.
-- **"Genius Makers"** (Cade Metz) - A história das pessoas que criaram a IA moderna.
+## 📺 Canais e Newsletters Recomendados
+
+- **Andrej Karpathy:** O "professor" da IA moderna. Seus vídeos construindo GPT do zero são obrigatórios.
+- **Yannic Kilcher:** Resumos de papers técnicos (para quem gosta de matemática).
+- **Two Minute Papers:** O estado da arte explicado visualmente.
+- **AI News (Newsletter):** Mantenha-se atualizado semanalmente.
+- **The Rundown AI:** Notícias rápidas.
+
+## 📚 Livros Clássicos
+
+- **"Deep Learning"** (Ian Goodfellow)
+- **"Pattern Recognition and Machine Learning"** (Christopher Bishop)
+- **"Designing Machine Learning Systems"** (Chip Huyen) - *Focado em produção.*

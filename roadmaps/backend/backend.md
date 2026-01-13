@@ -106,15 +106,27 @@ Cada linguagem tem suas forças e fraquezas, como diferentes personagens em um j
 
 ### 🤖 IA para Backend Devs: O Futuro Chegou
 
-- **Coding Assistants:** Ferramentas como **GitHub Copilot** e **Cursor** não escrevem o código por você, mas aceleram o processo, sugerem documentação e testes. Use-os como um "pair programmer" incansável.
-- **Integração de LLMs:** Aprenda a chamar APIs da OpenAI/Anthropic/Google em seu backend. Isso permite criar features como "resumir este texto", "classificar este sentimento" ou "extrair dados deste JSON".
-- **Vector Databases (Bancos de Dados Vetoriais):**
-  - Para criar sistemas de busca semântica (RAG), você precisará guardar "vetores" (representações numéricas de texto).
-  - Ferramentas: **pgvector** (extensão do Postgres), **Pinecone**, **Weaviate**.
+O Backend agora precisa saber servir IA, não apenas JSON.
+
+- **Integração de LLMs via API:**
+  - Aprenda a usar SDKs da OpenAI / Anthropic.
+  - **Structured Outputs (Function Calling):** Como fazer o LLM retornar JSON perfeito para sua API consumir.
+
+- **Inference Servers (Servindo Modelos Locais):**
+  - **vLLM:** O estado da arte em performance para servir modelos como Llama 3 ou Mistral.
+  - **Ollama:** A forma mais fácil de rodar modelos localmente durante o desenvolvimento.
+  - **TGI (Text Generation Inference):** Solução da Hugging Face.
+
+- **Vector Databases (RAG):**
+  - **pgvector:** Transforme seu Postgres existente em um banco vetorial. Não precisa de infra nova.
+  - **Qdrant / Weaviate:** Bancos vetoriais dedicados para alta escala.
+
+- **Hardware Awareness:**
+  - Entenda o básico de **GPU vs CPU**. Saber configurar CUDA drivers no Docker é o novo "instalar Linux".
 
 - **Recursos:**
-  - 📖 [LangChain para Backend Devs](https://python.langchain.com/docs/get_started/introduction)
-  - 📖 [pgvector: Busca Vetorial no Postgres](https://github.com/pgvector/pgvector)
+  - 📖 [LangChain Server Side](https://python.langchain.com/docs/get_started/introduction)
+  - 📖 [vLLM Documentation](https://docs.vllm.ai/en/latest/)
 
 ---
 
