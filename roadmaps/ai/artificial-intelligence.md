@@ -68,32 +68,42 @@ Não basta treinar, tem que monitorar.
 
 ---
 
-## 🧙‍♂️ Nível Avançado: O Arquimago da IA Generativa
+## 🧙‍♂️ Nível Avançado: Escolha sua Especialização
 
-A fronteira da tecnologia atual. Aqui o foco é criar sistemas inteligentes complexos.
+Neste ponto, a estrada se divide. Você vai construir os modelos ou construir *com* os modelos?
 
-### 🤖 LLMs e Engenharia de IA
-- **Arquitetura:** Llama, Mistral, GPT. Entenda os parâmetros e quantização (FP16, INT8, GGUF).
+### 🔬 Caminho A: Cientista de Pesquisa / Core ML
+Foco em criar e treinar novas arquiteturas. Matemática pesada.
+- **Fine-Tuning Eficiente:** LoRA, QLoRA. Adapte modelos gigantes com pouco hardware.
+- **Treinamento de LLMs:** DPO (Direct Preference Optimization), RLHF.
+- **Arquiteturas de Ponta:** Mamba, MoE (Mixture of Experts).
+
+### 🛠️ Caminho B: AI Engineer (O Arquiteto de Sistemas)
+Foco em usar modelos existentes para resolver problemas de negócio. Código e Infraestrutura.
+
+#### 🤖 RAG Avançado e Engenharia de IA
+- **Arquitetura de RAG:** Chunking semântico, Query Expansion, Self-RAG.
 - **Rodando Localmente:**
   - **Ollama / LM Studio:** Para rodar modelos no seu laptop.
   - **vLLM / TGI:** Para servir modelos em produção com alta performance.
-- **RAG (Retrieval-Augmented Generation):**
-  - Chunking avançado, Re-ranking, Hybrid Search (Vetorial + Keywords).
-  - **Bancos Vetoriais:** Pinecone, Weaviate, Qdrant, pgvector.
+- **Synthetic Data:** Usar LLMs poderosos (GPT-4) para gerar dados e treinar modelos menores.
 
-### 🕵️ Agentes Autônomos (Agentic AI)
+#### 🕵️ Agentes Autônomos (Agentic AI)
 O futuro da automação. O modelo não só fala, ele *faz*.
-- **Frameworks:** LangGraph (controle total), CrewAI (orquestração de times), AutoGen (Microsoft).
-- **Ferramentas (Function Calling):** Ensinar o LLM a usar APIs, Calculator, Google Search.
+- **Frameworks:**
+  - **LangGraph:** Controle granular de estado e loops. Essencial para agentes complexos.
+  - **CrewAI / AutoGen:** Orquestração de múltiplos agentes trabalhando em equipe.
+- **Padrões de Design:**
+  - **ReAct:** Reason + Act.
+  - **Human-in-the-loop:** O agente pede aprovação antes de executar uma ação crítica.
+  - **Memória:** Short-term vs Long-term memory (MemGPT).
 
-### ⚖️ Avaliação e Observabilidade (LLM Ops)
-Como saber se seu bot não está falando besteira?
-- **Evals:** RAGAS (para avaliar RAG), DeepEval, Arize Phoenix.
-- **Tracing:** LangSmith, Langfuse. Monitore cada passo do seu agente.
-
-### 🛡️ Ética e Segurança
-- **Prompt Injection:** Como hackers enganam LLMs e como se proteger.
-- **Alucinação:** Técnicas para mitigar respostas falsas.
+#### ⚖️ LLM Ops: Do Lab para a Produção
+- **Evals (Unit Tests para IA):** RAGAS (para avaliar RAG), DeepEval.
+- **Tracing:** LangSmith, Langfuse. Monitore cada passo, custo e latência.
+- **Segurança:**
+  - **Prompt Injection:** Proteja seu agente de comandos maliciosos.
+  - **Guardrails:** NeMo Guardrails ou Llama Guard para filtrar saídas tóxicas.
 
 ---
 

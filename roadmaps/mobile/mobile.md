@@ -57,15 +57,22 @@
 
 A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente no dispositivo (sem internet) é o novo "estado da arte".
 
-- **ExecuTorch (PyTorch Mobile):**
-  - A solução moderna da Meta para rodar modelos Llama e outros PyTorch models em dispositivos móveis com alta performance.
+- **Frameworks de Edge AI:**
+  - **CoreML (Apple):** Essencial para tirar proveito dos processadores Apple Silicon (Neural Engine) no iOS.
+  - **ExecuTorch (PyTorch):** A solução moderna da Meta para rodar modelos Llama e outros PyTorch models em dispositivos móveis com alta performance.
+  - **TensorFlow Lite:** O padrão da indústria para rodar modelos leves em Android e IoT.
+
+- **Small Language Models (SLMs):**
+  - Esqueça o GPT-4. No mobile, usamos modelos menores e eficientes.
+  - **Gemini Nano (Android):** Modelo integrado nativamente em dispositivos Android modernos.
+  - **Apple Intelligence:** APIs nativas para resumo, escrita e geração de imagens no iOS.
+
+- **Quantização e Performance:**
+  - **Otimização:** Aprenda a converter modelos de FP32 (gigantes) para INT8 ou INT4 (minúsculos) para que rodem sem drenar a bateria.
+  - **NPU (Neural Processing Unit):** Entenda como delegar tarefas pesadas de IA para o chip dedicado do celular, liberando a CPU para a interface.
 
 - **Google ML Kit:**
   - APIs prontas para usar: Escanear código de barras, traduzir texto, identificar objetos. Não requer conhecimento profundo de ML.
-
-- **Privacidade e Latência:**
-  - Rodar no dispositivo (Edge AI) significa que os dados do usuário nunca saem do celular. Ótimo para apps de saúde ou finanças.
-  - Resposta instantânea, sem esperar o servidor.
 
 ---
 

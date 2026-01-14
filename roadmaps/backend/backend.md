@@ -112,21 +112,32 @@ O Backend agora precisa saber servir IA, não apenas JSON.
   - Aprenda a usar SDKs da OpenAI / Anthropic.
   - **Structured Outputs (Function Calling):** Como fazer o LLM retornar JSON perfeito para sua API consumir.
 
-- **Inference Servers (Servindo Modelos Locais):**
-  - **vLLM:** O estado da arte em performance para servir modelos como Llama 3 ou Mistral.
-  - **Ollama:** A forma mais fácil de rodar modelos localmente durante o desenvolvimento.
-  - **TGI (Text Generation Inference):** Solução da Hugging Face.
+- **Orquestração e Agentes:**
+  - **LangChain / LlamaIndex:** Frameworks para conectar LLMs a dados e APIs.
+  - **LangGraph:** Para construir agentes com estado e loops complexos (ex: humano no loop, correções iterativas).
+  - **CrewAI / AutoGen:** Orquestração de múltiplos agentes trabalhando em equipe.
 
-- **Vector Databases (RAG):**
-  - **pgvector:** Transforme seu Postgres existente em um banco vetorial. Não precisa de infra nova.
-  - **Qdrant / Weaviate:** Bancos vetoriais dedicados para alta escala.
+- **Inference Servers (Servindo Modelos Locais):**
+  - **vLLM:** O estado da arte em performance para servir modelos como Llama 3 ou Mistral em produção.
+  - **Ollama:** A forma mais fácil de rodar modelos localmente durante o desenvolvimento.
+  - **TGI (Text Generation Inference):** Solução robusta da Hugging Face.
+
+- **RAG (Retrieval-Augmented Generation):**
+  - **Bancos Vetoriais:** pgvector (use seu Postgres!), Qdrant, Weaviate.
+  - **Estratégias de Busca:** Semantic Search (Vetorial) vs Keyword Search (BM25) vs Hybrid Search.
+  - **Reranking:** O segredo para melhorar a qualidade das respostas do RAG (ex: Cohere Rerank).
+
+- **LLM Ops e Avaliação:**
+  - **Como testar o "imprevisível"?** Use frameworks como **Ragas** ou **DeepEval** para dar notas às respostas do seu bot.
+  - **Observabilidade:** Ferramentas como **LangSmith** ou **Arize Phoenix** para ver o "trace" (o caminho) que sua IA percorreu.
 
 - **Hardware Awareness:**
   - Entenda o básico de **GPU vs CPU**. Saber configurar CUDA drivers no Docker é o novo "instalar Linux".
 
 - **Recursos:**
-  - 📖 [LangChain Server Side](https://python.langchain.com/docs/get_started/introduction)
+  - 📖 [LangGraph Tutorials](https://langchain-ai.github.io/langgraph/)
   - 📖 [vLLM Documentation](https://docs.vllm.ai/en/latest/)
+  - 📖 [Ragas (Evaluation Framework)](https://docs.ragas.io/en/stable/)
 
 ---
 
