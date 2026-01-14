@@ -93,11 +93,20 @@ A Inteligência Artificial está transformando como construímos interfaces.
 
 - **Client-Side Models (WebLLM):**
   - Rode modelos Llama diretamente no navegador do usuário usando WebGPU. Zero custo de servidor!
-  - **Transformers.js:** Rode modelos de visão e texto do Hugging Face direto no browser.
+  - **Transformers.js:** Rode modelos de visão (depth estimation, background removal) e texto direto no browser.
+  - **MediaPipe (Google):** Soluções ultra-otimizadas para detecção de face, mãos e pose direto no navegador.
 
-- **Generative UI:**
+- **Generative UI & Design:**
   - Ferramentas como **v0.dev** permitem descrever uma interface e receber o código React/Tailwind pronto.
-  - **Dynamic UI:** O modelo decide qual componente renderizar (um gráfico, uma tabela) baseado na resposta.
+  - **Dynamic UI:** O modelo decide qual componente renderizar (um gráfico, uma tabela, um mapa) baseado na resposta do chat. "Mostre as vendas" -> Renderiza um `<Chart />`.
+
+- **Acessibilidade Assistida por IA:**
+  - Use IA para gerar descrições (Alt Text) automáticas para imagens enviadas por usuários.
+  - Ferramentas de CI que usam visão computacional para detectar problemas de contraste e layout que validadores de código perdem.
+
+- **UX para IA:**
+  - **Streaming:** Aprenda a lidar com respostas que chegam aos poucos (efeito de digitação) para diminuir a percepção de latência.
+  - **Optimistic UI:** Mostre o que o usuário pediu *antes* da IA terminar de processar, sempre que possível.
 
 ---
 

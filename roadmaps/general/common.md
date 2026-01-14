@@ -28,10 +28,17 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Contexto é Rei:** Não diga apenas "Corrija o erro". Cole o erro, o trecho de código e explique o que você esperava.
   - **Few-Shot Prompting:** Dê exemplos de como você quer a resposta. "Gere testes unitários seguindo este padrão: [exemplo]".
   - **Chain of Thought:** Peça para a IA "pensar passo a passo" antes de dar a solução final para problemas lógicos.
+  - **Role Prompting:** Diga à IA quem ela deve ser. "Atue como um Engenheiro Sênior de Segurança em Rust" gera resultados muito diferentes de apenas "Escreva um código em Rust".
+
+- **Segurança e Ética no Uso de IA:**
+  - **Dados Sensíveis:** JAMAIS cole chaves de API, senhas ou dados confidenciais de clientes no ChatGPT ou Claude. O que você digita pode ser usado para treinar o modelo.
+  - **Viés (Bias):** Lembre-se que a IA foi treinada na internet, e a internet tem preconceitos. Verifique se o código ou texto gerado não perpetua estereótipos.
+  - **Licenciamento de Código:** Tenha cuidado ao usar código gerado em projetos proprietários. A legislação sobre direitos autorais de código gerado por IA ainda é uma área cinzenta.
 
 - **Soft Skills na Era da IA:**
-  - **Pensamento Crítico:** A IA erra (e mente) com confiança. Você é o revisor final. Nunca commite código que você não entende.
-  - **Arquitetura e Design:** Com a IA escrevendo o código "braçal", seu valor migra para desenhar *como* as peças se encaixam.
+  - **Pensamento Crítico:** A IA erra (e mente) com confiança (Alucinação). Você é o piloto, ela é o copiloto. Nunca commite código que você não entende e não revisou.
+  - **Arquitetura e Design:** Com a IA escrevendo o código "braçal" (boilerplate), seu valor profissional migra para desenhar *como* as peças se encaixam e resolver problemas complexos de negócio.
+  - **Comunicação:** Saber explicar o problema para a IA (e para humanos) é a habilidade mais valiosa do futuro.
 
 ---
 
