@@ -87,26 +87,30 @@ Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em inter
 
 ### 🎨 IA no Frontend: O Novo Designer Júnior
 
-A Inteligência Artificial está transformando como construímos interfaces.
+A Inteligência Artificial está transformando como construímos interfaces, indo além do simples "chatbot".
 
-- **Vercel AI SDK:** A biblioteca padrão para construir interfaces de chat em React/Next.js. Facilita o **Streaming** de respostas (texto aparecendo aos poucos).
+- **AI SDKs e Integração:**
+  - **Vercel AI SDK:** O padrão da indústria para React/Next.js. Abstrai a complexidade de *streams*, *hooks* e estado de chat.
+  - **Streaming UI:** Não espere a resposta completa. Aprenda a renderizar texto e componentes *token por token* para uma sensação de "tempo real".
 
-- **Client-Side Models (WebLLM):**
-  - Rode modelos Llama diretamente no navegador do usuário usando WebGPU. Zero custo de servidor!
-  - **Transformers.js:** Rode modelos de visão (depth estimation, background removal) e texto direto no browser.
-  - **MediaPipe (Google):** Soluções ultra-otimizadas para detecção de face, mãos e pose direto no navegador.
+- **Generative UI (A Mágica do Contexto):**
+  - O texto é chato. Se o usuário pedir "mostre o gráfico de vendas", a IA não deve descrever o gráfico, ela deve **renderizar** o componente `<SalesChart />`.
+  - **Ferramentas:** `v0.dev` para gerar componentes Tailwind/React a partir de prompts.
 
-- **Generative UI & Design:**
-  - Ferramentas como **v0.dev** permitem descrever uma interface e receber o código React/Tailwind pronto.
-  - **Dynamic UI:** O modelo decide qual componente renderizar (um gráfico, uma tabela, um mapa) baseado na resposta do chat. "Mostre as vendas" -> Renderiza um `<Chart />`.
+- **IA no Browser (Client-Side AI):**
+  Rode modelos pesados direto na GPU do usuário usando **WebGPU**. Zero custo de servidor, privacidade total.
+  - **WebLLM:** Rode Llama 3, Mistral ou Gemma direto no Chrome.
+  - **Transformers.js:** Versão JavaScript da famosa biblioteca da Hugging Face. Faça classificação de texto, remoção de fundo de imagem e reconhecimento de fala tudo no front.
+  - **MediaPipe:** Detecção de mãos, face e pose em tempo real.
 
-- **Acessibilidade Assistida por IA:**
-  - Use IA para gerar descrições (Alt Text) automáticas para imagens enviadas por usuários.
-  - Ferramentas de CI que usam visão computacional para detectar problemas de contraste e layout que validadores de código perdem.
+- **Acessibilidade 2.0:**
+  - **Descrição de Imagens:** Use modelos multimodais (como GPT-4 Vision ou LLaVA) para gerar `alt text` perfeito automaticamente.
+  - **Navegação por Voz:** Use *Whisper* (OpenAI) ou modelos locais para permitir que o usuário controle o site falando.
 
-- **UX para IA:**
-  - **Streaming:** Aprenda a lidar com respostas que chegam aos poucos (efeito de digitação) para diminuir a percepção de latência.
-  - **Optimistic UI:** Mostre o que o usuário pediu *antes* da IA terminar de processar, sempre que possível.
+- **UX/UI Patterns para IA:**
+  - **Indicadores de Incerteza:** Como mostrar ao usuário que a IA pode estar errada?
+  - **Feedback Loops:** Botões de "Gostei/Não Gostei" nas respostas para melhorar o modelo.
+  - **Latência Percebida:** Use *Skeleton Screens* e animações fluidas enquanto a IA "pensa".
 
 ---
 
