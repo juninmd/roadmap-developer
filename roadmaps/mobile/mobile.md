@@ -55,24 +55,26 @@
 
 ### 📱 IA no Mobile: O Cérebro no Bolso
 
-A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente no dispositivo (sem internet) é o novo "estado da arte".
+A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente no dispositivo (On-Device AI) garante privacidade, zero latência e funciona offline.
 
-- **Frameworks de Edge AI:**
-  - **CoreML (Apple):** Essencial para tirar proveito dos processadores Apple Silicon (Neural Engine) no iOS.
-  - **ExecuTorch (PyTorch):** A solução moderna da Meta para rodar modelos Llama e outros PyTorch models em dispositivos móveis com alta performance.
-  - **TensorFlow Lite:** O padrão da indústria para rodar modelos leves em Android e IoT.
+- **On-Device Generative AI:**
+  - **ExecuTorch (PyTorch):** O novo padrão da Meta. Permite rodar modelos como Llama 3 (versões 1B ou 3B) nativamente em Android e iOS com aceleração de hardware.
+  - **MediaPipe LLM Inference:** Solução do Google para rodar LLMs (Gemma, Phi-2, Falcon) direto no celular de forma simplificada.
 
 - **Small Language Models (SLMs):**
-  - Esqueça o GPT-4. No mobile, usamos modelos menores e eficientes.
-  - **Gemini Nano (Android):** Modelo integrado nativamente em dispositivos Android modernos.
-  - **Apple Intelligence:** APIs nativas para resumo, escrita e geração de imagens no iOS.
+  - Esqueça o GPT-4. No mobile, "Small is Beautiful".
+  - **Modelos:** Phi-3 (Microsoft), Gemma (Google), Llama 3 8B (Meta).
+  - **Gemini Nano (Android AICore):** Modelo embutido no sistema operacional Android. Use a API para resumir textos ou sugerir respostas sem baixar nada.
+  - **Apple Intelligence:** APIs nativas do iOS 18+ para Image Playground, Genmoji e ferramentas de escrita.
 
-- **Quantização e Performance:**
-  - **Otimização:** Aprenda a converter modelos de FP32 (gigantes) para INT8 ou INT4 (minúsculos) para que rodem sem drenar a bateria.
-  - **NPU (Neural Processing Unit):** Entenda como delegar tarefas pesadas de IA para o chip dedicado do celular, liberando a CPU para a interface.
+- **Frameworks de Baixo Nível (Hardware Acceleration):**
+  - **CoreML (Apple):** Essencial para usar o *Apple Neural Engine (ANE)*. Converte modelos PyTorch/TensorFlow para rodar suave no iPhone.
+  - **TensorFlow Lite (TFLite):** O clássico. Ainda muito usado para visão computacional e classificação.
+  - **NPU (Neural Processing Unit):** Aprenda a delegar o trabalho pesado para a NPU, salvando a bateria do usuário.
 
-- **Google ML Kit:**
-  - APIs prontas para usar: Escanear código de barras, traduzir texto, identificar objetos. Não requer conhecimento profundo de ML.
+- **Técnicas de Otimização:**
+  - **Quantização:** Converter pesos de 32-bit para 4-bit (INT4). Isso reduz um modelo de 5GB para 500MB, tornando-o viável em um celular.
+  - **LoRA Adapters:** Em vez de ter 10 modelos diferentes, tenha 1 modelo base e carregue pequenos "adaptadores" para tarefas específicas (ex: um adaptador para tradução, outro para chat informal).
 
 ---
 

@@ -30,6 +30,13 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Chain of Thought:** Peça para a IA "pensar passo a passo" antes de dar a solução final para problemas lógicos.
   - **Role Prompting:** Diga à IA quem ela deve ser. "Atue como um Engenheiro Sênior de Segurança em Rust" gera resultados muito diferentes de apenas "Escreva um código em Rust".
 
+- **🎓 Aprendizado Assistido por IA:**
+  Não use a IA apenas para escrever o código por você. Use-a para **aprender**.
+  - **Explique este código:** Cole um trecho complexo e peça para a IA explicar "como se eu tivesse 5 anos".
+  - **Gere perguntas de entrevista:** "Estou aprendendo React. Faça perguntas difíceis sobre useEffect e avalie minhas respostas".
+  - **Tradução de Conceitos:** "Eu conheço SQL. Como faço [conceito SQL] em Pandas (Python)?".
+  - **Roadmaps Personalizados:** "Quero aprender Rust em 4 semanas. Crie um plano de estudos com projetos práticos para cada semana".
+
 - **Segurança e Ética no Uso de IA:**
   - **Dados Sensíveis:** JAMAIS cole chaves de API, senhas ou dados confidenciais de clientes no ChatGPT ou Claude. O que você digita pode ser usado para treinar o modelo.
   - **Viés (Bias):** Lembre-se que a IA foi treinada na internet, e a internet tem preconceitos. Verifique se o código ou texto gerado não perpetua estereótipos.
