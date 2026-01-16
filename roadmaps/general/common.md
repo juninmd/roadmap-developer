@@ -24,6 +24,10 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **GitHub Copilot:** O padrão da indústria. Ótimo para autocomplete e explicações rápidas.
   - **Cursor / Windsurf:** Editores de código (forks do VS Code) nativos para IA. Permitem "conversar com seu código" inteiro (Context Awareness) e aplicar mudanças em múltiplos arquivos. *Experimente um destes!*
 
+- **Como os LLMs Funcionam (Desmistificando a Caixa Preta):**
+  - Não é mágica, é estatística. Entenda que o modelo está apenas prevendo a próxima palavra provável.
+  - **Alucinação:** Por que ela acontece? O modelo não "sabe" fatos, ele conhece associações de palavras. Se ele não sabe a resposta, ele inventa uma que *pareça* plausível.
+
 - **Prompt Engineering para Devs:**
   - **Contexto é Rei:** Não diga apenas "Corrija o erro". Cole o erro, o trecho de código e explique o que você esperava.
   - **Few-Shot Prompting:** Dê exemplos de como você quer a resposta. "Gere testes unitários seguindo este padrão: [exemplo]".
@@ -36,6 +40,11 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Gere perguntas de entrevista:** "Estou aprendendo React. Faça perguntas difíceis sobre useEffect e avalie minhas respostas".
   - **Tradução de Conceitos:** "Eu conheço SQL. Como faço [conceito SQL] em Pandas (Python)?".
   - **Roadmaps Personalizados:** "Quero aprender Rust em 4 semanas. Crie um plano de estudos com projetos práticos para cada semana".
+
+- **Ferramentas de Produtividade (Além do Código):**
+  - **Reuniões:** Use ferramentas como *Otter.ai* ou *Fireflies* para transcrever e resumir reuniões.
+  - **Escrita e Documentação:** Use *Notion AI* ou *Obsidian* com plugins de IA para organizar suas notas e gerar documentação técnica automaticamente.
+  - **Brainstorming:** Use o ChatGPT/Claude como um "Pato de Borracha" infinito para discutir arquitetura e ideias.
 
 - **Segurança e Ética no Uso de IA:**
   - **Dados Sensíveis:** JAMAIS cole chaves de API, senhas ou dados confidenciais de clientes no ChatGPT ou Claude. O que você digita pode ser usado para treinar o modelo.

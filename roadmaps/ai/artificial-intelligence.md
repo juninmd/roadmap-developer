@@ -61,6 +61,21 @@ Hora de usar redes neurais para resolver problemas que o código clássico não 
 - **Transformers:** Entenda "Attention is All You Need". Encoder vs Decoder.
 - **Hugging Face:** Aprenda a usar a biblioteca `transformers` e o Hub.
 
+### 🎨 Fundamentos de IA Generativa (GenAI)
+Entenda como a mágica acontece. Não seja apenas um usuário de APIs.
+- **Como funcionam os LLMs:**
+  - **Tokenization:** Como o texto vira números. Byte-Pair Encoding (BPE).
+  - **Embeddings:** O conceito de espaço semântico. Por que "Rei - Homem + Mulher = Rainha"?
+  - **Context Window:** O limite da memória de curto prazo do modelo.
+  - **Temperatura e Top-P:** Controlando a criatividade vs. determinismo.
+- **Diffusion Models:** A matemática por trás da geração de imagens (Stable Diffusion, Midjourney). O processo de adicionar e remover ruído.
+
+### 🎥 Multimodalidade (O Próximo Passo)
+O mundo não é feito só de texto. Modelos que veem, ouvem e falam.
+- **Audio Generation:** Text-to-Speech (TTS) e Music Generation. (ElevenLabs, Suno, Udio).
+- **Video Generation:** Sora, Runway Gen-3. A complexidade da consistência temporal.
+- **Vision-Language Models (VLMs):** GPT-4o, LLaVA. Como projetar embeddings de imagem no espaço de texto.
+
 ### ⚙️ MLOps Básico
 Não basta treinar, tem que monitorar.
 - **Experiment Tracking:** Use MLflow ou Weights & Biases para salvar seus experimentos.
@@ -127,16 +142,30 @@ Não construa Skynet sem querer.
 
 ---
 
-## 📺 Canais e Newsletters Recomendados
+## 🎓 Cursos e Recursos de Estudo (Links Diretos)
+
+### 🌟 Essenciais e Gratuitos
+- **[Fast.ai (Practical Deep Learning)](https://course.fast.ai/):** A melhor forma de começar "top-down". Codifique primeiro, estude a teoria depois.
+- **[Hugging Face Courses](https://huggingface.co/learn):**
+  - **NLP Course:** Domine Transformers.
+  - **Deep RL Course:** Aprendizado por Reforço.
+  - **Audio Course:** Processamento de áudio.
+- **[DeepLearning.AI (Andrew Ng)](https://www.deeplearning.ai/):**
+  - **AI for Everyone:** Visão geral de negócio.
+  - **Generative AI with LLMs:** Focado em fine-tuning e deployment (AWS).
+  - **Prompt Engineering for Developers:** O curso clássico com a OpenAI.
+- **[Cohere LLM University](https://llm.university/):** Ótimo para entender embeddings e busca semântica.
+
+### 📚 Livros de Cabeceira
+- **"The Little Book of Deep Learning" (François Fleuret):** [PDF Gratuito](https://fleuret.org/francois/lbdl.html). Conciso e matemático.
+- **"Deep Learning" (Ian Goodfellow):** A bíblia teórica (avançado).
+- **"Designing Machine Learning Systems" (Chip Huyen):** A bíblia da engenharia de produção.
+- **"Build a Large Language Model (From Scratch)" (Sebastian Raschka):** Entenda cada linha de código de um GPT.
+
+## 📺 Canais e Newsletters para se Manter Atualizado
 
 - **Andrej Karpathy:** O "professor" da IA moderna. Seus vídeos construindo GPT do zero são obrigatórios.
 - **Yannic Kilcher:** Resumos de papers técnicos (para quem gosta de matemática).
 - **Two Minute Papers:** O estado da arte explicado visualmente.
-- **AI News (Newsletter):** Mantenha-se atualizado semanalmente.
-- **The Rundown AI:** Notícias rápidas.
-
-## 📚 Livros Clássicos
-
-- **"Deep Learning"** (Ian Goodfellow)
-- **"Pattern Recognition and Machine Learning"** (Christopher Bishop)
-- **"Designing Machine Learning Systems"** (Chip Huyen) - *Focado em produção.*
+- **AI News / The Rundown AI:** Newsletters para acompanhar o ritmo frenético de lançamentos.
+- **Arxiv Sanity Preserver:** Para encontrar os papers que importam no meio do barulho.
