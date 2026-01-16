@@ -110,9 +110,11 @@ O Backend agora precisa saber servir IA, não apenas JSON.
 
 - **Integração de LLMs (A Ponte entre Código e Cérebro):**
   - **APIs de Modelos:** Aprenda a usar SDKs da OpenAI, Anthropic e Mistral. Não é só fazer chamadas HTTP, é sobre tratar erros, *rate limits* e custos.
-  - **Structured Outputs / Function Calling:** O Santo Graal do backend com IA. Transforme linguagem natural ("Marque uma reunião amanhã às 10h") em JSON estruturado (`{"date": "2023-10-27", "time": "10:00"}`) que sua API entende.
+  - **Construindo APIs para Agentes (Tool Use):** Seus endpoints agora são "ferramentas". Aprenda a documentar suas APIs (OpenAPI/Swagger) para que elas possam ser lidas e executadas autonomamente por LLMs.
 
-- **RAG (Retrieval-Augmented Generation) Profundo:**
+- **RAG e Engenharia de Dados para IA:**
+  - **ETL de Dados Não Estruturados:** Como processar PDFs, HTML e Áudio para alimentar sua IA. (Ferramentas: Unstructured.io, LlamaParse).
+  - **Chunking Strategies:** Como dividir o texto? Por parágrafo? Por sentença? Semantic Chunking (usando IA para dividir por ideias)? A estratégia certa muda tudo.
   - **Bancos Vetoriais (Vector DBs):**
     - **pgvector:** A escolha segura. Adicione busca vetorial ao seu PostgreSQL existente.
     - **Nativos:** Qdrant (Rust, rápido), Weaviate (Golang, modular), ChromaDB (Python, simples).

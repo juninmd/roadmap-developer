@@ -67,6 +67,10 @@ A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente n
   - **Gemini Nano (Android AICore):** Modelo embutido no sistema operacional Android. Use a API para resumir textos ou sugerir respostas sem baixar nada.
   - **Apple Intelligence:** APIs nativas do iOS 18+ para Image Playground, Genmoji e ferramentas de escrita.
 
+- **Privacidade e Offline-First (A Vantagem do Mobile):**
+  - **Local RAG:** Use o banco de dados do celular (SQLite/Realm) como fonte de conhecimento para o modelo local. Responda perguntas sobre os dados do usuário sem enviar nada para a nuvem.
+  - **Dados Sensíveis:** Garanta que dados de saúde ou financeiros nunca saiam do dispositivo. A IA roda onde os dados estão.
+
 - **Frameworks de Baixo Nível (Hardware Acceleration):**
   - **CoreML (Apple):** Essencial para usar o *Apple Neural Engine (ANE)*. Converte modelos PyTorch/TensorFlow para rodar suave no iPhone.
   - **TensorFlow Lite (TFLite):** O clássico. Ainda muito usado para visão computacional e classificação.

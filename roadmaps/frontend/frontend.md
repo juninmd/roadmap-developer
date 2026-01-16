@@ -91,11 +91,12 @@ A Inteligência Artificial está transformando como construímos interfaces, ind
 
 - **AI SDKs e Integração:**
   - **Vercel AI SDK:** O padrão da indústria para React/Next.js. Abstrai a complexidade de *streams*, *hooks* e estado de chat.
-  - **Streaming UI:** Não espere a resposta completa. Aprenda a renderizar texto e componentes *token por token* para uma sensação de "tempo real".
+  - **Streaming UI e Suspense:** Não espere a resposta completa. Aprenda a renderizar texto e componentes *token por token* para uma sensação de "tempo real". Domine o `Suspense` do React para lidar com carregamento assíncrono de partes da resposta.
 
 - **Generative UI (A Mágica do Contexto):**
   - O texto é chato. Se o usuário pedir "mostre o gráfico de vendas", a IA não deve descrever o gráfico, ela deve **renderizar** o componente `<SalesChart />`.
-  - **Ferramentas:** `v0.dev` para gerar componentes Tailwind/React a partir de prompts.
+  - **Component Libraries:** Aprenda a integrar **shadcn/ui** ou **Radix UI** dinamicamente com as respostas da IA.
+  - **Ferramentas:** `v0.dev` para gerar protótipos rápidos de componentes Tailwind/React a partir de prompts.
 
 - **IA no Browser (Client-Side AI):**
   Rode modelos pesados direto na GPU do usuário usando **WebGPU**. Zero custo de servidor, privacidade total.
@@ -107,10 +108,11 @@ A Inteligência Artificial está transformando como construímos interfaces, ind
   - **Descrição de Imagens:** Use modelos multimodais (como GPT-4 Vision ou LLaVA) para gerar `alt text` perfeito automaticamente.
   - **Navegação por Voz:** Use *Whisper* (OpenAI) ou modelos locais para permitir que o usuário controle o site falando.
 
-- **UX/UI Patterns para IA:**
-  - **Indicadores de Incerteza:** Como mostrar ao usuário que a IA pode estar errada?
-  - **Feedback Loops:** Botões de "Gostei/Não Gostei" nas respostas para melhorar o modelo.
-  - **Latência Percebida:** Use *Skeleton Screens* e animações fluidas enquanto a IA "pensa".
+- **UX/UI Patterns para IA (AI-Native UX):**
+  - **Optimistic UI para Chat:** Mostre a mensagem do usuário instantaneamente, mesmo antes do servidor confirmar.
+  - **Indicadores de Incerteza:** Como mostrar ao usuário que a IA pode estar errada? (Ex: destacar trechos com baixa confiança).
+  - **Feedback Loops:** Botões de "Gostei/Não Gostei" e "Regenerar" são essenciais para RLHF.
+  - **Latência Percebida:** Use *Skeleton Screens*, animações de "pensando" e streaming agressivo para combater a demora dos LLMs.
 
 ---
 
