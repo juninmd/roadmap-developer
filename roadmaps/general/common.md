@@ -45,6 +45,7 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Reuniões:** Use ferramentas como *Otter.ai* ou *Fireflies* para transcrever e resumir reuniões.
   - **Escrita e Documentação:** Use *Notion AI* ou *Obsidian* com plugins de IA para organizar suas notas e gerar documentação técnica automaticamente.
   - **Brainstorming:** Use o ChatGPT/Claude como um "Pato de Borracha" infinito para discutir arquitetura e ideias.
+  - **Motores de Busca para Devs:** Esqueça o Google para dúvidas técnicas complexas. Use **Perplexity** ou **Phind**. Eles leem a documentação atualizada e te dão a resposta com fontes, economizando horas de "caça ao link".
 
 - **Segurança e Ética no Uso de IA:**
   - **Dados Sensíveis:** JAMAIS cole chaves de API, senhas ou dados confidenciais de clientes no ChatGPT ou Claude. O que você digita pode ser usado para treinar o modelo.
@@ -55,6 +56,18 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Pensamento Crítico:** A IA erra (e mente) com confiança (Alucinação). Você é o piloto, ela é o copiloto. Nunca commite código que você não entende e não revisou.
   - **Arquitetura e Design:** Com a IA escrevendo o código "braçal" (boilerplate), seu valor profissional migra para desenhar *como* as peças se encaixam e resolver problemas complexos de negócio.
   - **Comunicação:** Saber explicar o problema para a IA (e para humanos) é a habilidade mais valiosa do futuro.
+
+---
+
+### 🌍 Inglês para Devs: A Língua Universal
+
+- **Por que aprender?** A documentação, os fóruns (Stack Overflow, GitHub Issues), os vídeos e as ferramentas de IA mais avançadas são, majoritariamente, em inglês. Saber inglês abre as portas do conhecimento global. Não precisa ser fluente para começar, mas a "leitura técnica" é essencial.
+
+- **Dicas:**
+  - Mude o idioma do seu celular e computador para inglês.
+  - Tente ler a documentação original antes de procurar a tradução.
+  - Use extensões de tradução, mas tente ler a frase original primeiro.
+  - Consuma conteúdo de IA em inglês (newsletters, vídeos), pois a tradução de termos técnicos costuma ser confusa.
 
 ---
 
@@ -158,3 +171,11 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - 📖 [Documentação Oficial do Nginx](https://nginx.org/en/docs/)
   - 📖 [Documentação Oficial do Apache](https://httpd.apache.org/docs/)
   - 📺 [O que é um Web Server? (Vídeo)](https://www.youtube.com/watch?v=Zt_jJ5eS-p0)
+
+---
+
+### 📚 Onde Estudar de Graça (Recursos Gerais)
+
+- **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero. Cursos interativos e projetos práticos.
+- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais detalhados para qualquer carreira tech.
+- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo, disponível gratuitamente no YouTube/EdX.

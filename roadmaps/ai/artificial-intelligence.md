@@ -68,6 +68,10 @@ Entenda como a mágica acontece. Não seja apenas um usuário de APIs.
   - **Embeddings:** O conceito de espaço semântico. Por que "Rei - Homem + Mulher = Rainha"?
   - **Context Window:** O limite da memória de curto prazo do modelo.
   - **Temperatura e Top-P:** Controlando a criatividade vs. determinismo.
+- **Modelos de Raciocínio (Reasoning Models):**
+  - Modelos que "pensam" antes de responder (Chain of Thought interno).
+  - **Exemplos:** OpenAI o1, DeepSeek R1.
+  - **Uso:** Resolver problemas complexos de matemática, lógica e código onde LLMs tradicionais falham.
 - **Diffusion Models:** A matemática por trás da geração de imagens (Stable Diffusion, Midjourney). O processo de adicionar e remover ruído.
 
 ### 🎥 Multimodalidade (O Próximo Passo)
@@ -112,6 +116,7 @@ O futuro da automação. O modelo não só fala, ele *faz*.
   - **Multi-Agent Systems:** CrewAI, AutoGen. Especialistas colaborando (ex: um Coder, um Reviewer, um Manager).
 - **Frameworks:**
   - **LangGraph:** Controle granular de estado e loops. Essencial para produção.
+  - **MCP (Model Context Protocol):** O padrão universal para conectar Agentes aos seus dados e ferramentas. Aprenda a criar um servidor MCP para expor seu banco de dados ou API para qualquer agente (Claude, Cursor, etc.).
 
 #### ⚖️ LLM Ops & Engenharia de IA
 - **Evals (Unit Tests para IA):** "Minha mudança no prompt melhorou ou piorou o bot?". Use **Ragas**, **DeepEval** ou crie seu próprio dataset de "Golden Answers".
@@ -155,6 +160,9 @@ Não construa Skynet sem querer.
   - **Generative AI with LLMs:** Focado em fine-tuning e deployment (AWS).
   - **Prompt Engineering for Developers:** O curso clássico com a OpenAI.
 - **[Cohere LLM University](https://llm.university/):** Ótimo para entender embeddings e busca semântica.
+
+### 🎧 Podcasts e Mídia (Engenharia Real)
+- **[Latent Space](https://www.latent.space/):** O melhor podcast de Engenharia de IA. Discussões profundas com os criadores das ferramentas.
 
 ### 📚 Livros de Cabeceira
 - **"The Little Book of Deep Learning" (François Fleuret):** [PDF Gratuito](https://fleuret.org/francois/lbdl.html). Conciso e matemático.
