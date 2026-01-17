@@ -25,6 +25,7 @@ Cada linguagem tem suas forças e fraquezas, como diferentes personagens em um j
     - 📺 [Curso de Node.js (Vídeo)](https://www.youtube.com/watch?v=vYekSMBCCiM)
 
 - **Python:** "O Canivete Suíço". Amado por sua simplicidade e legibilidade. Brilha em ciência de dados, machine learning e desenvolvimento web.
+  - **Dica:** Mesmo que seu foco seja Node.js ou Java, **aprenda o básico de Python**. É a língua oficial da IA e onde as novidades acontecem primeiro.
   - **Frameworks:** Django (o "baterias inclusas", vem com tudo que você precisa), Flask (o "minimalista", te dá liberdade total), FastAPI (o "moderno", rápido e com documentação automática).
   - **Recursos:**
     - 📖 [Documentação Oficial do Python](https://docs.python.org/3/)
@@ -111,6 +112,7 @@ O Backend agora precisa saber servir IA, não apenas JSON.
 - **Integração de LLMs (A Ponte entre Código e Cérebro):**
   - **APIs de Modelos:** Aprenda a usar SDKs da OpenAI, Anthropic e Mistral. Não é só fazer chamadas HTTP, é sobre tratar erros, *rate limits* e custos.
   - **Construindo APIs para Agentes (Tool Use):** Seus endpoints agora são "ferramentas". Aprenda a documentar suas APIs (OpenAPI/Swagger) para que elas possam ser lidas e executadas autonomamente por LLMs.
+  - **MCP (Model Context Protocol):** O novo padrão aberto (apoiado pela Anthropic) para conectar assistentes de IA a sistemas de dados (arquivos, bancos, APIs). É como um "USB-C" para aplicações de IA.
 
 - **RAG e Engenharia de Dados para IA:**
   - **ETL de Dados Não Estruturados:** Como processar PDFs, HTML e Áudio para alimentar sua IA. (Ferramentas: Unstructured.io, LlamaParse).
@@ -139,6 +141,7 @@ O Backend agora precisa saber servir IA, não apenas JSON.
   - **Tracing:** **LangSmith** ou **Langfuse** para debugar onde o agente errou e quanto custou a execução.
 
 - **Recursos:**
+  - 📖 [DeepLearning.AI: Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)
   - 📖 [DeepLearning.AI: Vector Databases](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/)
   - 📖 [Documentação do vLLM](https://docs.vllm.ai/en/latest/)
   - 📖 [Curso Prático de RAG (Free Code Camp)](https://www.youtube.com/watch?v=2TJxpyO3ei4)

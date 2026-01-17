@@ -67,6 +67,12 @@ A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente n
   - **Gemini Nano (Android AICore):** Modelo embutido no sistema operacional Android. Use a API para resumir textos ou sugerir respostas sem baixar nada.
   - **Apple Intelligence:** APIs nativas do iOS 18+ para Image Playground, Genmoji e ferramentas de escrita.
 
+- **Interação por Voz (Voice UI):**
+  - No mobile, digitar é chato. A voz é o input primário.
+  - **Speech-to-Text (STT):** Use o Whisper (OpenAI) ou modelos locais para transcrição rápida.
+  - **Text-to-Speech (TTS):** Vozes naturais para responder ao usuário.
+  - **VAD (Voice Activity Detection):** Detectar quando o usuário parou de falar para responder instantaneamente.
+
 - **Privacidade e Offline-First (A Vantagem do Mobile):**
   - **Local RAG:** Use o banco de dados do celular (SQLite/Realm) como fonte de conhecimento para o modelo local. Responda perguntas sobre os dados do usuário sem enviar nada para a nuvem.
   - **Dados Sensíveis:** Garanta que dados de saúde ou financeiros nunca saiam do dispositivo. A IA roda onde os dados estão.
