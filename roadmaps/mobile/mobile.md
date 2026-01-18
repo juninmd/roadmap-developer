@@ -67,6 +67,14 @@ A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente n
   - **Gemini Nano (Android AICore):** Modelo embutido no sistema operacional Android. Use a API para resumir textos ou sugerir respostas sem baixar nada.
   - **Apple Intelligence:** APIs nativas do iOS 18+ para Image Playground, Genmoji e ferramentas de escrita.
 
+- **Hybrid AI (Estratégia Nuvem + Edge):**
+  - **Intelligent Routing:** Use um modelo pequeno no celular (Edge) para tarefas simples (classificar notificação) e chame o modelo grande na nuvem (GPT-4) apenas se a confiança for baixa.
+  - **Latência Zero:** Use o modelo local para mostrar uma resposta *imediata* enquanto o modelo da nuvem refina a resposta em segundo plano.
+
+- **UX/UI Patterns para Mobile AI:**
+  - **Streaming Text:** Não espere o texto todo carregar. Mostre palavra por palavra (efeito máquina de escrever) para manter o usuário engajado.
+  - **Haptics (Vibração):** Adicione um feedback tátil sutil a cada token gerado. Dá uma sensação "física" à inteligência.
+
 - **Interação por Voz (Voice UI):**
   - No mobile, digitar é chato. A voz é o input primário.
   - **Speech-to-Text (STT):** Use o Whisper (OpenAI) ou modelos locais para transcrição rápida.

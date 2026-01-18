@@ -33,6 +33,17 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Few-Shot Prompting:** Dê exemplos de como você quer a resposta. "Gere testes unitários seguindo este padrão: [exemplo]".
   - **Chain of Thought:** Peça para a IA "pensar passo a passo" antes de dar a solução final para problemas lógicos.
   - **Role Prompting:** Diga à IA quem ela deve ser. "Atue como um Engenheiro Sênior de Segurança em Rust" gera resultados muito diferentes de apenas "Escreva um código em Rust".
+  - **Structured Outputs (JSON):** Como dev, você quer dados, não papo furado. Aprenda a pedir: "Responda APENAS em JSON, seguindo este schema: { ... }". Isso permite conectar a IA direto no seu código.
+
+- **🤖 De Chatbot para Agentes (Agentic Workflows):**
+  Entenda que o futuro não é só "conversar" com a IA.
+  - **O que é um Agente?** É uma IA que tem acesso a *ferramentas* (navegador, terminal, editor de código) e pode usá-las para completar uma tarefa.
+  - **Exemplo:** Em vez de pedir "Escreva um script para baixar este vídeo", você pede para um agente "Baixe este vídeo e salve na pasta X". O agente escreve o script, executa no terminal e confirma o sucesso.
+
+- **🏠 IA Local (Privacidade e Custo):**
+  Você não precisa enviar tudo para a OpenAI.
+  - **Ollama / LM Studio:** Ferramentas que permitem rodar modelos (como Llama 3, Mistral) direto no seu notebook.
+  - **Por que usar?** É de graça, funciona offline e seus dados nunca saem da sua máquina. Ótimo para testar ideias ou trabalhar com dados sensíveis.
 
 - **🎓 Aprendizado Assistido por IA:**
   Não use a IA apenas para escrever o código por você. Use-a para **aprender**.

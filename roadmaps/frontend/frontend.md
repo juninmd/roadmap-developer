@@ -91,12 +91,21 @@ A Inteligência Artificial está transformando como construímos interfaces, ind
 
 - **Design para IA (Além do Chatbot):**
   - Chat não é a única interface possível. Crie interfaces onde a IA atua como co-piloto, sugerindo ações ou preenchendo formulários, sem necessariamente uma conversa.
-  - **Generative UI:** O texto é chato. Se o usuário pedir "mostre o gráfico de vendas", a IA não deve descrever o gráfico, ela deve **renderizar** o componente `<SalesChart />` dinamicamente.
+  - **Generative UI (Object Generation):** O texto é chato. Se o usuário pedir "mostre o gráfico de vendas", a IA não deve descrever o gráfico, ela deve gerar um JSON estruturado que seu frontend usa para renderizar o componente `<SalesChart />` dinamicamente.
+    - **Ferramentas:** Use `zod` para validar o JSON gerado pela IA antes de renderizar para evitar telas brancas.
+
+- **Inputs Multimodais:**
+  - O teclado não é mais o único input.
+  - **Drag-and-Drop Vision:** Permita que o usuário arraste uma imagem e pergunte "O que tem de errado neste código?" ou "Converta este design em HTML".
+  - **Audio Recording:** Botão de microfone é o novo "Enviar". Grave, envie para o Whisper, e coloque o texto no input.
 
 - **AI SDKs e Integração:**
   - **Vercel AI SDK:** O padrão da indústria para React/Next.js. Abstrai a complexidade de *streams*, *hooks* e estado de chat.
     - 📖 [Documentação do Vercel AI SDK](https://sdk.vercel.ai/docs)
   - **Streaming UI e Suspense:** Não espere a resposta completa. Aprenda a renderizar texto e componentes *token por token* para uma sensação de "tempo real". Domine o `Suspense` do React para lidar com carregamento assíncrono de partes da resposta.
+  - **Smart Components:**
+    - **Magic Textarea:** Um campo de texto que autocompleta frases ou muda o tom (Formal/Casual) com um clique.
+    - **Smart Paste:** Quando o usuário cola um texto bagunçado, a IA formata automaticamente para os campos do formulário.
 
 - **Ferramentas de Geração de UI:**
   - **v0.dev:** Gere protótipos rápidos de componentes Tailwind/React a partir de prompts.
