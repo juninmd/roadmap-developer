@@ -111,7 +111,9 @@ O Backend agora precisa saber servir IA, não apenas JSON.
 
 - **Integração de LLMs (A Ponte entre Código e Cérebro):**
   - **APIs de Modelos:** Aprenda a usar SDKs da OpenAI, Anthropic e Mistral. Não é só fazer chamadas HTTP, é sobre tratar erros, *rate limits* e custos.
-  - **Construindo APIs para Agentes (Tool Use):** Seus endpoints agora são "ferramentas". Aprenda a documentar suas APIs (OpenAPI/Swagger) para que elas possam ser lidas e executadas autonomamente por LLMs.
+  - **Function Calling (Tool Use):** O conceito chave para Agentes.
+    - **Como funciona:** Você descreve suas funções (ex: `get_weather(city)`) em um JSON Schema, e o LLM decide quando chamá-las e quais argumentos usar.
+    - **Seu papel:** O LLM não executa o código. Ele devolve um JSON. Seu backend deve pegar esse JSON, executar a função real e devolver o resultado para o LLM.
   - **MCP (Model Context Protocol):** O novo padrão aberto (apoiado pela Anthropic) para conectar assistentes de IA a sistemas de dados (arquivos, bancos, APIs). É como um "USB-C" para aplicações de IA.
 
 - **RAG e Engenharia de Dados para IA:**
@@ -124,19 +126,21 @@ O Backend agora precisa saber servir IA, não apenas JSON.
     - **Hybrid Search:** Combine busca semântica (vetores) com busca por palavra-chave (BM25) para o melhor dos dois mundos.
     - **Reranking:** Um passo extra onde um modelo especializado reordena os resultados da busca para garantir que o topo seja realmente relevante.
 
-- **Inference Servers (Servindo Modelos Próprios):**
+- **Inference Servers & Small Language Models (SLMs):**
   Não quer depender da OpenAI? Rode seus próprios modelos.
+  - **SLMs (Small Language Models):** Modelos pequenos (Phi-3, Gemma, Llama-3-8B) que rodam barato em CPU ou GPUs pequenas. Use-os para tarefas específicas (classificação, resumo) onde o GPT-4 é exagero (e caro).
   - **vLLM:** O padrão ouro para produção. Suporta *PagedAttention* para altíssima performance.
-  - **Ollama:** Perfeito para rodar modelos locais (Llama 3, Mistral) na sua máquina de desenvolvimento ou em servidores pequenos.
-  - **TGI (Text Generation Inference):** A solução robusta da Hugging Face.
+  - **Ollama:** Perfeito para rodar modelos locais na sua máquina de desenvolvimento.
   - **Conceitos:** Quantização (GGUF, AWQ - fazer o modelo caber na memória), LoRA (adapters leves).
 
 - **Orquestração de Agentes:**
   - **LangChain / LlamaIndex:** O "Spring Boot" da IA. Frameworks que conectam dados e modelos.
   - **LangGraph:** Para agentes complexos que precisam de estado, loops e memória persistente. Essencial para criar assistentes que "lembram" e "executam" tarefas em etapas.
+  - **DSPy:** Um framework revolucionário que "compila" prompts. Em vez de escrever prompts na mão, você define a lógica e métricas, e o DSPy otimiza o prompt para você.
 
-- **LLM Ops e Avaliação (Tests for AI):**
-  - **Unit Tests para IA:** Como saber se a nova versão do prompt não quebrou a lógica?
+- **LLM Ops e Avaliação (O "TDD" da IA):**
+  - **Evals (Avaliações):** Em IA, testes unitários não bastam. Você precisa de "Evals". Crie um dataset de perguntas e respostas ideais (Golden Dataset) e rode seu modelo contra ele.
+  - **LLM-as-a-Judge:** Use um modelo forte (GPT-4) para dar nota para a resposta de um modelo menor.
   - **Ferramentas:** **Ragas** ou **DeepEval** para avaliar alucinação e relevância.
   - **Tracing:** **LangSmith** ou **Langfuse** para debugar onde o agente errou e quanto custou a execução.
 
