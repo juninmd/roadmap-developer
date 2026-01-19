@@ -163,6 +163,8 @@ Não construa Skynet sem querer.
   - **Generative AI with LLMs:** Focado em fine-tuning e deployment (AWS).
   - **Prompt Engineering for Developers:** O curso clássico com a OpenAI.
 - **[Cohere LLM University](https://llm.university/):** Ótimo para entender embeddings e busca semântica.
+- **[Full Stack Deep Learning (LLM Bootcamp)](https://fullstackdeeplearning.com/llm-bootcamp/):** O curso definitivo para quem quer colocar LLMs em produção.
+- **[LangChain Academy](https://academy.langchain.com/):** Aprenda a construir aplicações com LangChain e LangGraph.
 
 ### 🎧 Podcasts e Mídia (Engenharia Real)
 - **[Latent Space](https://www.latent.space/):** O melhor podcast de Engenharia de IA. Discussões profundas com os criadores das ferramentas.

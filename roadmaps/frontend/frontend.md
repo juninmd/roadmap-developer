@@ -113,8 +113,8 @@ A Inteligência Artificial está transformando como construímos interfaces, ind
 
 - **IA no Browser (Client-Side AI):**
   Rode modelos pesados direto na GPU do usuário usando **WebGPU**. Zero custo de servidor, privacidade total.
-  - **WebLLM:** Rode Llama 3, Mistral ou Gemma direto no Chrome.
-  - **Transformers.js:** Versão JavaScript da famosa biblioteca da Hugging Face. Faça classificação de texto, remoção de fundo de imagem e reconhecimento de fala tudo no front.
+  - **WebLLM:** Rode Llama 3, Mistral ou Gemma direto no Chrome. [Demo e Docs](https://webllm.mlc.ai/)
+  - **Transformers.js:** Versão JavaScript da famosa biblioteca da Hugging Face. Faça classificação de texto, remoção de fundo de imagem e reconhecimento de fala tudo no front. [Repositório](https://github.com/xenova/transformers.js)
   - **MediaPipe:** Detecção de mãos, face e pose em tempo real.
 
 - **Acessibilidade 2.0:**
