@@ -34,6 +34,7 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Chain of Thought:** Peça para a IA "pensar passo a passo" antes de dar a solução final para problemas lógicos.
   - **Role Prompting:** Diga à IA quem ela deve ser. "Atue como um Engenheiro Sênior de Segurança em Rust" gera resultados muito diferentes de apenas "Escreva um código em Rust".
   - **Structured Outputs (JSON):** Como dev, você quer dados, não papo furado. Aprenda a pedir: "Responda APENAS em JSON, seguindo este schema: { ... }". Isso permite conectar a IA direto no seu código.
+  - **Recurso Recomendado:** [Prompt Engineering Guide](https://www.promptingguide.ai/pt) - O guia mais completo e atualizado sobre engenharia de prompt.
 
 - **🤖 De Chatbot para Agentes (Agentic Workflows):**
   Entenda que o futuro não é só "conversar" com a IA.
@@ -190,3 +191,5 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
 - **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero. Cursos interativos e projetos práticos.
 - **[Roadmap.sh](https://roadmap.sh/):** Guias visuais detalhados para qualquer carreira tech.
 - **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo, disponível gratuitamente no YouTube/EdX.
+- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub, ideal para entender os fundamentos.
+- **[Google Cloud Skills Boost](https://www.cloudskillsboost.google/paths/118):** Trilha de aprendizado em IA Generativa do Google.

@@ -58,8 +58,8 @@
 A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente no dispositivo (On-Device AI) garante privacidade, zero latência e funciona offline.
 
 - **On-Device Generative AI:**
-  - **ExecuTorch (PyTorch):** O novo padrão da Meta. Permite rodar modelos como Llama 3 (versões 1B ou 3B) nativamente em Android e iOS com aceleração de hardware.
-  - **MediaPipe LLM Inference:** Solução do Google para rodar LLMs (Gemma, Phi-2, Falcon) direto no celular de forma simplificada.
+  - **ExecuTorch (PyTorch):** O novo padrão da Meta. Permite rodar modelos como Llama 3 (versões 1B ou 3B) nativamente em Android e iOS com aceleração de hardware. [Documentação](https://pytorch.org/executorch-overview)
+  - **MediaPipe LLM Inference:** Solução do Google para rodar LLMs (Gemma, Phi-2, Falcon) direto no celular de forma simplificada. [Guia Oficial](https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference)
 
 - **Small Language Models (SLMs):**
   - Esqueça o GPT-4. No mobile, "Small is Beautiful".
@@ -86,7 +86,7 @@ A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente n
   - **Dados Sensíveis:** Garanta que dados de saúde ou financeiros nunca saiam do dispositivo. A IA roda onde os dados estão.
 
 - **Frameworks de Baixo Nível (Hardware Acceleration):**
-  - **CoreML (Apple):** Essencial para usar o *Apple Neural Engine (ANE)*. Converte modelos PyTorch/TensorFlow para rodar suave no iPhone.
+  - **CoreML (Apple):** Essencial para usar o *Apple Neural Engine (ANE)*. Converte modelos PyTorch/TensorFlow para rodar suave no iPhone. [Portal do Desenvolvedor](https://developer.apple.com/machine-learning/core-ml/)
   - **TensorFlow Lite (TFLite):** O clássico. Ainda muito usado para visão computacional e classificação.
   - **NPU (Neural Processing Unit):** Aprenda a delegar o trabalho pesado para a NPU, salvando a bateria do usuário.
 
