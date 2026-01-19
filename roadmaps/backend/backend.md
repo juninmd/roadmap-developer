@@ -111,6 +111,7 @@ O Backend agora precisa saber servir IA, não apenas JSON.
 
 - **Integração de LLMs (A Ponte entre Código e Cérebro):**
   - **APIs de Modelos:** Aprenda a usar SDKs da OpenAI, Anthropic e Mistral. Não é só fazer chamadas HTTP, é sobre tratar erros, *rate limits* e custos.
+    - **Recursos:** [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook), [OpenAI Cookbook](https://github.com/openai/openai-cookbook).
   - **Function Calling (Tool Use):** O conceito chave para Agentes.
     - **Como funciona:** Você descreve suas funções (ex: `get_weather(city)`) em um JSON Schema, e o LLM decide quando chamá-las e quais argumentos usar.
     - **Seu papel:** O LLM não executa o código. Ele devolve um JSON. Seu backend deve pegar esse JSON, executar a função real e devolver o resultado para o LLM.
@@ -135,6 +136,7 @@ O Backend agora precisa saber servir IA, não apenas JSON.
 
 - **Orquestração de Agentes:**
   - **LangChain / LlamaIndex:** O "Spring Boot" da IA. Frameworks que conectam dados e modelos.
+    - **Recurso Recomendado:** [LangChain Academy](https://academy.langchain.com/) - Cursos práticos e oficiais.
   - **LangGraph:** Para agentes complexos que precisam de estado, loops e memória persistente. Essencial para criar assistentes que "lembram" e "executam" tarefas em etapas.
   - **DSPy:** Um framework revolucionário que "compila" prompts. Em vez de escrever prompts na mão, você define a lógica e métricas, e o DSPy otimiza o prompt para você.
 
