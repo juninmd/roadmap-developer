@@ -84,6 +84,7 @@ A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente n
 - **Privacidade e Offline-First (A Vantagem do Mobile):**
   - **Local RAG:** Use o banco de dados do celular (SQLite/Realm) como fonte de conhecimento para o modelo local. Responda perguntas sobre os dados do usuário sem enviar nada para a nuvem.
   - **Dados Sensíveis:** Garanta que dados de saúde ou financeiros nunca saiam do dispositivo. A IA roda onde os dados estão.
+  - **Federated Learning (Aprendizado Federado):** Uma técnica avançada onde o modelo aprende com os dados do usuário *no dispositivo* e envia apenas o aprendizado (os pesos) para a nuvem, mantendo os dados privados.
 
 - **Frameworks de Baixo Nível (Hardware Acceleration):**
   - **CoreML (Apple):** Essencial para usar o *Apple Neural Engine (ANE)*. Converte modelos PyTorch/TensorFlow para rodar suave no iPhone. [Portal do Desenvolvedor](https://developer.apple.com/machine-learning/core-ml/)

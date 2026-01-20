@@ -69,6 +69,7 @@ Cada linguagem tem suas forças e fraquezas, como diferentes personagens em um j
 - **Tipos:**
   - **Testes de Unidade:** Testa a menor parte do seu código (uma função, um método).
   - **Testes de Integração:** Testa como as diferentes partes do seu sistema conversam entre si.
+    - **Testcontainers:** Biblioteca essencial para subir bancos de dados e serviços reais (em Docker) durante os testes, em vez de usar "mocks" que não refletem a realidade.
   - **Testes de Ponta a Ponta (E2E):** Simula a jornada completa do usuário na sua aplicação.
 
 - **Recursos:**
@@ -198,6 +199,10 @@ O Backend agora precisa saber servir IA, não apenas JSON.
   - **Logging:** Registrar eventos importantes que acontecem na sua aplicação.
   - **Métricas:** Medir coisas (uso de CPU, número de requisições, etc.).
   - **Tracing:** Rastrear uma requisição através de todos os microsserviços que ela percorre.
+
+- **OpenTelemetry (OTel):**
+  - O padrão da indústria para coletar esses dados. Aprenda a instrumentar sua aplicação para que ela gere traces compatíveis com qualquer ferramenta (Prometheus, Jaeger, Datadog).
+  - **Importante para IA:** OTel é fundamental para rastrear o fluxo de execução de Agentes e LLMs (quais ferramentas foram chamadas, quanto tempo demorou cada passo).
 
 - **Recursos:**
   - 📖 [O que é Observabilidade? (Artigo)](https://opentelemetry.io/docs/concepts/observability-primer/)

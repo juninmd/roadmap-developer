@@ -109,14 +109,23 @@ O termo "RAG" ficou pequeno. Hoje construímos sistemas onde múltiplos componen
   - **Hybrid Search:** Vetorial + Palavras-chave (BM25) + Reranking (Cross-Encoder).
   - **Query Transformation:** Reescrever a pergunta do usuário para encontrar melhores documentos.
   - **GraphRAG:** Usar Knowledge Graphs para conectar conceitos distantes que a busca vetorial perde.
+  - **Self-RAG (Corrective RAG):** O sistema se avalia ("Isso responde à pergunta?"). Se a resposta for ruim, ele busca de novo ou reescreve. É a IA corrigindo a si mesma.
 
 #### 🕵️ Agentes Autônomos & Prompt Programming
 O futuro da automação. O modelo não só fala, ele *faz*.
-- **Arquiteturas de Agentes:**
+
+- **Agentic Design Patterns (Padrões de Agentes):**
+  - **Reflection (Reflexão):** O agente revisa o próprio trabalho. "Este código tem bugs? Se sim, corrija."
+  - **Tool Use (Uso de Ferramentas):** Dar ao modelo calculadora, navegador ou terminal.
+  - **Planning (Planejamento):** Quebrar uma tarefa complexa em passos menores antes de começar.
+  - **Multi-Agent Collaboration:** Diferentes "personas" trabalhando juntas (ex: um Pesquisador e um Escritor).
+
+- **Computer Use (Uso de Computador):**
+  - A fronteira final. Agentes que controlam o mouse e o teclado para usar *qualquer* software desktop, como um humano faria. (Ex: Anthropic Computer Use).
+
+- **Arquiteturas e Frameworks:**
   - **ReAct:** Reason + Act. O loop básico de pensamento.
-  - **Plan-and-Solve:** O agente cria um plano antes de executar.
-  - **Multi-Agent Systems:** CrewAI, AutoGen. Especialistas colaborando (ex: um Coder, um Reviewer, um Manager).
-- **Frameworks:**
+  - **Multi-Agent Systems:** CrewAI, AutoGen.
   - **LangGraph:** Controle granular de estado e loops. Essencial para produção.
   - **DSPy:** A morte do "Prompt Engineering" manual. Um framework que otimiza prompts automaticamente baseado em métricas de qualidade. Você define a lógica, o DSPy encontra o prompt perfeito.
   - **MCP (Model Context Protocol):** O padrão universal para conectar Agentes aos seus dados e ferramentas.
@@ -162,6 +171,7 @@ Não construa Skynet sem querer.
   - **AI for Everyone:** Visão geral de negócio.
   - **Generative AI with LLMs:** Focado em fine-tuning e deployment (AWS).
   - **Prompt Engineering for Developers:** O curso clássico com a OpenAI.
+  - **AI Agentic Design Patterns with AutoGen:** Entenda os padrões de agentes na prática.
 - **[Cohere LLM University](https://llm.university/):** Ótimo para entender embeddings e busca semântica.
 - **[Full Stack Deep Learning (LLM Bootcamp)](https://fullstackdeeplearning.com/llm-bootcamp/):** O curso definitivo para quem quer colocar LLMs em produção.
 - **[LangChain Academy](https://academy.langchain.com/):** Aprenda a construir aplicações com LangChain e LangGraph.
