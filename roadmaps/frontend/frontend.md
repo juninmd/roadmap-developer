@@ -41,7 +41,8 @@ Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em inter
 
 - **Frameworks:** Ferramentas que fornecem uma estrutura e um conjunto de "peças" prontas para construir aplicações complexas de forma mais rápida e organizada.
   - **React:** A "biblioteca" para construir interfaces. Criado pelo Facebook, é o mais popular do mercado.
-    - **Next.js & Remix:** Frameworks construídos em cima do React, que adicionam funcionalidades como renderização no servidor e rotas otimizadas.
+    - **Next.js & Remix:** Frameworks construídos em cima do React (Fullstack).
+      - **Server Actions:** Aprenda a executar código no servidor direto de um evento no cliente. É o padrão moderno para mutações de dados e chamadas de APIs de IA (sem expor chaves no browser).
   - **Angular:** O "framework completo". Criado pelo Google, vem com tudo que você precisa para construir uma aplicação robusta.
   - **Vue.js:** O "progressivo". Conhecido por sua curva de aprendizado suave e sua flexibilidade.
   - **Svelte:** O "compilador". Em vez de rodar no navegador, o Svelte compila seu código para JavaScript puro, resultando em aplicações extremamente rápidas.
