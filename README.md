@@ -21,7 +21,7 @@ Para dicas e conselhos sobre a carreira de desenvolvedor, confira o arquivo [adv
 
 É super recomendado cursos nessa área, onde você pode acompanhar o professor e ir praticando.
 
-* [Udemy](udemy.com/)
+* [Udemy](https://www.udemy.com/)
 * [Alura](https://www.alura.com.br/)
 * [TreinaWeb](https://www.treinaweb.com.br/)
 

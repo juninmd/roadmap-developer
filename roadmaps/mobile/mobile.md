@@ -1,5 +1,7 @@
 # 📱 Trilha Mobile: O Mundo na Palma da Mão
 
+> **Edição 2026:** Com foco em On-Device AI, NPU Acceleration e Hybrid AI.
+
 "Tem um app pra isso." Essa frase define a era em que vivemos. A trilha mobile te coloca no centro dessa revolução, permitindo que você crie as ferramentas, jogos e experiências que as pessoas carregam no bolso para onde quer que vão. Você não vai apenas construir um software, vai construir um companheiro digital.
 
 ---
