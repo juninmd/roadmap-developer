@@ -1,5 +1,7 @@
 # 🎨 Trilha Frontend: Onde a Mágica Acontece (Visualmente)
 
+> **Edição 2026:** Focado em Generative UI, IA no Browser (WebGPU) e integração com Agentes.
+
 Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em interfaces bonitas e interativas com as quais os usuários podem interagir. Você será o(a) artista, o(a) arquiteto(a) da experiência do usuário, a pessoa que faz a tecnologia parecer amigável e, quem sabe, até mágica. É o seu trabalho fazer com que o usuário olhe para a tela e diga "Uau!".
 
 ---

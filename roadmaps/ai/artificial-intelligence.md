@@ -1,5 +1,7 @@
 # 🤖 Trilha de Inteligência Artificial: Ensinando as Máquinas a Pensar
 
+> **Edição 2026:** Atualizado com a nova era de Sistemas de IA Compostos e Agentes Autônomos.
+
 "Qualquer tecnologia suficientemente avançada é indistinguível da magia." - Arthur C. Clarke. Bem-vindo(a) à trilha de IA, onde você será o(a) mágico(a). Aqui, você vai aprender a ensinar os computadores a reconhecer padrões, tomar decisões e, em alguns casos, até a "criar".
 
 Esta trilha foi desenhada para guiar você desde os primeiros passos até os conceitos mais avançados de IA Generativa e Agentes Autônomos.

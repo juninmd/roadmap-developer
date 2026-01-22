@@ -1,5 +1,7 @@
 # 🧭 Conselhos para a Aventura DEV: Um Guia de Carreira
 
+> **Edição 2026:** Dicas atemporais e novas estratégias para sobreviver na era da IA.
+
 A jornada para se tornar um(a) desenvolvedor(a) é como uma grande aventura de RPG. Haverá desafios, missões secundárias, monstros (bugs) e, claro, grandes recompensas. Este guia é o seu mentor, o seu "Mestre Yoda", para te ajudar a navegar por este universo.
 
 ---
@@ -13,7 +15,7 @@ A jornada para se tornar um(a) desenvolvedor(a) é como uma grande aventura de R
 O mundo do desenvolvimento é vasto. Frontend, Backend, Mobile, IA, Games... O primeiro passo não é sair correndo, mas sim olhar o mapa.
 
 1.  **Explore as Trilhas:** Dê uma olhada nos roadmaps deste repositório. Veja o que cada área faz. O que te chama mais atenção? Construir interfaces bonitas? Fazer a "mágica" por trás dos panos? Ensinar máquinas a pensar?
-2.  **Comece pela Base:** Independente da sua escolha, a [Trilha Comum](./general/common.md) é o seu treinamento Jedi. Lógica, Git, APIs... são os fundamentos que sustentam todo o resto.
+2.  **Comece pela Base:** Independente da sua escolha, a [Trilha Comum](/roadmaps/general/common) é o seu treinamento Jedi. Lógica, Git, APIs... são os fundamentos que sustentam todo o resto.
 3.  **Não Tente Aprender Tudo:** Você não precisa ser um mestre em todas as classes de personagem. Escolha uma e foque nela. É melhor ser um "Mago" nível 10 do que um "Guerreiro/Ladrão/Bardo" nível 2 em tudo.
 
 ---

@@ -1,5 +1,7 @@
 # ⚙️ Trilha Backend: Os Bastidores da Mágica
 
+> **Edição 2026:** Atualizado para incluir Engenharia de IA, MCP e Observabilidade para LLMs.
+
 Se o frontend é o palco, o backend é tudo o que acontece por trás das cortinas: os atores se preparando, os cenários mudando, as luzes sendo controladas. É aqui que a lógica de negócio, o banco de dados e a "inteligência" da aplicação vivem. Você será o Mestre dos Fantoches, o Engenheiro da Matrix.
 
 ---
