@@ -209,3 +209,9 @@ O Backend agora precisa saber servir IA, não apenas JSON.
 - **Recursos:**
   - 📖 [O que é Observabilidade? (Artigo)](https://opentelemetry.io/docs/concepts/observability-primer/)
   - 📺 [Logging, Métricas e Tracing (Vídeo)](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+
+---
+## ↩️ Navegação
+
+*   [**Voltar para o Início**](../../index.md)
+*   [**Ver Conselhos de Carreira**](../../advices.md)

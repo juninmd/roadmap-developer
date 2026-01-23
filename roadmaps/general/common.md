@@ -195,3 +195,13 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
 - **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo, disponível gratuitamente no YouTube/EdX.
 - **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub, ideal para entender os fundamentos.
 - **[Google Cloud Skills Boost](https://www.cloudskillsboost.google/paths/118):** Trilha de aprendizado em IA Generativa do Google.
+
+---
+## 🚦 Próximos Passos
+
+Agora que você tem a base, escolha sua especialização:
+
+*   [**Backend**](../backend/backend.md)
+*   [**Frontend**](../frontend/frontend.md)
+*   [**Mobile**](../mobile/mobile.md)
+*   [**Inteligência Artificial**](../ai/artificial-intelligence.md)
