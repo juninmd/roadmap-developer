@@ -161,3 +161,9 @@ A Inteligência Artificial está transformando como construímos interfaces, ind
   - 📖 [Documentação de WebSockets (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API)
   - 📖 [WebAssembly.org](https://webassembly.org/)
   - 📺 [Otimização de Performance Web (Vídeo)](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+
+---
+## ↩️ Navegação
+
+*   [**Voltar para o Início**](../../index.md)
+*   [**Ver Conselhos de Carreira**](../../advices.md)

@@ -129,3 +129,9 @@ A revolução da IA também cabe no seu bolso. Rodar modelos de IA diretamente n
   - 📖 [Guia de Publicação na Play Store](https://developer.android.com/studio/publish)
   - 📖 [Guia de Publicação na App Store](https://developer.apple.com/app-store/submissions/)
   - 📺 [Performance e Segurança em Apps (Vídeo)](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+
+---
+## ↩️ Navegação
+
+*   [**Voltar para o Início**](../../index.md)
+*   [**Ver Conselhos de Carreira**](../../advices.md)

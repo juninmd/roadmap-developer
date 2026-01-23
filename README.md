@@ -1,34 +1,54 @@
-# Roadmap Developer
+# Roadmap Developer 2026
 
 <div align="center">
 <img height="200" src="https://github.blog/wp-content/uploads/2012/03/codercat.jpg?fit=896%2C896">
-<p>Guia para auxiliar quem está iniciando no desenvolvimento de software com links úteis para estudo.</p>
+<p>Guia definitivo e atualizado para desenvolvedores de software, desde o nível Júnior até Especialista.</p>
 </div>
 
-## Roadmaps
+## 🌐 Acesse o Site
 
-* [Trilha em comum](./roadmaps/general/common.md)
-* [Trilha Backend](./roadmaps/backend/backend.md)
-* [Trilha Frontend](./roadmaps/frontend/frontend.md)
-* [Trilha Mobile](./roadmaps/mobile/mobile.md)
-* [Trilha de Inteligência Artificial](./roadmaps/ai/artificial-intelligence.md)
+O roadmap está disponível como um site interativo para melhor leitura:
 
-## Conselhos
+**[Acessar Roadmap Developer 2026](https://seu-usuario.github.io/roadmap-developer-2026/)**
 
-Para dicas e conselhos sobre a carreira de desenvolvedor, confira o arquivo [advices.md](./advices.md).
+> *Nota: Substitua o link acima pela URL real do seu GitHub Pages após o deploy.*
 
-## Cursos
+---
 
-É super recomendado cursos nessa área, onde você pode acompanhar o professor e ir praticando.
+## 🗺️ Conteúdo
 
-* [Udemy](https://www.udemy.com/)
-* [Alura](https://www.alura.com.br/)
-* [TreinaWeb](https://www.treinaweb.com.br/)
+Este repositório contém trilhas de estudo detalhadas e atualizadas para 2026:
+
+*   [**Trilha Comum (Base)**](./roadmaps/general/common.md): Git, IA Literacy, Lógica.
+*   [**Backend**](./roadmaps/backend/backend.md): Microsserviços, IA Engineering, Observabilidade.
+*   [**Frontend**](./roadmaps/frontend/frontend.md): Generative UI, Server Actions, WebGPU.
+*   [**Mobile**](./roadmaps/mobile/mobile.md): On-Device AI, ExecuTorch, Híbrido.
+*   [**Inteligência Artificial**](./roadmaps/ai/artificial-intelligence.md): Agentes, RAG, LLMOps.
+
+## 🚀 Rodando Localmente
+
+Para rodar o site de documentação na sua máquina:
+
+1.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+2.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run docs:dev
+    ```
+    O site estará disponível em `http://localhost:5173`.
+
+3.  **Para gerar a versão de produção:**
+    ```bash
+    npm run docs:build
+    ```
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para abrir Issues e Pull Requests para melhorar o conteúdo!
 
 ## Créditos
 
-Inspirado em: <https://github.com/kamranahmedse/developer-roadmap>
-
-## Sites
- - <https://techguide.sh/>
- - <https://roadmap.sh/>
+Inspirado em: <https://roadmap.sh/>

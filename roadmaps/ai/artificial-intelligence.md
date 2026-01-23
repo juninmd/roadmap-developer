@@ -194,3 +194,9 @@ Não construa Skynet sem querer.
 - **Two Minute Papers:** O estado da arte explicado visualmente.
 - **AI News / The Rundown AI:** Newsletters para acompanhar o ritmo frenético de lançamentos.
 - **Arxiv Sanity Preserver:** Para encontrar os papers que importam no meio do barulho.
+
+---
+## ↩️ Navegação
+
+*   [**Voltar para o Início**](../../index.md)
+*   [**Ver Conselhos de Carreira**](../../advices.md)
