@@ -26,6 +26,9 @@ features:
   - title: Mobile
     details: Apps Nativos, Híbridos e IA no Dispositivo (On-Device AI).
     link: /roadmaps/mobile/mobile
+  - title: DevOps
+    details: Platform Engineering, GitOps e Observabilidade.
+    link: /roadmaps/devops/devops
   - title: Inteligência Artificial
     details: De RAG Avançado a Agentes Autônomos e LLMOps.
     link: /roadmaps/ai/artificial-intelligence
@@ -42,6 +45,7 @@ Este projeto visa auxiliar quem está iniciando ou quer se especializar no desen
     *   [Backend](/roadmaps/backend/backend)
     *   [Frontend](/roadmaps/frontend/frontend)
     *   [Mobile](/roadmaps/mobile/mobile)
+    *   [DevOps](/roadmaps/devops/devops)
     *   [Inteligência Artificial](/roadmaps/ai/artificial-intelligence)
 
 ## Conselhos

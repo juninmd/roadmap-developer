@@ -204,4 +204,5 @@ Agora que você tem a base, escolha sua especialização:
 *   [**Backend**](../backend/backend.md)
 *   [**Frontend**](../frontend/frontend.md)
 *   [**Mobile**](../mobile/mobile.md)
+*   [**DevOps**](../devops/devops.md)
 *   [**Inteligência Artificial**](../ai/artificial-intelligence.md)

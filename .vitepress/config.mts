@@ -11,6 +11,7 @@ export default defineConfig({
         { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
         { text: 'Backend', link: '/roadmaps/backend/backend' },
         { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
+        { text: 'DevOps', link: '/roadmaps/devops/devops' },
         { text: 'AI', link: '/roadmaps/ai/artificial-intelligence' }
       ]},
       { text: 'Conselhos', link: '/advices' }
@@ -31,6 +32,7 @@ export default defineConfig({
           { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
           { text: 'Backend', link: '/roadmaps/backend/backend' },
           { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
+          { text: 'DevOps', link: '/roadmaps/devops/devops' },
           { text: 'Inteligência Artificial', link: '/roadmaps/ai/artificial-intelligence' }
         ]
       }

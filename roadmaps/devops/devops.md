@@ -1,0 +1,83 @@
+# ♾️ Trilha DevOps: A Ponte entre o Código e o Mundo
+
+> **Edição 2026:** Focado em Platform Engineering, GitOps e Observabilidade com IA.
+
+"DevOps não é um cargo, é uma cultura." Mas convenhamos, alguém precisa configurar o Kubernetes, certo? Esta trilha te transforma no guardião da infraestrutura, garantindo que o código saia da máquina do dev e chegue ao usuário final com segurança, rapidez e confiabilidade.
+
+Esta trilha está dividida em níveis para guiar sua evolução profissional.
+
+---
+
+## 🐣 Nível Iniciante (Júnior)
+
+O foco aqui é sair da interface gráfica e dominar a linha de comando e os fundamentos da infraestrutura.
+
+### 🐧 Linux e Terminal (O Habitat Natural)
+- **Shell Scripting:** Bash/Zsh. Automatize tarefas repetitivas. Se você faz algo mais de duas vezes, faça um script.
+- **Permissões:** `chmod`, `chown`. Entenda quem pode fazer o que.
+- **Networking Básico:** SSH (chaves, não senhas!), DNS, HTTP/S, Firewalls (iptables/ufw).
+
+### 🐳 Containers (O Novo Binário)
+- **Docker:** Como criar `Dockerfile` eficientes (Multi-stage builds).
+- **Docker Compose:** Orquestrar múltiplos containers localmente.
+- **Conceito:** Imutabilidade. Uma vez construída, a imagem não muda.
+
+### 📜 Git Avançado
+- **Branching Strategies:** Git Flow, Trunk Based Development.
+- **Hooks:** Automatizar checagens antes do commit (Pre-commit hooks).
+
+---
+
+## 🚀 Nível Intermediário (Pleno)
+
+Aqui você começa a tratar infraestrutura como código e automatizar o ciclo de vida do software.
+
+### 🔄 CI/CD (Integração e Entrega Contínuas)
+- **GitHub Actions / GitLab CI:** Pipelines que testam, buildam e deployam seu código automaticamente a cada push.
+- **Conceitos:** Linting, SAST (Static Application Security Testing), Artifact Management.
+
+### ☁️ Cloud Providers (A Nuvem)
+Escolha uma principal, mas entenda os conceitos universais (Compute, Storage, Networking).
+- **AWS:** EC2, S3, RDS, Lambda, VPC.
+- **Azure/GCP:** Equivalentes (VMs, Blob Storage, Cloud Functions).
+- **IAM:** Gerenciamento de identidade e permissões (Princípio do Menor Privilégio).
+
+### 🏗️ Infrastructure as Code (IaC)
+Nunca configure servidores manualmente (ClickOps).
+- **Terraform / OpenTofu:** O padrão da indústria para provisionar infraestrutura. Entenda State Files e Modules.
+- **Ansible:** Para configuração de servidores (Configuration Management).
+
+### ☸️ Kubernetes (O Capitão)
+- **Conceitos:** Pods, Deployments, Services, Ingress, ConfigMaps, Secrets.
+- **Gerenciamento:** `kubectl`, Helm Charts (o "npm" do Kubernetes).
+
+---
+
+## 🧙‍♂️ Nível Avançado (Sênior / Especialista)
+
+Onde você constrói plataformas para outros desenvolvedores e garante a estabilidade de sistemas globais.
+
+### 🔭 Observabilidade (Não é só Monitoramento)
+- **OpenTelemetry:** O padrão para coletar Logs, Métricas e Traces.
+- **Ferramentas:** Prometheus (Métricas), Grafana (Dashboards), Jaeger/Tempo (Tracing).
+- **SLIs, SLOs e SLAs:** Definindo e medindo a confiabilidade do serviço com dados reais.
+
+### 🐙 GitOps
+- **ArgoCD / Flux:** O estado do seu cluster Kubernetes deve espelhar um repositório Git. O deploy é um Pull Request.
+- **Drift Detection:** Detectar e corrigir automaticamente quando a infraestrutura real difere do código.
+
+### 🏗️ Platform Engineering
+- **Internal Developer Platforms (IDP):** Construir portais (como **Backstage**) para que devs criem serviços padronizados com um clique ("Paved Roads").
+- **Self-Service:** O dev não deve abrir ticket para pedir um banco de dados; ele deve provisionar via plataforma.
+
+### 💰 FinOps & Segurança (DevSecOps)
+- **FinOps:** Monitorar e otimizar custos de nuvem. "Desligue o que não usa".
+- **Secret Management:** Vault. Nunca commite senhas no Git.
+- **Supply Chain Security:** Assinar imagens e verificar dependências (SBOM - Software Bill of Materials).
+
+---
+
+## ↩️ Navegação
+
+*   [**Voltar para o Início**](../../index.md)
+*   [**Ver Conselhos de Carreira**](../../advices.md)
