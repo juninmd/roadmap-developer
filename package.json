@@ -7,8 +7,18 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "roadmap",
+    "developer",
+    "2026",
+    "backend",
+    "frontend",
+    "mobile",
+    "devops",
+    "ai",
+    "learning-path"
+  ],
+  "author": "Roadmap Developer Community",
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0"

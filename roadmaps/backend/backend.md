@@ -89,6 +89,12 @@ O "Olho de Sauron" para o bem.
 - **Ferramentas:** Prometheus, Grafana, Jaeger.
 - **Tracing de IA:** Monitorar cadeias de execução de LLMs e custo de tokens.
 
+### 🌿 Green Software & FinOps
+Sustentabilidade e eficiência de custos caminham juntas.
+- **FinOps:** Monitoramento contínuo de custos de nuvem. Use Tags e Alertas para não ter surpresas na conta da AWS/Azure.
+- **Green Coding:** Otimizar algoritmos para reduzir consumo de CPU e memória, diminuindo a pegada de carbono do software.
+- **Ferramentas:** Cloud Carbon Footprint.
+
 ### 🤖 IA Engineering para Backend (O Diferencial de 2026)
 O Backend agora precisa saber servir IA, não apenas JSON.
 
