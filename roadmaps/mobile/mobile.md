@@ -70,7 +70,10 @@ Otimização extrema, arquitetura limpa e Inteligência Artificial no dispositiv
 
 ### 📱 IA no Mobile (On-Device AI - A Nova Era)
 - **Small Language Models (SLMs):** Rodar Phi-3, Gemma ou Llama 3 8B direto no celular.
-- **ExecuTorch & TFLite:** Frameworks para otimizar e rodar modelos PyTorch e TensorFlow no edge.
+- **Frameworks de IA:**
+  - **ExecuTorch & TFLite:** Para rodar modelos PyTorch e TensorFlow no edge.
+  - **MediaPipe:** Soluções prontas do Google para Visão Computacional e ML on-device.
+  - **CoreML:** O framework nativo da Apple para máxima performance no iOS.
 - **NPU Acceleration:** Delegar o processamento de IA para o chip neural (Apple Neural Engine / Android NPU) para economizar bateria.
 - **Privacidade (Local RAG):** Usar dados pessoais do dispositivo para dar contexto à IA, sem nunca enviar os dados para a nuvem.
 

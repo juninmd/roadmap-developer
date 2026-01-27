@@ -63,6 +63,7 @@ Onde a engenharia de software encontra a arte e a inteligência artificial.
 ### 🏗️ Arquitetura de Frontend
 - **Micro-frontends:** Module Federation. Como dividir um sistema gigante em partes menores.
 - **Server Components (RSC):** O novo paradigma do React e Next.js. Renderizar no servidor o que não precisa de interatividade.
+- **Server Actions:** O padrão recomendado para executar mutações de dados e operações de IA (como chamar a OpenAI) de forma segura a partir do frontend, sem expor chaves de API.
 - **Performance:** Core Web Vitals (LCP, CLS, INP). Otimização extrema com Code Splitting e Lazy Loading.
 
 ### 🤖 IA Engineering no Frontend (O Diferencial de 2026)
