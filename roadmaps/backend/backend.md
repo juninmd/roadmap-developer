@@ -25,7 +25,7 @@ Não tente aprender tudo de uma vez. Escolha uma stack e aprofunde-se.
   - **Foco:** Assincronismo, Event Loop e APIs REST.
 - **Python:**
   - **Frameworks:** Flask (minimalista) ou FastAPI (moderno e rápido).
-  - **Foco:** Essencial para quem quer migrar para IA no futuro.
+  - **Foco:** A linguagem da IA. Mesmo que não seja sua stack principal, aprenda o básico para interagir com scripts de Data Science e modelos de IA.
 - **Java:**
   - **Frameworks:** Spring Boot (padrão de mercado).
   - **Foco:** Tipagem forte, estrutura robusta e ecossistema corporativo.

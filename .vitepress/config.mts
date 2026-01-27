@@ -45,6 +45,10 @@ export default defineConfig({
     footer: {
       message: 'Lançado sob a licença MIT.',
       copyright: 'Copyright © 2026 Roadmap Developer'
+    },
+
+    search: {
+      provider: 'local'
     }
   }
 })
