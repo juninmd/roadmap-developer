@@ -2,6 +2,23 @@
 
 > **Edição 2026:** Atualizado para incluir Engenharia de IA, MCP e Observabilidade para LLMs.
 
+```mermaid
+flowchart TD
+    Start([Início]) --> Lang(Linguagem: Node/Python/Java/Go)
+    Lang --> API(APIs RESTful)
+    API --> DB(Banco de Dados SQL/NoSQL)
+    DB --> Auth(Autenticação & Segurança)
+    Auth --> Test(Testes & Docker)
+    Test --> Cloud(Cloud & CI/CD)
+    Cloud --> Arch(Arquitetura & Microsserviços)
+    Arch --> Obs(Observabilidade)
+    Obs --> AI(AI Engineering & Agents)
+    AI --> Spec([Especialista])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Spec fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 Se o frontend é o palco, o backend é tudo o que acontece por trás das cortinas: os atores se preparando, os cenários mudando, as luzes sendo controladas. É aqui que a lógica de negócio, o banco de dados e a "inteligência" da aplicação vivem.
 
 Esta trilha está dividida em níveis para guiar sua evolução profissional.

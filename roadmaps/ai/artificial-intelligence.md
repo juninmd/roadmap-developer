@@ -2,6 +2,22 @@
 
 > **Edição 2026:** Atualizado com a nova era de Sistemas de IA Compostos e Agentes Autônomos.
 
+```mermaid
+flowchart TD
+    Start([Início]) --> Math(Matemática & Python)
+    Math --> ML(Machine Learning Clássico)
+    ML --> DL(Deep Learning & PyTorch)
+    DL --> Domains(NLP & Visão Computacional)
+    Domains --> GenAI(GenAI & LLMs)
+    GenAI --> RAG(RAG & Vector DBs)
+    RAG --> Agents(Agentes Autônomos & DSPy)
+    Agents --> Prod(AI Engineering & LLMOps)
+    Prod --> Spec([Especialista])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Spec fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 "Qualquer tecnologia suficientemente avançada é indistinguível da magia." - Arthur C. Clarke. Bem-vindo(a) à trilha de IA, onde você será o(a) mágico(a). Aqui, você vai aprender a ensinar os computadores a reconhecer padrões, tomar decisões e, em alguns casos, até a "criar".
 
 Esta trilha foi desenhada para guiar você desde os primeiros passos até os conceitos mais avançados de IA Generativa e Agentes Autônomos.

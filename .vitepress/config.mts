@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: "Roadmap Developer 2026",
   description: "Guia completo para desenvolvedores em 2026",
   themeConfig: {
@@ -51,4 +52,4 @@ export default defineConfig({
       provider: 'local'
     }
   }
-})
+}))
