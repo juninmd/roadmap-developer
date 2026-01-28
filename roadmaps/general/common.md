@@ -2,6 +2,20 @@
 
 > **Edição 2026:** Inclui Alfabetização em IA e novos paradigmas de trabalho com Agentes.
 
+```mermaid
+flowchart TD
+    Start([Início]) --> Git(Git & GitHub)
+    Git --> AI(Alfabetização em IA)
+    AI --> Logic(Lógica & Algoritmos)
+    Logic --> English(Inglês Técnico)
+    English --> HTTP(HTTP, DNS & Internet)
+    HTTP --> OS(Sistemas Operacionais & Terminal)
+    OS --> Next([Próximos Passos: Especialização])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Next fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 Todo grande herói de uma saga de fantasia precisa de um mapa, uma espada e um conjunto de habilidades básicas, certo? No universo do desenvolvimento, esta trilha é o seu kit de sobrevivência. São os feitiços e habilidades que todo(a) dev, não importa a especialização, precisa dominar.
 
 ---

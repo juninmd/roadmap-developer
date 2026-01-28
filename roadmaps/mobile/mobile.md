@@ -2,6 +2,22 @@
 
 > **Edição 2026:** Com foco em On-Device AI, NPU Acceleration e Hybrid AI.
 
+```mermaid
+flowchart TD
+    Start([Início]) --> Lang(Kotlin/Swift/React Native/Flutter)
+    Lang --> UI(UI/UX Mobile)
+    UI --> API(Conectividade & APIs)
+    API --> State(Estado & Persistência)
+    State --> Sensors(Sensores & Nativo)
+    Sensors --> Store(Publicação & CI/CD)
+    Store --> Arch(Arquitetura Limpa)
+    Arch --> AI(On-Device AI & NPU)
+    AI --> Spec([Especialista])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Spec fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 "Tem um app pra isso." A trilha mobile te coloca no centro dessa revolução. Você não vai apenas construir um software, vai construir um companheiro digital.
 
 Esta trilha está dividida em níveis para guiar sua evolução profissional.

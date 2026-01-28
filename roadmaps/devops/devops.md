@@ -2,6 +2,23 @@
 
 > **Edição 2026:** Focado em Platform Engineering, GitOps e Observabilidade com IA.
 
+```mermaid
+flowchart TD
+    Start([Início]) --> Linux(Linux & Terminal)
+    Linux --> Container(Docker & Containers)
+    Container --> Git(Git Avançado)
+    Git --> CICD(CI/CD)
+    CICD --> Cloud(Cloud AWS/Azure/GCP)
+    Cloud --> IaC(Terraform & Ansible)
+    IaC --> K8s(Kubernetes)
+    K8s --> Obs(Observabilidade)
+    Obs --> Plat(Platform Engineering & AI Ops)
+    Plat --> Spec([Especialista])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Spec fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 "DevOps não é um cargo, é uma cultura." Mas convenhamos, alguém precisa configurar o Kubernetes, certo? Esta trilha te transforma no guardião da infraestrutura, garantindo que o código saia da máquina do dev e chegue ao usuário final com segurança, rapidez e confiabilidade.
 
 Esta trilha está dividida em níveis para guiar sua evolução profissional.

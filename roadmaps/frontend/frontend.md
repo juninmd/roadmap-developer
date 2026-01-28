@@ -2,6 +2,21 @@
 
 > **Edição 2026:** Focado em Generative UI, IA no Browser (WebGPU) e integração com Agentes.
 
+```mermaid
+flowchart TD
+    Start([Início]) --> Base(HTML/CSS/JS)
+    Base --> Framework(React/Vue/Angular)
+    Framework --> TS(TypeScript)
+    TS --> State(Gerenciamento de Estado)
+    State --> Test(Testes & Performance)
+    Test --> Arch(Arquitetura & SSR/RSC)
+    Arch --> AI(Generative UI & WebLLM)
+    AI --> Spec([Especialista])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Spec fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em interfaces bonitas e interativas. Você será o arquiteto da experiência do usuário, a pessoa que faz a tecnologia parecer amigável.
 
 Esta trilha está dividida em níveis para guiar sua evolução profissional.
