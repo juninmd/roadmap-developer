@@ -48,6 +48,9 @@ Não tente aprender tudo de uma vez. Escolha uma stack e aprofunde-se.
   - **Foco:** Tipagem forte, estrutura robusta e ecossistema corporativo.
 - **Go:**
   - **Foco:** Concorrência, simplicidade e alta performance para microsserviços.
+- **Rust:**
+  - **Frameworks:** Actix-web ou Axum.
+  - **Foco:** Performance extrema, segurança de memória e ferramentas de infraestrutura. A escolha para quem quer o máximo de controle.
 
 ### 🔌 APIs RESTful
 - Entenda os verbos HTTP (GET, POST, PUT, DELETE).
