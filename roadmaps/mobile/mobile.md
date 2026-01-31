@@ -32,9 +32,10 @@ Comece entendendo como os apps funcionam e publique seu primeiro "Hello World".
 - **Nativo (Especialista):**
   - **Android (Kotlin):** O padrão moderno do Google.
   - **iOS (Swift):** A linguagem elegante da Apple.
-- **Híbrido (Multiplataforma):**
+- **Híbrido & Multiplataforma:**
   - **React Native:** Use seus conhecimentos de web (JavaScript/React).
   - **Flutter:** Desenhe em qualquer pixel com Dart. Alta performance.
+  - **Kotlin Multiplatform (KMP):** Compartilhe a lógica de negócios (e até UI com Compose Multiplatform) mantendo a performance 100% nativa.
 
 ### 🧩 Fundamentos de UI/UX Mobile
 - **Layouts:** Flexbox (React Native), Rows/Columns (Flutter) ou AutoLayout (iOS). Como criar telas responsivas.
