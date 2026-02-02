@@ -2,8 +2,11 @@ import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 export default withMermaid(defineConfig({
+  lang: 'pt-BR',
   title: "Roadmap Developer 2026",
   description: "Guia completo para desenvolvedores em 2026",
+  cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
