@@ -131,6 +131,11 @@ O Backend agora precisa saber servir IA, não apenas JSON.
   - Rodar modelos locais (Llama 3, Mistral, Gemma) usando **Ollama** ou **vLLM**.
   - **Fine-tuning eficiente:** Ajustar modelos pequenos para tarefas específicas do seu negócio.
 
+### 📚 Livros e Leituras Obrigatórias (Sênior)
+Para chegar ao nível especialista, a prática não basta. Você precisa de teoria sólida.
+- **"Designing Data-Intensive Applications" (Martin Kleppmann):** A bíblia dos sistemas distribuídos. Entenda como bancos de dados realmente funcionam (B-Trees, SSTables, Replication, Partitioning).
+- **"System Design Primer":** O guia definitivo para entender como projetar sistemas que aguentam milhões de usuários.
+
 ---
 
 ## ↩️ Navegação
