@@ -98,6 +98,11 @@ Otimização extrema, arquitetura limpa e Inteligência Artificial no dispositiv
 - **Voice UI:** Integração com Whisper local para comandos de voz rápidos.
 - **Multimodalidade:** Usar a câmera para analisar objetos e textos em tempo real.
 
+### 🎓 Recursos Oficiais (A Verdade Direta da Fonte)
+Em mobile, as coisas mudam todo ano nas conferências oficiais. Acompanhe:
+- **Android Developers (YouTube):** O canal oficial. Assista aos vídeos da *Google I/O* todo ano.
+- **Apple Developer (WWDC):** Instale o app "Developer" da Apple. Assista às sessões da *WWDC* para saber o que há de novo no Swift e SwiftUI.
+
 ---
 
 ## ↩️ Navegação

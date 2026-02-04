@@ -92,6 +92,12 @@ Onde você constrói plataformas para outros desenvolvedores e garante a estabil
 - **Secret Management:** Vault. Nunca commite senhas no Git.
 - **Supply Chain Security:** Assinar imagens e verificar dependências (SBOM - Software Bill of Materials).
 
+### 📚 Livros e Cultura (Leitura Obrigatória)
+DevOps é cultura, e cultura se aprende com histórias e práticas.
+- **"The Phoenix Project" (Gene Kim):** Um romance (sim, uma história!) que explica porque o trabalho de TI costuma ser caótico e como o DevOps resolve isso. Leitura leve e essencial.
+- **"The DevOps Handbook":** O manual prático que segue o "Phoenix Project".
+- **"Site Reliability Engineering" (Google):** Como o Google mantém seus sistemas no ar. O nascimento do conceito de SRE.
+
 ---
 
 ## ↩️ Navegação
