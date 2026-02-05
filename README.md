@@ -10,9 +10,9 @@
 
 O roadmap está disponível como um site interativo para melhor leitura:
 
-**[Acessar Roadmap Developer 2026](https://seu-usuario.github.io/roadmap-developer-2026/)**
+**[Acessar Roadmap Developer 2026](https://roadmap-developer-2026.netlify.app/)**
 
-> **Nota:** *Substitua o link acima pela URL real do seu GitHub Pages após o deploy (Configurações > Pages).*
+> **Nota:** Substitua o link acima pela URL real do seu site após o deploy.
 
 ---
 
