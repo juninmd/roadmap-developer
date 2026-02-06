@@ -84,7 +84,8 @@ Onde a engenharia de software encontra a arte e a inteligência artificial.
 
 ### 🤖 IA Engineering no Frontend (O Diferencial de 2026)
 - **Vercel AI SDK:** A ponte entre seu frontend e os LLMs. Streaming de texto e chat.
-- **Generative UI:** A IA não deve retornar apenas texto. Ela deve gerar JSON que seu frontend renderiza como componentes ricos (`<StockChart />`, `<FlightTicket />`).
+- **Generative UI (Runtime):** A IA não deve retornar apenas texto. Ela deve gerar JSON que seu frontend renderiza como componentes ricos (`<StockChart />`, `<FlightTicket />`).
+- **Generative UI (DevTime):** Ferramentas como **v0.dev** e **Lovable** que geram código de interface (React + Tailwind) pronto para uso, mudando o fluxo de trabalho de "codar do zero" para "curadoria e refino".
 - **Streaming UI:** Renderizar a interface *token por token* para dar sensação de instantaneidade.
 - **WebGPU & IA no Browser:** Rodar modelos (Llama 3, Whisper) diretamente na GPU do usuário usando **WebLLM** e **Transformers.js**. Privacidade total e zero custo de servidor.
 

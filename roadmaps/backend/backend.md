@@ -118,8 +118,9 @@ Sustentabilidade e eficiência de custos caminham juntas.
 ### 🤖 IA Engineering para Backend (O Diferencial de 2026)
 O Backend agora precisa saber servir IA, não apenas JSON.
 
-- **Orquestração de Agentes:**
+- **Orquestração de Agentes e Structured Outputs:**
   - **LangChain / LangGraph:** Criar fluxos complexos onde a IA toma decisões e mantém estado.
+  - **Structured Outputs (Validadores):** Garantir que a IA retorne dados estruturados confiáveis. Use **Pydantic/Instructor** (Python) ou **Zod** (Node/TypeScript) para forçar o LLM a seguir um schema.
   - **Function Calling:** Permitir que o LLM chame suas APIs de backend para executar ações reais (ex: consultar saldo, agendar reunião).
   - **MCP (Model Context Protocol):** Padrão aberto para conectar dados e ferramentas aos assistentes de IA.
 
