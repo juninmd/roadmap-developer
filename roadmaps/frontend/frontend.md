@@ -69,6 +69,15 @@ Quando passar props de pai para filho fica insustentável.
 - **Tailwind CSS:** O padrão moderno de estilização utilitária.
 - **Component Libraries:** Não reinvente a roda. Use **shadcn/ui** ou **Radix UI** para componentes acessíveis e bonitos.
 
+### ♿ Acessibilidade Web (a11y)
+A internet deve ser para todos.
+- **Semântica HTML:** `button` é botão, `div` não é botão. O básico que muitos erram.
+- **WAI-ARIA:** Quando o HTML não basta, use atributos ARIA (`aria-label`, `role`) para guiar leitores de tela.
+- **Ferramentas de Auditoria:**
+  - **Lighthouse / WAVE:** Para checkups rápidos.
+  - **axe-core:** Para automação de testes de acessibilidade.
+  - **Leitores de Tela (NVDA / VoiceOver):** Teste seu site de olhos fechados.
+
 ---
 
 ## 🧙‍♂️ Nível Avançado (Sênior / Especialista)
@@ -80,7 +89,13 @@ Onde a engenharia de software encontra a arte e a inteligência artificial.
 - **Server Components (RSC):** O novo paradigma do React e Next.js. Renderizar no servidor o que não precisa de interatividade.
 - **Server Actions:** O padrão recomendado para executar mutações de dados e operações de IA (como chamar a OpenAI) de forma segura a partir do frontend, sem expor chaves de API.
 - **Server-Driven UI (HTMX):** A alternativa radical às SPAs complexas. Retornar HTML do servidor em vez de JSON, ideal para aplicações "dashboard-like" e redução de complexidade.
-- **Performance:** Core Web Vitals (LCP, CLS, INP). Otimização extrema com Code Splitting e Lazy Loading.
+
+### ⚡ Performance & Core Web Vitals
+Performance é UX. Ninguém gosta de site lento.
+- **LCP (Largest Contentful Paint):** Quanto tempo demora para o "conteúdo principal" aparecer? Meta: < 2.5s.
+- **INP (Interaction to Next Paint):** O site trava quando clico? Substituiu o FID. Meta: < 200ms.
+- **CLS (Cumulative Layout Shift):** As coisas mudam de lugar sozinhas? Evite layout instável.
+- **Técnicas:** Code Splitting, Lazy Loading de imagens, otimização de fontes e uso correto de Cache-Control.
 
 ### 🤖 IA Engineering no Frontend (O Diferencial de 2026)
 - **Vercel AI SDK:** A ponte entre seu frontend e os LLMs. Streaming de texto e chat.
