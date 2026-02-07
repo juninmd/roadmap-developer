@@ -103,6 +103,12 @@ Onde você projeta sistemas complexos, escaláveis e inteligentes.
 - **Serverless:** AWS Lambda, Cloudflare Workers. Foco no código, zero infra.
 - **Event-Driven Architecture:** Kafka e sistemas reativos para alto volume de dados.
 
+### 📊 Engenharia de Dados para Devs
+O Backend moderno lida com pipelines de dados, não apenas CRUD.
+- **ETL vs ELT:** Extrair, Transformar e Carregar. Ferramentas como **dbt** (data build tool) são padrão de mercado.
+- **Data Warehouses:** Snowflake, BigQuery. Entenda a diferença para um banco tradicional (OLTP vs OLAP).
+- **Data Lakes:** Onde jogamos dados brutos (S3, Parquet) para a IA consumir depois.
+
 ### 🔭 Observabilidade (OpenTelemetry)
 O "Olho de Sauron" para o bem.
 - **Pilares:** Logging, Métricas e Tracing Distribuído.
@@ -136,6 +142,11 @@ O Backend agora precisa saber servir IA, não apenas JSON.
 Para chegar ao nível especialista, a prática não basta. Você precisa de teoria sólida.
 - **"Designing Data-Intensive Applications" (Martin Kleppmann):** A bíblia dos sistemas distribuídos. Entenda como bancos de dados realmente funcionam (B-Trees, SSTables, Replication, Partitioning).
 - **"System Design Primer":** O guia definitivo para entender como projetar sistemas que aguentam milhões de usuários.
+
+### 📺 Canais de System Design (YouTube)
+- **ByteByteGo (Alex Xu):** As melhores explicações visuais de sistemas complexos (YouTube e Newsletter).
+- **Hussein Nasser:** Engenharia de Backend pura e profunda (Protocolos, Database Internals).
+- **Arpit Bhayani:** System Design para o mundo real e alta escala.
 
 ---
 

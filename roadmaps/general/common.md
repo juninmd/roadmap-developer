@@ -205,6 +205,29 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
 
 ---
 
+### 🧠 Aprender a Aprender: O Meta-Skill
+
+Em um mundo onde a tecnologia muda toda semana, saber *como* aprender é mais importante do que *o que* você aprende.
+
+- **Técnica Pomodoro:** Foco total por 25 minutos, descanso de 5. Ajuda a evitar distrações e manter a mente fresca.
+- **Spaced Repetition (Repetição Espaçada):** O cérebro esquece rápido. Use ferramentas como **Anki** para revisar conceitos (flashcards) em intervalos crescentes (hoje, amanhã, semana que vem). É a melhor forma de fixar sintaxe e comandos.
+- **Active Recall (Recordação Ativa):** Não apenas leia. Feche o livro e tente explicar o conceito em voz alta. Se você não consegue explicar, você não entendeu.
+- **Deep Work (Trabalho Profundo):** Reserve blocos de 2 a 4 horas sem celular, sem Slack e sem interrupções. É onde a mágica complexa acontece.
+- **Recurso:** 📖 [Learning How to Learn (Coursera)](https://www.coursera.org/learn/learning-how-to-learn) - O curso mais popular do mundo sobre o tema.
+
+---
+
+### ❤️ Saúde Mental: O Hardware Mais Importante
+
+Seu cérebro é seu computador principal. Se ele pifar (Burnout), não tem peça de reposição.
+
+- **Burnout não é medalha de honra:** Trabalhar 14 horas por dia não te faz um herói, te faz um paciente em potencial.
+- **Descanse de verdade:** Ficar scrollando o TikTok não é descanso. Seu cérebro continua processando informação. Tente caminhar, dormir ou fazer nada.
+- **Hobbies Offline:** Tenha hobbies que não envolvam telas. Cozinhar, tocar música, esportes. Isso ajuda a "resetar" o cérebro.
+- **Dormir é produtivo:** É durante o sono que o cérebro limpa as toxinas e consolida o aprendizado. Dormir pouco te deixa "burro" no dia seguinte.
+
+---
+
 ### 📚 Onde Estudar de Graça (Recursos Gerais)
 
 - **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero. Cursos interativos e projetos práticos.

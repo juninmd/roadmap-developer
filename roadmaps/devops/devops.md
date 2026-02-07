@@ -87,10 +87,18 @@ Onde você constrói plataformas para outros desenvolvedores e garante a estabil
 - **Internal Developer Platforms (IDP):** Construir portais (como **Backstage**) para que devs criem serviços padronizados com um clique ("Paved Roads").
 - **Self-Service:** O dev não deve abrir ticket para pedir um banco de dados; ele deve provisionar via plataforma.
 
-### 💰 FinOps & Segurança (DevSecOps)
-- **FinOps:** Monitorar e otimizar custos de nuvem. "Desligue o que não usa".
-- **Secret Management:** Vault. Nunca commite senhas no Git.
-- **Supply Chain Security:** Assinar imagens e verificar dependências (SBOM - Software Bill of Materials).
+### 🛡️ DevSecOps: Segurança desde o Dia 1
+Segurança não é responsabilidade só do time de InfoSec no final do projeto.
+- **SAST & DAST:** Análise estática (SonarQube) e dinâmica de vulnerabilidades.
+- **Container Scanning:** Nunca suba uma imagem Docker sem passar pelo **Trivy** ou **Grype** para achar CVEs.
+- **Policy as Code:** Use **OPA (Open Policy Agent)** para impedir deploys inseguros (ex: bloquear containers rodando como root).
+- **Supply Chain Security:** Assinar imagens (Cosign) e verificar dependências (SBOM - Software Bill of Materials) para evitar ataques à cadeia de suprimentos.
+- **Secret Management:** HashiCorp Vault ou AWS Secrets Manager. Nunca commite senhas no Git (`.env` no `.gitignore` sempre!).
+
+### 💰 FinOps: O Custo é um Requisito
+- **Monitoramento de Custos:** Use **Kubecost** ou AWS Cost Explorer. Se você não mede, você não controla.
+- **Rightsizing:** Ajustar CPU/RAM dos pods para o uso real. Não use um canhão para matar uma mosca.
+- **Spot Instances:** Usar máquinas ociosas da nuvem com até 90% de desconto para workloads que podem ser interrompidos.
 
 ### 📚 Livros e Cultura (Leitura Obrigatória)
 DevOps é cultura, e cultura se aprende com histórias e práticas.
