@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/Status-Atualizado%202026-success?style=flat-square" alt="Status Atualizado">
 <img height="200" src="https://github.blog/wp-content/uploads/2012/03/codercat.jpg?fit=896%2C896">
 <p>Guia definitivo e atualizado para desenvolvedores de software, desde o nível Júnior até Especialista.</p>
+<p><em>Transformado em site estático com VitePress.</em></p>
 </div>
 
 ## 🌐 Acesse o Site
