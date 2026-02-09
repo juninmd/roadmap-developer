@@ -11,27 +11,27 @@ hero:
   actions:
     - theme: brand
       text: Começar pela Base
-      link: /roadmaps/general/common
+      link: /roadmaps/general/common.md
     - theme: alt
       text: Escolher Especialização
-      link: /roadmaps/backend/backend
+      link: /roadmaps/backend/backend.md
 
 features:
   - title: Frontend 2026
     details: Domine React, Next.js, Generative UI, Server Actions e WebGPU.
-    link: /roadmaps/frontend/frontend
+    link: /roadmaps/frontend/frontend.md
   - title: Backend Moderno
     details: Arquitetura, Microsserviços, Green Software e Engenharia de IA.
-    link: /roadmaps/backend/backend
+    link: /roadmaps/backend/backend.md
   - title: Mobile & Edge AI
     details: Apps Nativos, KMP e IA rodando no dispositivo (On-Device AI).
-    link: /roadmaps/mobile/mobile
+    link: /roadmaps/mobile/mobile.md
   - title: DevOps & Platform
     details: Platform Engineering, GitOps, FinOps e Observabilidade com IA.
-    link: /roadmaps/devops/devops
+    link: /roadmaps/devops/devops.md
   - title: Inteligência Artificial
     details: De RAG Avançado e Agentes Autônomos a LLMOps e Fine-Tuning.
-    link: /roadmaps/ai/artificial-intelligence
+    link: /roadmaps/ai/artificial-intelligence.md
 ---
 
 # 🚀 Por que este Roadmap?
@@ -45,18 +45,18 @@ Este projeto não é apenas uma lista de tecnologias. É um guia curado para for
 
 ## 🗺️ Sua Jornada Começa Aqui
 
-1.  **[Trilha Comum (Base)](/roadmaps/general/common)**: O básico que todo dev precisa saber (Git, Lógica, IA Literacy). **Obrigatório para todos.**
+1.  **[Trilha Comum (Base)](/roadmaps/general/common.md)**: O básico que todo dev precisa saber (Git, Lógica, IA Literacy). **Obrigatório para todos.**
 2.  **Escolha sua Especialização:**
-    *   [Backend](/roadmaps/backend/backend): Para quem gosta de lógica, dados e sistemas robustos.
-    *   [Frontend](/roadmaps/frontend/frontend): Para quem ama criar interfaces incríveis e performáticas.
-    *   [Mobile](/roadmaps/mobile/mobile): Para quem quer colocar o mundo na palma da mão.
-    *   [DevOps](/roadmaps/devops/devops): Para os guardiões da infraestrutura e automação.
-    *   [Inteligência Artificial](/roadmaps/ai/artificial-intelligence): Para os arquitetos da nova era.
+    *   [Backend](/roadmaps/backend/backend.md): Para quem gosta de lógica, dados e sistemas robustos.
+    *   [Frontend](/roadmaps/frontend/frontend.md): Para quem ama criar interfaces incríveis e performáticas.
+    *   [Mobile](/roadmaps/mobile/mobile.md): Para quem quer colocar o mundo na palma da mão.
+    *   [DevOps](/roadmaps/devops/devops.md): Para os guardiões da infraestrutura e automação.
+    *   [Inteligência Artificial](/roadmaps/ai/artificial-intelligence.md): Para os arquitetos da nova era.
 
 ## 💡 Conselhos de Carreira
 
 Não sabe por onde começar? Sente que não sabe nada (Síndrome do Impostor)?
-Confira nossa página de [**Conselhos**](/advices) para um guia mental de sobrevivência.
+Confira nossa página de [**Conselhos**](/advices.md) para um guia mental de sobrevivência.
 
 ---
 ## Créditos

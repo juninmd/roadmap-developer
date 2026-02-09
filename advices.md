@@ -15,7 +15,7 @@ A jornada para se tornar um(a) desenvolvedor(a) é como uma grande aventura de R
 O mundo do desenvolvimento é vasto. Frontend, Backend, Mobile, IA, Games... O primeiro passo não é sair correndo, mas sim olhar o mapa.
 
 1.  **Explore as Trilhas:** Dê uma olhada nos roadmaps deste repositório. Veja o que cada área faz. O que te chama mais atenção? Construir interfaces bonitas? Fazer a "mágica" por trás dos panos? Ensinar máquinas a pensar?
-2.  **Comece pela Base:** Independente da sua escolha, a [Trilha Comum](/roadmaps/general/common) é o seu treinamento Jedi. Lógica, Git, APIs... são os fundamentos que sustentam todo o resto.
+2.  **Comece pela Base:** Independente da sua escolha, a [Trilha Comum](/roadmaps/general/common.md) é o seu treinamento Jedi. Lógica, Git, APIs... são os fundamentos que sustentam todo o resto.
 3.  **Não Tente Aprender Tudo:** Você não precisa ser um mestre em todas as classes de personagem. Escolha uma e foque nela. É melhor ser um "Mago" nível 10 do que um "Guerreiro/Ladrão/Bardo" nível 2 em tudo.
 
 ---
