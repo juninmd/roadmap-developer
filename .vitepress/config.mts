@@ -7,6 +7,7 @@ export default withMermaid(defineConfig({
   description: "Guia completo para desenvolvedores em 2026",
   cleanUrls: true,
   lastUpdated: true,
+  srcExclude: ['README.md', 'AGENTS.md'],
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
