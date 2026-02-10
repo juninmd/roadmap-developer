@@ -4,7 +4,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   lang: 'pt-BR',
   title: "Roadmap Developer 2026",
-  description: "Guia completo para desenvolvedores em 2026",
+  description: "Guia completo e atualizado para desenvolvedores em 2026. Transformado em site com VitePress.",
   cleanUrls: true,
   lastUpdated: true,
   srcExclude: ['README.md', 'AGENTS.md'],

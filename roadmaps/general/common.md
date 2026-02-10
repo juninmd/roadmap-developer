@@ -83,6 +83,7 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
 - **Soft Skills na Era da IA:**
   - **Pensamento Crítico:** A IA erra (e mente) com confiança (Alucinação). Você é o piloto, ela é o copiloto. Nunca commite código que você não entende e não revisou.
   - **Arquitetura e Design:** Com a IA escrevendo o código "braçal" (boilerplate), seu valor profissional migra para desenhar *como* as peças se encaixam e resolver problemas complexos de negócio.
+  - **Inteligência Emocional:** Entender que software é feito por pessoas para pessoas. A IA não tem empatia, você tem.
   - **Comunicação:** Saber explicar o problema para a IA (e para humanos) é a habilidade mais valiosa do futuro.
   - **Comunicação Assíncrona e Trabalho Remoto:**
     - **Escrita:** Em um mundo remoto, escrever bem é mais importante que falar bem. Saiba documentar decisões e escrever mensagens claras no Slack/Discord.
