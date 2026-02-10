@@ -1,7 +1,7 @@
 {
   "name": "roadmap-developer-2026",
-  "version": "1.0.0",
-  "description": "Guia para desenvolvedores completo e atualizado para 2026.",
+  "version": "1.0.1",
+  "description": "Guia para desenvolvedores completo e atualizado para 2026. Transformado em site estático com VitePress.",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
