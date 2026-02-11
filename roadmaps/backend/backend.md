@@ -144,9 +144,9 @@ Para chegar ao nível especialista, a prática não basta. Você precisa de teor
 - **"System Design Primer":** O guia definitivo para entender como projetar sistemas que aguentam milhões de usuários.
 
 ### 📺 Canais de System Design (YouTube)
-- **ByteByteGo (Alex Xu):** As melhores explicações visuais de sistemas complexos (YouTube e Newsletter).
-- **Hussein Nasser:** Engenharia de Backend pura e profunda (Protocolos, Database Internals).
-- **Arpit Bhayani:** System Design para o mundo real e alta escala.
+- **[ByteByteGo (Alex Xu)](https://www.youtube.com/@ByteByteGo):** As melhores explicações visuais de sistemas complexos (YouTube e Newsletter).
+- **[Hussein Nasser](https://www.youtube.com/@hnasr):** Engenharia de Backend pura e profunda (Protocolos, Database Internals).
+- **[Arpit Bhayani](https://www.youtube.com/@ArpitBhayani):** System Design para o mundo real e alta escala.
 
 ---
 

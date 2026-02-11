@@ -100,8 +100,8 @@ Otimização extrema, arquitetura limpa e Inteligência Artificial no dispositiv
 
 ### 🎓 Recursos Oficiais (A Verdade Direta da Fonte)
 Em mobile, as coisas mudam todo ano nas conferências oficiais. Acompanhe:
-- **Android Developers (YouTube):** O canal oficial. Assista aos vídeos da *Google I/O* todo ano.
-- **Apple Developer (WWDC):** Instale o app "Developer" da Apple. Assista às sessões da *WWDC* para saber o que há de novo no Swift e SwiftUI.
+- **[Android Developers (YouTube)](https://www.youtube.com/user/androiddevelopers):** O canal oficial. Assista aos vídeos da *Google I/O* todo ano.
+- **[Apple Developer (WWDC)](https://developer.apple.com/wwdc/):** Instale o app "Developer" da Apple. Assista às sessões da *WWDC* para saber o que há de novo no Swift e SwiftUI.
 
 ---
 
