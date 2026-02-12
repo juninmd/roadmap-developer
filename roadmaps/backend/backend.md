@@ -148,6 +148,12 @@ Para chegar ao nível especialista, a prática não basta. Você precisa de teor
 - **[Hussein Nasser](https://www.youtube.com/@hnasr):** Engenharia de Backend pura e profunda (Protocolos, Database Internals).
 - **[Arpit Bhayani](https://www.youtube.com/@ArpitBhayani):** System Design para o mundo real e alta escala.
 
+### 🏆 Desafios Práticos (Projetos)
+
+- **Júnior:** Crie uma API REST para um gerenciador de tarefas (To-Do List) com CRUD completo, autenticação JWT e documentação no Swagger. Use PostgreSQL.
+- **Pleno:** Desenvolva um serviço de encurtador de URLs (bit.ly clone). Requisitos: Cache com Redis para redirecionamento rápido, Docker Compose para rodar tudo e testes de integração.
+- **Sênior:** Projete e implemente um sistema de chat em tempo real escalável (WhatsApp clone). Requisitos: WebSockets, filas (RabbitMQ/Kafka) para processamento assíncrono de mensagens e banco NoSQL (Cassandra/DynamoDB) para armazenar histórico.
+
 ---
 
 ## ↩️ Navegação

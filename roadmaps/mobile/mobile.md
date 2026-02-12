@@ -103,6 +103,12 @@ Em mobile, as coisas mudam todo ano nas conferências oficiais. Acompanhe:
 - **[Android Developers (YouTube)](https://www.youtube.com/user/androiddevelopers):** O canal oficial. Assista aos vídeos da *Google I/O* todo ano.
 - **[Apple Developer (WWDC)](https://developer.apple.com/wwdc/):** Instale o app "Developer" da Apple. Assista às sessões da *WWDC* para saber o que há de novo no Swift e SwiftUI.
 
+### 🏆 Desafios Práticos (Projetos)
+
+- **Júnior:** Crie um App de Lista de Compras. Requisitos: Layout responsivo, adicionar/remover itens e salvar os dados localmente (AsyncStorage/SharedPrefs) para não perder ao fechar o app.
+- **Pleno:** Desenvolva um App de Filmes consumindo a API do TMDB. Requisitos: Navegação entre telas (Home -> Detalhes), Busca, Favoritos (Banco local: Room/Realm/WatermelonDB) e Tratamento de erros (ex: sem internet).
+- **Sênior:** Crie um "Diário Inteligente" com IA On-Device. Requisitos: O usuário digita ou fala (Speech-to-Text) como foi o dia, e o app usa um modelo local (MediaPipe/TFLite) para classificar o sentimento (Feliz/Triste) e armazenar de forma criptografada.
+
 ---
 
 ## ↩️ Navegação

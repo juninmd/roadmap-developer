@@ -109,6 +109,12 @@ Performance é UX. Ninguém gosta de site lento.
 - **WebSockets:** Comunicação bidirecional em tempo real.
 - **Segurança:** Proteção contra XSS, CSRF e configuração de Content Security Policy (CSP).
 
+### 🏆 Desafios Práticos (Projetos)
+
+- **Júnior:** Construa uma Landing Page responsiva para um produto fictício usando HTML, CSS (Flexbox/Grid) e JavaScript. Deve ter um formulário de contato funcional (pode usar Formspree) e validação de campos.
+- **Pleno:** Crie uma Dashboard de Clima consumindo uma API pública (OpenWeatherMap). Requisitos: Gerenciamento de estado global (Zustand/Redux), gráficos com Recharts/Chart.js e modo Dark/Light.
+- **Sênior:** Desenvolva um E-commerce completo com Next.js (App Router) e Server Actions. Requisitos: Otimização de imagens (LCP < 2.5s), carrinho de compras persistente, SEO técnico e integração com Vercel AI SDK para um chatbot de recomendação de produtos.
+
 ---
 
 ## ↩️ Navegação

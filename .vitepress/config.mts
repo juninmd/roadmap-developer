@@ -17,6 +17,8 @@ export default withMermaid(defineConfig({
         { text: 'Backend', link: '/roadmaps/backend/backend' },
         { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
         { text: 'DevOps', link: '/roadmaps/devops/devops' },
+        { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
+        { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
         { text: 'AI', link: '/roadmaps/ai/artificial-intelligence' }
       ]},
       { text: 'Conselhos', link: '/advices' }
@@ -38,6 +40,8 @@ export default withMermaid(defineConfig({
           { text: 'Backend', link: '/roadmaps/backend/backend' },
           { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
           { text: 'DevOps', link: '/roadmaps/devops/devops' },
+          { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
+          { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
           { text: 'Inteligência Artificial', link: '/roadmaps/ai/artificial-intelligence' }
         ]
       }

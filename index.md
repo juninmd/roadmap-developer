@@ -29,6 +29,12 @@ features:
   - title: DevOps & Platform
     details: Platform Engineering, GitOps, FinOps e Observabilidade com IA.
     link: /roadmaps/devops/devops.md
+  - title: Engenharia de Dados
+    details: Big Data, ETL/ELT, Streaming (Kafka) e Lakehouse Architecture.
+    link: /roadmaps/data/data-engineering.md
+  - title: Cybersecurity
+    details: Zero Trust, DevSecOps, Pentesting e Segurança de IA.
+    link: /roadmaps/security/cybersecurity.md
   - title: Inteligência Artificial
     details: De RAG Avançado e Agentes Autônomos a LLMOps e Fine-Tuning.
     link: /roadmaps/ai/artificial-intelligence.md
@@ -51,6 +57,8 @@ Este projeto não é apenas uma lista de tecnologias. É um guia curado para for
     *   [Frontend](/roadmaps/frontend/frontend.md): Para quem ama criar interfaces incríveis e performáticas.
     *   [Mobile](/roadmaps/mobile/mobile.md): Para quem quer colocar o mundo na palma da mão.
     *   [DevOps](/roadmaps/devops/devops.md): Para os guardiões da infraestrutura e automação.
+    *   [Engenharia de Dados](/roadmaps/data/data-engineering.md): Para os arquitetos da informação.
+    *   [Cybersecurity](/roadmaps/security/cybersecurity.md): Para os guardiões digitais.
     *   [Inteligência Artificial](/roadmaps/ai/artificial-intelligence.md): Para os arquitetos da nova era.
 
 ## 💡 Conselhos de Carreira

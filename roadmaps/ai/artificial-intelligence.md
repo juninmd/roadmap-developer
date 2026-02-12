@@ -169,11 +169,11 @@ Não construa Skynet sem querer.
 
 ---
 
-## 🏗️ Projetos para Portfólio (Por Nível)
+### 🏆 Desafios Práticos (Projetos)
 
-1.  **Iniciante:** Dashboard no Streamlit analisando dados públicos do governo.
-2.  **Intermediário:** App que reconhece plantas por foto (usando PyTorch/FastAPI).
-3.  **Avançado:** "Chatbot com seu PDF" usando RAG local (Ollama + LangChain + Streamlit) ou um Agente que pesquisa notícias e resume no Slack.
+- **Iniciante:** Dashboard no Streamlit analisando dados públicos do governo. Foco em limpeza de dados com Pandas e visualização.
+- **Intermediário:** App que reconhece plantas por foto (usando PyTorch/FastAPI). Treine um modelo simples (Transfer Learning com ResNet) e sirva via API.
+- **Avançado:** "Chatbot com seu PDF" usando RAG local (Ollama + LangChain + Streamlit) ou um Agente que pesquisa notícias, resume e posta no Slack automaticamente.
 
 ---
 
