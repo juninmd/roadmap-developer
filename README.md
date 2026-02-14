@@ -13,11 +13,11 @@
 
 ## 🌐 Acesse o Site
 
-O conteúdo deste repositório é melhor visualizado através do nosso site de documentação:
+O conteúdo deste repositório é melhor visualizado através do nosso site de documentação.
 
 > **[Acessar Roadmap Developer 2026](https://seu-usuario.github.io/roadmap-developer-2026/)**
 >
-> *Nota: A URL acima será ativada automaticamente após o primeiro deploy via GitHub Pages.*
+> *Nota: A URL acima será ativada automaticamente após o primeiro deploy via GitHub Pages. Lembre-se de substituir `seu-usuario` pelo seu username do GitHub.*
 
 ---
 
@@ -31,6 +31,16 @@ Este projeto foi atualizado para refletir o mercado de tecnologia em **2026**, f
 *   [**Mobile**](./roadmaps/mobile/mobile.md): On-Device AI (ExecuTorch), Kotlin Multiplatform e Superapps.
 *   [**Inteligência Artificial**](./roadmaps/ai/artificial-intelligence.md): Agentes Autônomos, LLMOps, Fine-Tuning e Sistemas Compostos.
 *   [**DevOps & Platform**](./roadmaps/devops/devops.md): Platform Engineering, FinOps e GitOps.
+*   [**Engenharia de Dados**](./roadmaps/data/data-engineering.md): Lakehouse, Streaming e Governança.
+*   [**Cybersecurity**](./roadmaps/security/cybersecurity.md): Zero Trust, DevSecOps e Segurança de IA.
+
+## ⚙️ Configuração do Repositório
+
+Para usar este roadmap no seu próprio GitHub Pages:
+
+1.  Vá em **Settings > Pages** no seu repositório.
+2.  Em "Build and deployment", selecione **GitHub Actions**.
+3.  Edite o arquivo `README.md` e substitua todas as ocorrências de `seu-usuario` pelo seu nome de usuário do GitHub.
 
 ## 🚀 Rodando Localmente
 
