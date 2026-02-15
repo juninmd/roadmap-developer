@@ -47,7 +47,7 @@ O mercado mudou. O que era "sênior" em 2023 é "básico" em 2026. A Inteligênc
 Este projeto não é apenas uma lista de tecnologias. É um guia curado para formar **Engenheiros de Software Completos**, preparados para:
 *   **Trabalhar com Agentes de IA** como pares.
 *   **Construir Sistemas Sustentáveis** (Green Software).
-*   **Focar na Experiência do Usuário e Soft Skills** enquanto a IA escreve o boilerplate.
+*   **Focar na User Experience (UX) e Soft Skills** enquanto a IA escreve o boilerplate.
 
 ## 🗺️ Sua Jornada Começa Aqui
 
