@@ -47,11 +47,11 @@ O mercado mudou. O que era "sênior" em 2023 é "básico" em 2026. A Inteligênc
 Este projeto não é apenas uma lista de tecnologias. É um guia curado para formar **Engenheiros de Software Completos**, preparados para:
 *   **Trabalhar com Agentes de IA** como pares.
 *   **Construir Sistemas Sustentáveis** (Green Software).
-*   **Focar na Experiência do Usuário** enquanto a IA escreve o boilerplate.
+*   **Focar na Experiência do Usuário e Soft Skills** enquanto a IA escreve o boilerplate.
 
 ## 🗺️ Sua Jornada Começa Aqui
 
-1.  **[Trilha Comum (Base)](/roadmaps/general/common.md)**: O básico que todo dev precisa saber (Git, Lógica, IA Literacy). **Obrigatório para todos.**
+1.  **[Trilha Comum (Base)](/roadmaps/general/common.md)**: Agora estruturada em níveis, do básico à gestão de carreira. **Obrigatório para todos.**
 2.  **Escolha sua Especialização:**
     *   [Backend](/roadmaps/backend/backend.md): Para quem gosta de lógica, dados e sistemas robustos.
     *   [Frontend](/roadmaps/frontend/frontend.md): Para quem ama criar interfaces incríveis e performáticas.
