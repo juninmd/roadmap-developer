@@ -148,6 +148,11 @@ Para chegar ao nível especialista, a prática não basta. Você precisa de teor
 - **[Hussein Nasser](https://www.youtube.com/@hnasr):** Engenharia de Backend pura e profunda (Protocolos, Database Internals).
 - **[Arpit Bhayani](https://www.youtube.com/@ArpitBhayani):** System Design para o mundo real e alta escala.
 
+### 🧠 Soft Skills & Diferencial Humano
+- **Negociação com Stakeholders:** Você será pressionado por prazos. Aprenda a explicar "Débito Técnico" como uma dívida financeira: "Se não pagarmos agora, os juros (bugs e lentidão) vão inviabilizar o projeto".
+- **Comunicação com Frontend:** Não jogue o JSON por cima do muro. Combine o contrato da API (Swagger/OpenAPI) *antes* de começar a codar.
+- **Pragmatismo:** Nem tudo precisa ser microsserviços. Nem tudo precisa ser Kubernetes. A solução mais simples que resolve o problema é a melhor.
+
 ### 🏆 Desafios Práticos (Projetos)
 
 - **Júnior:** Crie uma API REST para um gerenciador de tarefas (To-Do List) com CRUD completo, autenticação JWT e documentação no Swagger. Use PostgreSQL.

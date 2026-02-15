@@ -169,6 +169,11 @@ Não construa Skynet sem querer.
 
 ---
 
+### 🧠 Soft Skills & Diferencial Humano
+- **Ética e Responsabilidade:** Você está criando cérebros. Garanta que eles não sejam tendenciosos ou perigosos.
+- **Explicabilidade:** "O modelo disse isso" não é resposta para um banco que negou crédito. Saiba explicar o *porquê*.
+- **Ceticismo Científico:** Não caia no hype. Teste, meça e valide. Nem tudo precisa de LLM.
+
 ### 🏆 Desafios Práticos (Projetos)
 
 - **Iniciante:** Dashboard no Streamlit analisando dados públicos do governo. Foco em limpeza de dados com Pandas e visualização.

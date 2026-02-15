@@ -91,6 +91,11 @@ Segurança automatizada no ciclo de desenvolvimento.
 - **Model Theft:** Proteger os pesos do seu modelo de IA.
 - **AI Red Teaming:** Simular ataques adversários contra agentes autônomos.
 
+### 🧠 Soft Skills & Diferencial Humano
+- **Paranoia Saudável vs Usabilidade:** Segurança que impede o trabalho será contornada. Encontre o equilíbrio.
+- **Comunicação sob Pressão:** Durante um ataque, a diretoria vai querer respostas. Aprenda a comunicar fatos sem causar pânico.
+- **Curiosidade Infinita:** O hacker só precisa acertar uma vez; você precisa acertar sempre. Estude as novas técnicas de ataque antes que elas cheguem em você.
+
 ### 🏆 Desafios Práticos (Projetos)
 
 - **Júnior:** Configure um servidor Linux em uma VM, feche todas as portas exceto SSH (com chave, sem senha) e configure um firewall (UFW). Use o Nmap para verificar se está seguro.

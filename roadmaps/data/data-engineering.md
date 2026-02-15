@@ -97,6 +97,11 @@ O melhor dos dois mundos (Warehouse + Lake).
 - **Qualidade de Dados:** Great Expectations, Soda. Testes automáticos para seus dados (Data Contracts).
 - **Privacidade:** LGPD/GDPR. Mascaramento de dados sensíveis (PII).
 
+### 🧠 Soft Skills & Diferencial Humano
+- **Data Storytelling:** Um CSV gigante não convence ninguém. Aprenda a contar a história por trás dos números para a diretoria.
+- **Ética e Privacidade:** Você tem acesso a dados sensíveis. Seja o guardião da privacidade do usuário, não apenas quem move bytes.
+- **Tradutor de Negócios:** Entenda que "quero ver as vendas" pode significar 10 métricas diferentes. Pergunte "para que decisão você precisa desse dado?".
+
 ### 🏆 Desafios Práticos (Projetos)
 
 - **Júnior:** Baixe um dataset público (Kaggle), limpe-o com Python, modele um Star Schema e carregue em um banco Postgres. Crie queries SQL respondendo perguntas de negócio.

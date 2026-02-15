@@ -109,6 +109,11 @@ Performance é UX. Ninguém gosta de site lento.
 - **WebSockets:** Comunicação bidirecional em tempo real.
 - **Segurança:** Proteção contra XSS, CSRF e configuração de Content Security Policy (CSP).
 
+### 🧠 Soft Skills & Diferencial Humano
+- **Empatia com Design:** Não diga "isso é impossível". Diga "isso é custoso, podemos simplificar assim?". Entenda que o pixel perfect importa para a marca.
+- **Advogado do Usuário:** Você é a última linha de defesa antes do usuário. Se o fluxo está confuso, levante a mão. Não implemente cegamente telas ruins.
+- **Colaboração com Backend:** Entenda as limitações da API. Negocie payloads menores e estratégias de cache para melhorar a performance.
+
 ### 🏆 Desafios Práticos (Projetos)
 
 - **Júnior:** Construa uma Landing Page responsiva para um produto fictício usando HTML, CSS (Flexbox/Grid) e JavaScript. Deve ter um formulário de contato funcional (pode usar Formspree) e validação de campos.

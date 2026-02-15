@@ -106,6 +106,11 @@ DevOps é cultura, e cultura se aprende com histórias e práticas.
 - **["The DevOps Handbook"](https://itrevolution.com/product/the-devops-handbook/):** O manual prático que segue o "Phoenix Project".
 - **["Site Reliability Engineering" (Google)](https://sre.google/books/):** Como o Google mantém seus sistemas no ar. O nascimento do conceito de SRE.
 
+### 🧠 Soft Skills & Diferencial Humano
+- **Cultura Sem Culpa (Blameless):** Quando algo quebra, não procure o culpado, procure a causa raiz. Se um dev derrubou a produção, é porque o pipeline permitiu.
+- **Evangelista de Automação:** Seu trabalho é eliminar o seu próprio trabalho manual. Ensine os times de desenvolvimento a serem autônomos.
+- **Gestão de Crise:** Manter a calma quando o Slack está pegando fogo é a sua habilidade mais valiosa.
+
 ### 🏆 Desafios Práticos (Projetos)
 
 - **Júnior:** Configure um pipeline básico de CI/CD com GitHub Actions para uma aplicação Node.js. Requisitos: Rodar o lint, os testes e construir a imagem Docker apenas se passar nos testes.
