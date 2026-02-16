@@ -103,6 +103,12 @@ Em mobile, as coisas mudam todo ano nas conferências oficiais. Acompanhe:
 - **[Android Developers (YouTube)](https://www.youtube.com/user/androiddevelopers):** O canal oficial. Assista aos vídeos da *Google I/O* todo ano.
 - **[Apple Developer (WWDC)](https://developer.apple.com/wwdc/):** Instale o app "Developer" da Apple. Assista às sessões da *WWDC* para saber o que há de novo no Swift e SwiftUI.
 
+### 🌿 Green Mobile Development
+Apps mal otimizados matam a bateria e geram lixo eletrônico (troca de aparelhos).
+- **Eficiência Energética:** Evite wake-locks desnecessários e polling contínuo de rede.
+- **Tamanho do App:** Apps menores são baixados mais rápido (menos dados) e ocupam menos espaço.
+- **Retrocompatibilidade:** Suportar aparelhos antigos evita que eles virem lixo precocemente.
+
 ### 🧠 Soft Skills & Diferencial Humano
 - **Contexto de Uso:** O usuário usa seu app na fila do banco, no ônibus, com sol na tela. Desenvolva pensando nessas condições (contraste, áreas de toque grandes, modo offline).
 - **Respeito aos Recursos:** Não drene a bateria do usuário com processos em background desnecessários. Isso gera desinstalação imediata.

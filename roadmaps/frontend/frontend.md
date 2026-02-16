@@ -109,6 +109,12 @@ Performance é UX. Ninguém gosta de site lento.
 - **WebSockets:** Comunicação bidirecional em tempo real.
 - **Segurança:** Proteção contra XSS, CSRF e configuração de Content Security Policy (CSP).
 
+### 🌿 Green Frontend & Sustentabilidade
+A web consome energia. Você pode ajudar a reduzir isso.
+- **Peso da Página:** Imagens otimizadas (AVIF/WebP) e bundle JS reduzido significam menos transferência de dados e menos energia.
+- **Renderização Eficiente:** Evite re-renders desnecessários que gastam CPU do dispositivo do usuário.
+- **Dark Mode:** Em telas OLED, pixels pretos estão desligados e economizam bateria.
+
 ### 🧠 Soft Skills & Diferencial Humano
 - **Empatia com Design:** Não diga "isso é impossível". Diga "isso é custoso, podemos simplificar assim?". Entenda que o pixel perfect importa para a marca.
 - **Advogado do Usuário:** Você é a última linha de defesa antes do usuário. Se o fluxo está confuso, levante a mão. Não implemente cegamente telas ruins.
