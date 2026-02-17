@@ -55,7 +55,7 @@ Este projeto não é apenas uma lista de tecnologias. É um guia curado para for
 2.  **Escolha sua Especialização:**
     *   [Backend](/roadmaps/backend/backend.md): Para quem gosta de lógica, dados e sistemas robustos.
     *   [Frontend](/roadmaps/frontend/frontend.md): Para quem ama criar interfaces incríveis e performáticas.
-    *   **Full Stack**: O pacote completo. Combine os conhecimentos de **Frontend** e **Backend** para construir produtos de ponta a ponta.
+    *   [Full Stack](/roadmaps/fullstack/fullstack.md): O pacote completo. Combine os conhecimentos de **Frontend** e **Backend** para construir produtos de ponta a ponta.
     *   [Mobile](/roadmaps/mobile/mobile.md): Para quem quer colocar o mundo na palma da mão.
     *   [DevOps](/roadmaps/devops/devops.md): Para os guardiões da infraestrutura e automação.
     *   [Engenharia de Dados](/roadmaps/data/data-engineering.md): Para os arquitetos da informação.
