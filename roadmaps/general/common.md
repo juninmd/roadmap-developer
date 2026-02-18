@@ -129,6 +129,7 @@ Agora que você tem a base, escolha sua especialização:
 
 *   [**Backend**](../backend/backend.md)
 *   [**Frontend**](../frontend/frontend.md)
+*   [**Full Stack**](../fullstack/fullstack.md)
 *   [**Mobile**](../mobile/mobile.md)
 *   [**DevOps**](../devops/devops.md)
 *   [**Engenharia de Dados**](../data/data-engineering.md)
