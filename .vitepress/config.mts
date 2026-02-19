@@ -8,7 +8,14 @@ export default withMermaid(defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   srcExclude: ['README.md', 'AGENTS.md'],
-  outDir: './dist',
+  vite: {
+    ssr: {
+      noExternal: ['mermaid', 'vitepress-plugin-mermaid']
+    },
+    optimizeDeps: {
+      include: ['mermaid']
+    }
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
