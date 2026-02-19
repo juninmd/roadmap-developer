@@ -2,6 +2,10 @@
   "name": "roadmap-developer-2026",
   "version": "1.0.2",
   "description": "Guia para desenvolvedores completo e atualizado para 2026. Transformado em site estático com VitePress.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
@@ -20,7 +24,7 @@
   ],
   "author": "Roadmap Developer Community",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "mermaid": "^11.12.2",
     "vitepress": "^1.0.0",
     "vitepress-plugin-mermaid": "^2.0.17"
