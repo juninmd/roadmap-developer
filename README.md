@@ -64,7 +64,7 @@ Para rodar o site de documentação na sua máquina:
     ```bash
     npm run docs:build
     ```
-    Os arquivos estáticos serão gerados na pasta `dist`.
+    Os arquivos estáticos serão gerados na pasta `.vitepress/dist`.
 
 ## 📦 Deploy
 
