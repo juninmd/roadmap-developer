@@ -86,6 +86,13 @@ Segurança automatizada no ciclo de desenvolvimento.
 - **Threat Hunting:** Procurar ativamente por ameaças que passaram pelas defesas.
 - **Forensics:** Analisar memória e disco para entender o que o atacante fez.
 
+### ⚛️ Criptografia Pós-Quântica (PQC)
+Computadores quânticos vão quebrar RSA e ECC em breve. Prepare-se agora.
+- **Ameaça "Harvest Now, Decrypt Later":** Atacantes estão salvando dados criptografados hoje para quebrar no futuro.
+- **Novos Padrões NIST:** Migre para algoritmos resistentes a ataques quânticos.
+  - **Kyber (ML-KEM):** Para troca de chaves (Key Encapsulation).
+  - **Dilithium (ML-DSA):** Para assinaturas digitais.
+
 ### 🤖 AI Security (O Novo Front de 2026)
 - **Prompt Injection:** Como impedir que usuários manipulem seu LLM.
 - **Model Theft:** Proteger os pesos do seu modelo de IA.
