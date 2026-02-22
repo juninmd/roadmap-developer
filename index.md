@@ -23,6 +23,9 @@ features:
   - title: Backend Moderno
     details: Arquitetura, Microsserviços, Green Software e Engenharia de IA.
     link: /roadmaps/backend/backend.md
+  - title: Full Stack
+    details: O pacote completo. Combine Frontend e Backend para construir produtos de ponta a ponta.
+    link: /roadmaps/fullstack/fullstack.md
   - title: Mobile & Edge AI
     details: Apps Nativos, KMP e IA rodando no dispositivo (On-Device AI).
     link: /roadmaps/mobile/mobile.md
