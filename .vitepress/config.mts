@@ -14,6 +14,16 @@ export default withMermaid(defineConfig({
     },
     optimizeDeps: {
       include: ['mermaid']
+    },
+    build: {
+      chunkSizeWarningLimit: 600,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            mermaid: ['mermaid']
+          }
+        }
+      }
     }
   },
   themeConfig: {
