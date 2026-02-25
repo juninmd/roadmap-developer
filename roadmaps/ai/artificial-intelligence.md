@@ -24,7 +24,7 @@ Esta trilha foi desenhada para guiar você desde os primeiros passos até os con
 
 ---
 
-## 🐣 Nível Iniciante: O Aprendiz de Feiticeiro
+## 🐣 Nível Iniciante (Júnior): O Aprendiz de Feiticeiro
 
 Aqui construímos a fundação. Sem ela, seus modelos desmoronam.
 
@@ -56,7 +56,7 @@ Antes de correr com Deep Learning, aprenda a andar com algoritmos clássicos.
 
 ---
 
-## 🚀 Nível Intermediário: O Mago Praticante
+## 🚀 Nível Intermediário (Pleno): O Mago Praticante
 
 Hora de usar redes neurais para resolver problemas que o código clássico não consegue (visão, texto, áudio).
 
@@ -105,7 +105,7 @@ Não basta treinar, tem que monitorar.
 
 ---
 
-## 🧙‍♂️ Nível Avançado: Escolha sua Especialização
+## 🧙‍♂️ Nível Avançado (Sênior / Especialista): Escolha sua Especialização
 
 Neste ponto, a estrada se divide. Você vai construir os modelos (Research) ou construir *com* os modelos (Engineering)?
 
@@ -143,8 +143,9 @@ O futuro da automação. O modelo não só fala, ele *faz*.
 
 - **Arquiteturas e Frameworks:**
   - **ReAct:** Reason + Act. O loop básico de pensamento.
-  - **Multi-Agent Systems:** CrewAI, AutoGen.
+  - **Multi-Agent Systems:** CrewAI, AutoGen, **Smolagents (Hugging Face)**.
   - **LangGraph:** Controle granular de estado e loops. Essencial para produção.
+  - **PydanticAI:** Agentes focados em Type-Safe e validação rigorosa (Production Ready).
   - **DSPy:** A morte do "Prompt Engineering" manual. Um framework que otimiza prompts automaticamente baseado em métricas de qualidade. Você define a lógica, o DSPy encontra o prompt perfeito.
   - **MCP (Model Context Protocol):** O padrão universal para conectar Agentes aos seus dados e ferramentas.
 
