@@ -12,15 +12,11 @@ export default withMermaid(defineConfig({
     ssr: {
       noExternal: ['mermaid', 'vitepress-plugin-mermaid']
     },
+    optimizeDeps: {
+      include: ['mermaid']
+    },
     build: {
-      chunkSizeWarningLimit: 600,
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            mermaid: ['mermaid']
-          }
-        }
-      }
+      chunkSizeWarningLimit: 600
     }
   },
   themeConfig: {
