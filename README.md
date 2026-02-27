@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Status-Atualizado%202026-success?style=flat-square" alt="Status Atualizado">
   <img src="https://img.shields.io/github/license/roadmap-developer-community/roadmap-developer-2026?style=flat-square" alt="License">
   <br><br>
-  <img height="200" src="https://github.blog/wp-content/uploads/2012/03/codercat.jpg?fit=896%2C896">
+  <img height="200" src=".vitepress/public/coder-cat.jpg">
   <h3>O Guia Definitivo para sua Carreira na Era da IA</h3>
   <p>Trilhas de estudo completas, desde o nível Júnior até Especialista, transformadas em um site estático moderno com VitePress.</p>
 </div>

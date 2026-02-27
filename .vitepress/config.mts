@@ -8,6 +8,14 @@ export default withMermaid(defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   srcExclude: ['README.md', 'AGENTS.md'],
+  head: [
+    ['link', { rel: 'icon', href: '/coder-cat.jpg' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'pt_BR' }],
+    ['meta', { property: 'og:title', content: 'Roadmap Developer 2026' }],
+    ['meta', { property: 'og:site_name', content: 'Roadmap Developer 2026' }],
+    ['meta', { property: 'og:image', content: '/coder-cat.jpg' }],
+  ],
   vite: {
     ssr: {
       noExternal: ['mermaid', 'vitepress-plugin-mermaid']
@@ -16,7 +24,7 @@ export default withMermaid(defineConfig({
       include: ['mermaid']
     },
     build: {
-      chunkSizeWarningLimit: 600
+      chunkSizeWarningLimit: 1200
     }
   },
   themeConfig: {

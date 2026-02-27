@@ -6,7 +6,7 @@ hero:
   text: O Guia Definitivo para sua Carreira
   tagline: Trilhas de estudo completas e atualizadas para formar desenvolvedores de elite na Era da IA.
   image:
-    src: https://github.blog/wp-content/uploads/2012/03/codercat.jpg?fit=896%2C896
+    src: /coder-cat.jpg
     alt: Coder Cat
   actions:
     - theme: brand
