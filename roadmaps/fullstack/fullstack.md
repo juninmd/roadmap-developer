@@ -81,6 +81,11 @@ Onde você desenha sistemas resilientes e integra Inteligência Artificial.
 - **Serverless vs Edge:** Rodar código perto do usuário (Cloudflare Workers) para latência mínima.
 - **Filas e Jobs:** Tirar tarefas pesadas (envio de email, processamento de imagem) do ciclo de requisição HTTP. (Redis + BullMQ).
 
+### 🌍 Local-First Architecture
+Sistemas onde a fonte da verdade é o cliente e os servidores sincronizam no background.
+- **Offline-First:** O app funciona perfeitamente sem internet (PWA + Bancos de dados locais como Dexie.js ou PouchDB).
+- **CRDTs (Conflict-free Replicated Data Types):** Sincronização automática e resolução de conflitos para colaboração em tempo real (como o Google Docs). Ferramentas como **Yjs** ou **Automerge**.
+
 ### 🤖 Fullstack AI Engineering
 A integração profunda de modelos de IA no produto.
 - **Vercel AI SDK:** O padrão para construir interfaces de chat e streaming de texto/componentes.

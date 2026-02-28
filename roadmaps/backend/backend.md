@@ -97,7 +97,9 @@ Sistemas distribuídos precisam conversar sem travar.
 
 Onde você projeta sistemas complexos, escaláveis e inteligentes.
 
-### 🏗️ Arquitetura de Software
+### 🏗️ Arquitetura de Software e Alta Performance
+- **Rust & Go para Microsserviços:** Adoção de linguagens compiladas para economizar CPU/Memória na nuvem e entregar APIs super rápidas.
+- **WebAssembly (Wasm) no Backend:** Escrever módulos de código (Rust, Go, C++) que rodam de forma segura e com performance nativa em ambientes Edge e Serverless.
 - **Microsserviços:** Quando usar (e principalmente quando NÃO usar).
 - **Domain-Driven Design (DDD):** Modelando o software de acordo com a complexidade do negócio.
 - **Serverless:** AWS Lambda, Cloudflare Workers. Foco no código, zero infra.

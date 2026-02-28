@@ -86,8 +86,9 @@ Onde a engenharia de software encontra a arte e a inteligência artificial.
 
 ### 🏗️ Arquitetura de Frontend
 - **Micro-frontends:** Module Federation. Como dividir um sistema gigante em partes menores.
-- **Server Components (RSC):** O novo paradigma do React e Next.js. Renderizar no servidor o que não precisa de interatividade.
-- **Server Actions:** O padrão recomendado para executar mutações de dados e operações de IA (como chamar a OpenAI) de forma segura a partir do frontend, sem expor chaves de API.
+- **Server Components (RSC) e Next.js 15+:** O paradigma moderno de renderização mista de páginas web.
+  - **Partial Prerendering (PPR):** Combinar uma página estática super rápida com pedaços dinâmicos renderizados via stream, com suspenses.
+- **Server Actions (Avançado):** Lógica que roda no servidor a partir do front end, útil para mutações em bancos de dados ou chamadas de API, garantindo segurança ao invés de expor endpoints.
 - **Server-Driven UI (HTMX):** A alternativa radical às SPAs complexas. Retornar HTML do servidor em vez de JSON, ideal para aplicações "dashboard-like" e redução de complexidade.
 
 ### ⚡ Performance & Core Web Vitals

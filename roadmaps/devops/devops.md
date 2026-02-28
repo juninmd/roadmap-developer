@@ -74,7 +74,8 @@ Nunca configure servidores manualmente (ClickOps).
 
 Onde você constrói plataformas para outros desenvolvedores e garante a estabilidade de sistemas globais.
 
-### 🔭 Observabilidade (Não é só Monitoramento)
+### 🔭 Observabilidade e Redes de Nova Geração
+- **eBPF (Extended Berkeley Packet Filter):** Executar programas diretamente no Kernel do Linux, em tempo real, fornecendo métricas profundas, segurança (Cilium) e observabilidade com zero modificação no código ou agentes complexos.
 - **OpenTelemetry:** O padrão para coletar Logs, Métricas e Traces.
 - **Ferramentas:** Prometheus (Métricas), Grafana (Dashboards), Jaeger/Tempo (Tracing).
 - **SLIs, SLOs e SLAs:** Definindo e medindo a confiabilidade do serviço com dados reais.
