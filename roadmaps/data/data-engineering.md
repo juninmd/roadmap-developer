@@ -87,10 +87,11 @@ Dados que perdem valor em segundos (fraude, IoT, mercado financeiro).
 - **Apache Kafka:** O backbone de mensagens. Tópicos, Partições, Offsets.
 - **Stream Processing:** Kafka Streams, Apache Flink ou Spark Structured Streaming.
 
-### 🏠 Lakehouse Architecture
-O melhor dos dois mundos (Warehouse + Lake).
-- **Formatos Abertos:** Parquet, Avro, Iceberg, Delta Lake. ACID em cima de object storage (S3).
-- **Medallion Architecture:** Camadas Bronze (Bruto), Silver (Limpo/Enriquecido), Gold (Agregado para BI).
+### 🏠 Lakehouse, Data Mesh e Data Fabric
+A arquitetura não deve ser monolítica e deve focar nas responsabilidades.
+- **Lakehouse:** Formatos abertos (Parquet, Iceberg, Delta Lake) com transações ACID em cima de Object Storage (S3). Implementação da arquitetura medalhão (Bronze, Prata e Ouro).
+- **Data Mesh:** Tratar dados como produtos com donos de diferentes domínios, descentralizando a engenharia de dados, usando conectores interoperáveis para unir toda a malha de conhecimento.
+- **Data Fabric:** Um conjunto de ferramentas para criar, monitorar, governar os fluxos, ajudando a automatizar grande parte dos metadados e descobertas sobre governança na malha.
 
 ### 👮 Governança e DataOps
 - **Catálogo de Dados:** DataHub, Amundsen. Onde está o dado? Quem é o dono?

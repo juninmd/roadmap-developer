@@ -97,6 +97,7 @@ O mundo não é feito só de texto. Modelos que veem, ouvem e falam.
 - **Audio Generation:** Text-to-Speech (TTS) e Music Generation. (ElevenLabs, Suno, Udio).
 - **Video Generation:** Sora, Runway Gen-3. A complexidade da consistência temporal.
 - **Vision-Language Models (VLMs):** GPT-4o, LLaVA. Como projetar embeddings de imagem no espaço de texto.
+- **Vision-Language-Action (VLA) Models (Robótica em 2026):** Modelos que além de ver e entender o ambiente, processam e executam as ações mecânicas.
 
 ### ⚙️ MLOps Básico
 Não basta treinar, tem que monitorar.

@@ -66,6 +66,9 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **Chain of Thought:** Peça para a IA "pensar passo a passo" antes de dar a solução final.
   - **Structured Outputs:** Peça respostas em JSON para integrar com seus scripts.
 - **Agentes e Ferramentas:** Entenda a diferença entre um chatbot (que só fala) e um Agente (que pode executar comandos no terminal, acessar a web e modificar arquivos).
+- **Agentic Coding Workflows (2026):**
+  - **Uso de LLMs como pares:** Ferramentas como o GitHub Copilot Workspace, Aider e SWE-agent mudaram a forma de codar. Você não digita linha por linha, você planeja e o agente escreve, você revisa e orquestra as mudanças.
+  - **Ferramentas:** Dominar a integração do editor de código (Cursor, Windsurf) para que a IA tenha acesso completo ao contexto e árvore de arquivos.
 
 ### 🐧 Linux, Terminal e Sistemas Operacionais
 

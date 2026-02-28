@@ -77,6 +77,7 @@ Construa apps robustos, que funcionam offline e encantam o usuário.
 Otimização extrema, arquitetura limpa e Inteligência Artificial no dispositivo.
 
 ### 🏗️ Arquitetura Mobile Avançada
+- **Compose Multiplatform (Avançado):** Levar a UI declarativa do Kotlin para além do Android e iOS, compilando telas nativas para Desktop (Mac/Windows) e WebAssembly a partir do mesmo código.
 - **Clean Architecture:** Separação de responsabilidades (Domain, Data, Presentation).
 - **MVVM / MVI:** Padrões unidirecionais para interfaces reativas e testáveis.
 - **Modularização:** Dividir o app em múltiplos pacotes/módulos para acelerar o build e escalar times grandes.
