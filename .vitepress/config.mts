@@ -24,7 +24,7 @@ export default withMermaid(defineConfig({
       include: ['mermaid']
     },
     build: {
-      chunkSizeWarningLimit: 1200
+      chunkSizeWarningLimit: 1500
     }
   },
   themeConfig: {
@@ -56,6 +56,7 @@ export default withMermaid(defineConfig({
         text: 'Trilhas de Estudo',
         items: [
           { text: 'Trilha Comum (Base)', link: '/roadmaps/general/common' },
+        { text: 'Padrões de Especialista (2026)', link: '/roadmaps/general/2026-specialist-patterns' },
           { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
           { text: 'Backend', link: '/roadmaps/backend/backend' },
           { text: 'Full Stack', link: '/roadmaps/fullstack/fullstack' },

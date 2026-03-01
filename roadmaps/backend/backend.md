@@ -98,12 +98,12 @@ Sistemas distribuídos precisam conversar sem travar.
 Onde você projeta sistemas complexos, escaláveis e inteligentes.
 
 ### 🏗️ Arquitetura de Software e Alta Performance
-- **Rust & Go para Microsserviços:** Adoção de linguagens compiladas para economizar CPU/Memória na nuvem e entregar APIs super rápidas.
-- **WebAssembly (Wasm) no Backend:** Escrever módulos de código (Rust, Go, C++) que rodam de forma segura e com performance nativa em ambientes Edge e Serverless.
-- **Microsserviços:** Quando usar (e principalmente quando NÃO usar).
-- **Domain-Driven Design (DDD):** Modelando o software de acordo com a complexidade do negócio.
-- **Serverless:** AWS Lambda, Cloudflare Workers. Foco no código, zero infra.
-- **Event-Driven Architecture:** Kafka e sistemas reativos para alto volume de dados.
+- **Rust & Go para Microsserviços (Green Software):** O uso de linguagens compiladas não é mais só para startups tech; grandes empresas estão migrando microsserviços pesados de Node/Java para Rust/Go, visando redução de custos na nuvem e menor uso de CPU/Memória (FinOps e Sustentabilidade).
+- **WebAssembly (Wasm) no Backend:** O Wasm permite escrever módulos seguros, isolados em sandboxes e super rápidos. Ferramentas como Wasmtime ou Spin rodam nativamente no Edge sem o peso de um container Docker, resolvendo o problema de "Cold Start".
+- **Microsserviços e Modular Monoliths:** Saber quando quebrar a aplicação (microsserviços) e quando usar um monolito modular bem escrito (com namespaces claros), uma tendência forte em 2026 para evitar complexidade prematura de deploy.
+- **Domain-Driven Design (DDD) e CQRS:** O especialista modela o backend acompanhando exatamente os eventos do negócio e separa as rotas de Leitura (Queries) e Escrita (Commands).
+- **Serverless e Edge Computing:** Usar AWS Lambda ou Cloudflare Workers para processamento distribuído mundialmente, respondendo a latências quase nulas.
+- **Event-Driven Architecture:** Kafka, Redpanda e RabbitMQ. Sistemas totalmente assíncronos e orientados a eventos.
 
 ### 📊 Engenharia de Dados para Devs
 O Backend moderno lida com pipelines de dados, não apenas CRUD.
