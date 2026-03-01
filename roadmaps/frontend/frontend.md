@@ -105,10 +105,11 @@ Performance é UX. Ninguém gosta de site lento.
 - **Streaming UI:** Renderizar a interface *token por token* para dar sensação de instantaneidade.
 - **WebGPU & IA no Browser:** Rodar modelos (Llama 3, Whisper) diretamente na GPU do usuário usando **WebLLM** e **Transformers.js**. Privacidade total e zero custo de servidor.
 
-### 🚀 Tópicos Especializados
-- **WebAssembly (Wasm):** Rodar código Rust ou C++ no browser para performance nativa (edição de vídeo, jogos).
-- **WebSockets:** Comunicação bidirecional em tempo real.
-- **Segurança:** Proteção contra XSS, CSRF e configuração de Content Security Policy (CSP).
+### 🚀 Tópicos Especializados e React Server Components (RSC)
+- **WebAssembly (Wasm) e WebGPU:** Escrever e compilar códigos nativos C++/Rust/Go rodando com performance de desktop no browser via Wasm, além de aproveitar os milhares de núcleos da GPU do cliente (WebGPU) para rodar Llama/Whisper localmente com zero custo na AWS (WebLLM / Transformers.js).
+- **Server Components (RSC):** Entender a fronteira difusa entre servidor e cliente (ex: Next.js App Router, Nuxt). Componentes de servidor processam o que é pesado e só entregam a interface limpa via HTML pro cliente, com "Server Actions" substituindo endpoints de API separados para mutations.
+- **Arquitetura Micro-Frontends e Module Federation:** Escalando times gigantes onde cada equipe foca e lança sua parte da interface independentemente.
+- **Segurança Avançada:** Content Security Policy (CSP) rigorosas, proteção contra XSS e CSRF.
 
 ### 🌿 Green Frontend & Sustentabilidade
 A web consome energia. Você pode ajudar a reduzir isso.

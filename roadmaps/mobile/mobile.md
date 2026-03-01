@@ -95,6 +95,11 @@ Otimização extrema, arquitetura limpa e Inteligência Artificial no dispositiv
 - **NPU Acceleration:** Delegar o processamento de IA para o chip neural (Apple Neural Engine / Android NPU) para economizar bateria.
 - **Privacidade (Local RAG):** Usar dados pessoais do dispositivo para dar contexto à IA, sem nunca enviar os dados para a nuvem.
 
+### 📡 Arquitetura Local-First (O Novo Padrão de 2026)
+Em 2026, a frustração com latência de rede é intolerável. Apps nativos devem funcionar perfeitamente offline, sincronizando em background.
+- **O Banco de Dados como API:** Em vez de fazer chamadas REST para carregar a tela, a UI lê de um banco local reativo (SQLite via Room/CoreData ou Realm).
+- **Sincronização Bidirecional e CRDTs:** Ferramentas como PowerSync, ElectricSQL ou Dexie Cloud usam Conflict-free Replicated Data Types para fazer merge de dados locais e remotos automaticamente, permitindo colaboração tipo Google Docs no celular.
+
 ### 🗣️ Interfaces Naturais
 - **Voice UI:** Integração com Whisper local para comandos de voz rápidos.
 - **Multimodalidade:** Usar a câmera para analisar objetos e textos em tempo real.

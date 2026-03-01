@@ -124,11 +124,11 @@ Foco em usar modelos para resolver problemas de negócio. Código robusto, infra
 
 #### 🏗️ Sistemas de IA Compostos (Compound AI Systems)
 O termo "RAG" ficou pequeno. Hoje construímos sistemas onde múltiplos componentes interagem.
-- **Advanced RAG:**
-  - **Hybrid Search:** Vetorial + Palavras-chave (BM25) + Reranking (Cross-Encoder).
-  - **Query Transformation:** Reescrever a pergunta do usuário para encontrar melhores documentos.
-  - **GraphRAG:** Usar Knowledge Graphs para conectar conceitos distantes que a busca vetorial perde.
-  - **Self-RAG (Corrective RAG):** O sistema se avalia ("Isso responde à pergunta?"). Se a resposta for ruim, ele busca de novo ou reescreve. É a IA corrigindo a si mesma.
+- **Advanced RAG (Retrieval-Augmented Generation):**
+  - **GraphRAG:** Em vez de depender apenas da similaridade semântica de banco de vetores (Vector DBs), o GraphRAG constrói grafos de conhecimento (Knowledge Graphs) extraídos dos seus documentos. Isso permite à IA "entender" os relacionamentos indiretos entre entidades (ex: Empresa A comprou a Empresa B), o que a busca vetorial tradicional falha em conectar.
+  - **Hybrid Search & Reranking:** Combinar busca vetorial com algoritmos de palavras-chave (BM25) e aplicar um modelo de *Cross-Encoder* no final para ranquear os melhores trechos. Isso aumenta drasticamente a precisão.
+  - **Query Transformation (Reescrita de Prompt):** O usuário pergunta "onde foi o evento?", a IA reescreve silenciosamente para "Qual a localização da conferência Tech2026 segundo o documento X?" antes de buscar no banco.
+  - **Self-RAG / Corrective RAG (CRAG):** Arquiteturas onde o modelo avalia a própria resposta. Se ele detectar que a informação extraída do banco é insuficiente ou irrelevante, ele pesquisa de novo na internet ou pede esclarecimento ao usuário, corrigindo a si mesmo.
 
 #### 🕵️ Agentes Autônomos & Prompt Programming
 O futuro da automação. O modelo não só fala, ele *faz*.

@@ -125,6 +125,12 @@ Com a IA escrevendo código, suas habilidades humanas valem ouro.
 - **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo.
 - **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub.
 
+### 🏆 Desafios Práticos (Projetos)
+
+- **Nível 1 (Fundação):** Crie uma conta no GitHub, aprenda comandos básicos do Git (add, commit, push, pull) e publique um repositório com um README descrevendo você. Escreva um algoritmo simples em pseudo-código para resolver um problema lógico do seu dia a dia.
+- **Nível 2 (Ferramentas):** Utilize uma IA (como ChatGPT ou Copilot) como parceiro de aprendizado para entender como funciona o protocolo HTTP. Tente criar um container Docker simples (ex: rodando uma imagem do Nginx) usando o terminal do Linux.
+- **Nível 3 (Profissional Completo):** Leia um artigo técnico em inglês, aplique a técnica Pomodoro para focar por 2 horas nos estudos, e escreva um pequeno resumo no GitHub explicando o que aprendeu. Reflita sobre sua comunicação em interações passadas.
+
 ---
 ## 🚦 Próximos Passos
 
