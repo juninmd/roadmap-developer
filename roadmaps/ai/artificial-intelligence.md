@@ -145,7 +145,7 @@ O LLM puro de 2024 ficou no passado. O futuro de 2026 é do Software de Automaç
   - **Multi-Agent Orchestrators:** **LangGraph** (Padrão ouro para controle de estado complexo em grafos), CrewAI, AutoGen, e o recém chegado **Smolagents (Hugging Face)** para agentes diretos e eficientes.
   - **Production-Ready & Type-Safe:** Usar **PydanticAI** ou similares para tipar o output de um modelo. Agentes instáveis morrem, sistemas determinísticos ficam.
   - **O Fim do Prompting Manual:** **DSPy** trata o modelo de IA como um "processador". Você escreve código python, define as entradas/saídas, e o DSPy, via otimizadores teóricos, altera o prompt no backend de forma estatística até alcançar 99% de acurácia. Prompt Engineering virou Compilação.
-  - **MCP (Model Context Protocol):** Universalização da comunicação. Em 2026, você não refaz as APIs; você expõe servidores MCP que permitem que Claude, Windsurf, Cursor, Llama-3 consumam suas bases corporativas imediatamente.
+  - **MCP (Model Context Protocol):** Universalização da comunicação. Em 2026, você não refaz as APIs; você expõe servidores MCP que permitem que Claude, Mistral, Cursor, Llama-3 consumam suas bases corporativas imediatamente.
 
 #### ⚖️ LLM Ops & Engenharia de IA
 - **Evals (Unit Tests para IA):** "Minha mudança no prompt melhorou ou piorou o bot?". Use **Ragas**, **DeepEval** ou crie seu próprio dataset de "Golden Answers".
