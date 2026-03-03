@@ -96,8 +96,8 @@ Computadores quânticos vão quebrar RSA e ECC em breve. Prepare-se agora.
 ### 🤖 AI Security & AI Red Teaming (O Novo Front de 2026)
 Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um oceano inteiro de novas superfícies de ataque para 2026.
 - **OWASP Top 10 para LLMs:** A extensão natural das vulnerabilidades tradicionais aplicadas para a era GenAI.
-- **Prompt Injection e Jailbreaking (Avançado):** Usuários forçando modelos corporativos a exfiltrarem chaves de banco de dados e senhas via SQL Injection camuflado (Agentic Phishing).
-- **Data Poisoning & Supply Chain Attacks (HuggingFace):** O que acontece se o time de IA importar pesos infectados do HuggingFace ou dados maliciosos durante o Fine-Tuning de um modelo LLM e corromper seu output?
+- **Prompt Injection e Jailbreaking (Avançado):** Usuários forçando modelos corporativos a exfiltrarem chaves de banco de dados e senhas via injeção de comandos maliciosos disfarçados de linguagem natural.
+- **Data Poisoning & Supply Chain Attacks (HuggingFace):** Risco de corromper o output de um modelo de IA ao importar pesos infectados do HuggingFace ou ao usar dados maliciosos durante o Fine-Tuning.
 - **AI Red Teaming:** O papel mais valorizado em 2026. Você ataca seu próprio modelo, simulando atores maliciosos. Tenta fazê-lo gerar conteúdo tóxico ou vazar segredos financeiros, para que a equipe aplique o alinhamento adequado (Guardrails).
 - **Model Theft (Roubo de Pesos):** Proteger o segredo industrial, o intelecto treinado do seu modelo LLM privado, contra vazamentos de instâncias.
 
