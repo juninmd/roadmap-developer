@@ -87,16 +87,20 @@ Dados que perdem valor em segundos (fraude, IoT, mercado financeiro).
 - **Apache Kafka:** O backbone de mensagens. Tópicos, Partições, Offsets.
 - **Stream Processing:** Kafka Streams, Apache Flink ou Spark Structured Streaming.
 
-### 🏠 Lakehouse, Data Mesh e Data Fabric
-A arquitetura não deve ser monolítica e deve focar nas responsabilidades.
-- **Lakehouse:** Formatos abertos (Parquet, Iceberg, Delta Lake) com transações ACID em cima de Object Storage (S3). Implementação da arquitetura medalhão (Bronze, Prata e Ouro).
-- **Data Mesh:** Tratar dados como produtos com donos de diferentes domínios, descentralizando a engenharia de dados, usando conectores interoperáveis para unir toda a malha de conhecimento.
-- **Data Fabric:** Um conjunto de ferramentas para criar, monitorar, governar os fluxos, ajudando a automatizar grande parte dos metadados e descobertas sobre governança na malha.
+### 🏠 Arquitetura de Dados em 2026: Lakehouse, Data Mesh e Data Fabric
+A arquitetura de dados não é mais um "monolito de DW onde os dados vão para morrer". Ela deve focar na distribuição, governança autônoma e em servir de combustível para GenAI.
+- **Lakehouse Architecture (O Padrão Ouro):** A união entre a escalabilidade e o baixo custo de armazenamento (Data Lakes no S3/Blob) com a robustez e transações ACID dos bancos de dados tradicionais.
+  - Formatos Open Table: **Apache Iceberg**, **Delta Lake**, **Apache Hudi**. Usar o formato correto evita a dependência de fornecedores (Vendor Lock-in).
+  - Arquitetura Medalhão: A evolução passo a passo dos dados: *Bronze* (Dado Raw/Bruto como o JSON da API), *Prata* (Dado limpo, padronizado com schema, ex: data convertida de String para Timestamp) e *Ouro* (Agregações corporativas prontas para consumo e dashboards do PowerBI).
+- **Data Mesh (Malha de Dados):** Paradigma cultural e arquitetural. Pare de ter um "time centralizado de dados" que vira gargalo na empresa. Trate "Dados como Produto", onde a equipe de RH gerencia e publica os dados do RH num formato padronizado na malha para as outras equipes consumirem por self-service.
+- **Data Fabric:** O uso de IA e Machine Learning para descobrir e conectar padrões de metadados em toda a empresa automaticamente (automação extrema de governança e mapeamento).
 
-### 👮 Governança e DataOps
-- **Catálogo de Dados:** DataHub, Amundsen. Onde está o dado? Quem é o dono?
-- **Qualidade de Dados:** Great Expectations, Soda. Testes automáticos para seus dados (Data Contracts).
-- **Privacidade:** LGPD/GDPR. Mascaramento de dados sensíveis (PII).
+### 👮 Governança, DataOps e Data Contracts
+Dados com bugs geram modelos de IA perigosos. "Garbage in, Garbage out".
+- **Catálogo de Dados (Data Discovery):** DataHub ou Collibra. Onde está o dado? Quem é o dono dele? Quando foi atualizado a última vez?
+- **Qualidade de Dados & Data Contracts:** A evolução suprema do ETL. Um *Data Contract* é um acordo técnico assinado em código entre os Devs de Software e os Eng de Dados. Se o dev alterar a tabela de vendas retirando a coluna "Preço", a esteira CI/CD barra o deploy dele, pois quebrou o contrato que o Engenheiro de Dados validava no pipeline de consumo. Ferramentas: **Great Expectations**, **Soda**.
+- **Privacidade e Governança:** Mascaramento dinâmico de dados sensíveis em tempo real (PII - Personally Identifiable Information). LGPD/GDPR by design.
+- **Vector Engineering (Data para GenAI):** Criar os pipelines automáticos (ETL vetorial) que transformam os Pdfs financeiros diários da empresa em Embeddings para popular os Vector Databases do time de Inteligência Artificial.
 
 ### 🧠 Soft Skills & Diferencial Humano
 - **Data Storytelling:** Um CSV gigante não convence ninguém. Aprenda a contar a história por trás dos números para a diretoria.

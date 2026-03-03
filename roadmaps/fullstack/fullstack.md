@@ -76,15 +76,16 @@ Gerenciar múltiplos projetos (Web, Admin, Mobile, API) no mesmo repositório.
 
 Onde você desenha sistemas resilientes e integra Inteligência Artificial.
 
-### 📐 Arquitetura de Sistemas (System Design)
-- **BFF (Backend for Frontend):** Uma camada de API dedicada a formatar dados para uma UI específica.
-- **Serverless vs Edge:** Rodar código perto do usuário (Cloudflare Workers) para latência mínima.
-- **Filas e Jobs:** Tirar tarefas pesadas (envio de email, processamento de imagem) do ciclo de requisição HTTP. (Redis + BullMQ).
+### 📐 Arquitetura de Sistemas (System Design) Avançada
+- **BFF (Backend for Frontend):** Você não expõe sua base de dados diretamente para a web/mobile. Um BFF é uma fina camada de API customizada para a UI de cada cliente (Ex: BFF Mobile, BFF Web). No ecossistema React/Next.js, os *Server Components* e as *Server Actions* são o substituto natural e moderno de um BFF externo.
+- **Serverless, Edge Computing & Wasm:** Rodar funções muito baratas em Data Centers próximos do usuário (Cloudflare Workers, Deno Deploy) garantindo latência quase zero. Em 2026, Edge + WebAssembly (Wasm) traz binários leves de linguagens como Rust integrados nativamente ao JavaScript via V8 Isolates, oferecendo poder computacional massivo a custos irrisórios.
+- **Mensageria e Filas (Message Brokers):** Sistemas distribuídos. Remover tarefas pesadas (envios em lote, processamento de relatórios gerados por IA, Webhooks) do fluxo do usuário e colocar em Redis (BullMQ), AWS SQS, ou Apache Kafka para resiliência.
 
-### 🌍 Local-First Architecture
-Sistemas onde a fonte da verdade é o cliente e os servidores sincronizam no background.
-- **Offline-First:** O app funciona perfeitamente sem internet (PWA + Bancos de dados locais como Dexie.js ou PouchDB).
-- **CRDTs (Conflict-free Replicated Data Types):** Sincronização automática e resolução de conflitos para colaboração em tempo real (como o Google Docs). Ferramentas como **Yjs** ou **Automerge**.
+### 🌍 Local-First Architecture e Sincronização
+Em 2026, conexões instáveis não são desculpa para a interface travar. Local-First virou o paradigma de escolha para UX premium.
+- **O Fim das Telas de Carregamento (Loading Spinners):** O usuário deve abrir a aplicação e ver os dados instantaneamente sem dependência direta de redes externas.
+- **CRDTs (Conflict-free Replicated Data Types):** O pilar do Local-First. É uma estrutura matemática que permite que dois ou mais dispositivos offline (Client A e B) realizem edições num mesmo JSON ou texto. Quando ficam online, o CRDT mescla o estado perfeitamente de forma determinística, garantindo colaboração em tempo real estilo Google Docs.
+- **Ecossistema:** Bancos de dados integrados como PowerSync, ElectricSQL, RxDB. Bibliotecas core de sincronização como **Yjs**, **Automerge** ou **Loro** rodam diretamente no cliente/Edge em Wasm, trocando de paradigma (a UI lê do banco local como fonte da verdade, e a sincronização com o servidor é automática).
 
 ### 🤖 Fullstack AI Engineering
 A integração profunda de modelos de IA no produto.

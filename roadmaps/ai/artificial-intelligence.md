@@ -130,25 +130,22 @@ O termo "RAG" ficou pequeno. Hoje construímos sistemas onde múltiplos componen
   - **Query Transformation (Reescrita de Prompt):** O usuário pergunta "onde foi o evento?", a IA reescreve silenciosamente para "Qual a localização da conferência Tech2026 segundo o documento X?" antes de buscar no banco.
   - **Self-RAG / Corrective RAG (CRAG):** Arquiteturas onde o modelo avalia a própria resposta. Se ele detectar que a informação extraída do banco é insuficiente ou irrelevante, ele pesquisa de novo na internet ou pede esclarecimento ao usuário, corrigindo a si mesmo.
 
-#### 🕵️ Agentes Autônomos & Prompt Programming
-O futuro da automação. O modelo não só fala, ele *faz*.
+### 🕵️ Agentes Autônomos & Agentic Workflows
+O LLM puro de 2024 ficou no passado. O futuro de 2026 é do Software de Automação Dirigida (Agentic Coding). O modelo não só conversa, ele é integrado ao ecossistema para *fazer*.
+- **Os 4 Padrões de Agentes (Agentic Design Patterns - Andrew Ng):**
+  - **Reflection (Reflexão):** O agente nunca entrega o primeiro rascunho. Ele avalia, critica o próprio código/texto e o refaz internamente antes da resposta.
+  - **Tool Use (Uso de Ferramentas / Function Calling):** Dar ao modelo APIs externas. Uma calculadora, busca na Wikipedia, um terminal bash, um banco de dados.
+  - **Planning (Planejamento & Raciocínio):** Quebrar uma meta vaga em N passos sequenciais ou paralelos. "Para resolver X, preciso primeiro buscar Y, depois somar Z".
+  - **Multi-Agent Collaboration:** Modelos focados e restritos. O Agente de "QA" critica o código do Agente "Dev", que consulta a arquitetura desenhada pelo Agente "Arquiteto" (Sistemas como CrewAI).
 
-- **Agentic Design Patterns (Padrões de Agentes):**
-  - **Reflection (Reflexão):** O agente revisa o próprio trabalho. "Este código tem bugs? Se sim, corrija."
-  - **Tool Use (Uso de Ferramentas):** Dar ao modelo calculadora, navegador ou terminal.
-  - **Planning (Planejamento):** Quebrar uma tarefa complexa em passos menores antes de começar.
-  - **Multi-Agent Collaboration:** Diferentes "personas" trabalhando juntas (ex: um Pesquisador e um Escritor).
+- **Computer Use & Action Models (O Fim das APIs Manuais):**
+  - Modelos capazes de receber coordenadas XY de tela e executar comandos de mouse e teclado (Anthropic Computer Use, GUI Agents). Uma mudança sísmica onde a automação não precisa que as empresas exponham APIs REST; a IA navega na própria interface (RPA de IA).
 
-- **Computer Use (Uso de Computador):**
-  - A fronteira final. Agentes que controlam o mouse e o teclado para usar *qualquer* software desktop, como um humano faria. (Ex: Anthropic Computer Use).
-
-- **Arquiteturas e Frameworks:**
-  - **ReAct:** Reason + Act. O loop básico de pensamento.
-  - **Multi-Agent Systems:** CrewAI, AutoGen, **Smolagents (Hugging Face)**.
-  - **LangGraph:** Controle granular de estado e loops. Essencial para produção.
-  - **PydanticAI:** Agentes focados em Type-Safe e validação rigorosa (Production Ready).
-  - **DSPy:** A morte do "Prompt Engineering" manual. Um framework que otimiza prompts automaticamente baseado em métricas de qualidade. Você define a lógica, o DSPy encontra o prompt perfeito.
-  - **MCP (Model Context Protocol):** O padrão universal para conectar Agentes aos seus dados e ferramentas.
+- **Frameworks de Engenharia:**
+  - **Multi-Agent Orchestrators:** **LangGraph** (Padrão ouro para controle de estado complexo em grafos), CrewAI, AutoGen, e o recém chegado **Smolagents (Hugging Face)** para agentes diretos e eficientes.
+  - **Production-Ready & Type-Safe:** Usar **PydanticAI** ou similares para tipar o output de um modelo. Agentes instáveis morrem, sistemas determinísticos ficam.
+  - **O Fim do Prompting Manual:** **DSPy** trata o modelo de IA como um "processador". Você escreve código python, define as entradas/saídas, e o DSPy, via otimizadores teóricos, altera o prompt no backend de forma estatística até alcançar 99% de acurácia. Prompt Engineering virou Compilação.
+  - **MCP (Model Context Protocol):** Universalização da comunicação. Em 2026, você não refaz as APIs; você expõe servidores MCP que permitem que Claude, Mistral, Cursor, Llama-3 consumam suas bases corporativas imediatamente.
 
 #### ⚖️ LLM Ops & Engenharia de IA
 - **Evals (Unit Tests para IA):** "Minha mudança no prompt melhorou ou piorou o bot?". Use **Ragas**, **DeepEval** ou crie seu próprio dataset de "Golden Answers".
