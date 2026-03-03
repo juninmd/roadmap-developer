@@ -98,7 +98,7 @@ A arquitetura de dados não é mais um "monolito de DW onde os dados vão para m
 ### 👮 Governança, DataOps e Data Contracts
 Dados com bugs geram modelos de IA perigosos. "Garbage in, Garbage out".
 - **Catálogo de Dados (Data Discovery):** DataHub ou Collibra. Onde está o dado? Quem é o dono dele? Quando foi atualizado a última vez?
-- **Qualidade de Dados & Data Contracts:** A evolução suprema do ETL. Um *Data Contract* é um acordo técnico assinado em código entre os Devs de Software e os Eng de Dados. Se o dev alterar a tabela de vendas retirando a coluna "Preço", a esteira CI/CD barra o deploy dele, pois quebrou o contrato que o Engenheiro de Dados validava lá embaixo. Ferramentas: **Great Expectations**, **Soda**.
+- **Qualidade de Dados & Data Contracts:** A evolução suprema do ETL. Um *Data Contract* é um acordo técnico assinado em código entre os Devs de Software e os Eng de Dados. Se o dev alterar a tabela de vendas retirando a coluna "Preço", a esteira CI/CD barra o deploy dele, pois quebrou o contrato que o Engenheiro de Dados validava no pipeline de consumo. Ferramentas: **Great Expectations**, **Soda**.
 - **Privacidade e Governança:** Mascaramento dinâmico de dados sensíveis em tempo real (PII - Personally Identifiable Information). LGPD/GDPR by design.
 - **Vector Engineering (Data para GenAI):** Criar os pipelines automáticos (ETL vetorial) que transformam os Pdfs financeiros diários da empresa em Embeddings para popular os Vector Databases do time de Inteligência Artificial.
 
