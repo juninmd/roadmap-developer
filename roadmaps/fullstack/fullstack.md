@@ -85,7 +85,7 @@ Onde você desenha sistemas resilientes e integra Inteligência Artificial.
 Em 2026, conexões instáveis não são desculpa para a interface travar. Local-First virou o paradigma de escolha para UX premium.
 - **O Fim das Telas de Carregamento (Loading Spinners):** O usuário deve abrir a aplicação e ver os dados instantaneamente sem dependência direta de redes externas.
 - **CRDTs (Conflict-free Replicated Data Types):** O pilar do Local-First. É uma estrutura matemática que permite que dois ou mais dispositivos offline (Client A e B) realizem edições num mesmo JSON ou texto. Quando ficam online, o CRDT mescla o estado perfeitamente de forma determinística, garantindo colaboração em tempo real estilo Google Docs.
-- **Ecossistema:** Bancos de dados integrados como PowerSync, ElectricSQL, RxDB. Bibliotecas core de sincronização como **Yjs**, **Automerge** ou **Loro** rodam diretamente no cliente/Edge em Wasm, trocando de paradigma (O Banco é API; Sincronização é Automática).
+- **Ecossistema:** Bancos de dados integrados como PowerSync, ElectricSQL, RxDB. Bibliotecas core de sincronização como **Yjs**, **Automerge** ou **Loro** rodam diretamente no cliente/Edge em Wasm, trocando de paradigma (a UI lê do banco local como fonte da verdade, e a sincronização com o servidor é automática).
 
 ### 🤖 Fullstack AI Engineering
 A integração profunda de modelos de IA no produto.
