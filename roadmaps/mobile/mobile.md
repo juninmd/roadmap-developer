@@ -94,7 +94,7 @@ A IA não precisa mais apenas da Nuvem, ela cabe no seu bolso.
   - **Apple CoreML (Avançado):** Utilizar o Apple Neural Engine (ANE) e o formato de pesos `.mlmodelc` em Swift.
   - **Google MediaPipe & Gemini Nano:** O Android 15 e superior traz o Gemini Nano (AICore) injetado diretamente no sistema operacional (System Service), reduzindo o payload e permitindo prompts ultrarrápidos locais em APIs seguras do Google.
 - **Aceleração via Hardware (NPU):** A diferença entre um app inteligente que esgota a bateria e um eficiente. Utilizar APIs nativas para rotear a carga de processamento das CPUs para Unidades de Processamento Neural (NPUs), que fazem contas matriciais consumindo miliwatts.
-- **RAG com Privacidade Local (Local RAG):** Conectar os SLMs com os dados privados do usuário (contatos, fotos, SQLite app) gerando insights hiper-personalizados na nuvem do bolso, sem enviar um único byte via internet e evadindo leis complexas como a GDPR.
+- **RAG com Privacidade Local (Local RAG):** Conectar os SLMs com os dados privados do usuário (contatos, fotos, SQLite app) gerando insights hiper-personalizados na nuvem do bolso, sem enviar um único byte via internet e facilitando a conformidade com leis complexas como a GDPR.
 
 ### 📡 Arquitetura Local-First (Sincronização Avançada de 2026)
 Uma API REST não é a forma que se entrega uma experiência 5 estrelas. Apps móveis modernos não podem sofrer por causa de Wi-Fi de metrô ou zonas sem sinal.
