@@ -136,7 +136,7 @@ O Backend evoluiu de servir apenas JSON para orquestrar "cérebros" de forma con
   - Não confie só em "busca vetorial simples" (Naive RAG).
   - **Vector Databases Especializados:** Dominar `pgvector`, Pinecone ou Qdrant.
   - **Advanced RAG Patterns:**
-    - **Hybrid Search & Recíproco Rank Fusion (RRF):** Unir Keyword Search (BM25) com Busca Semântica (Embeddings) e usar um modelo de *Re-ranker* (Cohere) no final para extrair a resposta 100% perfeita.
+    - **Hybrid Search & Reciprocal Rank Fusion (RRF):** Unir Keyword Search (BM25) com Busca Semântica (Embeddings) e usar um modelo de *Re-ranker* (Cohere) no final para extrair a resposta mais relevante.
     - **GraphRAG:** Utilizar Grafos de Conhecimento (Knowledge Graphs, ex: Neo4j) extraídos de relatórios em vez de meros chunks vetoriais. Permite responder a conexões intrínsecas (ex: "Empresa X é subsidiária de quem?").
     - **Corrective RAG (CRAG) & Self-RAG:** Agentes que testam a própria resposta, descartam contexto ruim e buscam no Google ou Wikipedia autonomamente se os dados do Vector DB forem insuficientes.
 
