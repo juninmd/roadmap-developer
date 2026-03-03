@@ -104,7 +104,7 @@ A revolução da IA também acontece no lado do cliente.
 - **Generative UI (Runtime):** A IA não deve retornar apenas Markdown. Usando ferramentas como Vercel AI SDK (`streamUI`), ela gera componentes React on-the-fly (`<StockChart />`, `<FlightTicket />`). A interface se adapta à intenção do usuário no tempo de execução.
 - **Generative UI (DevTime):** Ferramentas como **v0.dev**, **Lovable** ou **Bolt.new** geram código de interface (React + Tailwind) pronto para uso. O fluxo de trabalho de um Sênior muda de "codar do zero" para "prompting arquitetural, curadoria e refino".
 - **Streaming UI:** O usuário não pode esperar a API responder completamente. Renderizar a interface *token por token* e montar esqueletos dinâmicos é a regra para reter atenção.
-- **WebGPU & IA no Browser (Local AI):** Rodar modelos (Llama 3, Phi-3, Whisper) diretamente na GPU do usuário final usando **WebLLM** e **Transformers.js**. Isso traz **Privacidade Total** e **Zero Custo de Servidor (Inference Cost = 0)**. O frontend virou uma plataforma de IA independente.
+- **WebGPU & IA no Browser (Local AI):** Rodar modelos (Llama 3, Phi-3, Whisper) diretamente na GPU do usuário final usando **WebLLM** e **Transformers.js**. Isso traz **Privacidade Total** e **Zero Custo de Servidor (Inference Cost = 0)**, transformando o frontend em uma poderosa plataforma para execução de IA local.
 
 ### 🚀 Tópicos Especializados e React Server Components (RSC)
 - **WebAssembly (Wasm) e Edge Computing:** Escrever e compilar códigos nativos C++/Rust/Go rodando com performance de desktop no browser via Wasm. Compartilhar a mesma biblioteca criptográfica ou algoritmo pesado entre o seu servidor Rust e o navegador do cliente.
