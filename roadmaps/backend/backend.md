@@ -124,21 +124,26 @@ Sustentabilidade e eficiência de custos caminham juntas.
 - **Ferramentas:** Cloud Carbon Footprint.
 
 ### 🤖 IA Engineering para Backend (O Diferencial de 2026)
-O Backend agora precisa saber servir IA, não apenas JSON.
+O Backend evoluiu de servir apenas JSON para orquestrar "cérebros" de forma confiável. Em 2026, você precisa construir Sistemas Compostos de IA (Compound AI Systems).
 
-- **Orquestração de Agentes e Structured Outputs:**
-  - **LangChain / LangGraph:** Criar fluxos complexos onde a IA toma decisões e mantém estado.
-  - **Structured Outputs (Validadores):** Garantir que a IA retorne dados estruturados confiáveis. Use **Pydantic/Instructor** (Python) ou **Zod** (Node/TypeScript) para forçar o LLM a seguir um schema.
-  - **Function Calling:** Permitir que o LLM chame suas APIs de backend para executar ações reais (ex: consultar saldo, agendar reunião).
-  - **MCP (Model Context Protocol):** Padrão aberto para conectar dados e ferramentas aos assistentes de IA.
+- **Orquestração de Agentes e Fluxos Autônomos:**
+  - **LangChain / LangGraph / CrewAI:** O Especialista não usa mais modelos como "caixas de texto". Ele projeta "Agentes" que possuem Loops, Memória, Planejadores e Executores (Agentic Workflow). O LangGraph permite criar grafos de estado com controle de falha absoluto, sendo o padrão ouro.
+  - **Structured Outputs (Garantia de Tipagem em LLMs):** Como um LLM só fala texto, você precisa forçá-lo a falar em objetos definidos. Ferramentas como **Instructor** (Python) e **Zod + Vercel AI SDK** (Node) obrigam o modelo a entregar JSON perfeitamente válido, pronto para o banco de dados.
+  - **Function Calling / Tool Use:** Onde o LLM sai do "pensamento" e parte para a "ação". Permitir que ele rode funções do seu código (consultar saldo bancário, enviar e-mail via SendGrid, acionar banco SQL).
+  - **MCP (Model Context Protocol) Avançado:** Não integre APIs aos Agentes na mão. O MCP padronizou como os Agentes se conectam a recursos externos (Bancos, Sistemas de Arquivos, APIs SaaS), sendo obrigatório entender para escalar infraestruturas de IA corporativa.
 
-- **Engenharia de Dados para IA (RAG):**
-  - **Vector Databases:** pgvector, Qdrant. Como armazenar e buscar por significado (busca semântica) e não apenas palavras-chave.
-  - **Hybrid Search:** Combinar busca vetorial com busca textual (BM25) e Reranking.
+- **Arquiteturas RAG Profundas (Retrieval-Augmented Generation):**
+  - Não confie só em "busca vetorial simples" (Naive RAG).
+  - **Vector Databases Especializados:** Dominar `pgvector`, Pinecone ou Qdrant.
+  - **Advanced RAG Patterns:**
+    - **Hybrid Search & Recíproco Rank Fusion (RRF):** Unir Keyword Search (BM25) com Busca Semântica (Embeddings) e usar um modelo de *Re-ranker* (Cohere) no final para extrair a resposta 100% perfeita.
+    - **GraphRAG:** Utilizar Grafos de Conhecimento (Knowledge Graphs, ex: Neo4j) extraídos de relatórios em vez de meros chunks vetoriais. Permite responder a conexões intrínsecas (ex: "Empresa X é subsidiária de quem?").
+    - **Corrective RAG (CRAG) & Self-RAG:** Agentes que testam a própria resposta, descartam contexto ruim e buscam no Google ou Wikipedia autonomamente se os dados do Vector DB forem insuficientes.
 
-- **Inference Servers & SLMs:**
-  - Rodar modelos locais (Llama 3, Mistral, Gemma) usando **Ollama** ou **vLLM**.
-  - **Fine-tuning eficiente:** Ajustar modelos pequenos para tarefas específicas do seu negócio.
+- **Inference Servers, MLOps e Modelos Locais (SLMs):**
+  - Servir modelos em GPU não é tarefa do Data Scientist, é do Engenheiro de Backend.
+  - Como entregar latência (Tokens/Segundo) usando **vLLM** ou **TGI (Text Generation Inference)**.
+  - Economia na Cloud: Rodar *Small Language Models* (SLMs, ex: Llama 3 8B, Phi-3) com **Ollama** via APIs Dockerizadas internamente em instâncias mais baratas ao invés de depender cegamente do faturamento estratosférico da OpenAI API.
 
 ### 📚 Livros e Leituras Obrigatórias (Sênior)
 Para chegar ao nível especialista, a prática não basta. Você precisa de teoria sólida.

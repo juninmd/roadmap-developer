@@ -86,19 +86,20 @@ Otimização extrema, arquitetura limpa e Inteligência Artificial no dispositiv
 - **Profiling:** Ferramentas para detectar memory leaks e gargalos de renderização (60fps é a lei).
 - **Segurança:** Obfuscação (ProGuard/R8), Certificate Pinning e uso seguro do Keychain/Keystore.
 
-### 📱 IA no Mobile (On-Device AI - A Nova Era)
-- **Small Language Models (SLMs):** Rodar Phi-3, Gemma ou Llama 3 8B direto no celular.
-- **Frameworks de IA:**
-  - **ExecuTorch & TFLite:** Para rodar modelos PyTorch e TensorFlow no edge.
-  - **MediaPipe:** Soluções prontas do Google para Visão Computacional e ML on-device.
-  - **CoreML:** O framework nativo da Apple para máxima performance no iOS.
-- **NPU Acceleration:** Delegar o processamento de IA para o chip neural (Apple Neural Engine / Android NPU) para economizar bateria.
-- **Privacidade (Local RAG):** Usar dados pessoais do dispositivo para dar contexto à IA, sem nunca enviar os dados para a nuvem.
+### 📱 IA no Mobile (On-Device AI & NPU Acceleration)
+A IA não precisa mais apenas da Nuvem, ela cabe no seu bolso.
+- **Small Language Models (SLMs) e Quantização:** Aprender a usar *Quantization* (4-bit/8-bit) para espremer modelos como Phi-3, Gemma, ou Mistral na RAM limitada do celular sem perder raciocínio lógico.
+- **Frameworks de IA Nativos:**
+  - **ExecuTorch:** O sucessor do PyTorch Mobile. Permite carregar modelos grandes otimizados nativamente para iOS/Android consumindo a menor memória e bateria possível.
+  - **Apple CoreML (Avançado):** Utilizar o Apple Neural Engine (ANE) e o formato de pesos `.mlmodelc` em Swift.
+  - **Google MediaPipe & Gemini Nano:** O Android 15 e superior traz o Gemini Nano (AICore) injetado diretamente no sistema operacional (System Service), reduzindo o payload e permitindo prompts ultrarrápidos locais em APIs seguras do Google.
+- **Aceleração via Hardware (NPU):** A diferença entre um app inteligente que esgota a bateria e um eficiente. Utilizar APIs nativas para rotear a carga de processamento das CPUs para Unidades de Processamento Neural (NPUs), que fazem contas matriciais consumindo miliwatts.
+- **RAG com Privacidade Local (Local RAG):** Conectar os SLMs com os dados privados do usuário (contatos, fotos, SQLite app) gerando insights hiper-personalizados na nuvem do bolso, sem enviar um único byte via internet e evadindo leis complexas como a GDPR.
 
-### 📡 Arquitetura Local-First (O Novo Padrão de 2026)
-Em 2026, a frustração com latência de rede é intolerável. Apps nativos devem funcionar perfeitamente offline, sincronizando em background.
-- **O Banco de Dados como API:** Em vez de fazer chamadas REST para carregar a tela, a UI lê de um banco local reativo (SQLite via Room/CoreData ou Realm).
-- **Sincronização Bidirecional e CRDTs:** Ferramentas como PowerSync, ElectricSQL ou Dexie Cloud usam Conflict-free Replicated Data Types para fazer merge de dados locais e remotos automaticamente, permitindo colaboração tipo Google Docs no celular.
+### 📡 Arquitetura Local-First (Sincronização Avançada de 2026)
+Uma API REST não é a forma que se entrega uma experiência 5 estrelas. Apps móveis modernos não podem sofrer por causa de Wi-Fi de metrô ou zonas sem sinal.
+- **Reatividade e "UI de Latência Zero":** Todo dado é primeiramente modificado na memória cache ou no Banco SQLite local (`Room` no Android, `CoreData` no iOS). O sistema devolve o resultado em 1 milissegundo para o Reactivity (Compose / SwiftUI).
+- **CRDTs e Resolução de Conflitos em Background:** Quando você modifica o nome de um "Task" offline, e outro amigo faz o mesmo com sua conta num tablet sincronizado, ocorrem conflitos. A sincronização em 2026 utiliza os **Conflict-Free Replicated Data Types** (CRDT) embarcados em soluções como PowerSync, Realm, ou Ditto para resolver automaticamente sem intervenção, mantendo consistência eventual invisível ao usuário final.
 
 ### 🗣️ Interfaces Naturais
 - **Voice UI:** Integração com Whisper local para comandos de voz rápidos.

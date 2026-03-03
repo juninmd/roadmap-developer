@@ -93,10 +93,13 @@ Computadores quânticos vão quebrar RSA e ECC em breve. Prepare-se agora.
   - **Kyber (ML-KEM):** Para troca de chaves (Key Encapsulation).
   - **Dilithium (ML-DSA):** Para assinaturas digitais.
 
-### 🤖 AI Security (O Novo Front de 2026)
-- **Prompt Injection:** Como impedir que usuários manipulem seu LLM.
-- **Model Theft:** Proteger os pesos do seu modelo de IA.
-- **AI Red Teaming:** Simular ataques adversários contra agentes autônomos.
+### 🤖 AI Security & AI Red Teaming (O Novo Front de 2026)
+Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um oceano inteiro de novas superfícies de ataque para 2026.
+- **OWASP Top 10 para LLMs:** A extensão natural das vulnerabilidades tradicionais aplicadas para a era GenAI.
+- **Prompt Injection e Jailbreaking (Avançado):** Usuários forçando modelos corporativos a exfiltrarem chaves de banco de dados e senhas via SQL Injection camuflado (Agentic Phishing).
+- **Data Poisoning & Supply Chain Attacks (HuggingFace):** O que acontece se o time de IA importar pesos infectados do HuggingFace ou dados maliciosos durante o Fine-Tuning de um modelo LLM e corromper seu output?
+- **AI Red Teaming:** O papel mais valorizado em 2026. Você ataca seu próprio modelo, simulando atores maliciosos. Tenta fazê-lo gerar conteúdo tóxico ou vazar segredos financeiros, para que a equipe aplique o alinhamento adequado (Guardrails).
+- **Model Theft (Roubo de Pesos):** Proteger o segredo industrial, o intelecto treinado do seu modelo LLM privado, contra vazamentos de instâncias.
 
 ### 🧠 Soft Skills & Diferencial Humano
 - **Paranoia Saudável vs Usabilidade:** Segurança que impede o trabalho será contornada. Encontre o equilíbrio.

@@ -74,32 +74,31 @@ Nunca configure servidores manualmente (ClickOps).
 
 Onde você constrói plataformas para outros desenvolvedores e garante a estabilidade de sistemas globais.
 
-### 🔭 Observabilidade e Redes de Nova Geração
-- **eBPF (Extended Berkeley Packet Filter):** Executar programas diretamente no Kernel do Linux, em tempo real, fornecendo métricas profundas, segurança (Cilium) e observabilidade com zero modificação no código ou agentes complexos.
-- **OpenTelemetry:** O padrão para coletar Logs, Métricas e Traces.
-- **Ferramentas:** Prometheus (Métricas), Grafana (Dashboards), Jaeger/Tempo (Tracing).
-- **SLIs, SLOs e SLAs:** Definindo e medindo a confiabilidade do serviço com dados reais.
+### 🔭 Observabilidade Avançada (AI Ops & eBPF)
+Em arquiteturas de milhões de reqs/s, você não pode inspecionar logs manualmente.
+- **eBPF (Extended Berkeley Packet Filter):** A revolução da infraestrutura em 2026. A habilidade de rodar programas ultra rápidos e seguros dentro do Kernel do Linux sem alterar o código-fonte da aplicação ou adicionar pesados "sidecars". Ferramentas como **Cilium** controlam a rede, balanceamento de carga e observabilidade em altíssima performance.
+- **OpenTelemetry (OTel):** A padronização de dados corporativos. Uma API unificada que processa Traces, Metrics, e Logs para sistemas backend complexos em Golang, Rust, Node, e AI Engines, injetando tudo de maneira diagnóstica.
+- **AIOps:** Usar Agentes de Inteligência Artificial para não apenas criar "alertas do PagerDuty", mas para resolver automaticamente as panes e diagnosticar anomalias no Grafana/Prometheus (Self-healing).
 
-### 🐙 GitOps
-- **ArgoCD / Flux:** O estado do seu cluster Kubernetes deve espelhar um repositório Git. O deploy é um Pull Request.
-- **Drift Detection:** Detectar e corrigir automaticamente quando a infraestrutura real difere do código.
+### 🐙 GitOps (Controle de Versão Declarativo)
+- **ArgoCD e Flux:** A infraestrutura nunca é "apertada num botão na nuvem". Todo e qualquer estado (bancos de dados, ingressos, certificados de Kubernetes) é um código YAML/HCL dentro de um repositório Git. O ArgoCD monitora o Git 24/7.
+- **Drift Detection e Reconciliação Contínua:** Se um desenvolvedor manualmente alterar um servidor de 2GB de RAM para 8GB na interface web da nuvem (o famoso "Drift"), o ArgoCD detecta a anomalia e, em segundos, forçará a volta para 2GB, pois a "Fonte da Verdade" (o GitHub) não contém a modificação. O "Deploy" vira, puramente, o ato de aprovar e dar merge num PR.
 
-### 🏗️ Platform Engineering
-- **Internal Developer Platforms (IDP):** Construir portais (como **Backstage**) para que devs criem serviços padronizados com um clique ("Paved Roads").
-- **Self-Service:** O dev não deve abrir ticket para pedir um banco de dados; ele deve provisionar via plataforma.
+### 🏗️ Platform Engineering (Engenharia de Plataforma)
+O DevOps morreu, vida longa à Engenharia de Plataforma. Não seja a "equipe de suporte que faz o deploy", seja a equipe que constrói o Produto (A Nuvem) pros Devs.
+- **Internal Developer Platforms (IDPs):** Criar Portais unificados como **Backstage (Spotify)** ou **Port**.
+- **Golden Paths (Caminhos Pavimentados):** O engenheiro júnior no seu primeiro dia de emprego preenche um formulário no IDP com o nome de sua "API de Vendas". Em 1 minuto, o Backstage roda o Terraform e cria um Repositório Git, pipelines de CI/CD, banco de dados isolado no ambiente dev, dashboards no Grafana e políticas de segurança, devolvendo a URL pronta pra ele codar. Isso zera a sobrecarga cognitiva do time de Dev e reduz gargalos absurdos.
 
-### 🛡️ DevSecOps: Segurança desde o Dia 1
-Segurança não é responsabilidade só do time de InfoSec no final do projeto.
-- **SAST & DAST:** Análise estática (SonarQube) e dinâmica de vulnerabilidades.
-- **Container Scanning:** Nunca suba uma imagem Docker sem passar pelo **Trivy** ou **Grype** para achar CVEs.
-- **Policy as Code:** Use **OPA (Open Policy Agent)** para impedir deploys inseguros (ex: bloquear containers rodando como root).
-- **Supply Chain Security:** Assinar imagens (Cosign) e verificar dependências (SBOM - Software Bill of Materials) para evitar ataques à cadeia de suprimentos.
-- **Secret Management:** HashiCorp Vault ou AWS Secrets Manager. Nunca commite senhas no Git (`.env` no `.gitignore` sempre!).
+### 🛡️ DevSecOps & Supply Chain Security
+A fronteira de segurança não é o firewall, é o "NPM Install" que o dev júnior roda.
+- **Software Bill of Materials (SBOM) & Sigstore:** O projeto gera uma "Nota Fiscal" (`syft`) com a lista exata de cada lib open source utilizada, garantindo que código adulterado por ataques à cadeia de suprimentos seja bloqueado via assinaturas (`Cosign`).
+- **Policy as Code (OPA & Kyverno):** Todo Pull Request no Kubernetes passa por um Agente Validador de Segurança. Se o container for rodar como usuário root, ou não tiver *Resource Limits*, o deploy falha criptograficamente, não importa quem o solicitou.
+- **Container Scanning Contínuo:** Trivy, Grype ou Clair escaneiam imagens em tempo de build, parando a esteira caso se detecte as graves vulnerabilidades de dia zero (CVE).
 
-### 💰 FinOps: O Custo é um Requisito
-- **Monitoramento de Custos:** Use **Kubecost** ou AWS Cost Explorer. Se você não mede, você não controla.
-- **Rightsizing:** Ajustar CPU/RAM dos pods para o uso real. Não use um canhão para matar uma mosca.
-- **Spot Instances:** Usar máquinas ociosas da nuvem com até 90% de desconto para workloads que podem ser interrompidos.
+### 💰 FinOps & Green Software
+A nuvem é a coisa mais fácil do mundo de se pagar caro. A fatura mensal tem que ser monitorada pela infra.
+- **Kubecost:** Transparência financeira. O IDP mostra para a equipe comercial exatamente quantos dólares aquela "API de Pagamentos" está custando aos cofres na AWS. Se passar de 20%, gera alerta.
+- **Green Software Foundation e Sustentabilidade:** Cortar desperdício é ajudar o planeta. Aplicar ferramentas como *Karpenter* no AWS EKS garante *Node Auto-provisioning* perfeito: A máquina do servidor só é alugada com as exatas vCPUs pedidas. Destruir VMs durante madrugadas ociosas via cronjobs.
 
 ### 📚 Livros e Cultura (Leitura Obrigatória)
 DevOps é cultura, e cultura se aprende com histórias e práticas.

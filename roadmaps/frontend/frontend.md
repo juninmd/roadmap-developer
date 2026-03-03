@@ -99,17 +99,18 @@ Performance é UX. Ninguém gosta de site lento.
 - **Técnicas:** Code Splitting, Lazy Loading de imagens, otimização de fontes e uso correto de Cache-Control.
 
 ### 🤖 IA Engineering no Frontend (O Diferencial de 2026)
-- **Vercel AI SDK:** A ponte entre seu frontend e os LLMs. Streaming de texto e chat.
-- **Generative UI (Runtime):** A IA não deve retornar apenas texto. Ela deve gerar JSON que seu frontend renderiza como componentes ricos (`<StockChart />`, `<FlightTicket />`).
-- **Generative UI (DevTime):** Ferramentas como **v0.dev** e **Lovable** que geram código de interface (React + Tailwind) pronto para uso, mudando o fluxo de trabalho de "codar do zero" para "curadoria e refino".
-- **Streaming UI:** Renderizar a interface *token por token* para dar sensação de instantaneidade.
-- **WebGPU & IA no Browser:** Rodar modelos (Llama 3, Whisper) diretamente na GPU do usuário usando **WebLLM** e **Transformers.js**. Privacidade total e zero custo de servidor.
+A revolução da IA também acontece no lado do cliente.
+- **Vercel AI SDK:** A ponte definitiva entre seu frontend e os LLMs. Domine o streaming não apenas de texto, mas de estados complexos (Stateful Streaming) e chamadas de ferramentas.
+- **Generative UI (Runtime):** A IA não deve retornar apenas Markdown. Usando ferramentas como Vercel AI SDK (`streamUI`), ela gera componentes React on-the-fly (`<StockChart />`, `<FlightTicket />`). A interface se adapta à intenção do usuário no tempo de execução.
+- **Generative UI (DevTime):** Ferramentas como **v0.dev**, **Lovable** ou **Bolt.new** geram código de interface (React + Tailwind) pronto para uso. O fluxo de trabalho de um Sênior muda de "codar do zero" para "prompting arquitetural, curadoria e refino".
+- **Streaming UI:** O usuário não pode esperar a API responder completamente. Renderizar a interface *token por token* e montar esqueletos dinâmicos é a regra para reter atenção.
+- **WebGPU & IA no Browser (Local AI):** Rodar modelos (Llama 3, Phi-3, Whisper) diretamente na GPU do usuário final usando **WebLLM** e **Transformers.js**. Isso traz **Privacidade Total** e **Zero Custo de Servidor (Inference Cost = 0)**. O frontend virou uma plataforma de IA independente.
 
 ### 🚀 Tópicos Especializados e React Server Components (RSC)
-- **WebAssembly (Wasm) e WebGPU:** Escrever e compilar códigos nativos C++/Rust/Go rodando com performance de desktop no browser via Wasm, além de aproveitar os milhares de núcleos da GPU do cliente (WebGPU) para rodar Llama/Whisper localmente com zero custo na AWS (WebLLM / Transformers.js).
+- **WebAssembly (Wasm) e Edge Computing:** Escrever e compilar códigos nativos C++/Rust/Go rodando com performance de desktop no browser via Wasm. Compartilhar a mesma biblioteca criptográfica ou algoritmo pesado entre o seu servidor Rust e o navegador do cliente.
 - **Server Components (RSC):** Entender a fronteira difusa entre servidor e cliente (ex: Next.js App Router, Nuxt). Componentes de servidor processam o que é pesado e só entregam a interface limpa via HTML pro cliente, com "Server Actions" substituindo endpoints de API separados para mutations.
-- **Arquitetura Micro-Frontends e Module Federation:** Escalando times gigantes onde cada equipe foca e lança sua parte da interface independentemente.
-- **Segurança Avançada:** Content Security Policy (CSP) rigorosas, proteção contra XSS e CSRF.
+- **Micro-Frontends e Module Federation (Avançado):** A forma correta de escalar times gigantes (escala Enterprise). Repositórios independentes publicam "pedaços" da aplicação que são injetados em tempo de execução no *shell* principal.
+- **Segurança Avançada:** Content Security Policy (CSP) rigorosas (usando nonces para RSCs), proteção contra XSS (especialmente ao renderizar saídas de IA/Markdown) e estratégias avançadas de mitigação de CSRF.
 
 ### 🌿 Green Frontend & Sustentabilidade
 A web consome energia. Você pode ajudar a reduzir isso.
