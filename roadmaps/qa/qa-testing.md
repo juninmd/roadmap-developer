@@ -58,7 +58,7 @@ Em 2026, o Selenium perdeu muito espaço para ferramentas mais rápidas e modern
 - **Validação de Contratos:** Garantir que o backend não mudou a estrutura do JSON silenciosamente (ex: Pact).
 
 ### 🗃️ Bancos de Dados para QA
-- **SQL Básico:** Você precisa saber verificar no banco se o "Cadastro Realizado com Sucesso" realmente salvou os dados (`SELECT`, `JOIN`, `UPDATE` para massa de dados).
+- **SQL Básico:** Você precisa saber verificar no banco se o "Cadastro Realizado com Sucesso" realmente salvou os dados (`SELECT`, `JOIN`), além de manipular a massa de dados para os testes (`INSERT`, `UPDATE`, `DELETE`).
 
 ### ⚙️ CI/CD (Integração Contínua)
 Seu teste não serve de nada rodando só na sua máquina.
@@ -83,7 +83,7 @@ Onde você projeta a estratégia global de qualidade (Quality Engineering), gara
 ### 🧠 IA-Assisted QA (A Revolução de 2026)
 O QA não será substituído pela IA, mas o QA que usa IA substituirá o que não usa.
 - **Geração de Casos de Teste com LLMs:** Usar GPT-4o ou Claude para ler uma história de usuário (Jira) e gerar 20 cenários de borda (Edge Cases) em segundos.
-- **Auto-Healing Tests:** Ferramentas modernas que percebem quando um `id` ou `class` de um botão mudou no frontend e corrigem o seletor do teste dinamicamente, sem intervenção humana (evitando o inferno dos testes frágeis/flaky).
+- **Auto-Healing Tests:** Ferramentas modernas (ex: Healenium, Testim.io, Mabl) que percebem quando um `id` ou `class` de um botão mudou no frontend e corrigem o seletor do teste dinamicamente, sem intervenção humana (evitando o inferno dos testes frágeis/flaky).
 - **Copilotos de Código:** Usar Cursor ou GitHub Copilot para acelerar drasticamente a escrita de scripts Playwright usando TypeScript.
 - **Análise Preditiva de Falhas:** IAs que analisam o histórico de commits e apontam: "Atenção, módulos modificados por este desenvolvedor nesta área costumam introduzir bugs críticos. Aumente a cobertura aqui."
 
@@ -91,7 +91,7 @@ O QA não será substituído pela IA, mas o QA que usa IA substituirá o que nã
 
 - **Júnior:** Crie um documento de plano de testes e reporte 5 bugs fictícios estruturados (com passos e resultados) para um site público (ex: um e-commerce demo).
 - **Pleno:** Automatize o fluxo de "Adicionar item ao carrinho e fazer Checkout" usando **Playwright + TypeScript**. Integre esse teste para rodar no GitHub Actions.
-- **Sênior:** Projete um framework unificado onde um único script Playwright gera a massa de dados via API REST, intercepta o backend (Mock) para forçar um erro 500 na interface, e tira um Screenshot automático da tela de erro do usuário. Adicione testes de carga com o Grafana k6 batendo nessa mesma API.
+- **Sênior:** Projete um framework unificado onde um único script Playwright gera a massa de dados via API REST, intercepta o backend (Mock) para forçar um erro 500 na interface, e tira uma captura de tela automática da tela de erro do usuário. Adicione testes de carga com o Grafana k6 batendo nessa mesma API.
 
 ---
 
