@@ -118,12 +118,15 @@ Com a IA escrevendo código, suas habilidades humanas valem ouro.
 
 ---
 
-### 📚 Onde Estudar de Graça (Recursos Gerais)
+### 📚 Onde Estudar com Qualidade (Recursos e Plataformas)
 
-- **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero. Cursos interativos e projetos práticos.
-- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais detalhados para qualquer carreira tech.
-- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo.
-- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub.
+- **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero de forma **gratuita**. Cursos interativos e projetos práticos (Front, Back, Data).
+- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais incrivelmente detalhados para qualquer carreira tech.
+- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo (Gratuito no YouTube/edX).
+- **[Frontend Masters](https://frontendmasters.com/):** Considerada a plataforma com a mais **alta qualidade técnica** de ensino para Frontend, Fullstack e TypeScript do mercado (Pago).
+- **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes para estudos corporativos profundos, nuvem e arquitetura de software (Pago).
+- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub focado em IA Generativa.
+- **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design).
 
 ### 🏆 Desafios Práticos (Projetos)
 
@@ -144,3 +147,4 @@ Agora que você tem a base, escolha sua especialização:
 *   [**Engenharia de Dados**](../data/data-engineering.md)
 *   [**Cybersecurity**](../security/cybersecurity.md)
 *   [**Inteligência Artificial**](../ai/artificial-intelligence.md)
+*   [**QA & Testing (Qualidade de Software)**](../qa/qa-testing.md)
