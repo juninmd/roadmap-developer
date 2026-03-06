@@ -41,6 +41,9 @@ features:
   - title: Inteligência Artificial
     details: De RAG Avançado e Agentes Autônomos a LLMOps e Fine-Tuning.
     link: /roadmaps/ai/artificial-intelligence.md
+  - title: QA & Testing
+    details: Playwright, Cypress, Shift-Left Testing e Automação Inteligente (IA).
+    link: /roadmaps/qa/qa-testing.md
 ---
 
 # 🚀 Por que este Roadmap?
@@ -64,6 +67,7 @@ Este projeto não é apenas uma lista de tecnologias. É um guia curado para for
     *   [Engenharia de Dados](/roadmaps/data/data-engineering.md): Para os arquitetos da informação.
     *   [Cybersecurity](/roadmaps/security/cybersecurity.md): Para os guardiões digitais.
     *   [Inteligência Artificial](/roadmaps/ai/artificial-intelligence.md): Para os arquitetos da nova era.
+    *   [QA & Testing](/roadmaps/qa/qa-testing.md): Para os guardiões da qualidade e confiança.
 
 ## 💡 Conselhos de Carreira
 

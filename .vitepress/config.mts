@@ -39,7 +39,8 @@ export default withMermaid(defineConfig({
         { text: 'DevOps', link: '/roadmaps/devops/devops' },
         { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
         { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
-        { text: 'AI', link: '/roadmaps/ai/artificial-intelligence' }
+        { text: 'AI', link: '/roadmaps/ai/artificial-intelligence' },
+        { text: 'QA & Testing', link: '/roadmaps/qa/qa-testing' }
       ]},
       { text: 'Conselhos', link: '/advices' }
     ],
@@ -64,7 +65,8 @@ export default withMermaid(defineConfig({
           { text: 'DevOps', link: '/roadmaps/devops/devops' },
           { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
           { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
-          { text: 'Inteligência Artificial', link: '/roadmaps/ai/artificial-intelligence' }
+          { text: 'Inteligência Artificial', link: '/roadmaps/ai/artificial-intelligence' },
+          { text: 'QA & Testing', link: '/roadmaps/qa/qa-testing' }
         ]
       }
     ],
