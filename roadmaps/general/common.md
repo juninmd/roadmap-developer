@@ -2,6 +2,8 @@
 
 > **Edição 2026:** Inclui Alfabetização em IA e novos paradigmas de trabalho com Agentes.
 
+**O Desafio do Desenvolvedor Completo 2026:** O conhecimento esperado abrange desde a lógica estruturada do nível Júnior até a orquestração avançada e pensamento arquitetural de um Especialista. Não se trata apenas de escrever código, mas de garantir alta qualidade, sustentabilidade (Green Coding) e estar plenamente engajado com ferramentas modernas e ciclos de feedback otimizados.
+
 ```mermaid
 flowchart TD
     Start([Início]) --> Git(Git & GitHub)
