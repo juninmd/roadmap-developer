@@ -55,6 +55,17 @@ Este projeto não é apenas uma lista de tecnologias. É um guia curado para for
 *   **Construir Sistemas Sustentáveis** (Green Software).
 *   **Focar na Experiência do Usuário e Soft Skills** enquanto a IA escreve o boilerplate.
 
+### 🌟 O Desenvolvedor Completo de 2026
+
+Ser um **Desenvolvedor Completo** hoje significa transitar fluida e eficientemente entre diversas habilidades, não se limitando apenas ao código-fonte. O foco expandiu do "Como fazer?" para o "Por que fazer?" e "Como a IA pode ajudar a fazer melhor?". Um desenvolvedor de excelência deve dominar:
+- **Tecnologias Core**: HTML, CSS, JavaScript, linguagens de back-end sólidas e arquitetura de software (Microsserviços, Serverless).
+- **Inteligência Artificial Integrada**: RAG, Prompt Engineering, e uso de copilotos e agentes no workflow diário.
+- **Engenharia de Cloud & DevOps**: CI/CD eficiente, uso consciente de recursos na nuvem (FinOps), e monitoramento avançado.
+- **Sustentabilidade**: Práticas de Green Coding e eficiência energética (On-Device, Wasm).
+- **Soft Skills**: Inteligência emocional avançada, foco total na experiência do usuário, e comunicação assertiva num ecossistema guiado por dados e IA.
+
+Neste guia, trilhamos o caminho ideal desde os fundamentos para Iniciantes (Júnior) até as tecnologias disruptivas focadas para Especialistas (Sênior/Especialista), para que você seja, de fato, um profissional indispensável.
+
 ## 🗺️ Sua Jornada Começa Aqui
 
 1.  **[Trilha Comum (Base)](/roadmaps/general/common.md)**: Agora estruturada em níveis, do básico à gestão de carreira. **Obrigatório para todos.**
