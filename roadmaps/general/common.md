@@ -64,13 +64,14 @@ A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenv
   - **GitHub Copilot / Cursor / Windsurf:** Aprenda a usar essas ferramentas para gerar boilerplate, explicar código legado e escrever testes.
   - **Context Awareness:** Entenda que a IA precisa de contexto. Não peça apenas "crie uma função". Peça "crie uma função que faça X, dado que o banco de dados é Y e estamos usando a biblioteca Z".
 - **Prompt Engineering para Devs:**
-  - **Few-Shot Prompting:** Dê exemplos para a IA. "Gere testes unitários seguindo este padrão: [exemplo]".
-  - **Chain of Thought:** Peça para a IA "pensar passo a passo" antes de dar a solução final.
-  - **Structured Outputs:** Peça respostas em JSON para integrar com seus scripts.
-- **Agentes e Ferramentas:** Entenda a diferença entre um chatbot (que só fala) e um Agente (que pode executar comandos no terminal, acessar a web e modificar arquivos).
-- **Agentic Coding Workflows (2026):**
-  - **Uso de LLMs como pares:** Ferramentas como o GitHub Copilot Workspace, Aider e SWE-agent mudaram a forma de codar. Você não digita linha por linha, você planeja e o agente escreve, você revisa e orquestra as mudanças.
-  - **Ferramentas:** Dominar a integração do editor de código (Cursor, Windsurf) para que a IA tenha acesso completo ao contexto e árvore de arquivos.
+  - **Zero-Shot vs Few-Shot:** Não espere que a IA adivinhe a arquitetura do seu projeto. Dê exemplos de código existentes. "Gere testes unitários para a função X seguindo exatamente o padrão do arquivo `test_Y.ts`: [cole o código aqui]".
+  - **Chain of Thought (CoT):** Obrigue o modelo a raciocinar antes de codar. "Pense passo a passo em como resolver esse bug antes de escrever a correção. Liste as possíveis causas raízes."
+  - **Structured Outputs:** O poder de transformar texto livre em dados estruturados. Peça respostas em JSON estrito (usando Zod/Pydantic) para automatizar pipelines de CI/CD ou scripts locais.
+- **Agentes e Ferramentas (Tool Calling):** Entenda a diferença entre um chatbot estático (que alucina) e um Agente Autônomo (que pode usar a ferramenta `grep` no seu repositório, ler a documentação da API em tempo real e corrigir o próprio erro no terminal).
+- **Agentic Coding Workflows (O Padrão Ouro de 2026):**
+  - **Uso de LLMs como pares:** Ferramentas como Aider, SWE-agent, Cline ou Cursor não são "autocompletes gigantes". Você atua como o **Tech Lead**; a IA é o Desenvolvedor Júnior. Você aprova a PR, ela escreve o boilerplate.
+  - **Test-Driven Agentic Workflow (TDAW):** Em vez de pedir para a IA escrever a feature, você escreve um teste que falha e pede para o Agente: "Modifique o código até esse teste passar". Isso evita regressões invisíveis.
+  - **Contexto é Rei:** Dominar como passar o contexto correto (regras de linter, `.cursorrules`, arquivos README de arquitetura) para que a IA gere código que parece ter sido escrito por você.
 
 ### 🐧 Linux, Terminal e Sistemas Operacionais
 
@@ -123,8 +124,10 @@ Com a IA escrevendo código, suas habilidades humanas valem ouro.
 ### 📚 Onde Estudar com Qualidade (Recursos e Plataformas)
 
 - **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero de forma **gratuita**. Cursos interativos e projetos práticos (Front, Back, Data).
+- **[The Odin Project](https://www.theodinproject.com/):** O currículo open-source mais respeitado para Full Stack. Foca em fundamentos reais do zero ao deploy, sem pular etapas difíceis (Gratuito).
 - **[Roadmap.sh](https://roadmap.sh/):** Guias visuais incrivelmente detalhados para qualquer carreira tech.
 - **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo (Gratuito no YouTube/edX).
+- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para aprender IA de verdade. Desde cursos curtos gratuitos (Short Courses) sobre LangChain e RAG, até a especialização completa de Machine Learning de Andrew Ng.
 - **[Frontend Masters](https://frontendmasters.com/):** Considerada a plataforma com a mais **alta qualidade técnica** de ensino para Frontend, Fullstack e TypeScript do mercado (Pago).
 - **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes para estudos corporativos profundos, nuvem e arquitetura de software (Pago).
 - **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub focado em IA Generativa.

@@ -111,11 +111,13 @@ O Backend moderno lida com pipelines de dados, não apenas CRUD.
 - **Data Warehouses:** Snowflake, BigQuery. Entenda a diferença para um banco tradicional (OLTP vs OLAP).
 - **Data Lakes:** Onde jogamos dados brutos (S3, Parquet) para a IA consumir depois.
 
-### 🔭 Observabilidade (OpenTelemetry)
-O "Olho de Sauron" para o bem.
-- **Pilares:** Logging, Métricas e Tracing Distribuído.
-- **Ferramentas:** Prometheus, Grafana, Jaeger.
-- **Tracing de IA:** Monitorar cadeias de execução de LLMs e custo de tokens.
+### 🔭 Observabilidade (OpenTelemetry) e LLMOps
+O "Olho de Sauron" para o bem, agora com foco em IA.
+- **Pilares Tradicionais:** Logging, Métricas e Tracing Distribuído.
+- **Ferramentas Clássicas:** Prometheus, Grafana, Jaeger, Datadog.
+- **LLMOps e Tracing de Agentes:** Monitorar o Backend mudou. Você precisa saber *por que* um agente alucinou ou quanto custou uma chamada de RAG.
+  - **Ferramentas:** **LangSmith** (excelente integração com LangChain) ou **Arize Phoenix**.
+  - **Métricas Chave:** Latência (Time to First Token - TTFT), Custo por Token, e Score de Relevância (RAG Evaluation).
 
 ### 🌿 Green Software & FinOps
 Sustentabilidade e eficiência de custos caminham juntas.
@@ -128,9 +130,11 @@ O Backend evoluiu de servir apenas JSON para orquestrar "cérebros" de forma con
 
 - **Orquestração de Agentes e Fluxos Autônomos:**
   - **LangChain / LangGraph / CrewAI:** O Especialista não usa mais modelos como "caixas de texto". Ele projeta "Agentes" que possuem Loops, Memória, Planejadores e Executores (Agentic Workflow). O LangGraph permite criar grafos de estado com controle de falha absoluto, sendo o padrão ouro.
+  - **LlamaIndex & Semantic Kernel:** Além do LangChain, o LlamaIndex domina a ingestão de dados para RAG, enquanto o Semantic Kernel (Microsoft) é a escolha robusta para ecossistemas C# e corporativos.
   - **Structured Outputs (Garantia de Tipagem em LLMs):** Como um LLM só fala texto, você precisa forçá-lo a falar em objetos definidos. Ferramentas como **Instructor** (Python) e **Zod + Vercel AI SDK** (Node) obrigam o modelo a entregar JSON perfeitamente válido, pronto para o banco de dados.
   - **Function Calling / Tool Use:** Onde o LLM sai do "pensamento" e parte para a "ação". Permitir que ele rode funções do seu código (consultar saldo bancário, enviar e-mail via SendGrid, acionar banco SQL).
   - **MCP (Model Context Protocol) Avançado:** Não integre APIs aos Agentes na mão. O MCP padronizou como os Agentes se conectam a recursos externos (Bancos, Sistemas de Arquivos, APIs SaaS), sendo obrigatório entender para escalar infraestruturas de IA corporativa.
+  - **LLM Gateways & Routing:** Quando você tem dezenas de modelos (GPT-4o, Claude 3.5, Llama 3), você precisa de um "API Gateway para IA". Ferramentas como **LiteLLM** ou **Kong AI Gateway** gerenciam fallback automático (se a OpenAI cair, usa o Anthropic), rate limiting e balanceamento de carga entre chaves de API.
 
 - **Arquiteturas RAG Profundas (Retrieval-Augmented Generation):**
   - Não confie só em "busca vetorial simples" (Naive RAG).
