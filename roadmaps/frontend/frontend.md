@@ -111,7 +111,7 @@ A revolução da IA também acontece no lado do cliente.
 - **Server Components (RSC) e Arquitetura Next.js 15:** Entender a fronteira difusa entre servidor e cliente (ex: Next.js App Router).
   - **Streaming SSR:** Enviar o HTML progressivamente enquanto o banco de dados ainda está processando.
   - **React Compiler (React 19):** O fim do `useMemo` e `useCallback` manuais. Entenda como o compilador otimiza re-renders automaticamente.
-  - Componentes de servidor processam o que é pesado e só entregam a interface limpa via HTML pro cliente, com "Server Actions" substituindo endpoints de API separados para mutations.
+  - **Funcionamento Principal:** Componentes de servidor processam o que é pesado e só entregam a interface limpa via HTML pro cliente, com "Server Actions" substituindo endpoints de API separados para mutations.
 - **Micro-Frontends e Module Federation (Avançado):** A forma correta de escalar times gigantes (escala Enterprise). Repositórios independentes publicam "pedaços" da aplicação que são injetados em tempo de execução no *shell* principal.
 - **Segurança Avançada:** Content Security Policy (CSP) rigorosas (usando nonces para RSCs), proteção contra XSS (especialmente ao renderizar saídas de IA/Markdown) e estratégias avançadas de mitigação de CSRF.
 
