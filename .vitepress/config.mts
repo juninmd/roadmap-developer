@@ -32,6 +32,7 @@ export default withMermaid(defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Trilhas', items: [
         { text: 'Comum', link: '/roadmaps/general/common' },
+        { text: 'Guia de Estudos', link: '/roadmaps/general/study-guide' },
         { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
         { text: 'Backend', link: '/roadmaps/backend/backend' },
         { text: 'Full Stack', link: '/roadmaps/fullstack/fullstack' },
@@ -57,7 +58,8 @@ export default withMermaid(defineConfig({
         text: 'Trilhas de Estudo',
         items: [
           { text: 'Trilha Comum (Base)', link: '/roadmaps/general/common' },
-        { text: 'Padrões de Especialista (2026)', link: '/roadmaps/general/2026-specialist-patterns' },
+          { text: 'Guia de Estudos 2026', link: '/roadmaps/general/study-guide' },
+          { text: 'Padrões de Especialista (2026)', link: '/roadmaps/general/2026-specialist-patterns' },
           { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
           { text: 'Backend', link: '/roadmaps/backend/backend' },
           { text: 'Full Stack', link: '/roadmaps/fullstack/fullstack' },
