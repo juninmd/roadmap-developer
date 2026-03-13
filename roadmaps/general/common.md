@@ -140,6 +140,12 @@ Com a IA escrevendo código, suas habilidades humanas valem ouro.
 - **Nível 3 (Profissional Completo):** Leia um artigo técnico em inglês, aplique a técnica Pomodoro para focar por 2 horas nos estudos, e escreva um pequeno resumo no GitHub explicando o que aprendeu. Reflita sobre sua comunicação em interações passadas.
 
 ---
+## 📚 Aprofunde seus Estudos
+
+Para maximizar seu aprendizado e entender exatamente o que focar em cada etapa da sua carreira, confira nosso guia detalhado:
+*   [**Guia de Estudos 2026: Do Júnior ao Especialista**](./study-guide.md)
+
+---
 ## 🚦 Próximos Passos
 
 Agora que você tem a base, escolha sua especialização:

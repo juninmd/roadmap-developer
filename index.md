@@ -17,6 +17,9 @@ hero:
       link: /roadmaps/backend/backend.md
 
 features:
+  - title: Guia de Estudos 2026
+    details: Um passo a passo para acelerar o seu aprendizado, do nível Júnior ao Especialista.
+    link: /roadmaps/general/study-guide.md
   - title: Frontend 2026
     details: Domine React, Next.js, Generative UI, Server Actions e WebGPU.
     link: /roadmaps/frontend/frontend.md
