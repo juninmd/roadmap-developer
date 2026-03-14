@@ -123,15 +123,22 @@ Com a IA escrevendo código, suas habilidades humanas valem ouro.
 
 ### 📚 Onde Estudar com Qualidade (Recursos e Plataformas)
 
+Para garantir uma formação completa (Júnior ao Especialista), separamos os conteúdos de altíssima qualidade recomendados:
+
+**Júnior (Começando a Jornada):**
 - **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero de forma **gratuita**. Cursos interativos e projetos práticos (Front, Back, Data).
 - **[The Odin Project](https://www.theodinproject.com/):** O currículo open-source mais respeitado para Full Stack. Foca em fundamentos reais do zero ao deploy, sem pular etapas difíceis (Gratuito).
-- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais incrivelmente detalhados para qualquer carreira tech.
 - **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo (Gratuito no YouTube/edX).
-- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para aprender IA de verdade. Desde cursos curtos gratuitos (Short Courses) sobre LangChain e RAG, até a especialização completa de Machine Learning de Andrew Ng.
+- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub focado em IA Generativa, essencial para os primeiros passos na era da IA.
+
+**Pleno (Aprofundamento e Prática Contínua):**
 - **[Frontend Masters](https://frontendmasters.com/):** Considerada a plataforma com a mais **alta qualidade técnica** de ensino para Frontend, Fullstack e TypeScript do mercado (Pago).
-- **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes para estudos corporativos profundos, nuvem e arquitetura de software (Pago).
-- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub focado em IA Generativa.
-- **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design).
+- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para aprender IA de verdade. Desde cursos curtos gratuitos (Short Courses) sobre LangChain e RAG, até a especialização completa de Machine Learning de Andrew Ng.
+- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais incrivelmente detalhados para nivelar seus conhecimentos em diversas áreas de carreira tech.
+
+**Sênior e Especialista (Arquitetura e Escala):**
+- **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes plataformas para estudos corporativos profundos, nuvem, SRE, e arquitetura de software avançada (Pago).
+- **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design). Excelente para consolidar conceitos de sistema distribuído exigidos em entrevistas de Staff e Especialistas.
 
 ### 🏆 Desafios Práticos (Projetos)
 
