@@ -86,7 +86,7 @@ Para garantir que você tenha a melhor base teórica e prática em 2026, selecio
 
 ### 🏛️ Para Nível Sênior/Especialista (Maestria e Liderança)
 - **Cursos:** Assinaturas corporativas focadas em arquitetura como [O'Reilly](https://www.oreilly.com/) e [Pluralsight](https://www.pluralsight.com/). Cursos especializados em Edge Computing e Wasm.
-- **Canais / Blogs:** [ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo) (System Design de Alto Nível), Blogs de Engenharia da Uber, Netflix, e Cloudflare.
+- **Canais / Blogs:** [ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo) (System Design de Alto Nível), Blogs de Engenharia da [Uber](https://eng.uber.com/), [Netflix](https://netflixtechblog.com/) e [Cloudflare](https://blog.cloudflare.com/).
 - **Livros:** "Staff Engineer: Leadership beyond the management track" (Will Larson), "Building Microservices" (Sam Newman).
 
 ---
