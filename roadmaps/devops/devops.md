@@ -70,7 +70,7 @@ Nunca configure servidores manualmente (ClickOps).
 
 ### ☁️ Cloud Native & Serverless
 A evolução natural de Containers.
-- **Serverless Containers:** AWS Fargate ou Google Cloud Run. Execute containers sem gerenciar as máquinas (EC2/Nodes).
+- **Serverless Containers:** AWS Fargate, Google Cloud Run ou Azure Container Apps. Execute containers sem gerenciar as máquinas (EC2/Nodes).
 - **Service Mesh:** Istio ou Linkerd. Desacoplar a lógica de rede, TLS, métricas e retentativas (retries) do código da aplicação, colocando tudo num "sidecar" ou via eBPF.
 
 ---
