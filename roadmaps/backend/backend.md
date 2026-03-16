@@ -127,7 +127,7 @@ Sustentabilidade e eficiência de custos caminham juntas.
 
 ### 🌐 Web3 & Blockchain (A Arquitetura Descentralizada)
 Apesar do "inverno cripto", a adoção corporativa de blockchain em 2026 amadureceu, indo além da especulação para solucionar problemas reais de confiança e infraestrutura distribuída.
-- **Smart Contracts (Contratos Inteligentes):** Código auto-executável na rede. Solidity (para EVM - Ethereum) e Rust (para Solana/Polkadot) são cruciais.
+- **Smart Contracts (Contratos Inteligentes):** Código auto-executável na rede. Solidity (para a EVM, a máquina virtual da Ethereum) e Rust (para Solana/Polkadot) são cruciais.
 - **Wallets & Autenticação:** Login via Web3 (Sign-In with Ethereum) como substituto ou complemento ao OAuth tradicional.
 - **Decentralized Storage:** Uso de IPFS ou Arweave para hospedagem imutável de dados em vez do S3.
 
