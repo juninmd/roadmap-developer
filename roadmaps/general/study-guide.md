@@ -72,20 +72,24 @@ Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decis
 
 ## 📚 Conteúdos de Alta Qualidade (Júnior ao Especialista)
 
-Para garantir que você tenha a melhor base teórica e prática em 2026, selecionamos os melhores materiais divididos por nível:
+Para garantir que você tenha a melhor base teórica e prática em 2026, selecionamos os melhores materiais divididos por nível, abrangendo todo o espectro de um **Desenvolvedor Completo** (Frontend, Backend, IA, DevOps, Mobile, Dados e Segurança):
 
 ### 🐣 Para Nível Júnior (A Base)
 - **Cursos:** [CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science) (Ciência da Computação Base), [FreeCodeCamp](https://www.freecodecamp.org/) (Prática de Código), [The Odin Project](https://www.theodinproject.com/) (Full Stack).
 - **Livros:** "Código Limpo" (Robert C. Martin) - *Foque nos primeiros capítulos*, "Entendendo Algoritmos" (Aditya Y. Bhargava).
 - **IA Literacy:** [Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners).
+- **Canais Recomendados:** [Fireship](https://www.youtube.com/c/Fireship) (Para entender conceitos complexos em 100 segundos e se manter atualizado nas trends de Frontend/Backend).
 
-### 🚀 Para Nível Pleno (Otimização e Arquitetura)
-- **Cursos:** [Frontend Masters](https://frontendmasters.com/) (Especialmente os cursos de Performance e TypeScript avançado), [DeepLearning.AI](https://www.deeplearning.ai/) (Cursos curtos sobre LangChain e RAG).
+### 🚀 Para Nível Pleno (Otimização, Arquitetura e Cloud)
+- **Cursos (Frontend/Backend):** [Frontend Masters](https://frontendmasters.com/) (Especialmente os cursos de Performance, RSCs e TypeScript avançado).
+- **IA e Prompt Engineering:** [Anthropic Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses) (Aprenda a estruturar prompts avançados de verdade, além do básico) e [DeepLearning.AI](https://www.deeplearning.ai/) (Cursos curtos sobre LangChain e RAG).
+- **Cloud e DevOps:** [AWS Skill Builder](https://explore.skillbuilder.aws/) (Trilhas oficiais e laboratórios focados em Serverless e Containers).
 - **Livros:** "Projetando Sistemas Intensivos em Dados" (Martin Kleppmann), "Arquitetura Limpa" (Robert C. Martin).
 - **Plataformas de Prática:** [LeetCode](https://leetcode.com/) (Foco em Medium), [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
 
-### 🏛️ Para Nível Sênior/Especialista (Maestria e Liderança)
-- **Cursos:** Assinaturas corporativas focadas em arquitetura como [O'Reilly](https://www.oreilly.com/) e [Pluralsight](https://www.pluralsight.com/). Cursos especializados em Edge Computing e Wasm.
+### 🏛️ Para Nível Sênior/Especialista (Maestria, Liderança e IA Avançada)
+- **Cursos de Arquitetura Corporativa e DevOps:** [Full Cycle](https://fullcycle.com.br/) (Essencial para arquitetura de software avançada, microsserviços, Kubernetes, Service Mesh e Go/Rust). Assinaturas corporativas como [O'Reilly](https://www.oreilly.com/) e [Pluralsight](https://www.pluralsight.com/).
+- **IA Engineering Avançada:** [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) (Mergulhe fundo em Transformers, Fine-Tuning e modelos locais além da API da OpenAI).
 - **Canais / Blogs:** [ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo) (System Design de Alto Nível), Blogs de Engenharia da [Uber](https://eng.uber.com/), [Netflix](https://netflixtechblog.com/) e [Cloudflare](https://blog.cloudflare.com/).
 - **Livros:** "Staff Engineer: Leadership beyond the management track" (Will Larson), "Building Microservices" (Sam Newman).
 
