@@ -78,7 +78,7 @@ Para garantir que você tenha a melhor base teórica e prática em 2026, selecio
 - **Cursos:** [CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science) (Ciência da Computação Base), [FreeCodeCamp](https://www.freecodecamp.org/) (Prática de Código), [The Odin Project](https://www.theodinproject.com/) (Full Stack).
 - **Livros:** "Código Limpo" (Robert C. Martin) - *Foque nos primeiros capítulos*, "Entendendo Algoritmos" (Aditya Y. Bhargava).
 - **IA Literacy:** [Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners).
-- **Canais Recomendados:** [Fireship](https://www.youtube.com/c/Fireship) (Para entender conceitos complexos em 100 segundos e se manter atualizado nas trends de Frontend/Backend).
+- **Canais Recomendados:** [Fireship](https://www.youtube.com/@Fireship) (Para entender conceitos complexos em 100 segundos e se manter atualizado nas trends de Frontend/Backend).
 
 ### 🚀 Para Nível Pleno (Otimização, Arquitetura e Cloud)
 - **Cursos (Frontend/Backend):** [Frontend Masters](https://frontendmasters.com/) (Especialmente os cursos de Performance, RSCs e TypeScript avançado).
@@ -88,7 +88,7 @@ Para garantir que você tenha a melhor base teórica e prática em 2026, selecio
 - **Plataformas de Prática:** [LeetCode](https://leetcode.com/) (Foco em Medium), [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
 
 ### 🏛️ Para Nível Sênior/Especialista (Maestria, Liderança e IA Avançada)
-- **Cursos de Arquitetura Corporativa e DevOps:** [Full Cycle](https://fullcycle.com.br/) (Essencial para arquitetura de software avançada, microsserviços, Kubernetes, Service Mesh e Go/Rust). Assinaturas corporativas como [O'Reilly](https://www.oreilly.com/) e [Pluralsight](https://www.pluralsight.com/).
+- **Cursos de Arquitetura Corporativa e DevOps:** Recomenda-se o [Full Cycle](https://fullcycle.com.br/) (Essencial para arquitetura de software avançada, microsserviços, Kubernetes, Service Mesh e Go/Rust). Para aprendizado contínuo, considere assinaturas corporativas como [O'Reilly](https://www.oreilly.com/) e [Pluralsight](https://www.pluralsight.com/).
 - **IA Engineering Avançada:** [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) (Mergulhe fundo em Transformers, Fine-Tuning e modelos locais além da API da OpenAI).
 - **Canais / Blogs:** [ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo) (System Design de Alto Nível), Blogs de Engenharia da [Uber](https://eng.uber.com/), [Netflix](https://netflixtechblog.com/) e [Cloudflare](https://blog.cloudflare.com/).
 - **Livros:** "Staff Engineer: Leadership beyond the management track" (Will Larson), "Building Microservices" (Sam Newman).
