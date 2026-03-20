@@ -136,7 +136,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 **Para o Júnior (Fundamentos e Bases):**
 - **Cursos Oficiais Android e iOS:** As plataformas de documentação da [Apple (Swift Playgrounds)](https://developer.apple.com/swift/) e [Google (Android Codelabs)](https://developer.android.com/courses) são os melhores lugares absolutos para iniciar.
 - **[Flutter.dev (Documentação Oficial)](https://flutter.dev/):** Considerado o melhor guia para entrar no mundo Mobile Híbrido, repleto de "Codelabs" práticos.
-- **[React Native - Core Components](https://reactnative.dev/docs/intro):** Se você veio do mundo React, a documentação oficial sobre componentes principais vai acelerar seus estudos.
+- **[React Native - Core Components](https://reactnative.dev/docs/components-and-apis):** Se você veio do mundo React, a documentação oficial sobre componentes principais vai acelerar seus estudos.
 
 **Para o Pleno (Arquitetura, Gerenciamento e Conexão):**
 - **[Philipp Lackner (YouTube)](https://www.youtube.com/@PhilippLackner):** Excelente para aprender Kotlin moderno, Jetpack Compose e as melhores práticas do Android.
@@ -147,7 +147,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 - **[ExecuTorch Docs (PyTorch)](https://pytorch.org/executorch):** Aprenda como preparar grandes modelos LLM/SLM e rodar de forma leve nos dispositivos móveis.
 - **[Hugging Face Spaces - Local/On-Device AI](https://huggingface.co/spaces):** Acompanhe modelos como o Llama.cpp adaptado para iOS/Android e WebNN, além do Transformers.js rodando em React Native.
 - **[Kotlin Multiplatform (KMP) by JetBrains](https://kotlinlang.org/docs/multiplatform.html):** Documentação técnica que explica como compartilhar lógicas de negócio C++/Kotlin entre iOS/Android em larga escala.
-- **[DittoLive / PowerSync Docs](https://www.powersync.com/):** Aprenda na prática a projetar e sincronizar bancos de dados Local-First, essencial para arquiteturas Resilientes.
+- **[Ditto](https://www.ditto.live/) / [PowerSync](https://www.powersync.com/) Docs:** Aprenda na prática a projetar e sincronizar bancos de dados Local-First, essencial para arquiteturas Resilientes.
 
 ---
 
