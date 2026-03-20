@@ -130,7 +130,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 
 **Para o Sênior/Especialista (Big Data, Lakehouse, Streaming e Governança):**
 - **[Data Engineering Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/data-engineering-zoomcamp):** Bootcamp intensivo, de código aberto e comunitário do GitHub abrangendo Airflow, Kafka, Spark, Terraform e GCP/AWS. Absolutamente fantástico.
-- **Livro: "Designing Data-Intensive Applications" (Martin Kleppmann):** A leitura definitiva sobre bancos de dados distribuídos e transações, recomendada igualmente para Devs de Backend.
+- **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A leitura definitiva sobre bancos de dados distribuídos e transações, recomendada igualmente para Devs de Backend.
 - **Livro: "Data Mesh: Delivering Data-Driven Value at Scale" (Zhamak Dehghani):** A criadora do conceito ensina arquiteturas descentralizadas corporativas focadas em escalabilidade e cultura.
 - **[Databricks Academy (Cursos de Lakehouse e Spark)](https://www.databricks.com/learn/training/home):** Mergulhe na fundação de um Data Lakehouse robusto via Apache Spark, Delta Lake e MLflow corporativo para integrar as equipes de Engenharia e IA de forma profissional.
 
