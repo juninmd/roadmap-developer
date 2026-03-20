@@ -4,6 +4,7 @@
 
 ### Adicionado
 - **VitePress:** Transformação completa dos arquivos Markdown em site estático.
+- **Configuração de Deploy:** GitHub Actions para GitHub Pages.
 - **Trilhas Atualizadas para 2026:**
   - **IA:** Agentes Autônomos, MCP, RAG Avançado.
   - **Backend:** Engenharia de IA, Green Software, FinOps.
@@ -11,4 +12,3 @@
   - **Mobile:** On-Device AI, NPU Acceleration.
   - **DevOps:** Platform Engineering, GitOps.
   - **Security:** Zero Trust, AI Red Teaming.
-- **Configuração de Deploy:** GitHub Actions para GitHub Pages.
