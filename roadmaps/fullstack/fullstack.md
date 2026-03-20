@@ -130,8 +130,8 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 **Para o Sênior/Especialista (Edge Computing, Local-First e IA):**
 - **[Vercel AI SDK & Next.js AI Chatbot](https://github.com/vercel/ai-chatbot):** Estude o código-fonte desse repositório para entender como arquitetar e deployar o que há de mais moderno em GenUI com Server Actions.
 - **[Local-First Web Development (Automerge / Yjs Docs)](https://localfirstweb.dev/):** Este manifesto explica a arquitetura necessária para as aplicações offline-first premium de 2026. Leia e acompanhe projetos como o PowerSync.
-- **[Turborepo e Nx Docs](https://turbo.build/):** O padrão para criar monorepos eficientes, essenciais para dividir componentes entre projetos Admin, API e App Cliente.
-- **[Serverless Framework / SST (Serverless Stack)](https://sst.dev/):** Guias arquitetônicos excelentes de como desenhar pipelines nativos de Nuvem (AWS Lambda, DynamoDB) a partir de uma base de código unificada (TypeScript/Next.js).
+- **[Turborepo](https://turbo.build/) e [Nx](https://nx.dev/) Docs:** O padrão para criar monorepos eficientes, essenciais para dividir componentes entre projetos Admin, API e App Cliente.
+- **[Serverless Framework](https://www.serverless.com/) / [SST (Serverless Stack)](https://sst.dev/):** Guias arquitetônicos excelentes de como desenhar pipelines nativos de Nuvem (AWS Lambda, DynamoDB) a partir de uma base de código unificada (TypeScript/Next.js).
 
 ---
 
