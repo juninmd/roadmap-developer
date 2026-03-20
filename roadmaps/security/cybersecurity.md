@@ -119,7 +119,7 @@ Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um ocea
 Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
 
 **Para o Júnior (Redes, Linux e Fundamentos de Cyber):**
-- **[TryHackMe](https://tryhackme.com/):** A forma mais didática do mundo para aprender e práticar Redes (Nmap, Wireshark), Linux e as técnicas ofensivas/defensivas gamificadas. É mandatório para o Júnior.
+- **[TryHackMe](https://tryhackme.com/):** A forma mais didática do mundo para aprender e praticar Redes (Nmap, Wireshark), Linux e as técnicas ofensivas/defensivas gamificadas. É mandatório para o Júnior.
 - **[Professor Messer (CompTIA Security+ / Network+)](https://www.youtube.com/@professormesser):** Cursos gratuitos incríveis que englobam todo o syllabus fundamental da teoria e jargões da segurança em nuvem, encriptação e hardware.
 - **[OverTheWire (Bandit)](https://overthewire.org/wargames/bandit/):** Um wargame muito querido na comunidade, ensina o aluno a utilizar um terminal bash com confiança para as etapas mais avançadas.
 
@@ -131,7 +131,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 **Para o Sênior/Especialista (AI Red Teaming, Pós-Quântica, DevSecOps):**
 - **[OWASP Top 10 for Large Language Models](https://owasp.org/www-project-top-10-for-large-language-models/):** Leitura de suma importância se você quer proteger prompts e gerenciar *data poisoning* no Backend da IA Corporativa do seu time.
 - **[NIST Post-Quantum Cryptography Guidelines](https://csrc.nist.gov/projects/post-quantum-cryptography):** Entenda as padronizações FIPS oficiais do governo americano de 2024 que os sistemas bancários em 2026 são ordenados a utilizar para impedir espionagem retroativa.
-- **[Snyk (DevSecOps Platform) / Trivy Documentation](https://snyk.io/learn/):** Plataforma incrível para entender "Shift-Left", containers, infraestrutura de vulnerabilidades em repositórios Git, mitigando o NPM falso e vazamentos do Github.
+- **[Snyk (DevSecOps Platform) / Trivy Documentation](https://snyk.io/learn/):** Plataforma incrível para entender "Shift-Left", containers, infraestrutura de vulnerabilidades em repositórios Git, mitigando o NPM falso e vazamentos do GitHub.
 - **[PicoCTF (Carnegie Mellon University)](https://picoctf.org/):** Jogue Capture The Flag de alta classe universitária e foque intensamente em "Reverse Engineering", "Binary Exploitation" e Criptografia.
 
 ---
