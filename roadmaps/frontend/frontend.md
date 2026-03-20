@@ -139,7 +139,7 @@ A web consome energia. Você pode ajudar a reduzir isso.
 Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
 
 **Para o Júnior (Fundamentos e Bases):**
-- **MDN Web Docs:** A bíblia do desenvolvimento web. Sempre consulte a MDN antes do StackOverflow.
+- **[MDN Web Docs](https://developer.mozilla.org/):** A bíblia do desenvolvimento web. Sempre consulte a MDN antes do StackOverflow.
 - **[FreeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/):** Excelente para fixar HTML e CSS na prática.
 - **[JavaScript.info](https://javascript.info/):** O guia mais completo para entender o JS moderno a fundo.
 
