@@ -82,7 +82,7 @@ Onde você desenha sistemas resilientes e integra Inteligência Artificial.
 - **Filas e Jobs:** Tirar tarefas pesadas (envio de email, processamento de imagem) do ciclo de requisição HTTP. (Redis + BullMQ).
 
 ### 🌍 Local-First Architecture
-Sistemas onde a fonte da verdade é o cliente e os servidores sincronizam no background.
+Sistemas onde a fonte da verdade é o cliente e os servidores sincronizam em segundo plano.
 - **Offline-First:** O app funciona perfeitamente sem internet (PWA + Bancos de dados locais como Dexie.js ou PouchDB).
 - **CRDTs (Conflict-free Replicated Data Types):** Sincronização automática e resolução de conflitos para colaboração em tempo real (como o Google Docs). Ferramentas como **Yjs** ou **Automerge**.
 
