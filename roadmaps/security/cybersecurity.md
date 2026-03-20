@@ -114,6 +114,28 @@ Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um ocea
 
 ---
 
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Redes, Linux e Fundamentos de Cyber):**
+- **[TryHackMe](https://tryhackme.com/):** A forma mais didática do mundo para aprender e praticar Redes (Nmap, Wireshark), Linux e as técnicas ofensivas/defensivas gamificadas. É mandatório para o Júnior.
+- **[Professor Messer (CompTIA Security+ / Network+)](https://www.youtube.com/@professormesser):** Cursos gratuitos incríveis que englobam todo o syllabus fundamental da teoria e jargões da segurança em nuvem, encriptação e hardware.
+- **[OverTheWire (Bandit)](https://overthewire.org/wargames/bandit/):** Um wargame muito querido na comunidade, ensina o aluno a utilizar um terminal bash com confiança para as etapas mais avançadas.
+
+**Para o Pleno (AppSec, Pentesting e Cloud):**
+- **[HackTheBox](https://www.hackthebox.com/):** A principal arena focada em atacar caixas (servidores virtuais). Exige esforço e persistência. Comece através dos tutoriais do HTB Academy antes.
+- **[PortSwigger Web Security Academy](https://portswigger.net/web-security):** Criado pelos desenvolvedores do famosíssimo *Burp Suite*. É o lugar definitivo para aprender exploração Web moderna baseada nos Top 10 vulnerabilidades.
+- **[OWASP Top 10 (Site Oficial)](https://owasp.org/www-project-top-ten/):** Aprenda detalhadamente os defeitos corporativos comuns que mais causam roubo de informações confidenciais do servidor aos cookies no Browser.
+
+**Para o Sênior/Especialista (AI Red Teaming, Pós-Quântica, DevSecOps):**
+- **[OWASP Top 10 for Large Language Models](https://owasp.org/www-project-top-10-for-large-language-models/):** Leitura de suma importância se você quer proteger prompts e gerenciar *data poisoning* no Backend da IA Corporativa do seu time.
+- **[NIST Post-Quantum Cryptography Guidelines](https://csrc.nist.gov/projects/post-quantum-cryptography):** Entenda as padronizações FIPS oficiais do governo americano de 2024 que os sistemas bancários em 2026 são ordenados a utilizar para impedir espionagem retroativa.
+- **[Snyk (DevSecOps Platform) / Trivy Documentation](https://snyk.io/learn/):** Plataforma incrível para entender "Shift-Left", containers, infraestrutura de vulnerabilidades em repositórios Git, mitigando o NPM falso e vazamentos do GitHub.
+- **[PicoCTF (Carnegie Mellon University)](https://picoctf.org/):** Jogue Capture The Flag de alta classe universitária e foque intensamente em "Reverse Engineering", "Binary Exploitation" e Criptografia.
+
+---
+
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)

@@ -184,19 +184,25 @@ Não construa Skynet sem querer.
 ## 🎓 Cursos e Recursos de Estudo (Links Diretos)
 
 ### 🌟 Essenciais e Gratuitos
-- **[Fast.ai (Practical Deep Learning)](https://course.fast.ai/):** A melhor forma de começar "top-down". Codifique primeiro, estude a teoria depois.
-- **[Hugging Face Courses](https://huggingface.co/learn):**
-  - **NLP Course:** Domine Transformers.
-  - **Deep RL Course:** Aprendizado por Reforço.
-  - **Audio Course:** Processamento de áudio.
+
+**Para o Júnior (Matemática Básica, Python, Fundamentos GenAI):**
 - **[DeepLearning.AI (Andrew Ng)](https://www.deeplearning.ai/):**
-  - **AI for Everyone:** Visão geral de negócio.
-  - **Generative AI with LLMs:** Focado em fine-tuning e deployment (AWS).
-  - **Prompt Engineering for Developers:** O curso clássico com a OpenAI.
-  - **AI Agentic Design Patterns with AutoGen:** Entenda os padrões de agentes na prática.
-- **[Cohere LLM University](https://llm.university/):** Ótimo para entender embeddings e busca semântica.
-- **[Full Stack Deep Learning (LLM Bootcamp)](https://fullstackdeeplearning.com/llm-bootcamp/):** O curso definitivo para quem quer colocar LLMs em produção.
-- **[LangChain Academy](https://academy.langchain.com/):** Aprenda a construir aplicações com LangChain e LangGraph.
+  - *AI for Everyone:* Visão geral de negócio que todo iniciante deveria começar.
+  - *Machine Learning Specialization:* Curso introdutório que o ensinará de fato os primeiros passos dos tensores antes dos LLMs.
+- **[Fast.ai (Practical Deep Learning)](https://course.fast.ai/):** A melhor forma de começar "top-down". Codifique primeiro, estude a teoria depois.
+
+**Para o Pleno (Machine Learning, RAG, NLP e Visão Computacional):**
+- **[Hugging Face Courses](https://huggingface.co/learn):**
+  - *NLP Course:* Domine Transformers.
+  - *Deep RL Course:* Aprendizado por Reforço.
+- **[Cohere LLM University](https://llm.university/):** Ótimo para entender a teoria completa dos embeddings, distâncias vetoriais e busca semântica para RAG.
+- **[DeepLearning.AI Short Courses (Grátis)](https://www.deeplearning.ai/short-courses/):** Para aprender *Prompt Engineering for Developers* com OpenAI API de ponta a ponta na prática.
+
+**Para o Sênior/Especialista (LLMOps, Multi-Agents, DSPy, Local-First Models):**
+- **[LangChain Academy](https://academy.langchain.com/):** O curso aprofundado para aprender grafos baseados em estado para orquestrar *Agentic Workflows* através do LangGraph.
+- **[Full Stack Deep Learning (LLM Bootcamp)](https://fullstackdeeplearning.com/llm-bootcamp/):** O curso definitivo para arquitetura corporativa em MLOps e colocar LLMs massivos em produção usando servidores de inferência (vLLM).
+- **[DeepLearning.AI: AI Agentic Design Patterns with AutoGen](https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/):** Entenda os padrões de agentes (Planning, Tool Use, Reflection) na prática recomendados pelo próprio Andrew Ng.
+- **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Muito avançado, ensina *Few-shot*, *Chain of Thought* forçados e técnicas obscuras em 2026 para dominar os modelos Claude 3.5 Sonnet.
 
 ### 🎧 Podcasts e Mídia (Engenharia Real)
 - **[Latent Space](https://www.latent.space/):** O melhor podcast de Engenharia de IA. Discussões profundas com os criadores das ferramentas.

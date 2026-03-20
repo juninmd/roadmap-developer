@@ -124,6 +124,28 @@ DevOps é cultura, e cultura se aprende com histórias e práticas.
 
 ---
 
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Fundamentos, Linux, Docker):**
+- **[KodeKloud](https://kodekloud.com/):** A melhor plataforma hands-on (prática no terminal) para aprender Linux, Docker e Git, com cenários simulados fantásticos.
+- **[NetworkChuck (YouTube)](https://www.youtube.com/@NetworkChuck):** Canal muito didático e acessível para quem precisa começar no mundo das redes, subnetting, e roteadores.
+- **[ACloudGuru (agora Pluralsight)](https://www.pluralsight.com/cloud-guru):** O clássico absoluto para certificações Cloud Practitioner da AWS, GCP e Azure.
+
+**Para o Pleno (Cloud, CI/CD, Terraform e Kubernetes):**
+- **[Nana Janashia (TechWorld with Nana)](https://www.youtube.com/@TechWorldwithNana):** Um canal essencial. Os "Crash Courses" gratuitos sobre Terraform, Ansible, Docker e Kubernetes são de ouro.
+- **[KubeAcademy (VMware)](https://kube.academy/):** Cursos curtos e gratuitos e bem desenhados focados nos mínimos detalhes do ecossistema Kubernetes.
+- **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Utilize a plataforma oficial da AWS e seu lab guiado para aprender a conectar lambdas com redes sem medo.
+
+**Para o Sênior/Especialista (eBPF, FinOps, GitOps e IDPs):**
+- **[The Phoenix Project / The DevOps Handbook (Livros)](https://itrevolution.com/):** Não subestime a parte humana e cultural, estas são as "Bíblias" que orientam Staff Engineers na jornada de DevOps corporativa.
+- **[eBPF.io - O portal oficial do eBPF](https://ebpf.io/):** Documentação profunda, papers de arquitetura, e exemplos de programação em Rust/C para criar os próximos programas do kernel.
+- **[ArgoCD / Flux Docs](https://argo-cd.readthedocs.io/):** O guia mais atualizado para escalar GitOps real e contínuo.
+- **[CNCF (Cloud Native Computing Foundation) Landscape](https://landscape.cncf.io/):** Mapeamento atualizado anualmente pela fundação, focando em ferramentas mantidas e criadas pelas empresas top tier. Navegue nos projetos (Graduados) de segurança (Trivy), Observabilidade (OpenTelemetry), e Proxies (Envoy).
+
+---
+
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)

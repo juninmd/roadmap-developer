@@ -178,6 +178,29 @@ Para chegar ao nível especialista, a prática não basta. Você precisa de teor
 
 ---
 
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Fundamentos e Bases):**
+- **[Boot.dev](https://www.boot.dev/):** Plataforma incrível gamificada focada no backend (Python, Go, algoritmos e estruturas de dados).
+- **[FreeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/):** Excelente curso prático e gratuito sobre Node.js e MongoDB.
+- **Documentações Oficiais:** Ler os guias iniciais do Express.js, FastAPI, Spring Boot ou [Go](https://go.dev/) é o primeiro passo de ouro.
+
+**Para o Pleno (Arquitetura, Bancos e Testes):**
+- **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** O melhor canal para aprender como os bancos de dados (Postgres, Redis, Kafka) e protocolos (TCP/UDP, HTTP/2/3) funcionam por baixo dos panos.
+- **[Test-Driven Development with Python (Harry Percival)](https://www.obeythetestinggoat.com/):** Livro clássico (disponível de graça online) que ensina TDD de verdade com Django.
+- **[Full Cycle](https://fullcycle.com.br/):** Referência nacional para entender Docker, microsserviços, RabbitMQ e arquiteturas modernas para empresas.
+
+**Para o Sênior/Especialista (System Design, Rust, AI Engineering):**
+- **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A bíblia absoluta do engenheiro de backend sênior. Ensina Replicação, Particionamento e Consenso.
+- **[ByteByteGo (Alex Xu)](https://bytebytego.com/):** O curso e livro definitivos sobre System Design ("System Design Interview"). Acompanhe também o canal no YouTube.
+- **[Arpit Bhayani (YouTube e Cursos)](https://www.youtube.com/@ArpitBhayani):** Focado em engenharia de altíssima escala e otimizações de nível de Kernel.
+- **[LangChain Academy](https://academy.langchain.com/) / [LlamaIndex Docs](https://docs.llamaindex.ai/):** Leituras obrigatórias para orquestração de Agentes e criação de arquiteturas RAG avançadas integradas com o banco de dados.
+- **[The Rust Programming Language Book](https://doc.rust-lang.org/book/):** A introdução oficial para entender ownership, empréstimos e criar serviços seguros e ultra rápidos.
+
+---
+
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)

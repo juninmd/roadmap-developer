@@ -114,6 +114,27 @@ A integração profunda de modelos de IA no produto.
 
 ---
 
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Fundamentos e Bases):**
+- **[The Odin Project](https://www.theodinproject.com/):** O melhor currículo gratuito e guiado por projetos para full stack (Ruby on Rails ou Node.js).
+- **[Full Stack Open (Universidade de Helsinque)](https://fullstackopen.com/):** Curso maravilhoso focado em React, Redux, Node.js, MongoDB, GraphQL e TypeScript.
+
+**Para o Pleno (Next.js, Arquitetura e Monorepos):**
+- **[Next.js Learn (Curso Oficial)](https://nextjs.org/learn):** A documentação da Vercel tem um curso passo a passo criando um dashboard full stack. Imperdível.
+- **[Prisma / Drizzle Docs](https://www.prisma.io/docs):** Aprenda ORMs modernos lendo os guias iniciais e tutorias práticos em seus sites oficiais.
+- **[Joy of React (Josh Comeau)](https://joyofreact.com/):** Uma profunda exploração das fundações do React, excelente para consolidar conceitos antes de tentar construir apps complexos.
+
+**Para o Sênior/Especialista (Edge Computing, Local-First e IA):**
+- **[Vercel AI SDK & Next.js AI Chatbot](https://github.com/vercel/ai-chatbot):** Estude o código-fonte desse repositório para entender como arquitetar e deployar o que há de mais moderno em GenUI com Server Actions.
+- **[Local-First Web Development (Automerge / Yjs Docs)](https://localfirstweb.dev/):** Este manifesto explica a arquitetura necessária para as aplicações offline-first premium de 2026. Leia e acompanhe projetos como o PowerSync.
+- **[Turborepo](https://turbo.build/) e [Nx](https://nx.dev/) Docs:** O padrão para criar monorepos eficientes, essenciais para dividir componentes entre projetos Admin, API e App Cliente.
+- **[Serverless Framework](https://www.serverless.com/) / [SST (Serverless Stack)](https://sst.dev/):** Guias arquitetônicos excelentes de como desenhar pipelines nativos de Nuvem (AWS Lambda, DynamoDB) a partir de uma base de código unificada (TypeScript/Next.js).
+
+---
+
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)
