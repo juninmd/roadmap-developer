@@ -143,9 +143,9 @@ O futuro da automação. O modelo não só fala, ele *faz*.
 
 - **Arquiteturas e Frameworks:**
   - **ReAct:** Reason + Act. O loop básico de pensamento.
-  - **Multi-Agent Systems:** CrewAI, AutoGen, **Smolagents (Hugging Face)**.
+  - **Multi-Agent Systems:** CrewAI, AutoGen, Smolagents (Hugging Face).
   - **LangGraph:** Controle granular de estado e loops. Essencial para produção.
-  - **PydanticAI:** Agentes focados em Type-Safe e validação rigorosa (Production Ready).
+  - **PydanticAI:** Agentes focados em type-safe e validação rigorosa (production-ready).
   - **DSPy:** A morte do "Prompt Engineering" manual. Um framework que otimiza prompts automaticamente baseado em métricas de qualidade. Você define a lógica, o DSPy encontra o prompt perfeito.
   - **MCP (Model Context Protocol):** O padrão universal para conectar Agentes aos seus dados e ferramentas.
 
