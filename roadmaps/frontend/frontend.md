@@ -134,6 +134,28 @@ A web consome energia. Você pode ajudar a reduzir isso.
 
 ---
 
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Fundamentos e Bases):**
+- **MDN Web Docs:** A bíblia do desenvolvimento web. Sempre consulte a MDN antes do StackOverflow.
+- **[FreeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/):** Excelente para fixar HTML e CSS na prática.
+- **[JavaScript.info](https://javascript.info/):** O guia mais completo para entender o JS moderno a fundo.
+
+**Para o Pleno (Arquitetura e TypeScript):**
+- **[Total TypeScript](https://www.totaltypescript.com/):** O curso definitivo para parar de brigar com o compilador e entender TypeScript avançado (Matt Pocock).
+- **[Frontend Masters](https://frontendmasters.com/):** Cursos aprofundados sobre performance, acessibilidade e algoritmos no frontend.
+- **[Epic React](https://epicreact.dev/) / [React.dev](https://react.dev/):** Domine os padrões do React, concorrência e o novo React Compiler.
+
+**Para o Sênior/Especialista (Generative UI, Performance e WebGPU):**
+- **[web.dev (Google Chrome Developers)](https://web.dev/):** Acompanhe as métricas vitais (Core Web Vitals), novidades de CSS e arquitetura moderna.
+- **[Vercel AI SDK Documentation](https://sdk.vercel.ai/docs):** Essencial para implementar Generative UI e integrar RAG no Frontend via React Server Components.
+- **[Patterns.dev](https://www.patterns.dev/):** O guia moderno definitivo para padrões de design (Design Patterns) em JavaScript e React, focado em performance.
+- **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Se você foge do CSS e usa apenas Tailwind, este curso muda a sua mente, ensinando o motor do CSS por trás dos panos.
+
+---
+
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)

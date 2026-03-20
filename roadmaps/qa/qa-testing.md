@@ -95,6 +95,26 @@ O QA não será substituído pela IA, mas o QA que usa IA substituirá o que nã
 
 ---
 
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Fundamentos e Teste Manual):**
+- **[Syllabus CTFL (ISTQB)](https://bstqb.org.br/):** O currículo oficial de certificação internacional, fornecendo a teoria base em testes de qualidade que vai diferenciar a base do júnior.
+- **[FreeCodeCamp - Software Testing Course](https://www.freecodecamp.org/):** Excelente curso prático gratuito com vídeos sobre o ciclo de vida do software e tipos de teste para um testador iniciante.
+
+**Para o Pleno (Automação Web E2E, APIs):**
+- **[Documentação Oficial do Playwright](https://playwright.dev/):** A melhor documentação entre as ferramentas de QA atuais. Leia o "Getting Started" e os guias fundamentais (Locators e Assertions).
+- **[Cypress Real World App (Repo GitHub)](https://github.com/cypress-io/cypress-realworld-app):** A Cypress forneceu este repositório de um App clone inteiro com os melhores exemplos práticos de como automatizar pagamentos e criar testes escaláveis.
+- **[Ministry of Testing (MoT)](https://www.ministryoftesting.com/):** Uma comunidade mundial riquíssima que aborda os desafios práticos do engenheiro QA além do código.
+
+**Para o Sênior/Especialista (Testes de Performance, IA e Shift-Left):**
+- **[Grafana k6 Docs](https://k6.io/docs/):** A ferramenta moderna baseada em Javascript/Go para aplicar carga, picos massivos e verificar "Testes de Stress" contra APIs da arquitetura Backend.
+- **[Test Automation University (Applitools)](https://testautomationu.applitools.com/):** Uma infinidade de cursos gratuitos, avançados (em Java/Python/Javascript), sobre testes visuais impulsionados por IA (Visual AI).
+- **[The Pragmatic Engineer (Newsletter/Blog)](https://blog.pragmaticengineer.com/):** Ótimo para um QA Sênior entender as estratégias massivas que empresas (Uber, Stripe) tomam sobre "Engineering Productivity" em vez de apenas achar bugs.
+
+---
+
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)

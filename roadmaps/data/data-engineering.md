@@ -115,6 +115,27 @@ Dados com bugs geram modelos de IA perigosos. "Garbage in, Garbage out".
 
 ---
 
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (SQL, Python, Modelagem Básico):**
+- **[DataCamp](https://www.datacamp.com/):** O lugar ideal (interativo no browser) para quem quer pegar intimidade prática com SQL, Python (Pandas/NumPy) e os primeiros passos para dados estruturados.
+- **[Kaggle](https://www.kaggle.com/):** A comunidade onde habitam os datasets. Baixe CSVs (filmes, temperatura do mundo, dados criminais), suba no Postgres/Colab e aprenda limpando a "sujeira" do mundo real.
+
+**Para o Pleno (ETL, dbt, Airflow e Warehouses):**
+- **[dbt Learn (Fundamentals)](https://courses.getdbt.com/):** O dbt (data build tool) é obrigatório hoje, e este curso oficial e gratuito de 5 horas ensina do zero o conceito do Analytics Engineering e ELT.
+- **[Marc Lamberti (Udemy/YouTube)](https://www.youtube.com/@marclamberti):** A referência suprema quando o assunto é Apache Airflow (orquestração corporativa).
+- **Livro: "Data Warehouse Toolkit" (Ralph Kimball):** Um livro das antigas, mas a modelagem dimensional (Star Schema) ainda dita as regras em ambientes BigQuery/Snowflake.
+
+**Para o Sênior/Especialista (Big Data, Lakehouse, Streaming e Governança):**
+- **[Data Engineering Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/data-engineering-zoomcamp):** Bootcamp intensivo, de código aberto e comunitário do GitHub abrangendo Airflow, Kafka, Spark, Terraform e GCP/AWS. Absolutamente fantástico.
+- **Livro: "Designing Data-Intensive Applications" (Martin Kleppmann):** A leitura definitiva sobre bancos de dados distribuídos e transações, recomendada igualmente para Devs de Backend.
+- **Livro: "Data Mesh: Delivering Data-Driven Value at Scale" (Zhamak Dehghani):** A criadora do conceito ensina arquiteturas descentralizadas corporativas focadas em escalabilidade e cultura.
+- **[Databricks Academy (Cursos de Lakehouse e Spark)](https://www.databricks.com/learn/training/home):** Mergulhe na fundação de um Data Lakehouse robusto via Apache Spark, Delta Lake e MLflow corporativo para integrar as equipes de Engenharia e IA de forma profissional.
+
+---
+
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)
