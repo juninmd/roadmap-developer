@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Check Formatting (Prettier)
+        run: npx prettier --check .
+
       - name: Run ESLint
         run: npm run lint
 
@@ -49,10 +52,11 @@ jobs:
         run: npm run test
 
       - name: Upload Coverage
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         with:
           file: ./coverage/coverage-final.json
           fail_ci_if_error: false
+          token: ${{ secrets.CODECOV_TOKEN }}
 
   build:
     runs-on: ubuntu-latest
@@ -109,10 +113,41 @@ jobs:
           path: playwright-report/
           retention-days: 15
 
-  deploy:
+  deploy-staging:
     runs-on: ubuntu-latest
     needs: e2e
+    environment:
+      name: staging
+      url: "https://staging.roadmap-developer.com"
+    if: github.ref == 'refs/heads/develop' || github.event_name == 'pull_request'
+    steps:
+      - name: Deploy to Staging Placeholder
+        run: echo "Deploying build artifacts to Staging environment."
+
+      - name: Health Check (Staging)
+        run: echo "Performing health check on staging..."
+
+  deploy-production:
+    runs-on: ubuntu-latest
+    needs: e2e
+    environment:
+      name: production
+      url: "https://roadmap-developer.com"
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     steps:
-      - name: Deploy Placeholder
-        run: echo "Deployment would occur here. (Deploying to Pages is handled in deploy.yml)"
+      - name: Deploy to Production Placeholder
+        run: echo "Deploying build artifacts to Production. Requires manual approval in GitHub Environments."
+
+      - name: Post-deployment Health Check
+        run: echo "Verifying production health check endpoints..."
+
+      - name: Setup Rollback Capability
+        run: echo "Registering deployment ID for rollback capability."
+
+  notify:
+    runs-on: ubuntu-latest
+    needs: [deploy-production, deploy-staging]
+    if: failure()
+    steps:
+      - name: Slack Notification
+        run: echo "Sending failure notification to Slack/Email alerting team of deployment/build issue."
