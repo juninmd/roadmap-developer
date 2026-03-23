@@ -19,13 +19,13 @@ test.describe("VitePress Site E2E Tests", () => {
     });
 
     // We expect the link to exist, and we will click it
-    if ((await frontendLink.count()) > 0) {
-      await frontendLink.click();
+    // We expect the link to exist, and we will click it
+    await expect(frontendLink).toBeVisible();
+    await frontendLink.click();
 
-      // We should be on a page with "Frontend" in the heading or title
-      await expect(page).toHaveURL(/frontend/);
-      await expect(page.locator("h1").first()).toContainText("Frontend");
-    }
+    // We should be on a page with "Frontend" in the heading or title
+    await expect(page).toHaveURL(/frontend/);
+    await expect(page.locator("h1").first()).toContainText("Frontend");
   });
 
   test("should render the top navigation correctly", async ({ page }) => {
