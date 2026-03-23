@@ -2,6 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Atualizado%202026-success?style=flat-square" alt="Status Atualizado">
+  <img src="https://github.com/juninmd/roadmap-developer/actions/workflows/ci.yml/badge.svg" alt="CI/CD Pipeline">
   <img src="https://img.shields.io/github/license/roadmap-developer-community/roadmap-developer-2026?style=flat-square" alt="License">
   <br><br>
   <img height="200" src=".vitepress/public/coder-cat.jpg">
@@ -17,7 +18,7 @@ O conteúdo deste repositório é melhor visualizado através do nosso site de d
 
 > **[Acessar Roadmap Developer 2026](https://seu-usuario.github.io/roadmap-developer-2026/)**
 >
-> *Nota: A URL acima será ativada automaticamente após o primeiro deploy via GitHub Pages. Lembre-se de substituir `seu-usuario` pelo seu username do GitHub.*
+> _Nota: A URL acima será ativada automaticamente após o primeiro deploy via GitHub Pages. Lembre-se de substituir `seu-usuario` pelo seu username do GitHub._
 
 ---
 
@@ -25,15 +26,15 @@ O conteúdo deste repositório é melhor visualizado através do nosso site de d
 
 Este projeto foi atualizado para refletir o mercado de tecnologia em **2026**, focando não apenas em código, mas em Inteligência Artificial, Sustentabilidade e Arquitetura Moderna.
 
-*   [**Trilha Comum (Base)**](./roadmaps/general/common.md): Git, IA Literacy, Prompt Engineering e Lógica.
-*   [**Backend**](./roadmaps/backend/backend.md): Microsserviços, IA Engineering (RAG, Agents), Green Software e Observabilidade.
-*   [**Frontend**](./roadmaps/frontend/frontend.md): Generative UI, Server Actions, WebGPU e Acessibilidade.
-*   [**Full Stack**](./roadmaps/fullstack/fullstack.md): Server Components, Monorepos, Integração de IA e Arquitetura de Sistemas.
-*   [**Mobile**](./roadmaps/mobile/mobile.md): On-Device AI (ExecuTorch), Kotlin Multiplatform e Superapps.
-*   [**Inteligência Artificial**](./roadmaps/ai/artificial-intelligence.md): Agentes Autônomos, LLMOps, Fine-Tuning e Sistemas Compostos.
-*   [**DevOps & Platform**](./roadmaps/devops/devops.md): Platform Engineering, FinOps e GitOps.
-*   [**Engenharia de Dados**](./roadmaps/data/data-engineering.md): Lakehouse, Streaming e Governança.
-*   [**Cybersecurity**](./roadmaps/security/cybersecurity.md): Zero Trust, DevSecOps e Segurança de IA.
+- [**Trilha Comum (Base)**](./roadmaps/general/common.md): Git, IA Literacy, Prompt Engineering e Lógica.
+- [**Backend**](./roadmaps/backend/backend.md): Microsserviços, IA Engineering (RAG, Agents), Green Software e Observabilidade.
+- [**Frontend**](./roadmaps/frontend/frontend.md): Generative UI, Server Actions, WebGPU e Acessibilidade.
+- [**Full Stack**](./roadmaps/fullstack/fullstack.md): Server Components, Monorepos, Integração de IA e Arquitetura de Sistemas.
+- [**Mobile**](./roadmaps/mobile/mobile.md): On-Device AI (ExecuTorch), Kotlin Multiplatform e Superapps.
+- [**Inteligência Artificial**](./roadmaps/ai/artificial-intelligence.md): Agentes Autônomos, LLMOps, Fine-Tuning e Sistemas Compostos.
+- [**DevOps & Platform**](./roadmaps/devops/devops.md): Platform Engineering, FinOps e GitOps.
+- [**Engenharia de Dados**](./roadmaps/data/data-engineering.md): Lakehouse, Streaming e Governança.
+- [**Cybersecurity**](./roadmaps/security/cybersecurity.md): Zero Trust, DevSecOps e Segurança de IA.
 
 ## ⚙️ Configuração do Repositório
 
@@ -48,6 +49,7 @@ Para usar este roadmap no seu próprio GitHub Pages:
 Para rodar o site de documentação na sua máquina:
 
 1.  **Clone o repositório e instale as dependências:**
+
     ```bash
     git clone https://github.com/seu-usuario/roadmap-developer-2026.git
     cd roadmap-developer-2026
@@ -55,9 +57,11 @@ Para rodar o site de documentação na sua máquina:
     ```
 
 2.  **Inicie o servidor de desenvolvimento:**
+
     ```bash
     npm run docs:dev
     ```
+
     O site estará disponível em `http://localhost:5173`.
 
 3.  **Para gerar a versão de produção:**
@@ -66,12 +70,24 @@ Para rodar o site de documentação na sua máquina:
     ```
     Os arquivos estáticos serão gerados na pasta `.vitepress/dist`.
 
+## 🚀 CI/CD e Qualidade de Código
+
+Este projeto utiliza um pipeline robusto de CI/CD para garantir a qualidade de software:
+
+- **Testes Unitários:** O utilitário `utils/link-checker.js` possui cobertura através do `vitest`.
+- **Testes E2E:** O fluxo principal é testado com `@playwright/test`.
+- **Linting:** O código é verificado com `eslint` e `markdownlint-cli`.
+- **Formatação:** Todo o repositório é formatado com `prettier`.
+- **Segurança:** As dependências são verificadas com o `npm run security` (`npm audit`).
+
+As instruções detalhadas de como rodar esses processos localmente estão no `CONTRIBUTING.md`.
+
 ## 📦 Deploy
 
 Este projeto está configurado para deploy automático no **GitHub Pages** usando GitHub Actions.
-Sempre que um push for feito na branch `main`, o site será reconstruído e publicado.
+Sempre que um push for feito na branch `main`, o site será reconstruído e publicado caso os testes passem.
 
-Veja o arquivo de workflow em: `.github/workflows/deploy.yml`.
+Veja o arquivo de workflow em: `.github/workflows/deploy.yml` e o pipeline de CI/CD em `.github/workflows/ci.yml`.
 
 ## 🤝 Contribuição
 
@@ -83,4 +99,5 @@ Leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como ajudar.
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para detalhes.
 
 ---
-*Inspirado pelo trabalho incrível da comunidade open source e projetos como roadmap.sh.*
+
+_Inspirado pelo trabalho incrível da comunidade open source e projetos como roadmap.sh._

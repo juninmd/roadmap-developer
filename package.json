@@ -9,7 +9,13 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "lint": "eslint .",
+    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore .vitepress/dist",
+    "format": "prettier --write .",
+    "test": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "security": "npm audit"
   },
   "keywords": [
     "roadmap",
@@ -28,5 +34,15 @@
     "mermaid": "10.9.3",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.58.2",
+    "@vitest/coverage-v8": "^4.1.0",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "markdownlint-cli": "^0.48.0",
+    "prettier": "^3.8.1",
+    "vitest": "^4.1.0"
   }
 }

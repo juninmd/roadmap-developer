@@ -13,7 +13,7 @@ flowchart TD
     style Mastery fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-O mercado de tecnologia em 2026 não tolera mais desenvolvedores que apenas "escrevem código". Com a ascensão dos agentes autônomos de IA e ferramentas como Copilot e Cursor, a habilidade de *pensar* e *arquitetar* tornou-se mais valiosa do que a habilidade de *digitar*.
+O mercado de tecnologia em 2026 não tolera mais desenvolvedores que apenas "escrevem código". Com a ascensão dos agentes autônomos de IA e ferramentas como Copilot e Cursor, a habilidade de _pensar_ e _arquitetar_ tornou-se mais valiosa do que a habilidade de _digitar_.
 
 Este guia foi desenhado para maximizar seu tempo e garantir que você estude **o que realmente importa**.
 
@@ -24,15 +24,17 @@ Este guia foi desenhado para maximizar seu tempo e garantir que você estude **o
 O objetivo desta fase não é criar a arquitetura perfeita, mas sim **fazer funcionar de forma previsível e entender os fundamentos**. Você deve dominar a base antes de tentar escalar.
 
 ### 🎯 Foco Principal:
+
 - **Lógica e Estruturas de Dados:** Compreender Big O Notation básico. Saber quando usar um Array vs um Map (Dicionário).
 - **A Linguagem (Sua Ferramenta de Trabalho):** Escolha UMA linguagem (ex: JavaScript/TypeScript, Python, Go) e entenda como ela funciona por baixo dos panos (Event Loop, Garbage Collection).
 - **Git & Versionamento:** Commits atômicos, branch management e como resolver conflitos sem pânico.
-- **Alfabetização em IA (Obrigatório):** Aprender a escrever prompts estruturados (*Zero-Shot*, *Few-Shot*) para que a IA gere código boilerplate, testes simples ou explique mensagens de erro.
+- **Alfabetização em IA (Obrigatório):** Aprender a escrever prompts estruturados (_Zero-Shot_, _Few-Shot_) para que a IA gere código boilerplate, testes simples ou explique mensagens de erro.
 
 ### 📅 Rotina Sugerida (1 a 2 horas/dia):
+
 1. **Teoria (30%):** Assista a uma aula de CS50 ou leia documentações oficiais (MDN, docs de frameworks).
 2. **Prática Focada (50%):** Resolva problemas no LeetCode (foco em Easy/Medium) ou implemente pequenos scripts.
-3. **Revisão com IA (20%):** Peça para o ChatGPT/Claude revisar seu código: *"Este código funciona, mas existe uma forma mais idiomática ou eficiente de escrevê-lo nesta linguagem?"*
+3. **Revisão com IA (20%):** Peça para o ChatGPT/Claude revisar seu código: _"Este código funciona, mas existe uma forma mais idiomática ou eficiente de escrevê-lo nesta linguagem?"_
 
 ---
 
@@ -41,12 +43,14 @@ O objetivo desta fase não é criar a arquitetura perfeita, mas sim **fazer func
 Você já consegue entregar features. Agora, o desafio é entregar features **rápidas, seguras, testáveis e sustentáveis**.
 
 ### 🎯 Foco Principal:
+
 - **Testes Automatizados & TDD:** Você não testa apenas para achar bugs, mas para documentar o comportamento esperado. O Padrão de 2026 é o **Test-Driven Agentic Workflow (TDAW)**: você escreve o teste falho e pede para o Agente de IA implementar a lógica até o teste passar.
 - **Banco de Dados (Avançado):** Sair do CRUD básico. Entender Índices, Transações (ACID), N+1 Queries e quando usar SQL vs NoSQL.
 - **CI/CD & Docker:** Sua máquina não importa. O código tem que rodar de forma idêntica em produção. Domine o básico de GitHub Actions e containerização.
 - **System Design (Básico):** Como dois microsserviços conversam? (REST vs gRPC vs Mensageria/RabbitMQ).
 
 ### 📅 Rotina Sugerida (2 a 3 horas/dia):
+
 1. **Refatoração (30%):** Pegue um projeto antigo seu e aplique princípios SOLID ou Clean Architecture.
 2. **Infraestrutura Prática (40%):** Crie pipelines de deploy. Suba um banco de dados real no Docker, integre no seu pipeline (Testcontainers).
 3. **Estudo de Casos reais (30%):** Leia blogs de engenharia de grandes empresas (Uber, Netflix, Discord) para entender os problemas que eles enfrentam ao escalar.
@@ -58,12 +62,14 @@ Você já consegue entregar features. Agora, o desafio é entregar features **r�
 Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decisões que afetam o negócio, os custos da empresa e a equipe como um todo**.
 
 ### 🎯 Foco Principal:
+
 - **Sistemas Multi-Agente & RAG Avançado:** Integrar LLMs não é apenas chamar uma API. É criar sistemas onde múltiplos agentes validam as respostas uns dos outros (GraphRAG, LangGraph).
 - **Green Coding & FinOps:** Escolher entre Node.js e Rust/Go não é mais apenas preferência, é uma decisão financeira. Entender o custo de CPU/Memória na nuvem e otimizar para reduzir a pegada de carbono.
 - **Local-First & Edge Computing:** Arquitetar aplicações que funcionam perfeitamente offline (via CRDTs/Yjs) e rodam no Edge (Cloudflare Workers, Wasm) para latência zero global.
 - **Mentoria e Liderança Técnica:** Desenvolver Soft Skills. Um Sênior que não consegue explicar decisões complexas de forma simples para um Product Manager ou mentorar um Júnior não é Sênior de verdade.
 
 ### 📅 Rotina Sugerida (Foco em Profundidade):
+
 1. **Provas de Conceito (PoC) (40%):** Teste tecnologias emergentes (ex: WebAssembly, novos modelos locais com Ollama) antes de colocá-las em produção.
 2. **Arquitetura (40%):** Estude padrões complexos (Event-Sourcing, CQRS, Data Mesh) e pratique desenhos de arquitetura de sistemas distribuídos.
 3. **Mentoria & Comunicação (20%):** Escreva RFCs (Request for Comments) detalhando suas propostas arquiteturais, dê palestras internas na sua empresa ou crie conteúdo técnico.
@@ -75,12 +81,14 @@ Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decis
 Para garantir que você tenha a melhor base teórica e prática em 2026, selecionamos os melhores materiais divididos por nível, abrangendo todo o espectro de um **Desenvolvedor Completo** (Frontend, Backend, IA, DevOps, Mobile, Dados e Segurança):
 
 ### 🐣 Para Nível Júnior (A Base)
+
 - **Cursos:** [CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science) (Ciência da Computação Base), [FreeCodeCamp](https://www.freecodecamp.org/) (Prática de Código), [The Odin Project](https://www.theodinproject.com/) (Full Stack).
-- **Livros:** "Código Limpo" (Robert C. Martin) - *Foque nos primeiros capítulos*, "Entendendo Algoritmos" (Aditya Y. Bhargava).
+- **Livros:** "Código Limpo" (Robert C. Martin) - _Foque nos primeiros capítulos_, "Entendendo Algoritmos" (Aditya Y. Bhargava).
 - **IA Literacy:** [Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners).
 - **Canais Recomendados:** [Fireship](https://www.youtube.com/@Fireship) (Para entender conceitos complexos em 100 segundos e se manter atualizado nas trends de Frontend/Backend).
 
 ### 🚀 Para Nível Pleno (Otimização, Arquitetura e Cloud)
+
 - **Cursos (Frontend/Backend):** [Frontend Masters](https://frontendmasters.com/) (Especialmente os cursos de Performance, RSCs e TypeScript avançado).
 - **IA e Prompt Engineering:** [Anthropic Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses) (Aprenda a estruturar prompts avançados de verdade, além do básico) e [DeepLearning.AI](https://www.deeplearning.ai/) (Cursos curtos sobre LangChain e RAG).
 - **Cloud e DevOps:** [AWS Skill Builder](https://explore.skillbuilder.aws/) (Trilhas oficiais e laboratórios focados em Serverless e Containers).
@@ -88,6 +96,7 @@ Para garantir que você tenha a melhor base teórica e prática em 2026, selecio
 - **Plataformas de Prática:** [LeetCode](https://leetcode.com/) (Foco em Medium), [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
 
 ### 🏛️ Para Nível Sênior/Especialista (Maestria, Liderança e IA Avançada)
+
 - **Cursos de Arquitetura Corporativa e DevOps:** Recomenda-se o [Full Cycle](https://fullcycle.com.br/) (Essencial para arquitetura de software avançada, microsserviços, Kubernetes, Service Mesh e Go/Rust). Para aprendizado contínuo, considere assinaturas corporativas como [O'Reilly](https://www.oreilly.com/) e [Pluralsight](https://www.pluralsight.com/).
 - **IA Engineering Avançada:** [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) (Mergulhe fundo em Transformers, Fine-Tuning e modelos locais além da API da OpenAI).
 - **Canais / Blogs:** [ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo) (System Design de Alto Nível), Blogs de Engenharia da [Uber](https://eng.uber.com/), [Netflix](https://netflixtechblog.com/) e [Cloudflare](https://blog.cloudflare.com/).
@@ -100,11 +109,12 @@ Para garantir que você tenha a melhor base teórica e prática em 2026, selecio
 Com novas ferramentas de IA saindo a cada semana, decorar sintaxe tornou-se inútil. Desenvolva as seguintes meta-habilidades:
 
 1. **Leitura Dinâmica de Documentação:** Vá direto para a seção de "Getting Started" e depois para "Architecture/Concepts".
-2. **Pensamento Crítico:** Não aceite o primeiro código gerado pela IA. Entenda *por que* ela escolheu aquela abordagem.
+2. **Pensamento Crítico:** Não aceite o primeiro código gerado pela IA. Entenda _por que_ ela escolheu aquela abordagem.
 3. **Inglês Técnico:** A vanguarda da tecnologia é documentada primeiro em inglês. Não dependa de traduções que demoram meses para sair.
 
 ---
+
 ## ↩️ Navegação
 
-*   [**Voltar para a Trilha Comum**](./common.md)
-*   [**Voltar para o Início**](../../index.md)
+- [**Voltar para a Trilha Comum**](./common.md)
+- [**Voltar para o Início**](../../index.md)
