@@ -4,24 +4,46 @@
  */
 
 /**
- * Extracts links from markdown content
+ * Extracts links from markdown content without using complex regex to avoid ReDoS
  * @param {string} markdownContent The markdown text to parse
  * @returns {Array<{text: string, url: string}>} Array of extracted links
  */
 export function extractLinks(markdownContent) {
   if (!markdownContent) return [];
 
-  // Match standard markdown links: [text](url)
-  // Replaced /\[(.*?)\]\((.*?)\)/g with a safer regex to prevent ReDoS
-  const regex = /\[([^\]]*)\]\(([^)]*)\)/g;
   const links = [];
+  let index = 0;
 
-  let match;
-  while ((match = regex.exec(markdownContent)) !== null) {
-    links.push({
-      text: match[1],
-      url: match[2],
-    });
+  while (index < markdownContent.length) {
+    // Find the start of a link text
+    const bracketStart = markdownContent.indexOf("[", index);
+    if (bracketStart === -1) break; // No more links
+
+    // Find the end of the link text
+    const bracketEnd = markdownContent.indexOf("](", bracketStart);
+    if (bracketEnd === -1) {
+      index = bracketStart + 1;
+      continue;
+    }
+
+    // Find the end of the URL
+    const parenEnd = markdownContent.indexOf(")", bracketEnd + 2);
+    if (parenEnd === -1) {
+      index = bracketEnd + 2;
+      continue;
+    }
+
+    // Extract text and url
+    const text = markdownContent.substring(bracketStart + 1, bracketEnd);
+    const url = markdownContent.substring(bracketEnd + 2, parenEnd);
+
+    // Filter out edge cases (e.g., nested brackets, though simplistic)
+    if (!text.includes("]") && !url.includes(" ")) {
+      links.push({ text, url });
+    }
+
+    // Move index past the current link
+    index = parenEnd + 1;
   }
 
   return links;

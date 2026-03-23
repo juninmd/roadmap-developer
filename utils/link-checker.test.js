@@ -24,6 +24,24 @@ describe("Link Checker Utility", () => {
       expect(extractLinks(content)).toEqual(expected);
     });
 
+    it('should skip malformed opening brackets', () => {
+        const content = 'Missing closing parens [link](http://example.com Missing bracket text link](http://example.com)';
+        const expected = [];
+        expect(extractLinks(content)).toEqual(expected);
+      });
+
+    it('should skip unclosed bracket', () => {
+        const content = 'Just a bracket [ and nothing else';
+        const expected = [];
+        expect(extractLinks(content)).toEqual(expected);
+      });
+
+    it('should skip missing ending parens or intermediate brackets', () => {
+        const content = 'Incomplete [link text missing paren [another one](';
+        const expected = [];
+        expect(extractLinks(content)).toEqual(expected);
+      });
+
     it("should handle empty link text or urls", () => {
       const content = "Empty URL [link]() Empty Text [](http://example.com)";
       const expected = [

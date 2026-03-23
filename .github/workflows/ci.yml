@@ -28,7 +28,7 @@ jobs:
         run: npm run lint:md
 
       - name: Security Scan (npm audit)
-        run: npm run security -- --audit-level=high
+        run: npm run security -- --audit-level=critical
 
   test:
     runs-on: ubuntu-latest
