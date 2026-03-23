@@ -36,13 +36,13 @@
     "vitepress-plugin-mermaid": "^2.0.17"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@playwright/test": "^1.58.2",
-    "@vitest/coverage-v8": "^4.1.0",
-    "eslint": "^10.1.0",
-    "globals": "^17.4.0",
-    "markdownlint-cli": "^0.48.0",
-    "prettier": "^3.8.1",
-    "vitest": "^4.1.0"
+    "@eslint/js": "^9.0.0",
+    "@playwright/test": "^1.45.0",
+    "@vitest/coverage-v8": "^2.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "markdownlint-cli": "^0.41.0",
+    "prettier": "^3.3.0",
+    "vitest": "^2.0.0"
   }
 }

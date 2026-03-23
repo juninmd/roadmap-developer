@@ -39,14 +39,12 @@ Este arquivo contém diretrizes para agentes de Inteligência Artificial que tra
 2.  **Mermaid:**
     - Usamos `vitepress-plugin-mermaid`.
     - Blocos de código mermaid devem usar a sintaxe:
-      ````markdown
-      ```mermaid
+    - Blocos de código mermaid devem usar a sintaxe:
+      ```markdown
+      ` ` `mermaid
       flowchart TD
       ...
-      ```
-      ````
-      ```
-
+      ` ` `
       ```
 
 3.  **Verificação:**

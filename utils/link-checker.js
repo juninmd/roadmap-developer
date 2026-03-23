@@ -12,7 +12,8 @@ export function extractLinks(markdownContent) {
   if (!markdownContent) return [];
 
   // Match standard markdown links: [text](url)
-  const regex = /\[(.*?)\]\((.*?)\)/g;
+  // Replaced /\[(.*?)\]\((.*?)\)/g with a safer regex to prevent ReDoS
+  const regex = /\[([^\]]*)\]\(([^)]*)\)/g;
   const links = [];
 
   let match;

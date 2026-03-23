@@ -63,16 +63,13 @@ Este projeto usa [VitePress](https://vitepress.dev/) para gerar o site estático
 
 1.  **Estrutura:** Todo o conteúdo está na pasta `roadmaps/`.
 2.  **Imagens:** Use a sintaxe padrão do Markdown. Para diagramas, prefira usar [Mermaid](https://mermaid.js.org/) dentro de blocos de código:
-    ````markdown
-    ```mermaid
+    ```markdown
+    ` ` `mermaid
     flowchart TD
       A[Start] --> B{Is it?}
       B -- Yes --> C[OK]
       B -- No --> D[Rethink]
-    ```
-    ````
-    ```
-
+    ` ` `
     ```
 3.  **Links:** Verifique se os links que você adicionou funcionam e são relevantes.
 4.  **Estilo:** Mantenha um tom encorajador, prático e direto.
