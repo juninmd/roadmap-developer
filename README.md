@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Atualizado%202026-success?style=flat-square" alt="Status Atualizado">
-  <img src="https://github.com/roadmap-developer-community/roadmap-developer-2026/actions/workflows/ci.yml/badge.svg" alt="CI/CD Pipeline">
+  <img src="https://github.com/juninmd/roadmap-developer/actions/workflows/ci.yml/badge.svg" alt="CI/CD Pipeline">
   <img src="https://img.shields.io/github/license/roadmap-developer-community/roadmap-developer-2026?style=flat-square" alt="License">
   <br><br>
   <img height="200" src=".vitepress/public/coder-cat.jpg">
