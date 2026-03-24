@@ -69,3 +69,21 @@ Arquitetar (System Design) um "Sistema de Suporte ao Cliente Autônomo e Resilie
 ## ↩️ Navegação
 
 *   [**Voltar para o Início**](../../index.md)
+
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Introdução ao Wasm e IA):**
+- **[MDN WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts):** A documentação oficial da Mozilla é o melhor lugar para entender como o Wasm funciona por baixo dos panos.
+- **[OpenAI Cookbook](https://cookbook.openai.com/):** O melhor lugar para entender como usar APIs de IA na prática.
+
+**Para o Pleno (Rust, Arquitetura Local-First e FinOps):**
+- **[The Rust Programming Language (The Book)](https://doc.rust-lang.org/book/):** O livro oficial e gratuito para aprender Rust do zero.
+- **[Local-First Web Development](https://localfirstweb.dev/):** O manifesto e guia prático para entender como construir aplicações offline-first com CRDTs.
+- **[FinOps Foundation](https://www.finops.org/):** A fundação oficial que dita as melhores práticas de gerenciamento financeiro na nuvem.
+
+**Para o Sênior/Especialista (Multi-Agent Systems, Wasm Edge e Green Coding):**
+- **[LangChain Academy](https://academy.langchain.com/):** Cursos avançados sobre como orquestrar sistemas multi-agente complexos com LangGraph.
+- **[Cloudflare Workers Docs](https://developers.cloudflare.com/workers/):** Domine a computação no Edge e Wasm Serverless.
+- **[Green Software Foundation](https://greensoftware.foundation/):** Princípios, padrões e ferramentas para construir software que emite menos carbono.
