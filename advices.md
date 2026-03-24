@@ -10,13 +10,13 @@ A jornada para se tornar um(a) desenvolvedor(a) é como uma grande aventura de R
 
 > "Alice perguntou: Gato, pode me dizer qual o caminho que eu devo tomar?
 > Isso depende muito do lugar para onde você quer ir – disse o Gato."
-> \- *Alice no País das Maravilhas*
+> \- _Alice no País das Maravilhas_
 
 O mundo do desenvolvimento é vasto. Frontend, Backend, Mobile, IA, Games... O primeiro passo não é sair correndo, mas sim olhar o mapa.
 
-1.  **Explore as Trilhas:** Dê uma olhada nos roadmaps deste repositório. Veja o que cada área faz. O que te chama mais atenção? Construir interfaces bonitas? Fazer a "mágica" por trás dos panos? Ensinar máquinas a pensar?
-2.  **Comece pela Base:** Independente da sua escolha, a [Trilha Comum](/roadmaps/general/common.md) é o seu treinamento Jedi. Lógica, Git, APIs... são os fundamentos que sustentam todo o resto.
-3.  **Não Tente Aprender Tudo:** Você não precisa ser um mestre em todas as classes de personagem. Escolha uma e foque nela. É melhor ser um "Mago" nível 10 do que um "Guerreiro/Ladrão/Bardo" nível 2 em tudo.
+1. **Explore as Trilhas:** Dê uma olhada nos roadmaps deste repositório. Veja o que cada área faz. O que te chama mais atenção? Construir interfaces bonitas? Fazer a "mágica" por trás dos panos? Ensinar máquinas a pensar?
+2. **Comece pela Base:** Independente da sua escolha, a [Trilha Comum](/roadmaps/general/common.md) é o seu treinamento Jedi. Lógica, Git, APIs... são os fundamentos que sustentam todo o resto.
+3. **Não Tente Aprender Tudo:** Você não precisa ser um mestre em todas as classes de personagem. Escolha uma e foque nela. É melhor ser um "Mago" nível 10 do que um "Guerreiro/Ladrão/Bardo" nível 2 em tudo.
 
 ---
 
@@ -27,7 +27,7 @@ O mundo do desenvolvimento é vasto. Frontend, Backend, Mobile, IA, Games... O p
 - **Feito é Melhor que Perfeito:** Não espere o "código perfeito" para colocar seus projetos no ar. O aprendizado vem da prática, do erro, da correção. Lance, receba feedback, melhore.
 
 > "O que eu faço é uma gota no meio de um oceano. Mas sem ela, o oceano será menor."
-> \- *Madre Teresa de Calcutá*
+> \- _Madre Teresa de Calcutá_
 
 ---
 
@@ -35,7 +35,7 @@ O mundo do desenvolvimento é vasto. Frontend, Backend, Mobile, IA, Games... O p
 
 Com IAs escrevendo código, o que sobra para nós? A resposta é: **tudo o que exige humanidade**.
 
-- **Empatia (User Centricity):** A IA entende a sintaxe, mas você entende a *dor* do usuário. Um código perfeito que resolve o problema errado é inútil. Seu trabalho é traduzir sentimentos e necessidades humanas em software.
+- **Empatia (User Centricity):** A IA entende a sintaxe, mas você entende a _dor_ do usuário. Um código perfeito que resolve o problema errado é inútil. Seu trabalho é traduzir sentimentos e necessidades humanas em software.
 - **Pensamento Crítico e Estratégico:** A IA é um excelente operário, mas um péssimo gerente. Ela executa tarefas, mas não questiona "Por que estamos fazendo isso?". Cabe a você decidir a arquitetura, escolher as ferramentas certas (e não apenas as famosas) e julgar se a solução proposta pela IA faz sentido para o negócio.
 - **Comunicação e Negociação:** Softwares são feitos por pessoas para pessoas. Convencer seu chefe a investir em refatoração, explicar um bug para um cliente não-técnico ou alinhar expectativas com o time de design são tarefas que exigem inteligência emocional, algo que o GPT-4 ainda não tem.
 - **Curadoria > Criação:** Em 2026, codar "do zero" é raro. Sua habilidade principal migra de "escrever linhas de código" para "ler, auditar e integrar código gerado". Você se torna um editor-chefe de código.

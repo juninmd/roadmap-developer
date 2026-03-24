@@ -1,86 +1,94 @@
-# Roadmap Developer 2026
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Atualizado%202026-success?style=flat-square" alt="Status Atualizado">
-  <img src="https://img.shields.io/github/license/roadmap-developer-community/roadmap-developer-2026?style=flat-square" alt="License">
-  <br><br>
-  <img height="200" src=".vitepress/public/coder-cat.jpg">
-  <h3>O Guia Definitivo para sua Carreira na Era da IA</h3>
-  <p>Trilhas de estudo completas, desde o nível Júnior até Especialista, transformadas em um site estático moderno com VitePress.</p>
+  <img src="https://github.com/user-attachments/assets/5c3de755-f210-4ed5-a24a-fb7c6a49dbb4" alt="Roadmap Developer 2026 Logo">
+
+  <h1>Roadmap Developer 2026</h1>
+  <p>O guia de estudos definitivo e 100% focado no que o mercado de tecnologia exige agora e nos próximos anos.</p>
+
+  [![CI/CD Pipeline](https://github.com/juninmd/roadmap-developer/actions/workflows/ci.yml/badge.svg)](https://github.com/juninmd/roadmap-developer/actions/workflows/ci.yml)
+  [![VitePress](https://img.shields.io/badge/VitePress-Static%20Site-green?logo=vite)](https://vitepress.dev/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 </div>
 
 ---
 
-## 🌐 Acesse o Site
+## 🚀 Sobre o Projeto
 
-O conteúdo deste repositório é melhor visualizado através do nosso site de documentação.
+Este projeto é um mapa atualizado para desenvolvedores de todos os níveis que querem parar de estudar o que não importa e focar nas tecnologias que **realmente pagam bem** e têm futuro garantido até (pelo menos) **2026**.
 
-> **[Acessar Roadmap Developer 2026](https://seu-usuario.github.io/roadmap-developer-2026/)**
->
-> *Nota: A URL acima será ativada automaticamente após o primeiro deploy via GitHub Pages. Lembre-se de substituir `seu-usuario` pelo seu username do GitHub.*
+**Site interativo (Preview):** [Acessar o Roadmap](https://juniors-to-specialists-guide.netlify.app/)
 
----
+Não é mais do mesmo. Chega de guias que ensinam jQuery em 2026. Aqui o foco é **Engenharia de Software de verdade, Arquitetura de Ponta, IA Integrada e Qualidade**.
 
-## 🗺️ O Que Você Vai Encontrar
+## 🗺️ As Trilhas (Roadmaps)
 
-Este projeto foi atualizado para refletir o mercado de tecnologia em **2026**, focando não apenas em código, mas em Inteligência Artificial, Sustentabilidade e Arquitetura Moderna.
+Escolha o seu caminho ou estude todos para se tornar o cobiçado "Desenvolvedor Completo":
 
-*   [**Trilha Comum (Base)**](./roadmaps/general/common.md): Git, IA Literacy, Prompt Engineering e Lógica.
-*   [**Backend**](./roadmaps/backend/backend.md): Microsserviços, IA Engineering (RAG, Agents), Green Software e Observabilidade.
-*   [**Frontend**](./roadmaps/frontend/frontend.md): Generative UI, Server Actions, WebGPU e Acessibilidade.
-*   [**Full Stack**](./roadmaps/fullstack/fullstack.md): Server Components, Monorepos, Integração de IA e Arquitetura de Sistemas.
-*   [**Mobile**](./roadmaps/mobile/mobile.md): On-Device AI (ExecuTorch), Kotlin Multiplatform e Superapps.
-*   [**Inteligência Artificial**](./roadmaps/ai/artificial-intelligence.md): Agentes Autônomos, LLMOps, Fine-Tuning e Sistemas Compostos.
-*   [**DevOps & Platform**](./roadmaps/devops/devops.md): Platform Engineering, FinOps e GitOps.
-*   [**Engenharia de Dados**](./roadmaps/data/data-engineering.md): Lakehouse, Streaming e Governança.
-*   [**Cybersecurity**](./roadmaps/security/cybersecurity.md): Zero Trust, DevSecOps e Segurança de IA.
+*   [**Trilha Comum (A Base de Tudo)**](roadmaps/general/common.md): O que **todo** desenvolvedor de 2026 precisa saber (Git, IA Básica, HTTP/3, Segurança Básica).
+*   [**Backend**](roadmaps/backend/backend.md): Construindo motores indestrutíveis (Go, Rust, Node avançado, Arquitetura de Microsserviços, LLM Gateways).
+*   [**Frontend**](roadmaps/frontend/frontend.md): Muito além de "fazer telinha" (Micro-frontends, WebAssembly, SSR/SSG extremo, Acessibilidade nativa).
+*   [**Full Stack**](roadmaps/fullstack/fullstack.md): Dominando a pilha inteira (T-Shaped, Server Components, BFF, Local-First Architecture).
+*   [**Mobile**](roadmaps/mobile/mobile.md): O mundo na palma da mão (Kotlin/Swift nativos, Flutter, React Native, IA On-Device).
+*   [**DevOps / Platform Engineering**](roadmaps/devops/devops.md): Fazendo a mágica rodar (Kubernetes, Terraform, FinOps, Observabilidade com eBPF).
+*   [**Inteligência Artificial (IA)**](roadmaps/ai/artificial-intelligence.md): Deixando de ser usuário para virar criador (LLMs, RAG, Agentes Autônomos, Vector Databases).
+*   [**Engenharia de Dados**](roadmaps/data/data-engineering.md): Dominando o novo petróleo (Data Mesh, Streaming Real-time, Governança para IA).
+*   [**Cybersecurity**](roadmaps/security/cybersecurity.md): Protegendo sistemas modernos (Zero Trust, Cloud Security, AI Red Teaming).
+*   [**QA & Software Testing**](roadmaps/qa/qa-testing.md): Garantindo a qualidade (Testes E2E, Shift-Left, IA-Assisted QA).
+*   [**Guia de Estudos 2026**](roadmaps/general/study-guide.md): Um caminho claro do Júnior ao Especialista.
 
-## ⚙️ Configuração do Repositório
+## 💡 Por que este roadmap é diferente?
 
-Para usar este roadmap no seu próprio GitHub Pages:
+1.  **Foco em IA como Ferramenta Central**: A IA não é uma trilha separada, ela está **embutida** no dia a dia do Front, do Back e do DevOps.
+2.  **Sustentabilidade (Green Coding)**: Como escrever código que não destrói o planeta (nem o orçamento da AWS).
+3.  **Local-First e Edge Computing**: A internet cai. Seu app não pode cair.
+4.  **Desenvolvimento Orientado a Negócios**: O código precisa dar lucro.
 
-1.  Vá em **Settings > Pages** no seu repositório.
-2.  Em "Build and deployment", selecione **GitHub Actions**.
-3.  Edite o arquivo `README.md` e substitua todas as ocorrências de `seu-usuario` pelo seu nome de usuário do GitHub.
+## 🛠️ Como Executar Localmente
 
-## 🚀 Rodando Localmente
+Este projeto usa **VitePress** para gerar a documentação de forma estática, rápida e bonita.
 
-Para rodar o site de documentação na sua máquina:
+### Pré-requisitos
 
-1.  **Clone o repositório e instale as dependências:**
+*   Node.js (versão >= 18)
+
+### Passos
+
+1.  Clone o repositório:
     ```bash
     git clone https://github.com/seu-usuario/roadmap-developer-2026.git
     cd roadmap-developer-2026
+    ```
+
+2.  Instale as dependências:
+    ```bash
     npm install
     ```
 
-2.  **Inicie o servidor de desenvolvimento:**
+3.  Rode o servidor de desenvolvimento:
     ```bash
     npm run docs:dev
     ```
-    O site estará disponível em `http://localhost:5173`.
+    *(O VitePress iniciará um servidor local, geralmente em `http://localhost:5173`)*
 
-3.  **Para gerar a versão de produção:**
+4.  Para fazer o build (gerar os arquivos estáticos):
     ```bash
     npm run docs:build
     ```
-    Os arquivos estáticos serão gerados na pasta `.vitepress/dist`.
+    *(Os arquivos ficarão na pasta `.vitepress/dist`)*
 
-## 📦 Deploy
+5.  Para visualizar o build final:
+    ```bash
+    npm run docs:preview
+    ```
 
-Este projeto está configurado para deploy automático no **GitHub Pages** usando GitHub Actions.
-Sempre que um push for feito na branch `main`, o site será reconstruído e publicado.
+## 🤝 Contribuindo
 
-Veja o arquivo de workflow em: `.github/workflows/deploy.yml`.
+Nós adoramos contribuições! Se você acha que uma tecnologia nova deveria estar aqui, ou se encontrou algum erro, veja nosso [Guia de Contribuição](CONTRIBUTING.md) e abra um Pull Request.
 
-## 🤝 Contribuição
-
-Quer sugerir um novo tópico ou corrigir algo?
-Leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como ajudar.
+**Regra de Ouro:** Não adicione hypes passageiros. Se a tecnologia não tiver potencial claro de mercado para os próximos 3 anos, ela não entra no roadmap.
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para detalhes.
+Este projeto é distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-*Inspirado pelo trabalho incrível da comunidade open source e projetos como roadmap.sh.*
+<p align="center">Feito com ☕ e foco no futuro.</p>
