@@ -4,3 +4,6 @@ dist
 cache
 .vitepress/dist
 .vitepress/cache
+coverage/
+playwright-report/
+test-results/

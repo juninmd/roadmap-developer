@@ -3,6 +3,7 @@
 ## [1.0.3] - 2026-Edition Update
 
 ### Adicionado
+
 - **VitePress:** Transformação completa dos arquivos Markdown em site estático.
 - **Trilhas Atualizadas para 2026:**
   - **IA:** Agentes Autônomos, MCP, RAG Avançado.

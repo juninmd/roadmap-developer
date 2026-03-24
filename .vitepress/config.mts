@@ -1,89 +1,98 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default withMermaid(defineConfig({
-  lang: 'pt-BR',
-  title: "Roadmap Developer 2026",
-  description: "Guia completo e atualizado para desenvolvedores em 2026. Transformado em site com VitePress.",
-  cleanUrls: true,
-  lastUpdated: true,
-  srcExclude: ['README.md', 'AGENTS.md'],
-  head: [
-    ['link', { rel: 'icon', href: '/coder-cat.jpg' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:locale', content: 'pt_BR' }],
-    ['meta', { property: 'og:title', content: 'Roadmap Developer 2026' }],
-    ['meta', { property: 'og:site_name', content: 'Roadmap Developer 2026' }],
-    ['meta', { property: 'og:image', content: '/coder-cat.jpg' }],
-  ],
-  vite: {
-    ssr: {
-      noExternal: ['mermaid', 'vitepress-plugin-mermaid']
-    },
-    optimizeDeps: {
-      include: ['mermaid']
-    },
-    build: {
-      chunkSizeWarningLimit: 1500
-    }
-  },
-  themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Trilhas', items: [
-        { text: 'Comum', link: '/roadmaps/general/common' },
-        { text: 'Guia de Estudos', link: '/roadmaps/general/study-guide' },
-        { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
-        { text: 'Backend', link: '/roadmaps/backend/backend' },
-        { text: 'Full Stack', link: '/roadmaps/fullstack/fullstack' },
-        { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
-        { text: 'DevOps', link: '/roadmaps/devops/devops' },
-        { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
-        { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
-        { text: 'AI', link: '/roadmaps/ai/artificial-intelligence' },
-        { text: 'QA & Testing', link: '/roadmaps/qa/qa-testing' }
-      ]},
-      { text: 'Conselhos', link: '/advices' }
+export default withMermaid(
+  defineConfig({
+    lang: 'pt-BR',
+    title: 'Roadmap Developer 2026',
+    description:
+      'Guia completo e atualizado para desenvolvedores em 2026. Transformado em site com VitePress.',
+    cleanUrls: true,
+    lastUpdated: true,
+    srcExclude: ['README.md', 'AGENTS.md'],
+    head: [
+      ['link', { rel: 'icon', href: '/coder-cat.jpg' }],
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:locale', content: 'pt_BR' }],
+      ['meta', { property: 'og:title', content: 'Roadmap Developer 2026' }],
+      ['meta', { property: 'og:site_name', content: 'Roadmap Developer 2026' }],
+      ['meta', { property: 'og:image', content: '/coder-cat.jpg' }]
     ],
-
-    sidebar: [
-      {
-        text: 'Introdução',
-        items: [
-          { text: 'Início', link: '/' },
-          { text: 'Conselhos de Carreira', link: '/advices' }
-        ]
+    vite: {
+      ssr: {
+        noExternal: ['mermaid', 'vitepress-plugin-mermaid']
       },
-      {
-        text: 'Trilhas de Estudo',
-        items: [
-          { text: 'Trilha Comum (Base)', link: '/roadmaps/general/common' },
-          { text: 'Guia de Estudos 2026', link: '/roadmaps/general/study-guide' },
-          { text: 'Padrões de Especialista (2026)', link: '/roadmaps/general/2026-specialist-patterns' },
-          { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
-          { text: 'Backend', link: '/roadmaps/backend/backend' },
-          { text: 'Full Stack', link: '/roadmaps/fullstack/fullstack' },
-          { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
-          { text: 'DevOps', link: '/roadmaps/devops/devops' },
-          { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
-          { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
-          { text: 'Inteligência Artificial', link: '/roadmaps/ai/artificial-intelligence' },
-          { text: 'QA & Testing', link: '/roadmaps/qa/qa-testing' }
-        ]
+      optimizeDeps: {
+        include: ['mermaid']
+      },
+      build: {
+        chunkSizeWarningLimit: 1500
       }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/kamranahmedse/developer-roadmap' } // Keeping credit or changing to repo link if known
-    ],
-
-    footer: {
-      message: 'Lançado sob a licença MIT.',
-      copyright: 'Copyright © 2026 Roadmap Developer'
     },
+    themeConfig: {
+      nav: [
+        { text: 'Home', link: '/' },
+        {
+          text: 'Trilhas',
+          items: [
+            { text: 'Comum', link: '/roadmaps/general/common' },
+            { text: 'Guia de Estudos', link: '/roadmaps/general/study-guide' },
+            { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
+            { text: 'Backend', link: '/roadmaps/backend/backend' },
+            { text: 'Full Stack', link: '/roadmaps/fullstack/fullstack' },
+            { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
+            { text: 'DevOps', link: '/roadmaps/devops/devops' },
+            { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
+            { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
+            { text: 'AI', link: '/roadmaps/ai/artificial-intelligence' },
+            { text: 'QA & Testing', link: '/roadmaps/qa/qa-testing' }
+          ]
+        },
+        { text: 'Conselhos', link: '/advices' }
+      ],
 
-    search: {
-      provider: 'local'
+      sidebar: [
+        {
+          text: 'Introdução',
+          items: [
+            { text: 'Início', link: '/' },
+            { text: 'Conselhos de Carreira', link: '/advices' }
+          ]
+        },
+        {
+          text: 'Trilhas de Estudo',
+          items: [
+            { text: 'Trilha Comum (Base)', link: '/roadmaps/general/common' },
+            { text: 'Guia de Estudos 2026', link: '/roadmaps/general/study-guide' },
+            {
+              text: 'Padrões de Especialista (2026)',
+              link: '/roadmaps/general/2026-specialist-patterns'
+            },
+            { text: 'Frontend', link: '/roadmaps/frontend/frontend' },
+            { text: 'Backend', link: '/roadmaps/backend/backend' },
+            { text: 'Full Stack', link: '/roadmaps/fullstack/fullstack' },
+            { text: 'Mobile', link: '/roadmaps/mobile/mobile' },
+            { text: 'DevOps', link: '/roadmaps/devops/devops' },
+            { text: 'Engenharia de Dados', link: '/roadmaps/data/data-engineering' },
+            { text: 'Cybersecurity', link: '/roadmaps/security/cybersecurity' },
+            { text: 'Inteligência Artificial', link: '/roadmaps/ai/artificial-intelligence' },
+            { text: 'QA & Testing', link: '/roadmaps/qa/qa-testing' }
+          ]
+        }
+      ],
+
+      socialLinks: [
+        { icon: 'github', link: 'https://github.com/kamranahmedse/developer-roadmap' } // Keeping credit or changing to repo link if known
+      ],
+
+      footer: {
+        message: 'Lançado sob a licença MIT.',
+        copyright: 'Copyright © 2026 Roadmap Developer'
+      },
+
+      search: {
+        provider: 'local'
+      }
     }
-  }
-}))
+  })
+)
