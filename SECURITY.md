@@ -14,7 +14,7 @@ We currently support the following versions of the project with security updates
 We take the security of this project very seriously. If you discover a security vulnerability within this project, please report it to us by following these steps:
 
 1. **Do not open a public issue.** This gives attackers an opportunity to exploit the vulnerability before we can release a fix.
-2. Email the maintainer or project team directly at [security@example.com] (Please update with the actual contact email).
+2. Create an advisory via the [GitHub Security Advisory form](https://github.com/juninmd/roadmap-developer/security/advisories/new) to privately report the issue to the maintainers.
 3. Provide a detailed description of the vulnerability, including:
    - The steps to reproduce the issue.
    - The potential impact of the vulnerability.
