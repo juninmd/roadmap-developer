@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
     - name: Run TruffleHog Secret Scanner
-      uses: trufflesecurity/trufflehog@cd5373f443d4ce6f5f0b0933a595fb0fa3e5954a # v3.82.7
+      uses: trufflesecurity/trufflehog@586f66d7886cd0b037c7c245d4a6e34ef357ab10
       with:
         path: ./
         extra_args: --debug --only-verified
