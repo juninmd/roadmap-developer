@@ -4,3 +4,13 @@ dist
 cache
 .vitepress/dist
 .vitepress/cache
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+secrets/
+config/secrets.yml
