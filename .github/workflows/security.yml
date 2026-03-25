@@ -2,11 +2,11 @@ name: "Security Scan"
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: ["main", "master"]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: ["main", "master"]
   schedule:
-    - cron: '30 1 * * 0' # Run weekly on Sundays
+    - cron: "30 1 * * 0" # Run weekly on Sundays
 
 jobs:
   analyze:
@@ -18,11 +18,11 @@ jobs:
       security-events: write
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-    - name: Run TruffleHog Secret Scanner
-      uses: trufflesecurity/trufflehog@586f66d7886cd0b037c7c245d4a6e34ef357ab10
-      with:
-        path: ./
-        extra_args: --debug --only-verified
+      - name: Run TruffleHog Secret Scanner
+        uses: trufflesecurity/trufflehog@586f66d7886cd0b037c7c245d4a6e34ef357ab10
+        with:
+          path: ./
+          extra_args: --debug --only-verified
