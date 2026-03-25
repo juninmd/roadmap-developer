@@ -5,6 +5,11 @@ cache
 .vitepress/dist
 .vitepress/cache
 
+# Testing artifacts
+coverage/
+playwright-report/
+test-results/
+
 # Environment and secrets
 .env
 .env.local

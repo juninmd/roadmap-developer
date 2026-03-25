@@ -30,11 +30,13 @@ Esta trilha está dividida em níveis para guiar sua evolução profissional.
 O foco aqui é construir uma base sólida. Você precisa entender como a web funciona, dominar uma linguagem e conseguir criar APIs simples.
 
 ### 🏛️ Paradigmas de Programação
+
 - **Programação Orientada a Objetos (POO):** Classes, Objetos, Herança e Polimorfismo. Pense em LEGO: blocos reutilizáveis que formam estruturas maiores.
 - **Recursos:**
   - 📖 [Refactoring Guru: Padrões de Projeto](https://refactoring.guru/pt-br/design-patterns)
 
 ### 🛠️ Linguagens e Frameworks (Escolha Um)
+
 Não tente aprender tudo de uma vez. Escolha uma stack e aprofunde-se.
 
 - **Node.js (JavaScript/TypeScript):**
@@ -53,15 +55,17 @@ Não tente aprender tudo de uma vez. Escolha uma stack e aprofunde-se.
   - **Foco:** Performance extrema, segurança de memória e ferramentas de infraestrutura. A escolha para quem quer o máximo de controle.
 
 ### 🔌 APIs RESTful
+
 - Entenda os verbos HTTP (GET, POST, PUT, DELETE).
 - Status Codes (200 OK, 404 Not Found, 500 Internal Error).
 - JSON como formato padrão de troca de dados.
 
 ### 🗄️ Banco de Dados (O Básico)
+
 - **SQL (Relacional):** Aprenda a criar tabelas e fazer consultas (SELECT, INSERT, UPDATE, JOINs).
-  - *Ferramentas:* PostgreSQL ou MySQL.
+  - _Ferramentas:_ PostgreSQL ou MySQL.
 - **NoSQL (Documentos):** Entenda quando usar (flexibilidade de schema).
-  - *Ferramentas:* MongoDB.
+  - _Ferramentas:_ MongoDB.
 
 ---
 
@@ -70,24 +74,30 @@ Não tente aprender tudo de uma vez. Escolha uma stack e aprofunde-se.
 Aqui você deixa de apenas "fazer funcionar" e começa a "fazer bem feito", com segurança, testes e escala.
 
 ### 🔑 Autenticação e Segurança
+
 - **OAuth 2.0 & OpenID Connect:** Delegar autenticação para Google/GitHub.
 - **JWT (JSON Web Token):** Autenticação stateless para APIs modernas.
 - **OWASP Top 10:** Conheça e previna as falhas de segurança mais comuns.
 
 ### 🧪 Testes Automatizados (O Oráculo)
+
 - **Testes de Unidade:** Jest, JUnit, PyTest. Teste a menor parte do código.
 - **Testes de Integração:** Usando **Testcontainers** para subir bancos reais em Docker durante os testes, evitando mocks frágeis.
 
 ### 🐳 DevOps Básico
+
 - **Docker:** Como criar imagens e rodar sua aplicação em containers, garantindo que "funcione na minha máquina" e em produção.
 - **CI/CD:** Pipelines de deploy automático (GitHub Actions). A esteira de produção do Tony Stark.
 
 ### 📨 Mensageria e Assincronismo
+
 Sistemas distribuídos precisam conversar sem travar.
+
 - **Conceitos:** Filas (Queues), Tópicos (Pub/Sub), Dead Letter Queues.
 - **Ferramentas:** RabbitMQ (Filas tradicionais), Redis (Cache e PubSub rápido).
 
 ### 💾 Banco de Dados Intermediário
+
 - **ORM vs Query Builders:** Prisma, TypeORM, Hibernate, Drizzle.
 - **Modelagem de Dados:** Normalização, Índices para performance e Transações (ACID).
 
@@ -98,6 +108,7 @@ Sistemas distribuídos precisam conversar sem travar.
 Onde você projeta sistemas complexos, escaláveis e inteligentes.
 
 ### 🏗️ Arquitetura de Software e Alta Performance
+
 - **Rust & Go para Microsserviços (Green Software):** O uso de linguagens compiladas não é mais só para startups tech; grandes empresas estão migrando microsserviços pesados de Node/Java para Rust/Go, visando redução de custos na nuvem e menor uso de CPU/Memória (FinOps e Sustentabilidade).
 - **WebAssembly (Wasm) no Backend:** O Wasm permite escrever módulos seguros, isolados em sandboxes e super rápidos. Ferramentas como Wasmtime ou Spin rodam nativamente no Edge sem o peso de um container Docker, resolvendo o problema de "Cold Start".
 - **Microsserviços e Modular Monoliths:** Saber quando quebrar a aplicação (microsserviços) e quando usar um monolito modular bem escrito (com namespaces claros), uma tendência forte em 2026 para evitar complexidade prematura de deploy.
@@ -106,32 +117,41 @@ Onde você projeta sistemas complexos, escaláveis e inteligentes.
 - **Event-Driven Architecture:** Kafka, Redpanda e RabbitMQ. Sistemas totalmente assíncronos e orientados a eventos.
 
 ### 📊 Engenharia de Dados para Devs
+
 O Backend moderno lida com pipelines de dados, não apenas CRUD.
+
 - **ETL vs ELT:** Extrair, Transformar e Carregar. Ferramentas como **dbt** (data build tool) são padrão de mercado.
 - **Data Warehouses:** Snowflake, BigQuery. Entenda a diferença para um banco tradicional (OLTP vs OLAP).
 - **Data Lakes:** Onde jogamos dados brutos (S3, Parquet) para a IA consumir depois.
 
 ### 🔭 Observabilidade (OpenTelemetry) e LLMOps
+
 O "Olho de Sauron" para o bem, agora com foco em IA.
+
 - **Pilares Tradicionais:** Logging, Métricas e Tracing Distribuído.
 - **Ferramentas Clássicas:** Prometheus, Grafana, Jaeger, Datadog.
-- **LLMOps e Tracing de Agentes:** Monitorar o Backend mudou. Você precisa saber *por que* um agente alucinou ou quanto custou uma chamada de RAG.
+- **LLMOps e Tracing de Agentes:** Monitorar o Backend mudou. Você precisa saber _por que_ um agente alucinou ou quanto custou uma chamada de RAG.
   - **Ferramentas:** **LangSmith** (excelente integração com LangChain) ou **Arize Phoenix**.
   - **Métricas Chave:** Latência (Time to First Token - TTFT), Custo por Token, e Score de Relevância (RAG Evaluation).
 
 ### 🌿 Green Software & FinOps
+
 Sustentabilidade e eficiência de custos caminham juntas.
+
 - **FinOps:** Monitoramento contínuo de custos de nuvem. Use Tags e Alertas para não ter surpresas na conta da AWS/Azure.
 - **Green Coding:** Otimizar algoritmos para reduzir consumo de CPU e memória, diminuindo a pegada de carbono do software.
 - **Ferramentas:** Cloud Carbon Footprint.
 
 ### 🌐 Web3 & Blockchain (A Arquitetura Descentralizada)
+
 Apesar do "inverno cripto", a adoção corporativa de blockchain em 2026 amadureceu, indo além da especulação para solucionar problemas reais de confiança e infraestrutura distribuída.
+
 - **Smart Contracts (Contratos Inteligentes):** Código auto-executável na rede. Solidity (para a EVM, a máquina virtual da Ethereum) e Rust (para Solana/Polkadot) são cruciais.
 - **Wallets & Autenticação:** Login via Web3 (Sign-In with Ethereum) como substituto ou complemento ao OAuth tradicional.
 - **Decentralized Storage:** Uso de IPFS ou Arweave para hospedagem imutável de dados em vez do S3.
 
 ### 🤖 IA Engineering para Backend (O Diferencial de 2026)
+
 O Backend evoluiu de servir apenas JSON para orquestrar "cérebros" de forma confiável. Em 2026, você precisa construir Sistemas Compostos de IA (Compound AI Systems).
 
 - **Orquestração de Agentes e Fluxos Autônomos:**
@@ -146,28 +166,32 @@ O Backend evoluiu de servir apenas JSON para orquestrar "cérebros" de forma con
   - Não confie só em "busca vetorial simples" (Naive RAG).
   - **Vector Databases Especializados:** Dominar `pgvector`, Pinecone ou Qdrant.
   - **Advanced RAG Patterns:**
-    - **Hybrid Search & Reciprocal Rank Fusion (RRF):** Unir Keyword Search (BM25) com Busca Semântica (Embeddings) e usar um modelo de *Re-ranker* (Cohere) no final para extrair a resposta mais relevante.
+    - **Hybrid Search & Reciprocal Rank Fusion (RRF):** Unir Keyword Search (BM25) com Busca Semântica (Embeddings) e usar um modelo de _Re-ranker_ (Cohere) no final para extrair a resposta mais relevante.
     - **GraphRAG:** Utilizar Grafos de Conhecimento (Knowledge Graphs, ex: Neo4j) extraídos de relatórios em vez de meros chunks vetoriais. Permite responder a conexões intrínsecas (ex: "Empresa X é subsidiária de quem?").
     - **Corrective RAG (CRAG) & Self-RAG:** Agentes que testam a própria resposta, descartam contexto ruim e buscam no Google ou Wikipedia autonomamente se os dados do Vector DB forem insuficientes.
 
 - **Inference Servers, MLOps e Modelos Locais (SLMs):**
   - Servir modelos em GPU não é tarefa do Data Scientist, é do Engenheiro de Backend.
   - Como entregar latência (Tokens/Segundo) usando **vLLM** ou **TGI (Text Generation Inference)**.
-  - Economia na Cloud: Rodar *Small Language Models* (SLMs, ex: Llama 3 8B, Phi-3) com **Ollama** via APIs Dockerizadas internamente em instâncias mais baratas ao invés de depender cegamente do faturamento estratosférico da OpenAI API.
+  - Economia na Cloud: Rodar _Small Language Models_ (SLMs, ex: Llama 3 8B, Phi-3) com **Ollama** via APIs Dockerizadas internamente em instâncias mais baratas ao invés de depender cegamente do faturamento estratosférico da OpenAI API.
 
 ### 📚 Livros e Leituras Obrigatórias (Sênior)
+
 Para chegar ao nível especialista, a prática não basta. Você precisa de teoria sólida.
+
 - **"Designing Data-Intensive Applications" (Martin Kleppmann):** A bíblia dos sistemas distribuídos. Entenda como bancos de dados realmente funcionam (B-Trees, SSTables, Replication, Partitioning).
 - **"System Design Primer":** O guia definitivo para entender como projetar sistemas que aguentam milhões de usuários.
 
 ### 📺 Canais de System Design (YouTube)
+
 - **[ByteByteGo (Alex Xu)](https://www.youtube.com/@ByteByteGo):** As melhores explicações visuais de sistemas complexos (YouTube e Newsletter).
 - **[Hussein Nasser](https://www.youtube.com/@hnasr):** Engenharia de Backend pura e profunda (Protocolos, Database Internals).
 - **[Arpit Bhayani](https://www.youtube.com/@ArpitBhayani):** System Design para o mundo real e alta escala.
 
 ### 🧠 Soft Skills & Diferencial Humano
+
 - **Negociação com Stakeholders:** Você será pressionado por prazos. Aprenda a explicar "Débito Técnico" como uma dívida financeira: "Se não pagarmos agora, os juros (bugs e lentidão) vão inviabilizar o projeto".
-- **Comunicação com Frontend:** Não jogue o JSON por cima do muro. Combine o contrato da API (Swagger/OpenAPI) *antes* de começar a codar.
+- **Comunicação com Frontend:** Não jogue o JSON por cima do muro. Combine o contrato da API (Swagger/OpenAPI) _antes_ de começar a codar.
 - **Pragmatismo:** Nem tudo precisa ser microsserviços. Nem tudo precisa ser Kubernetes. A solução mais simples que resolve o problema é a melhor.
 
 ### 🏆 Desafios Práticos (Projetos)
@@ -183,16 +207,19 @@ Para chegar ao nível especialista, a prática não basta. Você precisa de teor
 Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
 
 **Para o Júnior (Fundamentos e Bases):**
+
 - **[Boot.dev](https://www.boot.dev/):** Plataforma incrível gamificada focada no backend (Python, Go, algoritmos e estruturas de dados).
 - **[FreeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/):** Excelente curso prático e gratuito sobre Node.js e MongoDB.
 - **Documentações Oficiais:** Ler os guias iniciais do Express.js, FastAPI, Spring Boot ou [Go](https://go.dev/) é o primeiro passo de ouro.
 
 **Para o Pleno (Arquitetura, Bancos e Testes):**
+
 - **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** O melhor canal para aprender como os bancos de dados (Postgres, Redis, Kafka) e protocolos (TCP/UDP, HTTP/2/3) funcionam por baixo dos panos.
 - **[Test-Driven Development with Python (Harry Percival)](https://www.obeythetestinggoat.com/):** Livro clássico (disponível de graça online) que ensina TDD de verdade com Django.
 - **[Full Cycle](https://fullcycle.com.br/):** Referência nacional para entender Docker, microsserviços, RabbitMQ e arquiteturas modernas para empresas.
 
 **Para o Sênior/Especialista (System Design, Rust, AI Engineering):**
+
 - **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A bíblia absoluta do engenheiro de backend sênior. Ensina Replicação, Particionamento e Consenso.
 - **[ByteByteGo (Alex Xu)](https://bytebytego.com/):** O curso e livro definitivos sobre System Design ("System Design Interview"). Acompanhe também o canal no YouTube.
 - **[Arpit Bhayani (YouTube e Cursos)](https://www.youtube.com/@ArpitBhayani):** Focado em engenharia de altíssima escala e otimizações de nível de Kernel.
@@ -203,5 +230,5 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 
 ## ↩️ Navegação
 
-*   [**Voltar para o Início**](../../index.md)
-*   [**Ver Conselhos de Carreira**](../../advices.md)
+- [**Voltar para o Início**](../../index.md)
+- [**Ver Conselhos de Carreira**](../../advices.md)

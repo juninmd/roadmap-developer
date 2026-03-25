@@ -9,7 +9,13 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "lint": "eslint .",
+    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore .vitepress/dist",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "roadmap",
@@ -25,8 +31,19 @@
   "author": "Roadmap Developer Community",
   "license": "MIT",
   "dependencies": {
-    "mermaid": "11.13.0",
+    "mermaid": "^10.9.5",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.58.2",
+    "@vitest/coverage-v8": "^4.1.1",
+    "eslint": "^10.1.0",
+    "markdownlint-cli": "^0.48.0",
+    "prettier": "^3.8.1",
+    "typescript": "~5.7.0",
+    "typescript-eslint": "^8.57.2",
+    "vitest": "^4.1.1"
   }
 }
