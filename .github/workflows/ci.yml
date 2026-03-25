@@ -6,11 +6,6 @@ on:
   pull_request:
     branches: [ main, master ]
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -18,6 +13,8 @@ concurrency:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
@@ -38,6 +35,8 @@ jobs:
 
   security:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
@@ -53,6 +52,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     needs: [lint, security]
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
@@ -72,6 +73,8 @@ jobs:
   e2e:
     runs-on: ubuntu-latest
     needs: [lint, security]
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
@@ -95,6 +98,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: [test, e2e]
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
@@ -112,6 +119,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist
+      - name: Upload general artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-general
+          path: .vitepress/dist
 
   deploy-staging:
     environment:
@@ -119,7 +131,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
     steps:
+      - uses: actions/checkout@v4
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-general
+          path: .vitepress/dist
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
         with:
@@ -141,6 +161,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - name: Deploy to GitHub Pages (Production)
         id: deployment
