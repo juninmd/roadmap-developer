@@ -30,7 +30,7 @@
   "author": "Roadmap Developer Community",
   "license": "MIT",
   "dependencies": {
-    "mermaid": "10.9.3",
+    "mermaid": "11.13.0",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17"
   },

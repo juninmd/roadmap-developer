@@ -1,6 +1,12 @@
 node_modules
 .vitepress/dist
 .vitepress/cache
-coverage
-playwright-report
-test-results
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.pem
+secrets/
+config/secrets.yml
