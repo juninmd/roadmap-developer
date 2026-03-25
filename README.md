@@ -17,7 +17,7 @@ O conteúdo deste repositório é melhor visualizado através do nosso site de d
 
 > **[Acessar Roadmap Developer 2026](https://seu-usuario.github.io/roadmap-developer-2026/)**
 >
-> *Nota: A URL acima será ativada automaticamente após o primeiro deploy via GitHub Pages. Lembre-se de substituir `seu-usuario` pelo seu username do GitHub.*
+> _Nota: A URL acima será ativada automaticamente após o primeiro deploy via GitHub Pages. Lembre-se de substituir `seu-usuario` pelo seu username do GitHub._
 
 ---
 
@@ -25,15 +25,15 @@ O conteúdo deste repositório é melhor visualizado através do nosso site de d
 
 Este projeto foi atualizado para refletir o mercado de tecnologia em **2026**, focando não apenas em código, mas em Inteligência Artificial, Sustentabilidade e Arquitetura Moderna.
 
-*   [**Trilha Comum (Base)**](./roadmaps/general/common.md): Git, IA Literacy, Prompt Engineering e Lógica.
-*   [**Backend**](./roadmaps/backend/backend.md): Microsserviços, IA Engineering (RAG, Agents), Green Software e Observabilidade.
-*   [**Frontend**](./roadmaps/frontend/frontend.md): Generative UI, Server Actions, WebGPU e Acessibilidade.
-*   [**Full Stack**](./roadmaps/fullstack/fullstack.md): Server Components, Monorepos, Integração de IA e Arquitetura de Sistemas.
-*   [**Mobile**](./roadmaps/mobile/mobile.md): On-Device AI (ExecuTorch), Kotlin Multiplatform e Superapps.
-*   [**Inteligência Artificial**](./roadmaps/ai/artificial-intelligence.md): Agentes Autônomos, LLMOps, Fine-Tuning e Sistemas Compostos.
-*   [**DevOps & Platform**](./roadmaps/devops/devops.md): Platform Engineering, FinOps e GitOps.
-*   [**Engenharia de Dados**](./roadmaps/data/data-engineering.md): Lakehouse, Streaming e Governança.
-*   [**Cybersecurity**](./roadmaps/security/cybersecurity.md): Zero Trust, DevSecOps e Segurança de IA.
+- [**Trilha Comum (Base)**](./roadmaps/general/common.md): Git, IA Literacy, Prompt Engineering e Lógica.
+- [**Backend**](./roadmaps/backend/backend.md): Microsserviços, IA Engineering (RAG, Agents), Green Software e Observabilidade.
+- [**Frontend**](./roadmaps/frontend/frontend.md): Generative UI, Server Actions, WebGPU e Acessibilidade.
+- [**Full Stack**](./roadmaps/fullstack/fullstack.md): Server Components, Monorepos, Integração de IA e Arquitetura de Sistemas.
+- [**Mobile**](./roadmaps/mobile/mobile.md): On-Device AI (ExecuTorch), Kotlin Multiplatform e Superapps.
+- [**Inteligência Artificial**](./roadmaps/ai/artificial-intelligence.md): Agentes Autônomos, LLMOps, Fine-Tuning e Sistemas Compostos.
+- [**DevOps & Platform**](./roadmaps/devops/devops.md): Platform Engineering, FinOps e GitOps.
+- [**Engenharia de Dados**](./roadmaps/data/data-engineering.md): Lakehouse, Streaming e Governança.
+- [**Cybersecurity**](./roadmaps/security/cybersecurity.md): Zero Trust, DevSecOps e Segurança de IA.
 
 ## ⚙️ Configuração do Repositório
 
@@ -48,6 +48,7 @@ Para usar este roadmap no seu próprio GitHub Pages:
 Para rodar o site de documentação na sua máquina:
 
 1.  **Clone o repositório e instale as dependências:**
+
     ```bash
     git clone https://github.com/seu-usuario/roadmap-developer-2026.git
     cd roadmap-developer-2026
@@ -55,9 +56,11 @@ Para rodar o site de documentação na sua máquina:
     ```
 
 2.  **Inicie o servidor de desenvolvimento:**
+
     ```bash
     npm run docs:dev
     ```
+
     O site estará disponível em `http://localhost:5173`.
 
 3.  **Para gerar a versão de produção:**
@@ -83,4 +86,17 @@ Leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como ajudar.
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para detalhes.
 
 ---
-*Inspirado pelo trabalho incrível da comunidade open source e projetos como roadmap.sh.*
+
+_Inspirado pelo trabalho incrível da comunidade open source e projetos como roadmap.sh._
+
+## 🔄 CI/CD & Build Process
+
+This project uses GitHub Actions for continuous integration and deployment. The pipeline includes:
+
+1. **Linting & Formatting**: Checks code quality with ESLint, MarkdownLint, and Prettier.
+2. **Testing**: Runs unit tests using Vitest with a minimum of 80% coverage and end-to-end (E2E) tests with Playwright.
+3. **Build**: Generates the static VitePress site.
+4. **Deploy**: Deploys automatically to GitHub Pages when merged into the `main` branch.
+
+**Badges:**
+[![CI/CD Pipeline](https://github.com/roadmap-developer-community/roadmap-developer-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/roadmap-developer-community/roadmap-developer-2026/actions/workflows/ci.yml)

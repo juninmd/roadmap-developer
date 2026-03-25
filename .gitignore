@@ -14,3 +14,6 @@ cache
 *.p12
 secrets/
 config/secrets.yml
+coverage/
+playwright-report/
+test-results/

@@ -54,13 +54,15 @@ features:
 O mercado mudou. O que era "sênior" em 2023 é "básico" em 2026. A Inteligência Artificial não é mais um diferencial, é um pré-requisito.
 
 Este projeto não é apenas uma lista de tecnologias. É um guia curado para formar **Engenheiros de Software Completos**, preparados para:
-*   **Trabalhar com Agentes de IA** como pares.
-*   **Construir Sistemas Sustentáveis** (Green Software).
-*   **Focar na Experiência do Usuário e Soft Skills** enquanto a IA escreve o boilerplate.
+
+- **Trabalhar com Agentes de IA** como pares.
+- **Construir Sistemas Sustentáveis** (Green Software).
+- **Focar na Experiência do Usuário e Soft Skills** enquanto a IA escreve o boilerplate.
 
 ### 🌟 O Desenvolvedor Completo de 2026
 
 Ser um **Desenvolvedor Completo** hoje significa transitar fluida e eficientemente entre diversas habilidades, não se limitando apenas ao código-fonte. O foco expandiu do "Como fazer?" para o "Por que fazer?" e "Como a IA pode ajudar a fazer melhor?". Um desenvolvedor de excelência deve dominar:
+
 - **Tecnologias Core**: HTML, CSS, JavaScript, linguagens de back-end sólidas e arquitetura de software (Microsserviços, Serverless).
 - **Inteligência Artificial Integrada**: RAG, Prompt Engineering, e uso de copilotos e agentes no workflow diário.
 - **Engenharia de Cloud & DevOps**: CI/CD eficiente, uso consciente de recursos na nuvem (FinOps), e monitoramento avançado.
@@ -73,15 +75,15 @@ Neste guia, trilhamos o caminho ideal desde os fundamentos para Iniciantes (Jún
 
 1.  **[Trilha Comum (Base)](/roadmaps/general/common.md)**: Agora estruturada em níveis, do básico à gestão de carreira. **Obrigatório para todos.**
 2.  **Escolha sua Especialização:**
-    *   [Backend](/roadmaps/backend/backend.md): Para quem gosta de lógica, dados e sistemas robustos.
-    *   [Frontend](/roadmaps/frontend/frontend.md): Para quem ama criar interfaces incríveis e performáticas.
-    *   [Full Stack](/roadmaps/fullstack/fullstack.md): O pacote completo. Combine os conhecimentos de **Frontend** e **Backend** para construir produtos de ponta a ponta.
-    *   [Mobile](/roadmaps/mobile/mobile.md): Para quem quer colocar o mundo na palma da mão.
-    *   [DevOps](/roadmaps/devops/devops.md): Para os guardiões da infraestrutura e automação.
-    *   [Engenharia de Dados](/roadmaps/data/data-engineering.md): Para os arquitetos da informação.
-    *   [Cybersecurity](/roadmaps/security/cybersecurity.md): Para os guardiões digitais.
-    *   [Inteligência Artificial](/roadmaps/ai/artificial-intelligence.md): Para os arquitetos da nova era.
-    *   [QA & Testing](/roadmaps/qa/qa-testing.md): Para os guardiões da qualidade e confiança.
+    - [Backend](/roadmaps/backend/backend.md): Para quem gosta de lógica, dados e sistemas robustos.
+    - [Frontend](/roadmaps/frontend/frontend.md): Para quem ama criar interfaces incríveis e performáticas.
+    - [Full Stack](/roadmaps/fullstack/fullstack.md): O pacote completo. Combine os conhecimentos de **Frontend** e **Backend** para construir produtos de ponta a ponta.
+    - [Mobile](/roadmaps/mobile/mobile.md): Para quem quer colocar o mundo na palma da mão.
+    - [DevOps](/roadmaps/devops/devops.md): Para os guardiões da infraestrutura e automação.
+    - [Engenharia de Dados](/roadmaps/data/data-engineering.md): Para os arquitetos da informação.
+    - [Cybersecurity](/roadmaps/security/cybersecurity.md): Para os guardiões digitais.
+    - [Inteligência Artificial](/roadmaps/ai/artificial-intelligence.md): Para os arquitetos da nova era.
+    - [QA & Testing](/roadmaps/qa/qa-testing.md): Para os guardiões da qualidade e confiança.
 
 ## 💡 Conselhos de Carreira
 
@@ -89,6 +91,7 @@ Não sabe por onde começar? Sente que não sabe nada (Síndrome do Impostor)?
 Confira nossa página de [**Conselhos**](/advices.md) para um guia mental de sobrevivência.
 
 ---
+
 ## Créditos
 
 Inspirado em: [Roadmap.sh](https://roadmap.sh/)
