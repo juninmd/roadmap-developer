@@ -140,7 +140,7 @@ Para garantir uma formação completa (Júnior ao Especialista), separamos os co
 
 **Sênior e Especialista (Arquitetura e Escala):**
 
-- **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes plataformas para estudos corporativos profundos, nuvem, SRE, e arquitetura de software avançada (Pago).
+- **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes plataformas para estudos corporativos profundos, nuvem, SRE, e arquitetura de software avançada, incluindo inovações do Edge e **WebAssembly** (Wasm) (Pago).
 - **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design). Excelente para consolidar conceitos de sistema distribuído exigidos em entrevistas de Staff e Especialistas.
 
 ### 🏆 Desafios Práticos (Projetos)
