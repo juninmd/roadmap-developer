@@ -16,7 +16,7 @@
     "tests/**/*.ts",
     "tests-e2e/**/*.ts",
     ".vitepress/**/*.ts",
-    "eslint.config.js"
+    "eslint.config.ts"
   ],
   "exclude": ["node_modules", ".vitepress/dist", ".vitepress/cache"]
 }
