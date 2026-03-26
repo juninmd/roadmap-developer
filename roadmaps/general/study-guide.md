@@ -27,6 +27,7 @@ O objetivo desta fase não é criar a arquitetura perfeita, mas sim **fazer func
 
 - **Lógica e Estruturas de Dados:** Compreender Big O Notation básico. Saber quando usar um Array vs um Map (Dicionário).
 - **A Linguagem (Sua Ferramenta de Trabalho):** Escolha UMA linguagem (ex: JavaScript/TypeScript, Python, Go) e entenda como ela funciona por baixo dos panos (Event Loop, Garbage Collection).
+- **Desenvolvimento de Aplicativos com TypeScript:** Aprender tipagem forte como padrão para prevenir erros silenciosos (NullPointer) em tempo de compilação, focando em Interfaces e Generics.
 - **Git & Versionamento:** Commits atômicos, branch management e como resolver conflitos sem pânico.
 - **Alfabetização em IA (Obrigatório):** Aprender a escrever prompts estruturados (_Zero-Shot_, _Few-Shot_) para que a IA gere código boilerplate, testes simples ou explique mensagens de erro.
 
@@ -46,7 +47,7 @@ Você já consegue entregar features. Agora, o desafio é entregar features **r�
 
 - **Testes Automatizados & TDD:** Você não testa apenas para achar bugs, mas para documentar o comportamento esperado. O Padrão de 2026 é o **Test-Driven Agentic Workflow (TDAW)**: você escreve o teste falho e pede para o Agente de IA implementar a lógica até o teste passar.
 - **Banco de Dados (Avançado):** Sair do CRUD básico. Entender Índices, Transações (ACID), N+1 Queries e quando usar SQL vs NoSQL.
-- **CI/CD & Docker:** Sua máquina não importa. O código tem que rodar de forma idêntica em produção. Domine o básico de GitHub Actions e containerização.
+- **CI/CD com GitHub Actions e Docker:** Sua máquina não importa. O código tem que rodar de forma idêntica em produção. Crie pipelines de CI (integração de testes) e CD (deploy automatizado) configurando yaml e contêineres otimizados.
 - **System Design (Básico):** Como dois microsserviços conversam? (REST vs gRPC vs Mensageria/RabbitMQ).
 
 ### 📅 Rotina Sugerida (2 a 3 horas/dia):
@@ -63,6 +64,7 @@ Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decis
 
 ### 🎯 Foco Principal:
 
+- **Introdução ao Machine Learning & ML Engineering:** Antes de orquestrar agentes complexos, um especialista deve entender os fundamentos estatísticos e matemáticos (Deep Learning, Transformers). Saber treinar pequenos modelos ou fazer Fine-tuning em open-source é essencial.
 - **Sistemas Multi-Agente & RAG Avançado:** Integrar LLMs não é apenas chamar uma API. É criar sistemas onde múltiplos agentes validam as respostas uns dos outros (GraphRAG, LangGraph).
 - **Green Coding & FinOps:** Escolher entre Node.js e Rust/Go não é mais apenas preferência, é uma decisão financeira. Entender o custo de CPU/Memória na nuvem e otimizar para reduzir a pegada de carbono.
 - **Local-First & Edge Computing:** Arquitetar aplicações que funcionam perfeitamente offline (via CRDTs/Yjs) e rodam no Edge (Cloudflare Workers, Wasm) para latência zero global.

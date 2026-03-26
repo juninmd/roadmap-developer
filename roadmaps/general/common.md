@@ -129,17 +129,20 @@ Para garantir uma formação completa (Júnior ao Especialista), separamos os co
 
 - **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero de forma **gratuita**. Cursos interativos e projetos práticos (Front, Back, Data).
 - **[The Odin Project](https://www.theodinproject.com/):** O currículo open-source mais respeitado para Full Stack. Foca em fundamentos reais do zero ao deploy, sem pular etapas difíceis (Gratuito).
+- **[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html):** Documentação e tutorial oficial essenciais para desenvolver aplicativos modernos escaláveis utilizando tipagem.
 - **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo (Gratuito no YouTube/edX).
 - **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub focado em IA Generativa, essencial para os primeiros passos na era da IA.
 
 **Pleno (Aprofundamento e Prática Contínua):**
 
 - **[Frontend Masters](https://frontendmasters.com/):** Considerada a plataforma com a mais **alta qualidade técnica** de ensino para Frontend, Fullstack e TypeScript do mercado (Pago).
+- **[GitHub Actions Documentation](https://docs.github.com/en/actions):** O guia completo para automatizar, customizar e executar workflows de desenvolvimento no nível em que sua aplicação exige integração e deploy contínuo (CI/CD).
 - **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para aprender IA de verdade. Desde cursos curtos gratuitos (Short Courses) sobre LangChain e RAG, até a especialização completa de Machine Learning de Andrew Ng.
 - **[Roadmap.sh](https://roadmap.sh/):** Guias visuais incrivelmente detalhados para nivelar seus conhecimentos em diversas áreas de carreira tech.
 
 **Sênior e Especialista (Arquitetura e Escala):**
 
+- **[Machine Learning Engineering for Production (MLOps) Especialization](https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/):** Fundamental para sêniores que desejam não apenas usar APIs, mas entender pipelines de treinamento e deploy de modelos IA na AWS ou GCP.
 - **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes plataformas para estudos corporativos profundos, nuvem, SRE, e arquitetura de software avançada, incluindo inovações do Edge e **WebAssembly** (Wasm) (Pago).
 - **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design). Excelente para consolidar conceitos de sistema distribuído exigidos em entrevistas de Staff e Especialistas.
 
