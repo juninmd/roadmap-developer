@@ -17,19 +17,19 @@ The project has successfully migrated to a modern static site architecture using
 
 ### Q1: Stability & Foundation
 
-- **High Priority:** CI/CD pipeline stabilization. Address recurring deployment and testing failures. (See issues: #84, #73, #69, #67, #63)
+- **High Priority:** CI/CD pipeline stabilization. Address recurring deployment and testing failures. (See issues: [#84](https://github.com/juninmd/roadmap-developer/issues/84), [#73](https://github.com/juninmd/roadmap-developer/issues/73), [#69](https://github.com/juninmd/roadmap-developer/issues/69), [#67](https://github.com/juninmd/roadmap-developer/issues/67), [#63](https://github.com/juninmd/roadmap-developer/issues/63))
 - **Medium Priority:** Core dependency updates and security patching.
 - **Low Priority:** Clean up unused assets and optimize repository structure.
 
 ### Q2: User Experience (UX) & Design
 
-- **High Priority:** Implement UI/UX improvement suggestions based on community feedback. (See issues: #83, #81)
+- **High Priority:** Implement UI/UX improvement suggestions based on community feedback. (See issues: [#83](https://github.com/juninmd/roadmap-developer/issues/83), [#81](https://github.com/juninmd/roadmap-developer/issues/81))
 - **Medium Priority:** Enhance mobile responsiveness and accessibility of the VitePress site.
 - **Low Priority:** Refine dark/light mode color palettes and typography.
 
 ### Q3: Content Expansion & Modernization
 
-- **High Priority:** Incorporate community recommendations for new topics and resources. (See issue: #16)
+- **High Priority:** Incorporate community recommendations for new topics and resources. (See issue: [#16](https://github.com/juninmd/roadmap-developer/issues/16))
 - **Medium Priority:** Deep dive into specific 2026 trends: Compound AI Systems, WebAssembly, and Local-First Architecture.
 - **Low Priority:** Create interactive components (e.g., progress trackers) for the learning paths.
 
@@ -51,15 +51,15 @@ The project has successfully migrated to a modern static site architecture using
 ### Feature: UI/UX Improvements
 
 - **User Value Proposition:** Provides a more intuitive, engaging, and readable experience for learners navigating the roadmaps.
-- **Technical Approach:** Implement custom Vue components within VitePress, refine the sidebar navigation, and improve content formatting (typography, spacing, responsive design). Address specific pain points mentioned in issues #83 and #81.
+- **Technical Approach:** Implement custom Vue components within VitePress, refine the sidebar navigation, and improve content formatting (typography, spacing, responsive design). Address specific pain points mentioned in issues [#83](https://github.com/juninmd/roadmap-developer/issues/83) and [#81](https://github.com/juninmd/roadmap-developer/issues/81).
 - **Success Criteria:** Positive user feedback on navigation and readability. Increased time spent on site and lower bounce rate.
 - **Estimated Effort:** Large
 
 ### Feature: Content Expansion (Community Recommendations)
 
 - **User Value Proposition:** Keeps the roadmap relevant and comprehensive by including the latest tools, frameworks, and methodologies requested by the community.
-- **Technical Approach:** Review issue #16, curate suggested resources, and integrate them into the appropriate Markdown files (e.g., `backend.md`, `frontend.md`). Ensure all new content aligns with the 2026 vision.
-- **Success Criteria:** All approved recommendations from issue #16 are integrated into the live site.
+- **Technical Approach:** Review issue [#16](https://github.com/juninmd/roadmap-developer/issues/16), curate suggested resources, and integrate them into the appropriate Markdown files (e.g., `backend.md`, `frontend.md`). Ensure all new content aligns with the 2026 vision.
+- **Success Criteria:** All approved recommendations from issue [#16](https://github.com/juninmd/roadmap-developer/issues/16) are integrated into the live site.
 - **Estimated Effort:** Small
 
 ## 5. Dependencies & Risks
