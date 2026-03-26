@@ -142,7 +142,7 @@ Para garantir uma formação completa (Júnior ao Especialista), separamos os co
 
 **Sênior e Especialista (Arquitetura e Escala):**
 
-- **[Machine Learning Engineering for Production (MLOps) Especialization](https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/):** Fundamental para sêniores que desejam não apenas usar APIs, mas entender pipelines de treinamento e deploy de modelos IA na AWS ou GCP.
+- **[Machine Learning Engineering for Production (MLOps) Specialization](https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/):** Fundamental para sêniores que desejam não apenas usar APIs, mas entender pipelines de treinamento e deploy de modelos IA na AWS ou GCP.
 - **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes plataformas para estudos corporativos profundos, nuvem, SRE, e arquitetura de software avançada, incluindo inovações do Edge e **WebAssembly** (Wasm) (Pago).
 - **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design). Excelente para consolidar conceitos de sistema distribuído exigidos em entrevistas de Staff e Especialistas.
 
