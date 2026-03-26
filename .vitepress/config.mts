@@ -9,7 +9,7 @@ export default withMermaid(
       "Guia completo e atualizado para desenvolvedores em 2026. Transformado em site com VitePress.",
     cleanUrls: true,
     lastUpdated: true,
-    srcExclude: ["README.md", "AGENTS.md"],
+    srcExclude: ["README.md", "AGENTS.md", "ROADMAP.md"],
     head: [
       ["link", { rel: "icon", href: "/coder-cat.jpg" }],
       ["meta", { property: "og:type", content: "website" }],
