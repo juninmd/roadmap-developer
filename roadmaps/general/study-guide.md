@@ -92,7 +92,7 @@ Para garantir que você tenha a melhor base teórica e prática em 2026, selecio
 
 - **Cursos (Especialização Front/Back):** [Frontend Masters](https://frontendmasters.com/) (Cursos focados em Performance, React Server Components e TypeScript Avançado), [Go.dev/learn](https://go.dev/learn/) para transicionar para linguagens de alta performance do backend moderno.
 - **IA e Prompt Engineering:** [Anthropic Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses) (Aprenda a estruturar prompts avançados de verdade, além do básico) e [DeepLearning.AI](https://www.deeplearning.ai/) (Cursos curtos sobre LangChain, Agentes e RAG). Use ferramentas de LLMOps como **LangSmith** e **Arize Phoenix** para avaliar o comportamento do RAG.
-- **Cloud e DevOps Moderno:** [AWS Skill Builder](https://explore.skillbuilder.aws/) (Trilhas oficiais e laboratórios focados em Serverless e Containers), [Docker Labs](https://labs.play-with-docker.com/).
+- **Cloud e DevOps Moderno:** [AWS Skill Builder](https://explore.skillbuilder.aws/) (Trilhas oficiais e laboratórios focados em Serverless e Containers), [Tutoriais do Docker](https://www.docker.com/101-tutorial/) para prática local.
 - **Livros:** "Projetando Sistemas Intensivos em Dados" (Martin Kleppmann) - _A "Bíblia" do nível Pleno/Sênior_, "Arquitetura Limpa" (Robert C. Martin).
 - **Plataformas de Prática e Entrevistas:** [LeetCode](https://leetcode.com/) (Foco em Medium), [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
 
