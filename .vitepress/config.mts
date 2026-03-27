@@ -37,6 +37,10 @@ export default withMermaid(
           items: [
             { text: "Comum", link: "/roadmaps/general/common" },
             { text: "Guia de Estudos", link: "/roadmaps/general/study-guide" },
+            {
+              text: "Padrões de Especialista",
+              link: "/roadmaps/general/2026-specialist-patterns",
+            },
             { text: "Frontend", link: "/roadmaps/frontend/frontend" },
             { text: "Backend", link: "/roadmaps/backend/backend" },
             { text: "Full Stack", link: "/roadmaps/fullstack/fullstack" },
