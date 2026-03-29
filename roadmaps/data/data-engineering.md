@@ -156,6 +156,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 - **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A leitura definitiva sobre bancos de dados distribuídos e transações, recomendada igualmente para Devs de Backend.
 - **Livro: "Data Mesh: Delivering Data-Driven Value at Scale" (Zhamak Dehghani):** A criadora do conceito ensina arquiteturas descentralizadas corporativas focadas em escalabilidade e cultura.
 - **[Databricks Academy (Cursos de Lakehouse e Spark)](https://www.databricks.com/learn/training/home):** Mergulhe na fundação de um Data Lakehouse robusto via Apache Spark, Delta Lake e MLflow corporativo para integrar as equipes de Engenharia e IA de forma profissional.
+- **[Apache Iceberg Documentation](https://iceberg.apache.org/docs/latest/):** Estude o formato de tabela aberta (Open Table Format) que se tornou o padrão absoluto da indústria em 2026 para Data Lakes de alta performance.
 
 ---
 

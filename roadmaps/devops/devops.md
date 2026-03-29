@@ -167,6 +167,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 
 - **[The Phoenix Project / The DevOps Handbook (Livros)](https://itrevolution.com/):** Não subestime a parte humana e cultural, estas são as "Bíblias" que orientam Staff Engineers na jornada de DevOps corporativa.
 - **[eBPF.io - O portal oficial do eBPF](https://ebpf.io/):** Documentação profunda, papers de arquitetura, e exemplos de programação em Rust/C para criar os próximos programas do kernel.
+- **[FinOps Foundation](https://www.finops.org/):** A fundação oficial com guias, certificações e frameworks para implementar gestão financeira de cloud (Cloud Financial Management) em escala corporativa.
 - **[ArgoCD / Flux Docs](https://argo-cd.readthedocs.io/):** O guia mais atualizado para escalar GitOps real e contínuo.
 - **[CNCF (Cloud Native Computing Foundation) Landscape](https://landscape.cncf.io/):** Mapeamento atualizado anualmente pela fundação, focando em ferramentas mantidas e criadas pelas empresas top tier. Navegue nos projetos (Graduados) de segurança (Trivy), Observabilidade (OpenTelemetry), e Proxies (Envoy).
 

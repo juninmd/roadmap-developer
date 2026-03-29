@@ -148,6 +148,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 
 **Para o Sênior/Especialista (Edge Computing, Local-First e IA):**
 
+- **[Next.js 15+ Oficial Docs](https://nextjs.org/docs):** Domine Server Actions, Partial Prerendering (PPR) e a arquitetura mista do App Router.
 - **[Vercel AI SDK & Next.js AI Chatbot](https://github.com/vercel/ai-chatbot):** Estude o código-fonte desse repositório para entender como arquitetar e deployar o que há de mais moderno em GenUI com Server Actions.
 - **[Local-First Web Development (Automerge / Yjs Docs)](https://localfirstweb.dev/):** Este manifesto explica a arquitetura necessária para as aplicações offline-first premium de 2026. Leia e acompanhe projetos como o PowerSync.
 - **[Turborepo](https://turbo.build/) e [Nx](https://nx.dev/) Docs:** O padrão para criar monorepos eficientes, essenciais para dividir componentes entre projetos Admin, API e App Cliente.

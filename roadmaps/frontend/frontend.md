@@ -173,6 +173,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 
 - **[web.dev (Google Chrome Developers)](https://web.dev/):** Acompanhe as métricas vitais (Core Web Vitals), novidades de CSS e arquitetura moderna.
 - **[Vercel AI SDK Documentation](https://sdk.vercel.ai/docs):** Essencial para implementar Generative UI e integrar RAG no Frontend via React Server Components.
+- **[ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Documentação oficial para rodar modelos de IA locais no navegador (WebNN/WebAssembly). Essencial para arquiteturas de "Zero Inference Cost".
 - **[Patterns.dev](https://www.patterns.dev/):** O guia moderno definitivo para padrões de design (Design Patterns) em JavaScript e React, focado em performance.
 - **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Se você foge do CSS e usa apenas Tailwind, este curso muda a sua mente, ensinando o motor do CSS por trás dos panos.
 

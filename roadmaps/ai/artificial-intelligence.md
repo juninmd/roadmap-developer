@@ -205,7 +205,7 @@ Não construa Skynet sem querer.
 
 ---
 
-## 🎓 Cursos e Recursos de Estudo (Links Diretos)
+## 📚 Materiais de Estudo Recomendados
 
 ### 🌟 Essenciais e Gratuitos
 
