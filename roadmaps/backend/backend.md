@@ -217,6 +217,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 - **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** O melhor canal para aprender como os bancos de dados (Postgres, Redis, Kafka) e protocolos (TCP/UDP, HTTP/2/3) funcionam por baixo dos panos.
 - **[Test-Driven Development with Python (Harry Percival)](https://www.obeythetestinggoat.com/):** Livro clássico (disponível de graça online) que ensina TDD de verdade com Django.
 - **[Full Cycle](https://fullcycle.com.br/):** Referência nacional para entender Docker, microsserviços, RabbitMQ e arquiteturas modernas para empresas.
+- **[Práticas de Cloud (AWS Skill Builder)](https://explore.skillbuilder.aws/):** Plataforma oficial da AWS com recursos focados em FinOps e Serverless adequados para escalar arquiteturas plenas.
 
 **Para o Sênior/Especialista (System Design, Rust, AI Engineering):**
 
