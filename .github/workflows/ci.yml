@@ -54,7 +54,7 @@ jobs:
       - name: Run E2E Tests
         run: npm run test:e2e
       - name: Upload Coverage
-        uses: codecov/codecov-action@1e68e06f1dbfde0e4cefc87efeba9e4643565303 # v3
+        uses: codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2 # v3
         with:
           directory: ./coverage
           fail_ci_if_error: false
