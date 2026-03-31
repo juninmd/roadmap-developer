@@ -38,6 +38,7 @@ export default withMermaid(
     themeConfig: {
       nav: [
         { text: "Home", link: "/" },
+        { text: "Visão Geral (ROADMAP)", link: "/ROADMAP" },
         {
           text: "Trilhas",
           items: [
@@ -69,6 +70,7 @@ export default withMermaid(
           text: "Introdução",
           items: [
             { text: "Início", link: "/" },
+            { text: "Visão Geral (ROADMAP)", link: "/ROADMAP" },
             { text: "Conselhos de Carreira", link: "/advices" },
           ],
         },

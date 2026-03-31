@@ -17,6 +17,9 @@ hero:
       link: /roadmaps/backend/backend.md
 
 features:
+  - title: Visão Geral (ROADMAP)
+    details: A visão do produto e roadmap de atualizações ativas do Desenvolvedor Completo.
+    link: /ROADMAP
   - title: Guia de Estudos 2026
     details: Um passo a passo para acelerar o seu aprendizado, do nível Júnior ao Especialista.
     link: /roadmaps/general/study-guide.md
