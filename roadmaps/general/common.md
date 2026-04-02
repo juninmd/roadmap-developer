@@ -137,13 +137,13 @@ Para garantir uma formação completa (Júnior ao Especialista), separamos os co
 - **[Frontend Masters](https://frontendmasters.com/):** Considerada a plataforma com a mais **alta qualidade técnica** de ensino para Frontend, Fullstack e TypeScript do mercado (Pago).
 - **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para aprender IA de verdade. Desde cursos curtos gratuitos (Short Courses) sobre LangChain e RAG, até a especialização completa de Machine Learning de Andrew Ng.
 - **[Roadmap.sh](https://roadmap.sh/):** Guias visuais incrivelmente detalhados para nivelar seus conhecimentos em diversas áreas de carreira tech.
-- **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Aprenda a estruturar prompts avançados, técnicas de Few-shot e otimizações essenciais para interagir efetivamente com modelos complexos em 2026.
+- **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Aprenda a estruturar prompts avançados, técnicas de Few-Shot e otimizações essenciais para interagir efetivamente com modelos complexos em 2026.
 
 **Sênior e Especialista (Arquitetura e Escala):**
 
 - **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes plataformas para estudos corporativos profundos, nuvem, SRE, e arquitetura de software avançada, incluindo inovações do Edge e **WebAssembly** (Wasm) (Pago).
 - **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design). Excelente para consolidar conceitos de sistema distribuído exigidos em entrevistas de Staff e Especialistas.
-- **[Full Cycle](https://fullcycle.com.br/):** Essencial para aprofundar na arquitetura de software corporativa, focando em microsserviços, Kubernetes, e alta performance com ferramentas consolidadas para 2026.
+- **[Full Cycle](https://fullcycle.com.br/):** Essencial para aprofundar na arquitetura de software corporativa, focando em microsserviços, Kubernetes e alta performance com ferramentas consolidadas para 2026.
 - **[Hugging Face Courses](https://huggingface.co/learn):** Materiais aprofundados sobre fine-tuning e deployment de modelos open source.
 - **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Treinamento oficial para dominar arquiteturas em nuvem resilientes e sustentáveis, fundamentais para a implantação escalável em 2026.
 
