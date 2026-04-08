@@ -6,7 +6,7 @@
 
 Para ser considerado um **Desenvolvedor Completo em 2026**, o profissional precisa ir além de escrever código que compila. Em todas as trilhas e especializações (Frontend, Backend, Mobile, etc.), as habilidades essenciais que permeiam do Júnior ao Especialista são:
 
-- **Alfabetização em Inteligência Artificial:** Desde a geração de código com LLMs até a orquestração de **Sistemas Multi-Agente** e _Agentic Workflows_. A IA atua como um par contínuo de desenvolvimento e, no nível avançado, torna-se o núcleo do produto através de soluções como _Local-First AI_ e integrações nativas (RAG Avançado).
+- **Alfabetização em Inteligência Artificial:** Desde a geração de código com LLMs até a orquestração de **Sistemas Multi-Agentes** e _Agentic Workflows_. A IA atua como um par contínuo de desenvolvimento e, no nível avançado, torna-se o núcleo do produto através de soluções como _Local-First AI_ e integrações nativas (RAG Avançado).
 - **Arquitetura de Sistemas Resilientes:** Sair do paradigma cliente/servidor acoplado. Compreender Local-First, Offline-First, Micro-frontends, WebAssembly (Wasm) no Edge, e infraestrutura como código (IaC).
 - **Green Coding & FinOps:** Sustentabilidade digital e eficiência financeira. Código eficiente reduz o consumo de recursos, o custo em nuvem e o impacto ambiental. Profissionais avançados medem o custo por requisição e utilizam linguagens de alta performance (Rust, Go) para partes vitais do sistema.
 
