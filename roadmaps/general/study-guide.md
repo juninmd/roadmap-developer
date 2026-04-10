@@ -86,7 +86,7 @@ Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decis
 
 ---
 
-## 📚 Conteúdos de Alta Qualidade (Júnior ao Especialista)
+## 📚 Materiais de Estudo Recomendados
 
 Para garantir que você tenha a melhor base teórica e prática em 2026, selecionamos os melhores materiais divididos por nível, abrangendo todo o espectro de um **Desenvolvedor Completo** (Frontend, Backend, IA, DevOps, Mobile, Dados e Segurança):
 
