@@ -17,7 +17,7 @@ Aprenda a ensinar os computadores a reconhecer padrões e tomar decisões em 202
 ## 🐣 Nível Iniciante (Júnior): A Base
 
 - **Matemática:** Álgebra Linear (vetores/matrizes), Cálculo (gradientes), Probabilidade/Estatística.
-- **Python para Dados:** Domine Numpy, Pandas, e scikit-learn.
+- **Python para Dados:** Domine NumPy, pandas, e scikit-learn.
 - **Machine Learning (ML):** Regressão, Classificação, Clustering, Árvores de Decisão, Random Forest.
 - **GenAI Básico:** Como usar a API da OpenAI/Anthropic, Prompt Engineering (Zero/Few-Shot).
 
