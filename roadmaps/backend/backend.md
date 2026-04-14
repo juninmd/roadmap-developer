@@ -9,9 +9,9 @@ flowchart TD
     API --> DB(Banco de Dados)
     DB --> Cache(Caching & Redis)
     Cache --> Async(Mensageria & Filas)
-    Async --> Arch(Arquitetura: Microservices/Event-Driven)
-    Arch --> DevOps(Containers & CI/CD)
-    DevOps --> AI(AI Engineering: Agentes & LLMOps)
+    Async --> DevOps(Containers & CI/CD)
+    DevOps --> Arch(Arquitetura: Microservices/Event-Driven)
+    Arch --> AI(AI Engineering: Agentes & LLMOps)
     AI --> Spec([Especialista])
 ```
 
