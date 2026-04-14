@@ -1,183 +1,78 @@
-# 🎨 Trilha Frontend: Onde a Mágica Acontece
+# 🎨 Trilha Frontend: Construindo Experiências de Usuário
 
-> **Edição 2026:** Focado em Generative UI, IA no Browser (WebGPU) e integração com Agentes.
+> **Edição 2026:** Focado em Next.js 15+, Server Components, Vercel AI SDK e Local-First.
 
 ```mermaid
 flowchart TD
-    Start([Início]) --> Base(HTML/CSS/JS)
-    Base --> Framework(React/Vue/Angular)
-    Framework --> TS(TypeScript)
-    TS --> State(Gerenciamento de Estado)
-    State --> Test(Testes & Performance)
-    Test --> Arch(Arquitetura & SSR/RSC)
-    Arch --> AI(Generative UI & WebLLM)
+    Start([Início]) --> HTML(HTML, CSS, JS Básicos)
+    HTML --> Framework(React / Vue / Angular)
+    Framework --> State(Gerenciamento de Estado)
+    State --> TypeScript(TypeScript)
+    TypeScript --> Arch(Arquitetura Frontend)
+    Arch --> Perf(Performance & Web Vitals)
+    Perf --> AI(IA Engineering & Generative UI)
     AI --> Spec([Especialista])
-
-    style Start fill:#f9f,stroke:#333,stroke-width:2px
-    style Spec fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em interfaces bonitas e interativas. Você será o arquiteto da experiência do usuário, a pessoa que faz a tecnologia parecer amigável.
+Torne-se um engenheiro focado em performance, componentes modernos e integração com IA.
 
-Esta trilha está dividida em níveis para guiar sua evolução profissional.
+## 🐣 Nível Iniciante (Júnior): A Base
 
----
+- **HTML & CSS:** Semântica (acessibilidade), Flexbox, CSS Grid.
+- **JavaScript Moderno (ES6+):** Arrow functions, Promises, Async/Await, manipulação do DOM.
+- **Frameworks:** React (Hooks: useState, useEffect), Vue.js ou Angular.
+- **Ferramentas Básicas:** Git e NPM/Yarn/PNPM.
 
-## 🐣 Nível Iniciante (Júnior)
+## 🚀 Nível Intermediário (Pleno): O Otimizador
 
-O foco aqui é dominar a tríade sagrada da web e começar a usar frameworks modernos.
+- **TypeScript:** Interfaces, Types, Generics e Utility Types.
+- **Gerenciamento de Estado:** Redux Toolkit, Zustand ou React Query (TanStack Query).
+- **Testes:** Jest/Vitest (lógica), React Testing Library (componentes), Cypress/Playwright (E2E).
+- **Estilização Avançada:** Tailwind CSS, Component Libraries (shadcn/ui, Radix UI).
+- **Acessibilidade Web (a11y):** WAI-ARIA, Lighthouse/WAVE, axe-core.
 
-### 🦴 HTML, CSS e JavaScript (A Base)
+## 🧙‍♂️ Nível Avançado (Sênior / Especialista): O Arquiteto
 
-- **HTML:** Semântica (SEO) e Acessibilidade (a11y) - garantir que todos possam usar seu site.
-- **CSS:** Flexbox, Grid e Responsividade (Mobile First). O básico para layout.
-- **JavaScript:** Manipulação do DOM, `fetch` API para consumir dados e ES6+ (Arrow Functions, Destructuring).
-- **Recursos:**
-  - 📖 [MDN Web Docs](https://developer.mozilla.org/)
-
-### 🛠️ Frameworks Modernos (Escolha Um)
-
-- **React:** O padrão da indústria. Entenda Hooks (`useState`, `useEffect`) e Componentes Funcionais.
-  - _Next.js:_ Aprenda o básico de Server-Side Rendering (SSR) e roteamento.
-- **Vue.js:** Curva de aprendizado suave e excelente documentação.
-- **Angular:** Estrutura completa para grandes empresas (Google).
-
-### 📦 Ferramentas Básicas
-
-- **Git:** Como salvar e compartilhar seu código.
-- **NPM/Yarn/PNPM:** Como instalar bibliotecas de terceiros.
-
----
-
-## 🚀 Nível Intermediário (Pleno)
-
-Aqui você garante qualidade, escalabilidade e performance. O "funciona" não é mais suficiente.
-
-### 🛡️ TypeScript
-
-- **Por que usar?** O JavaScript com "superpoderes" (tipagem estática). Evita 80% dos bugs comuns.
-- **Conceitos:** Interfaces, Types, Generics e Utility Types.
-
-### 🧠 Gerenciamento de Estado
-
-Quando passar props de pai para filho fica insustentável.
-
-- **Redux Toolkit:** O veterano robusto.
-- **Zustand:** Minimalista e direto ao ponto.
-- **React Query (TanStack Query):** Essencial para gerenciar estado assíncrono (API calls, cache, loading).
-
-### 🧪 Testes no Frontend
-
-- **Jest / Vitest:** Para lógica de negócios e funções puras.
-- **React Testing Library:** Testar componentes como o usuário os vê (cliques, textos).
-- **Cypress / Playwright:** Testes E2E (Ponta a Ponta) que simulam o navegador real.
-
-### 🎨 Estilização Avançada
-
-- **Tailwind CSS:** O padrão moderno de estilização utilitária.
-- **Component Libraries:** Não reinvente a roda. Use **shadcn/ui** ou **Radix UI** para componentes acessíveis e bonitos.
-
-### ♿ Acessibilidade Web (a11y)
-
-A internet deve ser para todos.
-
-- **Semântica HTML:** `button` é botão, `div` não é botão. O básico que muitos erram.
-- **WAI-ARIA:** Quando o HTML não basta, use atributos ARIA (`aria-label`, `role`) para guiar leitores de tela.
-- **Ferramentas de Auditoria:**
-  - **Lighthouse / WAVE:** Para checkups rápidos.
-  - **axe-core:** Para automação de testes de acessibilidade.
-  - **Leitores de Tela (NVDA / VoiceOver):** Teste seu site de olhos fechados.
-
----
-
-## 🧙‍♂️ Nível Avançado (Sênior / Especialista)
-
-Onde a engenharia de software encontra a arte e a inteligência artificial.
-
-### 🏗️ Arquitetura de Frontend
-
-- **Micro-frontends:** Module Federation. Como dividir um sistema gigante em partes menores.
-- **Server Components (RSC) e Next.js 15+:** O paradigma moderno de renderização mista de páginas web.
-  - **Partial Prerendering (PPR):** Combinar uma página estática super rápida com pedaços dinâmicos renderizados via stream, com suspenses.
-- **Server Actions (Avançado):** Lógica que roda no servidor a partir do front end, útil para mutações em bancos de dados ou chamadas de API, garantindo segurança ao invés de expor endpoints.
-- **Server-Driven UI (HTMX):** A alternativa radical às SPAs complexas. Retornar HTML do servidor em vez de JSON, ideal para aplicações "dashboard-like" e redução de complexidade.
-
-### ⚡ Performance & Core Web Vitals
-
-Performance é UX. Ninguém gosta de site lento.
-
-- **LCP (Largest Contentful Paint):** Quanto tempo demora para o "conteúdo principal" aparecer? Meta: < 2.5s.
-- **INP (Interaction to Next Paint):** O site trava quando clico? Substituiu o FID. Meta: < 200ms.
-- **CLS (Cumulative Layout Shift):** As coisas mudam de lugar sozinhas? Evite layout instável.
-- **Técnicas:** Code Splitting, Lazy Loading de imagens, otimização de fontes e uso correto de Cache-Control.
+- **Arquitetura de Frontend:** Micro-frontends (Module Federation), Server-Driven UI (HTMX).
+- **React Server Components (RSC) e Next.js 15+:** Partial Prerendering (PPR), Server Actions.
+- **Performance & Core Web Vitals:** LCP (< 2.5s), INP (< 200ms), CLS. Otimização de fontes/cache.
+- **Tópicos Especializados:** WebAssembly (Wasm) e Edge Computing, React Compiler (React 19).
+- **Green Frontend & Sustentabilidade:** Otimização de imagens (AVIF/WebP), redução de bundle JS.
 
 ### 🤖 IA Engineering no Frontend (O Diferencial de 2026)
 
-A revolução da IA também acontece no lado do cliente.
+- **Vercel AI SDK:** Ponte definitiva entre frontend e LLMs (Stateful Streaming, tool calling).
+- **Generative UI (Runtime):** Geração de componentes React on-the-fly com Vercel AI SDK (streamUI).
+- **Generative UI (DevTime):** Uso de v0.dev, Lovable ou Bolt.new para curadoria e refino arquitetural.
+- **Local First AI & WebNN:** Modelos (Llama 3, Phi-3, Whisper) rodando no navegador via WebLLM e Transformers.js. Zero custo de inferência e total privacidade.
 
-- **Vercel AI SDK:** A ponte definitiva entre seu frontend e os LLMs. Domine o streaming não apenas de texto, mas de estados complexos (Stateful Streaming) e chamadas de ferramentas (`tool calling`). Diferencie o uso do `AI SDK Core` (para lógica) e `AI SDK UI` (para ganchos como `useChat`).
-- **Generative UI (Runtime):** A IA não deve retornar apenas Markdown. Usando ferramentas como Vercel AI SDK (`streamUI`), ela gera componentes React on-the-fly (`<StockChart />`, `<FlightTicket />`). A interface se adapta à intenção do usuário no tempo de execução.
-- **Generative UI (DevTime):** Ferramentas como **v0.dev**, **Lovable** ou **Bolt.new** geram código de interface (React + Tailwind) pronto para uso. O fluxo de trabalho de um Sênior muda de "codar do zero" para "prompting arquitetural, curadoria e refino".
-- **Streaming UI:** O usuário não pode esperar a API responder completamente. Renderizar a interface _token por token_ e montar esqueletos dinâmicos é a regra para reter atenção.
-- **Local First AI & WebNN:** O avanço além do WebGPU. Ferramentas como **ONNX Runtime Web** e a API **WebNN** permitem que o navegador acesse diretamente a NPU (Neural Processing Unit) do computador. Modelos (Llama 3, Phi-3, Whisper) rodam direto na máquina do usuário via **WebLLM** e **Transformers.js**. Isso traz **Privacidade Total** e **Zero Custo de Servidor (Inference Cost = 0)**.
+## 🏆 Desafios Práticos
 
-### 🚀 Tópicos Especializados e React Server Components (RSC)
-
-- **WebAssembly (Wasm) e Edge Computing:** Escrever e compilar códigos nativos C++/Rust/Go rodando com performance de desktop no browser via Wasm. Compartilhar a mesma biblioteca criptográfica ou algoritmo pesado entre o seu servidor Rust e o navegador do cliente.
-- **Server Components (RSC) e Arquitetura Next.js 15:** Entender a fronteira difusa entre servidor e cliente (ex: Next.js App Router).
-  - **Streaming SSR:** Enviar o HTML progressivamente enquanto o banco de dados ainda está processando.
-  - **React Compiler (React 19):** O fim do `useMemo` e `useCallback` manuais. Entenda como o compilador otimiza re-renders automaticamente.
-  - **Funcionamento Principal:** Componentes de servidor processam o que é pesado e só entregam a interface limpa via HTML pro cliente, com "Server Actions" substituindo endpoints de API separados para mutations.
-- **Micro-Frontends e Module Federation (Avançado):** A forma correta de escalar times gigantes (escala Enterprise). Repositórios independentes publicam "pedaços" da aplicação que são injetados em tempo de execução no _shell_ principal.
-- **Segurança Avançada:** Content Security Policy (CSP) rigorosas (usando nonces para RSCs), proteção contra XSS (especialmente ao renderizar saídas de IA/Markdown) e estratégias avançadas de mitigação de CSRF.
-
-### 🌿 Green Frontend & Sustentabilidade
-
-A web consome energia. Você pode ajudar a reduzir isso.
-
-- **Peso da Página:** Imagens otimizadas (AVIF/WebP) e bundle JS reduzido significam menos transferência de dados e menos energia.
-- **Renderização Eficiente:** Evite re-renders desnecessários que gastam CPU do dispositivo do usuário.
-- **Dark Mode:** Em telas OLED, pixels pretos estão desligados e economizam bateria.
-
-### 🧠 Soft Skills & Diferencial Humano
-
-- **Empatia com Design:** Não diga "isso é impossível". Diga "isso é custoso, podemos simplificar assim?". Entenda que o pixel perfect importa para a marca.
-- **Advogado do Usuário:** Você é a última linha de defesa antes do usuário. Se o fluxo está confuso, levante a mão. Não implemente cegamente telas ruins.
-- **Colaboração com Backend:** Entenda as limitações da API. Negocie payloads menores e estratégias de cache para melhorar a performance.
-
-### 🏆 Desafios Práticos (Projetos)
-
-- **Júnior:** Construa uma Landing Page responsiva para um produto fictício usando HTML, CSS (Flexbox/Grid) e JavaScript. Deve ter um formulário de contato funcional (pode usar Formspree) e validação de campos.
-- **Pleno:** Crie uma Dashboard de Clima consumindo uma API pública (OpenWeatherMap). Requisitos: Gerenciamento de estado global (Zustand/Redux), gráficos com Recharts/Chart.js e modo Dark/Light.
-- **Sênior:** Desenvolva um E-commerce completo com Next.js (App Router) e Server Actions. Requisitos: Otimização de imagens (LCP < 2.5s), carrinho de compras persistente, SEO técnico e integração com Vercel AI SDK para um chatbot de recomendação de produtos.
-
----
+- **Júnior:** Landing Page responsiva com HTML, CSS e JavaScript (validação de campos).
+- **Pleno:** Dashboard de Clima com API externa, estado global (Zustand), gráficos e Dark/Light mode.
+- **Sênior:** E-commerce com Next.js (App Router), otimização LCP, e chatbot AI para recomendação.
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
-
 **Para o Júnior (Fundamentos e Bases):**
 
-- **[MDN Web Docs](https://developer.mozilla.org/):** A bíblia do desenvolvimento web. Sempre consulte a MDN antes do StackOverflow.
-- **[FreeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/):** Excelente para fixar HTML e CSS na prática.
-- **[JavaScript.info](https://javascript.info/):** O guia mais completo para entender o JS moderno a fundo.
+- **[MDN Web Docs](https://developer.mozilla.org/):** A bíblia do desenvolvimento web.
+- **[FreeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/):** Fixar HTML e CSS na prática.
+- **[JavaScript.info](https://javascript.info/):** Guia completo para entender o JS moderno a fundo.
 
 **Para o Pleno (Arquitetura e TypeScript):**
 
-- **[Total TypeScript](https://www.totaltypescript.com/):** O curso definitivo para parar de brigar com o compilador e entender TypeScript avançado (Matt Pocock).
-- **[Frontend Masters](https://frontendmasters.com/):** Cursos aprofundados sobre performance, acessibilidade e algoritmos no frontend.
-- **[Epic React](https://epicreact.dev/) / [React.dev](https://react.dev/):** Domine os padrões do React, concorrência e o novo React Compiler.
+- **[Total TypeScript](https://www.totaltypescript.com/):** Curso definitivo para TypeScript avançado.
+- **[Frontend Masters](https://frontendmasters.com/):** Cursos sobre performance, a11y e algoritmos.
+- **[Epic React](https://epicreact.dev/) / [React.dev](https://react.dev/):** Domine padrões do React e concorrência.
 
-**Para o Sênior/Especialista (Generative UI, Performance e WebGPU):**
+**Para o Sênior/Especialista:**
 
-- **[web.dev (Google Chrome Developers)](https://web.dev/):** Acompanhe as métricas vitais (Core Web Vitals), novidades de CSS e arquitetura moderna.
-- **[Vercel AI SDK Documentation](https://sdk.vercel.ai/docs):** Essencial para implementar Generative UI e integrar RAG no Frontend via React Server Components.
-- **[ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Documentação oficial para rodar modelos de IA locais no navegador (WebNN/WebAssembly). Essencial para arquiteturas de "Zero Inference Cost".
-- **[Patterns.dev](https://www.patterns.dev/):** O guia moderno definitivo para padrões de design (Design Patterns) em JavaScript e React, focado em performance.
-- **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Se você foge do CSS e usa apenas Tailwind, este curso muda a sua mente, ensinando o motor do CSS por trás dos panos.
-
----
+- **[web.dev (Google Chrome Developers)](https://web.dev/):** Métricas vitais (Core Web Vitals).
+- **[Vercel AI SDK Documentation](https://sdk.vercel.ai/docs):** Implementação de Generative UI e RAG via RSC.
+- **[ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Rodar modelos de IA locais no navegador (WebNN/WebAssembly).
+- **[Patterns.dev](https://www.patterns.dev/):** Guia de padrões de design em JavaScript e React, focado em performance.
+- **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Ensina o motor do CSS por trás dos panos.
 
 ## ↩️ Navegação
 
