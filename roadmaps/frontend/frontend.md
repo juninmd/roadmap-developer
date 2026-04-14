@@ -6,9 +6,9 @@
 flowchart TD
     Start([Início]) --> HTML(HTML, CSS, JS Básicos)
     HTML --> Framework(React / Vue / Angular)
-    Framework --> State(Gerenciamento de Estado)
-    State --> TypeScript(TypeScript)
-    TypeScript --> Arch(Arquitetura Frontend)
+    Framework --> TypeScript(TypeScript)
+    TypeScript --> State(Gerenciamento de Estado)
+    State --> Arch(Arquitetura Frontend)
     Arch --> Perf(Performance & Web Vitals)
     Perf --> AI(IA Engineering & Generative UI)
     AI --> Spec([Especialista])
@@ -35,7 +35,7 @@ Torne-se um engenheiro focado em performance, componentes modernos e integraçã
 
 - **Arquitetura de Frontend:** Micro-frontends (Module Federation), Server-Driven UI (HTMX).
 - **React Server Components (RSC) e Next.js 15+:** Partial Prerendering (PPR), Server Actions.
-- **Performance & Core Web Vitals:** LCP (< 2.5s), INP (< 200ms), CLS. Otimização de fontes/cache.
+- **Performance & Core Web Vitals:** LCP (< 2.5s), INP (< 200ms), CLS (< 0.1). Otimização de fontes/cache.
 - **Tópicos Especializados:** WebAssembly (Wasm) e Edge Computing, React Compiler (React 19).
 - **Green Frontend & Sustentabilidade:** Otimização de imagens (AVIF/WebP), redução de bundle JS.
 
