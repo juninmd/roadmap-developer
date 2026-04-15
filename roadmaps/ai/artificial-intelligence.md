@@ -38,8 +38,8 @@ Sêniores projetam agentes corporativos cognitivos e reduzem dependência (e cus
 
 ### 🔬 Caminho A: AI Research & Core ML (Laboratório e Pesquisa Profunda)
 
-- **Fine-Tuning & Alinhamento Semântico Corporativo:** Uso intensivo de PEFT (Parameter-Efficient Fine-Tuning) através de metodologias cruciais de mercado como LoRA e QLoRA. Treinar e alinhar Small Language Models (SLMs) como Llama 3 e Mistral a partir de computação escassa e hardwares limitados no ambiente corporativo (DPO, RLHF - Reinforcement Learning from Human Feedback).
-- **Novas Arquiteturas Físicas de Memória:** O domínio e arquitetura estrutural de substitutos para o gargalo computacional da arquitetura Attention, dominando implementações focadas como os Modelos State Space Mamba e as incríveis arquiteturas MoE (Mixture of Experts) focadas em alta performance com baixíssimo processamento paralelo e ativação de rede parcial.
+- **Fine-Tuning & Alinhamento Semântico Corporativo:** Uso intensivo de PEFT (Parameter-Efficient Fine-Tuning) através de metodologias cruciais de mercado como LoRA e QLoRA. Treinar e alinhar modelos compactos (SLMs) como Phi-3 ou versões menores do Llama 3 e Mistral a partir de computação escassa e hardwares limitados no ambiente corporativo (DPO, RLHF - Reinforcement Learning from Human Feedback).
+- **Novas Arquiteturas Físicas de Memória:** O domínio e arquitetura estrutural de substitutos para o gargalo computacional da arquitetura Attention, dominando implementações focadas como os Modelos State Space Mamba e as arquiteturas MoE (Mixture of Experts) focadas em alta performance através da ativação esparsa de parâmetros e eficiência computacional.
 
 ### 🛠️ Caminho B: AI Engineering & Orquestração Composta (Produção e Negócios)
 
