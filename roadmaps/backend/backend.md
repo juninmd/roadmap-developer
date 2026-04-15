@@ -31,9 +31,9 @@ Neste nível o foco é criar lógicas fundamentais, manipular conexões de banco
 
 A evolução para o nível pleno exige pensar em concorrência, segurança, deploy escalável e redução de acoplamento entre módulos.
 
-- **Autenticação & Segurança:** JWT, OAuth 2.0 / OpenID Connect, Session Cookies Seguros (HttpOnly, SameSite). Hashing poderoso (Bcrypt/Argon2) e Rate Limiting/Throttling.
+- **Autenticação & Segurança:** JWT, OAuth 2.0 / OpenID Connect, Session Cookies Seguros (HttpOnly, Secure, SameSite). Hashing poderoso (Bcrypt/Argon2) e Rate Limiting/Throttling.
 - **APIs Modernas e Comunicação:** GraphQL (Apollo/Relay) para o frontend e gRPC (Protocol Buffers) para comunicação ultrarrápida entre microsserviços.
-- **Bancos NoSQL e Otimização SQL:** MongoDB, DynamoDB para esquemas dinâmicos. Redis (Cache) para evitar chamadas lentas. No SQL: otimização via Índices, plano de execução de queries (Explain) e Transações ACID.
+- **Bancos NoSQL e Otimização SQL:** MongoDB, DynamoDB para esquemas dinâmicos. Redis (Cache) para evitar chamadas lentas. Em bancos relacionais (SQL): otimização via Índices, plano de execução de queries (Explain) e Transações ACID.
 - **Docker e Containers:** Empacote suas aplicações e garanta que rodem de maneira idêntica no servidor e na máquina de desenvolvimento.
 - **Mensageria e Filas (Message Brokers):** Trabalhos assíncronos e processamento de background via RabbitMQ, Apache Kafka, ou Cloud SQS. Não faça processamento pesado (envio de email, conversão de vídeo) travando o Event Loop.
 - **Testes Backend:** Test-Driven Development (TDD) via testes unitários (Vitest/Jest, PyTest, JUnit). Mocks controlados para dependências externas e Testes de Integração usando Testcontainers.
