@@ -53,7 +53,7 @@ Em 2026, a IA Generativa é cidadã de primeira classe no Frontend. O usuário n
 - **Vercel AI SDK:** A ponte definitiva entre frontend e LLMs. Domine Stateful Streaming, function/tool calling.
 - **Generative UI (Runtime):** Geração de componentes React on-the-fly de acordo com o contexto do usuário (usando streamUI do Vercel AI SDK).
 - **Generative UI (DevTime):** Uso de ferramentas Agentic como v0.dev, Lovable, Bolt.new ou Cursor para curadoria e refino arquitetural de UI.
-- **Local First AI & WebNN:** Modelos SLM (Small Language Models como Phi-3, Llama 3, Whisper) rodando diretamente na GPU/NPU do navegador do usuário via WebLLM, Transformers.js ou ONNX Runtime Web. Zero custo de inferência de nuvem, zero latência de rede e total privacidade de dados (Local-First Architecture).
+- **Local First AI & WebNN:** Modelos SLM (Small Language Models como Phi-3, Llama 3 compactos) e modelos de áudio/visão (como Whisper) rodando diretamente na GPU/NPU do navegador do usuário via WebLLM, Transformers.js ou ONNX Runtime Web. Zero custo de inferência de nuvem, zero latência de rede e total privacidade de dados (Local-First Architecture).
 
 ## 🏆 Desafios Práticos
 
