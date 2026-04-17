@@ -58,7 +58,7 @@ Sêniores projetam agentes corporativos cognitivos e reduzem dependência (e cus
 - **Pleno:** Crie um aplicativo avançado completo que avalia e reconhece diferentes espectros em imagens médicas através do uso intensivo das matrizes do PyTorch servidas por uma API ultrarrápida do framework Python FastAPI orquestrada para ambiente isolado na nuvem.
 - **Sênior:** Crie e gerencie na AWS uma Arquitetura de RAG Avançada baseada no modelo relacional Open-Source (Ollama Local) orquestrado rigorosamente via o poderoso workflow de Agentes e grafos do LangGraph, para validar e solucionar incidentes no código legado sem assistência da equipe, documentando todo o sistema local.
 
-## 📚 Materiais de Estudo Recomendados do Arquiteto
+## 📚 Materiais de Estudo Recomendados
 
 **Para o Júnior (A Base Científica e Algorítmica):**
 
