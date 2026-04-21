@@ -42,7 +42,7 @@
     "eslint": "^10.2.1",
     "jiti": "^2.6.1",
     "markdownlint-cli": "^0.48.0",
-    "prettier": "^3.8.2",
+    "prettier": "^3.8.3",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.57.2",
     "vitest": "^4.1.4"
