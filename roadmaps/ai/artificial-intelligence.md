@@ -74,6 +74,7 @@ Sêniores projetam agentes corporativos cognitivos e reduzem dependência (e cus
 
 - **[LangChain Academy](https://academy.langchain.com/):** Masterclass absoluta, pesada e atualizada na indústria global focado imensamente em arquitetar complexos ecossistemas na matriz baseada em grafos do LangGraph com os autônomos e maravilhosos Agentes cognitivos.
 - **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** O principal curso corporativo atual focado nas diretrizes massivas de heurísticas sintáticas avançadas (Zero-Shot avançado, Cadeias Dinâmicas de Raciocínio, Avaliações Massivas Corporativas baseadas em Nuvem e Agentes Avaliadores independentes).
+- **[DSPy Documentation](https://dspy-docs.vercel.app/):** O framework definitivo para programação declarativa em modelos de linguagem, movendo do clássico "Prompting" para compilação estruturada.
 - **Livros Obrigatórios de Cabeceira do Mestre:** "Designing Machine Learning Systems" pela fenomenal engenheira Chip Huyen aborda a construção sustentável da engenharia local corporativa na produção da indústria moderna de forma holística em 2026. E "The Little Book of Deep Learning" (François Fleuret) entregando em páginas reduzidas na tela todo contexto matemático exigido do especialista sem peso gigante acadêmico exaustivo do mercado comum mundial.
 
 ## ↩️ Navegação

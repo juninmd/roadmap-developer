@@ -80,7 +80,7 @@ Em 2026, a IA Generativa é cidadã de primeira classe no Frontend. O usuário n
 **Para o Sênior/Especialista (Performance, IA e Edge):**
 
 - **[web.dev (Google Chrome Developers)](https://web.dev/):** A referência absoluta para métricas de usuário, Core Web Vitals e renderização de alta performance.
-- **[Patterns.dev](https://www.patterns.dev/):** Um guia gratuito focado em padrões de design arquiteturais, renderização no servidor, hidratação e performance em aplicações JavaScript.
+- **[React Compiler & React 19 Docs](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024):** A revolução na otimização de renderização. Domine o compilador que elimina a necessidade de `useMemo` e `useCallback` manualmente.
 - **[Vercel AI SDK Documentation](https://sdk.vercel.ai/docs):** Aprenda na prática a criar interfaces imersivas geradas por IA (Generative UI) conectadas a LLMs globais.
 - **[ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Documentação vital para a era de 2026, focado em WebNN, WebAssembly e a execução de Inteligência Artificial sem custos de nuvem.
 - **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Ensina o motor do CSS por trás dos panos, para o engenheiro sênior não ter mais "medo" de alinhar um botão e quebrar o layout.

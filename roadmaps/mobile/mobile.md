@@ -170,6 +170,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 - **[Hugging Face Spaces - Local/On-Device AI](https://huggingface.co/spaces):** Acompanhe modelos como o Llama.cpp adaptado para iOS/Android e WebNN, além do Transformers.js rodando em React Native.
 - **[Kotlin Multiplatform (KMP) by JetBrains](https://kotlinlang.org/docs/multiplatform.html):** Documentação técnica que explica como compartilhar lógicas de negócio C++/Kotlin entre iOS/Android em larga escala.
 - **[Ditto](https://www.ditto.live/) / [PowerSync](https://www.powersync.com/) Docs:** Aprenda na prática a projetar e sincronizar bancos de dados Local-First, essencial para arquiteturas Resilientes.
+- **[Android AICore & Gemini Nano](https://developer.android.com/ai/aicore):** A documentação oficial mais recente para incorporar as APIs seguras do Google injetadas diretamente no SO (System Service) para processamento ultra-rápido.
 
 ---
 
