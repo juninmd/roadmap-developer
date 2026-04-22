@@ -84,9 +84,9 @@ Os desenvolvedores backend de 2026 são os pilares centrais da Inteligência Art
 
 - **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A obra-prima definitiva do engenheiro de backend sênior. É a bíblia teórica sobre como dados distribuídos, transações, concorrência e consistência real funcionam no planeta terra.
 - **[ByteByteGo (Alex Xu)](https://bytebytego.com/):** A principal plataforma atual do mundo para preparação e estudos de _System Design Interviews_. Material visual impecável e essencial.
-- **[Arpit Bhayani (YouTube)](https://www.youtube.com/@ArpitBhayani):** Vídeos ultra profundos sobre os mistérios escondidos na engenharia de backend de altíssima escala utilizada no Twitter, Discord e Netflix.
 - **[LangChain Academy](https://academy.langchain.com/):** O currículo da vanguarda da Engenharia de IA. Orquestração corporativa de Agentes Autônomos, sistemas Multi-Agente e arquiteturas RAG avançadíssimas.
-- **[The Rust Programming Language Book](https://doc.rust-lang.org/book/):** A introdução oficial para a linguagem favorita de sistemas em 2026. Aprofunde-se no Borrow Checker e em performance extrema e segura.
+- **[LiteLLM Docs](https://docs.litellm.ai/docs/):** A referência indispensável para construir e escalar Gateways de LLM em produção, roteando tráfego de forma eficiente e sustentável (FinOps de IA).
+- **[The Rust Programming Language Book](https://doc.rust-lang.org/book/):** A introdução oficial para a linguagem favorita de sistemas em 2026. Aprofunde-se no Borrow Checker para dominar a performance absoluta e o Green Coding extremo.
 
 ## ↩️ Navegação
 

@@ -127,7 +127,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 **Para o Sênior/Especialista (Testes de Performance, IA e Shift-Left):**
 
 - **[Grafana k6 Docs](https://k6.io/docs/):** A ferramenta moderna baseada em JavaScript/Go para aplicar carga, picos massivos e verificar "Testes de Stress" contra APIs da arquitetura Backend.
-- **[Test Automation University (Applitools)](https://testautomationu.applitools.com/):** Uma infinidade de cursos gratuitos, avançados (em Java/Python/JavaScript), sobre testes visuais impulsionados por IA (Visual AI).
+- **[Test Automation University (Applitools)](https://testautomationu.applitools.com/):** Uma infinidade de cursos gratuitos, avançados (em Java/Python/JavaScript), sobre testes visuais impulsionados por IA (Visual AI e Auto-Healing).
 - **[The Pragmatic Engineer (Newsletter/Blog)](https://blog.pragmaticengineer.com/):** Ótimo para um QA Sênior entender as estratégias massivas que empresas (Uber, Stripe) tomam sobre "Engineering Productivity" em vez de apenas achar bugs.
 
 ---

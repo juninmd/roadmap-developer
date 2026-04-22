@@ -154,6 +154,7 @@ Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos
 - **[NIST Post-Quantum Cryptography Guidelines](https://csrc.nist.gov/projects/post-quantum-cryptography):** Entenda as padronizações FIPS oficiais do governo americano de 2024 que os sistemas bancários em 2026 são ordenados a utilizar para impedir espionagem retroativa.
 - **[Snyk (DevSecOps Platform) / Trivy Documentation](https://snyk.io/learn/):** Plataforma incrível para entender "Shift-Left", containers, infraestrutura de vulnerabilidades em repositórios Git, mitigando o NPM falso e vazamentos do GitHub.
 - **[PicoCTF (Carnegie Mellon University)](https://picoctf.org/):** Jogue Capture The Flag de alta classe universitária e foque intensamente em "Reverse Engineering", "Binary Exploitation" e Criptografia.
+- **[AI Red Teaming (Microsoft / NVIDIA)](https://www.microsoft.com/en-us/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/):** Guias de elite sobre como hackear e auditar modelos fundacionais e LLMs com Prompt Injection, Jailbreaks estruturados e extração de dados.
 
 ---
 
