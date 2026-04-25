@@ -1,6 +1,6 @@
 # 📚 Guia de Estudos 2026: Do Júnior ao Especialista
 
-> **Edição 2026:** Um guia prático de como organizar seus estudos para atingir o nível de excelência exigido pelo mercado moderno, focando em IA, arquitetura avançada e sustentabilidade.
+> **Edição 2026:** Um guia prático de como organizar seus estudos para atingir o nível de excelência exigido pelo mercado moderno, focando imensamente em IA, arquitetura avançada e sustentabilidade.
 
 ## 🌟 O Desenvolvedor Completo 2026
 
@@ -88,7 +88,7 @@ Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decis
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para garantir que você tenha a melhor base teórica e prática em 2026, selecionamos os melhores materiais divididos por nível, abrangendo todo o espectro de um **Desenvolvedor Completo** (Frontend, Backend, IA, DevOps, Mobile, Dados e Segurança):
+Para garantir que você tenha a melhor base teórica e prática atualizada e de alta qualidade em 2026, selecionamos os melhores materiais divididos por nível, abrangendo todo o espectro de um **Desenvolvedor Completo** (Frontend, Backend, IA, DevOps, Mobile, Dados e Segurança):
 
 ### 🐣 Para Nível Júnior (A Base)
 
