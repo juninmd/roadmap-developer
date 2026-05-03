@@ -65,25 +65,23 @@ Em 2026, a IA Generativa é cidadã de primeira classe no Frontend. O usuário n
 
 **Para o Júnior (Fundamentos e Bases):**
 
-- **[MDN Web Docs](https://developer.mozilla.org/):** A documentação oficial e a bíblia do desenvolvimento web.
-- **[FreeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/):** Aprenda praticando HTML e CSS.
-- **[JavaScript.info](https://javascript.info/):** O guia mais completo, profundo e claro para entender o JavaScript moderno a fundo.
-- **[The Odin Project](https://www.theodinproject.com/):** Currículo completo open-source, focado na prática e na fundação web de um desenvolvedor completo.
+- **[MDN Web Docs](https://developer.mozilla.org/):** A bíblia do desenvolvimento web.
+- **[The Odin Project](https://www.theodinproject.com/):** Currículo open-source focado em projetos para o desenvolvedor completo.
+- **[JavaScript.info](https://javascript.info/) & [FreeCodeCamp](https://www.freecodecamp.org/):** Guias completos para JavaScript moderno e HTML/CSS.
 
 **Para o Pleno (Arquitetura e TypeScript):**
 
-- **[Total TypeScript](https://www.totaltypescript.com/):** O curso definitivo para dominar TypeScript avançado no ecossistema de desenvolvimento moderno.
-- **[Frontend Masters](https://frontendmasters.com/):** Plataforma premium de altíssima qualidade técnica para aprofundar em React, Vue, performance, a11y e algoritmos de CS.
-- **[Epic React (Kent C. Dodds)](https://epicreact.dev/) / [React.dev](https://react.dev/):** Domine os padrões mais complexos do React, hooks customizados e renderização simultânea (concorrência).
-- **[Testing JavaScript](https://testingjavascript.com/):** Aprenda a testar de verdade, com confiança e sem fragilidades usando Vitest, RTL e Cypress.
+- **[Total TypeScript](https://www.totaltypescript.com/):** Domine TypeScript avançado no ecossistema moderno.
+- **[Frontend Masters](https://frontendmasters.com/):** Plataforma premium para aprofundar em React, Vue, performance e a11y.
+- **[Testing JavaScript](https://testingjavascript.com/):** Teste com confiança e sem fragilidades usando Vitest, RTL e Playwright.
+- **[Epic React](https://epicreact.dev/) / [React.dev](https://react.dev/):** Padrões avançados, hooks e concorrência no React 19+.
 
 **Para o Sênior/Especialista (Performance, IA e Edge):**
 
-- **[web.dev (Google Chrome Developers)](https://web.dev/):** A referência absoluta para métricas de usuário, Core Web Vitals e renderização de alta performance.
-- **[React Compiler & React 19 Docs](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024):** A revolução na otimização de renderização. Domine o compilador que elimina a necessidade de `useMemo` e `useCallback` manualmente.
-- **[Vercel AI SDK Documentation](https://sdk.vercel.ai/docs):** Aprenda na prática a criar interfaces imersivas geradas por IA (Generative UI) conectadas a LLMs globais.
-- **[ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Documentação vital para a era de 2026, focado em WebNN, WebAssembly e a execução de Inteligência Artificial sem custos de nuvem.
-- **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Ensina o motor do CSS por trás dos panos, para o engenheiro sênior não ter mais "medo" de alinhar um botão e quebrar o layout.
+- **[web.dev](https://web.dev/):** A referência absoluta para Core Web Vitals e alta performance.
+- **[Vercel AI SDK Docs](https://sdk.vercel.ai/docs) & [ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Aprenda a criar Generative UI conectadas a LLMs e Local-First AI com WebNN e Wasm.
+- **[Local-First Web Development](https://localfirstweb.dev/):** Guia definitivo para criar aplicações offline-first premium de latência zero com CRDTs e Yjs.
+- **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Motor do CSS explicado, acabando com o medo de quebrar layouts.
 
 ## ↩️ Navegação
 

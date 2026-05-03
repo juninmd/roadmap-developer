@@ -69,23 +69,23 @@ Os desenvolvedores backend de 2026 são os pilares centrais da Inteligência Art
 
 **Para o Júnior (Fundamentos de Backend e APIs):**
 
-- **[Boot.dev](https://www.boot.dev/):** A melhor plataforma imersiva e gamificada atualmente focada puramente na engenharia de backend, abordando linguagens pesadas e lógicas complexas.
-- **[FreeCodeCamp (Backend Development and APIs)](https://www.freecodecamp.org/):** Excelente currículo open-source e prático abordando os alicerces (Node.js, Express, MongoDB, Autenticação).
-- **Documentações Oficiais:** Nenhuma biblioteca externa supera a documentação nativa do seu ecossistema. Leia a fundo a doc do Express.js, FastAPI, Spring Boot, Go ou NestJS.
+- **[Boot.dev](https://www.boot.dev/):** Plataforma gamificada focada puramente na engenharia de backend e linguagens robustas.
+- **[FreeCodeCamp (Backend & APIs)](https://www.freecodecamp.org/):** Currículo open-source essencial abordando Node.js, Express, MongoDB e Auth.
+- **Documentações Oficiais:** Leia a fundo a documentação de seu framework principal (FastAPI, Spring Boot, Go, NestJS).
 
-**Para o Pleno (Arquitetura Prática, Concorrência e TDD):**
+**Para o Pleno (Arquitetura Prática, Concorrência e Cloud):**
 
-- **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** Referência global em "Crash Courses" avançadíssimos de Database Internals, Arquiteturas de Proxies (Nginx, HAProxy) e protocolos de redes (TCP, gRPC, HTTP/3).
-- **[Test-Driven Development with Python](https://www.obeythetestinggoat.com/):** Uma excelente leitura "Obey the Testing Goat", focada em TDD puro e testes de software no dia a dia.
-- **[Full Cycle](https://fullcycle.com.br/):** O principal ambiente de capacitação em arquitetura moderna de software corporativo no Brasil, abordando intensamente microsserviços, Docker, RabbitMQ e Go.
-- **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Plataforma oficial do provedor líder para estudos de Cloud Practitioner, arquiteturas Serverless, redes em VPC e computação distribuída.
+- **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** Masterclass em Database Internals, Proxies e Redes (TCP, gRPC, HTTP/3).
+- **[Full Cycle](https://fullcycle.com.br/):** Capacitação premium em arquitetura moderna (Microsserviços, Docker, Go, Kubernetes).
+- **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Treinamento oficial e prático focado em arquiteturas Serverless e computação distribuída.
+- **[Test-Driven Development with Python](https://www.obeythetestinggoat.com/):** Leitura de "Obey the Testing Goat" focada em TDD e testes robustos.
 
-**Para o Sênior/Especialista (Escala Planetária, Rust e Orquestração IA):**
+**Para o Sênior/Especialista (Escala, FinOps, Wasm e IA):**
 
-- **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A obra-prima definitiva do engenheiro de backend sênior. É a bíblia teórica sobre como dados distribuídos, transações, concorrência e consistência real funcionam no planeta terra.
-- **[ByteByteGo (Alex Xu)](https://bytebytego.com/):** A principal plataforma atual do mundo para preparação e estudos de _System Design Interviews_. Material visual impecável e essencial.
-- **[LangChain Academy](https://academy.langchain.com/):** O currículo da vanguarda da Engenharia de IA. Orquestração corporativa de Agentes Autônomos, sistemas Multi-Agente e arquiteturas RAG avançadíssimas.
-- **[LiteLLM Docs](https://docs.litellm.ai/docs/):** A referência indispensável para construir e escalar Gateways de LLM em produção, roteando tráfego de forma eficiente e sustentável (FinOps de IA).
+- **[Designing Data-Intensive Applications](https://dataintensive.net/):** A bíblia de sistemas distribuídos e concorrência escrita por Martin Kleppmann.
+- **[ByteByteGo (Alex Xu)](https://bytebytego.com/):** Plataforma de ponta e altíssima qualidade visual para estudos de System Design e entrevistas Staff.
+- **[LangChain Academy](https://academy.langchain.com/) & [LiteLLM Docs](https://docs.litellm.ai/docs/):** Vanguarda da Engenharia de IA. Aprenda RAG corporativo e Gateways LLM sustentáveis.
+- **[WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts):** Documentação fundamental para Wasm Serverless Edge, trazendo Rust/Go proxima ao usuário.
 - **[The Rust Programming Language Book](https://doc.rust-lang.org/book/):** A introdução oficial para a linguagem favorita de sistemas em 2026. Aprofunde-se no Borrow Checker para dominar a performance absoluta e o Green Coding extremo.
 
 ## ↩️ Navegação
