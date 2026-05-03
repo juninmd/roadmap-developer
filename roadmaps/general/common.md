@@ -127,25 +127,25 @@ Para garantir uma formação completa (Júnior ao Especialista), separamos os co
 
 **Júnior (Começando a Jornada):**
 
-- **[FreeCodeCamp](https://www.freecodecamp.org/):** O melhor lugar para começar do zero de forma **gratuita**. Cursos interativos e projetos práticos (Front, Back, Data).
-- **[The Odin Project](https://www.theodinproject.com/):** O currículo open-source mais respeitado para Full Stack. Foca em fundamentos reais do zero ao deploy, sem pular etapas difíceis (Gratuito).
-- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação do mundo (Gratuito no YouTube/edX).
-- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Curso completo e gratuito no GitHub focado em IA Generativa, essencial para os primeiros passos na era da IA.
+- **[FreeCodeCamp](https://www.freecodecamp.org/):** Projetos práticos e interativos para começar gratuitamente.
+- **[The Odin Project](https://www.theodinproject.com/):** Currículo open-source essencial para Full Stack.
+- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação.
+- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Essencial para dar os primeiros passos na era da IA.
 
 **Pleno (Aprofundamento e Prática Contínua):**
 
-- **[Frontend Masters](https://frontendmasters.com/):** Considerada a plataforma com a mais **alta qualidade técnica** de ensino para Frontend, Fullstack e TypeScript do mercado (Pago).
-- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para aprender IA de verdade. Desde cursos curtos gratuitos (Short Courses) sobre LangChain e RAG, até a especialização completa de Machine Learning de Andrew Ng.
-- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais incrivelmente detalhados para nivelar seus conhecimentos em diversas áreas de carreira tech.
-- **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Aprenda a estruturar prompts avançados, técnicas de Few-Shot e otimizações essenciais para interagir efetivamente com modelos complexos em 2026.
+- **[Frontend Masters](https://frontendmasters.com/):** O mais alto nível de ensino para web e TypeScript.
+- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para IA, LangChain e ML.
+- **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Aprenda a estruturar prompts avançados e heurísticas Few-Shot para modelos complexos em 2026.
+- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais excelentes de carreira tech.
 
 **Sênior e Especialista (Arquitetura e Escala):**
 
-- **[Pluralsight](https://www.pluralsight.com/) & [O'Reilly](https://www.oreilly.com/):** Excelentes plataformas para estudos corporativos profundos, nuvem, SRE, e arquitetura de software avançada, incluindo inovações do Edge e **WebAssembly** (Wasm) (Pago).
-- **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Canal essencial e de altíssima qualidade visual para aprender sobre Design e Arquitetura de Sistemas (System Design). Excelente para consolidar conceitos de sistema distribuído exigidos em entrevistas de Staff e Especialistas.
-- **[Full Cycle](https://fullcycle.com.br/):** Essencial para aprofundar na arquitetura de software corporativa, focando em microsserviços, Kubernetes e alta performance com ferramentas consolidadas para 2026.
-- **[Hugging Face Courses](https://huggingface.co/learn):** Materiais aprofundados sobre fine-tuning e deployment de modelos open source.
-- **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Treinamento oficial para dominar arquiteturas em nuvem resilientes e sustentáveis, fundamentais para a implantação escalável em 2026.
+- **[Full Cycle](https://fullcycle.com.br/):** Essencial para aprofundar na arquitetura corporativa moderna (Kubernetes, Go, Microsserviços e Mensageria).
+- **[Local-First Web Development](https://localfirstweb.dev/):** Fundamentos absolutos para aplicações resilientes offline-first.
+- **[LangChain Academy](https://academy.langchain.com/) & [Hugging Face](https://huggingface.co/learn):** Orquestração massiva multi-agente, fine-tuning e deployment de modelos open source.
+- **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Masterclass essencial para Design e Arquitetura de Sistemas.
+- **[AWS Skill Builder](https://explore.skillbuilder.aws/) & [O'Reilly](https://www.oreilly.com/):** Plataformas corporativas para nuvem avançada, SRE e inovações como **WebAssembly**.
 
 ### 🏆 Desafios Práticos (Projetos)
 
