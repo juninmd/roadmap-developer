@@ -94,6 +94,7 @@ Para garantir que você tenha a melhor base teórica e prática atualizada e de 
 
 - **Cursos Essenciais:** [CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science) (Ciência da Computação Base), [FreeCodeCamp](https://www.freecodecamp.org/) (Prática de Código), [The Odin Project](https://www.theodinproject.com/) (Full Stack completo).
 - **Lógica e Estrutura:** [Roadmap.sh](https://roadmap.sh/) para guias visuais e [Visualgo](https://visualgo.net/) para entender algoritmos de forma interativa.
+- **Testes e Qualidade:** Introdução ao [Playwright](https://playwright.dev/) para testes E2E e [Vitest](https://vitest.dev/) para unitários. A qualidade vem desde a base.
 - **Livros Obrigatórios:** "Código Limpo" (Robert C. Martin) - _Foque nos primeiros capítulos para criar bons hábitos de nomenclatura e funções_, "Entendendo Algoritmos" (Aditya Y. Bhargava) - _A melhor introdução a Big O e algoritmos fundamentais_.
 - **IA Literacy:** [Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners). Aprenda a usar ferramentas como **Cursor** e **GitHub Copilot** não como "faz tudo", mas como um mentor técnico no dia a dia.
 - **Canais Recomendados:** [Fireship](https://www.youtube.com/@Fireship) (Para entender conceitos complexos em 100 segundos e se manter atualizado nas trends de Frontend/Backend), [Rocketseat](https://www.youtube.com/@rocketseat) (Excelente para o mercado brasileiro de entrada).
@@ -102,7 +103,7 @@ Para garantir que você tenha a melhor base teórica e prática atualizada e de 
 
 - **Cursos (Especialização Front/Back):** [Frontend Masters](https://frontendmasters.com/) (Cursos focados em Performance, React Server Components e TypeScript Avançado), [Go.dev/learn](https://go.dev/learn/) para transicionar para linguagens de alta performance do backend moderno.
 - **IA e Prompt Engineering:** [Anthropic Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses) (Aprenda a estruturar prompts avançados de verdade, além do básico) e [DeepLearning.AI](https://www.deeplearning.ai/) (Cursos curtos sobre LangChain, Agentes e RAG). Use ferramentas de LLMOps como **LangSmith** e **Arize Phoenix** para avaliar o comportamento do RAG.
-- **Cloud e DevOps Moderno:** [AWS Skill Builder](https://explore.skillbuilder.aws/) (Trilhas oficiais e laboratórios focados em Serverless e Containers), [Tutoriais do Docker](https://www.docker.com/101-tutorial/) para prática local.
+- **Cloud, CI/CD e DevOps Moderno:** [AWS Skill Builder](https://explore.skillbuilder.aws/) (Trilhas oficiais e laboratórios focados em Serverless e Containers), [Tutoriais do Docker](https://www.docker.com/101-tutorial/) para prática local. Domine GitHub Actions para automação (CI/CD).
 - **Livros:** "Projetando Sistemas Intensivos em Dados" (Martin Kleppmann) - _A "Bíblia" do nível Pleno/Sênior_, "Arquitetura Limpa" (Robert C. Martin).
 - **Plataformas de Prática e Entrevistas:** [LeetCode](https://leetcode.com/) (Foco em Medium), [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
 
@@ -110,6 +111,7 @@ Para garantir que você tenha a melhor base teórica e prática atualizada e de 
 
 - **Cursos de Arquitetura Corporativa e DevOps:** Recomenda-se o [Full Cycle](https://fullcycle.com.br/) (Essencial para microsserviços, Service Mesh e **eBPF** com Go/Rust). Para aprendizado contínuo, plataformas corporativas como [O'Reilly](https://www.oreilly.com/) e [Pluralsight](https://www.pluralsight.com/). E para dominar offline-first e alta performance em edge, estude a fundo [Local-First Web Development](https://localfirstweb.dev/).
 - **IA Engineering e Web3/Edge:** [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) (Mergulhe em Transformers e Fine-Tuning) e [LangChain Academy](https://academy.langchain.com/) para orquestração de sistemas Multi-Agente complexos corporativos. Estudo profundo de [WebAssembly e Edge Computing](https://developer.mozilla.org/en-US/docs/WebAssembly).
+- **Machine Learning Ops (MLOps):** Práticas de orquestração com ferramentas como DVC e MLflow para manter pipelines de IA rastreáveis e sustentáveis na nuvem.
 - **Canais / Blogs (Deep Tech):** [ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo) (System Design), Blogs da [Uber](https://eng.uber.com/), [Netflix](https://netflixtechblog.com/) e [Cloudflare](https://blog.cloudflare.com/).
 - **Sustentabilidade e Cloud (Green Coding):** [Green Software Foundation](https://greensoftware.foundation/) (Práticas para diminuir custo e impacto ambiental da arquitetura em nuvem).
 - **Livros e Padrões Organizacionais:** "Staff Engineer" (Will Larson), "Building Microservices" (Sam Newman), "Accelerate" (Nicole Forsgren) - _Métricas DORA e elite_.
