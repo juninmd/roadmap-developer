@@ -92,24 +92,21 @@ Para garantir a melhor base atualizada e de altíssima qualidade em 2026, seleci
 
 ### 🐣 Para Nível Júnior (A Base)
 
-- **Cursos Essenciais:** [CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science) (Ciência da Computação Base), [FreeCodeCamp](https://www.freecodecamp.org/) e [The Odin Project](https://www.theodinproject.com/) (Full Stack e Projetos práticos).
-- **Lógica e Testes:** [Visualgo](https://visualgo.net/) para algoritmos. Comece a testar com [Playwright](https://playwright.dev/) (E2E) e [Vitest](https://vitest.dev/) (Unitário) desde cedo.
-- **Livros Obrigatórios:** "Código Limpo" (Robert C. Martin) e "Entendendo Algoritmos" (Aditya Y. Bhargava).
-- **IA Literacy:** [Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners). Integre a IA (Cursor, Copilot) como parceira desde o início.
+- **Cursos Essenciais e Prática:** Domine os fundamentos com [CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science), [FreeCodeCamp](https://www.freecodecamp.org/) e os projetos reais e desafiadores do [The Odin Project](https://www.theodinproject.com/).
+- **Lógica e Fundamentos Práticos:** Compreenda algoritmos com [Visualgo](https://visualgo.net/) e leia "Entendendo Algoritmos" (Aditya Y. Bhargava) e "Código Limpo" (Robert C. Martin).
+- **IA e Qualidade:** Automatize via [Playwright](https://playwright.dev/) / [Vitest](https://vitest.dev/) e inicie em IA via [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) integrando Copilot e Cursor no fluxo.
 
 ### 🚀 Para Nível Pleno (Otimização, Arquitetura e Cloud)
 
-- **Aprofundamento Frontend/Backend:** [Frontend Masters](https://frontendmasters.com/) (Performance e React avançado) e [Go.dev/learn](https://go.dev/learn/) para linguagens rápidas.
-- **IA e Prompt Engineering:** [Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses) para otimizar LLMs e [DeepLearning.AI](https://www.deeplearning.ai/) para LangChain, RAG e orquestração.
-- **Cloud, CI/CD e Docker:** Pratique Docker localmente e use [AWS Skill Builder](https://explore.skillbuilder.aws/) para infraestrutura.
-- **Sistema e Banco de Dados:** Leia "Projetando Sistemas Intensivos em Dados" (Martin Kleppmann) e entenda design através do [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
+- **Frontend/Backend Avançado:** Aprenda performance extrema com [Frontend Masters](https://frontendmasters.com/) e a concorrência brutal de Go através do [Go.dev/learn](https://go.dev/learn/).
+- **IA e Arquitetura:** Modele Prompts incríveis com [Anthropic Courses](https://github.com/anthropics/courses) e aprofunde em RAG/LangChain no [DeepLearning.AI](https://www.deeplearning.ai/).
+- **Infra e Dados:** Escale Docker/[AWS Skill Builder](https://explore.skillbuilder.aws/) e estude modelagem com "Projetando Sistemas Intensivos em Dados" (Martin Kleppmann) e o [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
 
 ### 🏛️ Para Nível Sênior/Especialista (Maestria, Liderança e IA Avançada)
 
-- **Arquitetura Corporativa e DevOps:** Assine o [Full Cycle](https://fullcycle.com.br/) (Microsserviços, RabbitMQ, Service Mesh e eBPF). Para Offline-first, leia o manifesto do [Local-First Web Development](https://localfirstweb.dev/).
-- **IA Engineering & Multi-Agentes:** [Hugging Face Course](https://huggingface.co/learn/nlp-course) para fine-tuning e o excelente [LangChain Academy](https://academy.langchain.com/) para engenharia autônoma RAG em produção.
-- **Deep Tech e WebAssembly:** Domine [WebAssembly (Wasm)](https://developer.mozilla.org/en-US/docs/WebAssembly). Acompanhe arquiteturas massivas com [ByteByteGo](https://www.youtube.com/@ByteByteGo) e blogs da Cloudflare/Uber.
-- **Green Coding e Métricas:** Leia sobre impacto ambiental com a [Green Software Foundation](https://greensoftware.foundation/). Para liderança técnica de excelência leia "Staff Engineer" (Will Larson) e aplique métricas DORA do livro "Accelerate".
+- **Arquitetura Resiliente e DevOps:** Aprofunde no [Full Cycle](https://fullcycle.com.br/) (eBPF, Service Mesh, Go) e leia o vital manifesto sobre arquitetura e CRDTs [Local-First Web Development](https://localfirstweb.dev/).
+- **IA Engineering & Agentic Flow:** Domine GraphRAG corporativo usando a [LangChain Academy](https://academy.langchain.com/) e alinhe os modelos SLMs na plataforma líder global [Hugging Face](https://huggingface.co/learn/nlp-course).
+- **Deep Tech Sustentável e FinOps:** Explore [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) na nuvem e o guia da [Green Software Foundation](https://greensoftware.foundation/). Para liderança técnica exata, estude arquiteturas via [ByteByteGo](https://www.youtube.com/@ByteByteGo).
 
 ---
 

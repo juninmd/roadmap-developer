@@ -123,29 +123,25 @@ Com a IA escrevendo código, suas habilidades humanas valem ouro.
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para garantir uma formação completa (Júnior ao Especialista), separamos os conteúdos de altíssima qualidade recomendados:
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
 **Júnior (Começando a Jornada):**
 
-- **[FreeCodeCamp](https://www.freecodecamp.org/):** Projetos práticos e interativos para começar gratuitamente.
-- **[The Odin Project](https://www.theodinproject.com/):** Currículo open-source essencial para Full Stack.
-- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso de introdução à ciência da computação.
+- **[FreeCodeCamp](https://www.freecodecamp.org/) & [The Odin Project](https://www.theodinproject.com/):** Prática essencial interativa e currículo open-source focado em projetos para base Full Stack.
+- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso universitário de introdução à ciência da computação.
 - **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Essencial para dar os primeiros passos na era da IA.
 
 **Pleno (Aprofundamento e Prática Contínua):**
 
-- **[Frontend Masters](https://frontendmasters.com/):** O mais alto nível de ensino para web e TypeScript.
-- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima para IA, LangChain e ML.
+- **[Frontend Masters](https://frontendmasters.com/) & [Roadmap.sh](https://roadmap.sh/):** O mais alto nível de ensino web (TypeScript) e excelentes guias visuais interativos de carreira.
+- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima de aprendizado focado em Inteligência Artificial, LangChain e ML.
 - **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Aprenda a estruturar prompts avançados e heurísticas Few-Shot para modelos complexos em 2026.
-- **[Roadmap.sh](https://roadmap.sh/):** Guias visuais excelentes de carreira tech.
 
 **Sênior e Especialista (Arquitetura e Escala):**
 
-- **[Full Cycle](https://fullcycle.com.br/):** Essencial para aprofundar na arquitetura corporativa moderna (Kubernetes, Go, Microsserviços e Mensageria).
-- **[Local-First Web Development](https://localfirstweb.dev/):** Fundamentos absolutos para aplicações resilientes offline-first.
-- **[LangChain Academy](https://academy.langchain.com/) & [Hugging Face](https://huggingface.co/learn):** Orquestração massiva multi-agente, fine-tuning e deployment de modelos open source.
-- **[ByteByteGo (YouTube)](https://www.youtube.com/@ByteByteGo):** Masterclass essencial para Design e Arquitetura de Sistemas.
-- **[AWS Skill Builder](https://explore.skillbuilder.aws/) & [O'Reilly](https://www.oreilly.com/):** Plataformas corporativas para nuvem avançada, SRE e inovações como **WebAssembly**.
+- **[Full Cycle](https://fullcycle.com.br/) & [ByteByteGo](https://www.youtube.com/@ByteByteGo):** Masterclass de aprofundamento arquitetural moderno (Go, Microsserviços, Mensageria, System Design).
+- **[Local-First Web Dev](https://localfirstweb.dev/) & [AWS Skill Builder](https://explore.skillbuilder.aws/):** Padrões resilientes offline-first, WebAssembly e arquitetura cloud nativa avançada corporativa.
+- **[LangChain Academy](https://academy.langchain.com/) & [Hugging Face](https://huggingface.co/learn):** Orquestração massiva multi-agente, fine-tuning e deployment contínuo de modelos abertos.
 
 ### 🏆 Desafios Práticos (Projetos)
 
