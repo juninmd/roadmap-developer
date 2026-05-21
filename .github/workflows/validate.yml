@@ -1,25 +1,14 @@
-name: Validate
+﻿name: Validate
 
 on:
   pull_request:
+  push:
+    branches: [main, master]
 
 concurrency:
   group: validate-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  validate:
-    name: PR Validation
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Check for committed secrets
-        run: |
-          forbidden=$(git ls-files | grep -E '(^|\/)\.env$|(^|\/)\.env\.(local|production|prod|staging|dev)$|(^|\/)id_rsa$|(^|/).+\.pem$|(^|/).+\.key$' || true)
-          if [ -n "$forbidden" ]; then
-            echo "Secret files tracked: $forbidden"
-            exit 1
-          fi
-          echo "No committed secrets found."
+  check:
+    uses: juninmd/base-actions/.github/workflows/reusable-validate.yml@main
