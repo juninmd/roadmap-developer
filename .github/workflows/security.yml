@@ -1,10 +1,13 @@
-﻿name: Security Scan
+name: Security Scan
 
 on:
   push:
     branches: [main, master]
   schedule:
-    - cron: '0 0 * * 1' # Weekly scan on Mondays
+    - cron: '0 0 * * 1'
+
+permissions:
+  contents: read
 
 jobs:
   gitleaks:
