@@ -1,113 +1,89 @@
-# 🎨 Trilha Frontend: Onde a Mágica Acontece (Visualmente)
+# 🎨 Trilha Frontend: Construindo Experiências de Usuário
 
-Bem-vindo(a) ao mundo do Frontend! Aqui é onde o código se transforma em interfaces bonitas e interativas com as quais os usuários podem interagir. Você será o(a) artista, o(a) arquiteto(a) da experiência do usuário, a pessoa que faz a tecnologia parecer amigável e, quem sabe, até mágica. É o seu trabalho fazer com que o usuário olhe para a tela e diga "Uau!".
+> **Edição 2026:** Focado em Next.js 15+, Server Components, Vercel AI SDK e Local-First.
 
----
+```mermaid
+flowchart TD
+    Start([Início]) --> HTML(HTML, CSS, JS Básicos)
+    HTML --> Framework(React / Vue / Angular)
+    Framework --> TypeScript(TypeScript)
+    TypeScript --> State(Gerenciamento de Estado)
+    State --> Arch(Arquitetura Frontend)
+    Arch --> Perf(Performance & Web Vitals)
+    Perf --> AI(IA Engineering & Generative UI)
+    AI --> Spec([Especialista])
+```
 
-### 뼈 HTML: O Esqueleto da Página
+Torne-se um engenheiro focado em performance, componentes modernos e integração com IA. Em 2026, o Frontend vai muito além de "desenhar telas". É sobre orquestrar dados, garantir performance extrema e integrar Inteligência Artificial na interface.
 
-- **O que é?** HTML (HyperText Markup Language) é a linguagem de marcação que dá estrutura a uma página web. Pense nele como o esqueleto de um corpo humano. Ele define as partes principais: o cabeçalho, o corpo, o rodapé, os parágrafos, os títulos, as imagens.
+## 🐣 Nível Iniciante (Júnior): A Base
 
-- **Conceitos importantes:**
-  - **Acessibilidade (a11y):** Garantir que pessoas com deficiência possam usar seu site. É como construir rampas de acesso em um prédio.
-  - **SEO (Search Engine Optimization):** Otimizar seu site para que ele seja encontrado mais facilmente em mecanismos de busca como o Google. É como colocar uma placa de neon na frente da sua loja.
+O objetivo inicial é dominar as linguagens que o navegador entende nativamente antes de pular para os frameworks mágicos.
 
-- **Recursos:**
-  - 📖 [Documentação de HTML (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-  - 📺 [Curso Completo de HTML5 (Vídeo)](https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o)
+- **HTML & CSS Profundos:** Semântica (acessibilidade), Flexbox, CSS Grid. Entenda como o browser renderiza (DOM, CSSOM, Render Tree).
+- **JavaScript Moderno (ES6+):** Arrow functions, Promises, Async/Await, manipulação do DOM. Entenda o Event Loop (Call Stack, Web APIs, Microtask Queue).
+- **Frameworks:** React (Hooks: useState, useEffect, useCallback, useMemo), Vue.js (Composition API) ou Angular. Escolha um e foque na reatividade.
+- **Ferramentas Básicas:** Git (versionamento), NPM/Yarn/PNPM (gerenciamento de pacotes), Vite (build tool).
 
----
+## 🚀 Nível Intermediário (Pleno): O Otimizador
 
-### 💅 CSS: A Roupa e a Maquiagem
+Neste nível, o código funciona, mas precisa ser escalável, tipado e testado.
 
-- **O que é?** CSS (Cascading Style Sheets) é o que dá estilo à sua página. Se o HTML é o esqueleto, o CSS são as roupas, a cor do cabelo, a maquiagem. Ele cuida das cores, fontes, layouts, animações.
+- **TypeScript (Obrigatório):** Interfaces, Types, Generics e Utility Types. Tipagem estrita não é opção em 2026.
+- **Gerenciamento de Estado Global:** Redux Toolkit, Zustand (para React) ou Pinia (para Vue). Saiba quando usar estado local vs global.
+- **Sincronização de Dados (Server-State):** React Query (TanStack Query) ou SWR. Cache, revalidação automática e optimistic updates.
+- **Testes Automatizados:** Jest/Vitest para testes unitários (lógica), React Testing Library (comportamento de componentes), Cypress/Playwright (E2E).
+- **Estilização Avançada:** Tailwind CSS para produtividade, Component Libraries (shadcn/ui, Radix UI) construídas focadas em acessibilidade.
+- **Acessibilidade Web (a11y):** WAI-ARIA, Lighthouse/WAVE, axe-core. Garantir navegação por teclado e compatibilidade com leitores de tela.
 
-- **Conceitos importantes:**
-  - **Flexbox & Grid:** Ferramentas poderosas para alinhar e organizar os elementos na página. Chega de sofrer para centralizar uma div!
-  - **Pré-processadores (Sass):** Permitem que você escreva CSS com superpoderes, como variáveis e funções.
-  - **Frameworks (Tailwind CSS, Bootstrap):** Kits de "peças" de CSS prontas para usar. Aceleram o desenvolvimento e garantem um visual consistente.
+## 🧙‍♂️ Nível Avançado (Sênior / Especialista): O Arquiteto
 
-- **Recursos:**
-  - 📖 [Documentação de CSS (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-  - 📺 [Curso Completo de CSS3 (Vídeo)](https://www.youtube.com/watch?v=GPK8A-A156o&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV)
+O especialista desenha a arquitetura, pensa na latência e constrói infraestrutura para a equipe.
 
----
+- **Arquitetura de Frontend:** Micro-frontends (Module Federation), Server-Driven UI (HTMX, onde a lógica de UI vem do backend).
+- **React Server Components (RSC) e Meta-Frameworks:** Next.js 15+ (App Router), Nuxt. Domínio em SSR, SSG, ISR e Partial Prerendering (PPR).
+- **Performance & Core Web Vitals:** Entenda e otimize LCP (< 2.5s), INP (< 200ms), CLS (< 0.1). Otimização agressiva de fontes, imagens (AVIF/WebP) e cache.
+- **Tópicos Especializados:** WebAssembly (Wasm) rodando Rust no browser, Edge Computing (Cloudflare Workers) para diminuir latência, React Compiler.
+- **Green Frontend & Sustentabilidade:** Redução de bundle JS, evitar re-renders desnecessários para economizar CPU e bateria dos dispositivos (Green Software).
 
-### ✨ JavaScript: O Cérebro e os Músculos
+### 🤖 IA Engineering no Frontend (O Diferencial de 2026)
 
-- **O que é?** JavaScript é a linguagem de programação que dá vida à sua página. Se o HTML é o esqueleto e o CSS é a aparência, o JavaScript é o cérebro que processa a lógica e os músculos que movem as coisas. Ele cuida da interatividade, das requisições ao servidor, das animações complexas.
+Em 2026, a IA Generativa é cidadã de primeira classe no Frontend. O usuário não quer preencher formulários, ele quer conversar.
 
-- **TypeScript:** Um "JavaScript com superpoderes". Adiciona tipagem estática, o que ajuda a pegar erros antes mesmo de rodar o código. É como ter um assistente que revisa seu trabalho.
+- **Vercel AI SDK:** A ponte definitiva entre frontend e LLMs. Domine Stateful Streaming, function/tool calling.
+- **Generative UI (Runtime):** Geração de componentes React on-the-fly de acordo com o contexto do usuário (usando streamUI do Vercel AI SDK).
+- **Generative UI (DevTime):** Uso de ferramentas Agentic como v0.dev, Lovable, Bolt.new ou Cursor para curadoria e refino arquitetural de UI.
+- **Local First AI & WebNN:** Modelos SLM (Small Language Models como Phi-3, Llama 3 compactos) e modelos de áudio/visão (como Whisper) rodando diretamente na GPU/NPU do navegador do usuário via WebLLM, Transformers.js ou ONNX Runtime Web. Zero custo de inferência de nuvem, zero latência de rede e total privacidade de dados (Local-First Architecture).
 
-- **Frameworks:** Ferramentas que fornecem uma estrutura e um conjunto de "peças" prontas para construir aplicações complexas de forma mais rápida e organizada.
-  - **React:** A "biblioteca" para construir interfaces. Criado pelo Facebook, é o mais popular do mercado.
-    - **Next.js & Remix:** Frameworks construídos em cima do React, que adicionam funcionalidades como renderização no servidor e rotas otimizadas.
-  - **Angular:** O "framework completo". Criado pelo Google, vem com tudo que você precisa para construir uma aplicação robusta.
-  - **Vue.js:** O "progressivo". Conhecido por sua curva de aprendizado suave e sua flexibilidade.
-  - **Svelte:** O "compilador". Em vez de rodar no navegador, o Svelte compila seu código para JavaScript puro, resultando em aplicações extremamente rápidas.
+## 🏆 Desafios Práticos
 
-- **Recursos:**
-  - 📖 [Documentação de JavaScript (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-  - 📖 [Documentação Oficial do React](https://pt-br.reactjs.org/docs/getting-started.html)
-  - 📖 [Documenta��ão Oficial do Angular](https://angular.io/docs)
-  - 📖 [Documentação Oficial do Vue.js](https://vuejs.org/v2/guide/)
-  - 📺 [Curso de JavaScript (Vídeo)](https://www.youtube.com/watch?v=Ptbk2af68e8)
+- **Júnior:** Landing Page responsiva com HTML, CSS e JavaScript puro (validação de campos de formulário, animações simples).
+- **Pleno:** Dashboard de Clima consumindo uma API externa. Requisitos: TypeScript, React Query para fetch, estado global (Zustand), gráficos interativos e Dark/Light mode persistente.
+- **Sênior:** E-commerce Full Stack com Next.js (App Router). Requisitos: Carrinho offline-first (sincronização via CRDTs ou TanStack Query), otimização rigorosa de Core Web Vitals (LCP/INP), e um assistente/chatbot de Generative UI nativo que ajuda o usuário a encontrar produtos recomendados baseados no histórico de navegação, utilizando WebNN/WebAssembly para inferência.
 
----
+## 📚 Materiais de Estudo Recomendados
 
-### 🧠 Gerenciamento de Estado: A Memória de Curto Prazo
+**Para o Júnior (Fundamentos e Bases):**
 
-- **O que é?** Em aplicações complexas, vários componentes precisam compartilhar e reagir a mudanças nos mesmos dados (o "estado"). Gerenciar esse estado pode virar um pesadelo. Ferramentas de gerenciamento de estado ajudam a organizar essa "memória" compartilhada.
+- **[MDN Web Docs](https://developer.mozilla.org/):** A bíblia do desenvolvimento web.
+- **[The Odin Project](https://www.theodinproject.com/):** Currículo open-source focado em projetos para o desenvolvedor completo.
+- **[JavaScript.info](https://javascript.info/) & [FreeCodeCamp](https://www.freecodecamp.org/):** Guias completos para JavaScript moderno e HTML/CSS.
 
-- **Ferramentas:**
-  - **Redux:** O "veterano", robusto e previsível.
-  - **Zustand:** O "minimalista", simples e direto ao ponto.
+**Para o Pleno (Arquitetura e TypeScript):**
 
-- **Recursos:**
-  - 📖 [Documentação Oficial do Redux](https://redux.js.org/)
-  - 📺 [Gerenciamento de Estado com Redux (Vídeo)](https://www.youtube.com/watch?v=u9ye-xss8qk)
+- **[Total TypeScript](https://www.totaltypescript.com/):** Domine TypeScript avançado no ecossistema moderno.
+- **[Frontend Masters](https://frontendmasters.com/):** Plataforma premium para aprofundar em React, Vue, performance e a11y.
+- **[Testing JavaScript](https://testingjavascript.com/):** Teste com confiança e sem fragilidades usando Vitest, RTL e Playwright.
+- **[Epic React](https://epicreact.dev/) / [React.dev](https://react.dev/):** Padrões avançados, hooks e concorrência no React 19+.
 
----
+**Para o Sênior/Especialista (Performance, IA e Edge):**
 
-### 🧪 Testes: O Controle de Qualidade
+- **[web.dev](https://web.dev/):** A referência absoluta para Core Web Vitals e alta performance.
+- **[Vercel AI SDK Docs](https://sdk.vercel.ai/docs) & [ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Aprenda a criar Generative UI conectadas a LLMs e Local-First AI com WebNN e Wasm.
+- **[Local-First Web Development](https://localfirstweb.dev/):** Guia definitivo para criar aplicações offline-first premium de latência zero com CRDTs e Yjs.
+- **[Josh W. Comeau's CSS for JS Devs](https://css-for-js.dev/):** Motor do CSS explicado, acabando com o medo de quebrar layouts.
 
-- **O que são?** Garantem que sua interface se parece e se comporta como o esperado.
+## ↩️ Navegação
 
-- **Ferramentas:**
-  - **Jest:** O "testador universal" para JavaScript.
-  - **React Testing Library:** Ajuda a testar seus componentes React da forma como o usuário os vê.
-  - **Cypress:** Para testes de ponta a ponta, simulando a interação real do usuário no navegador.
-
-- **Recursos:**
-  - 📖 [Documentação Oficial do Jest](https://jestjs.io/docs/pt-BR/getting-started)
-  - 📖 [Documentação Oficial do Cypress](https://docs.cypress.io/)
-  - 📺 [Testes no Frontend (Vídeo)](https://www.youtube.com/watch?v=2G_mWfG0DZE)
-
----
-
-### 🏗️ Arquitetura: A Planta da Casa
-
-- **O que é?** Como você organiza seus componentes e o fluxo de dados na sua aplicação.
-
-- **Padrões:**
-  - **Micro-frontends:** Pense em um site de e-commerce. A busca, o carrinho e a vitrine podem ser "mini-aplicações" independentes, desenvolvidas por times diferentes.
-  - **JAMstack:** Uma arquitetura moderna para sites rápidos e seguros, baseada em JavaScript, APIs e Markup.
-
-- **Recursos:**
-  - 📖 [Micro-frontends (Artigo por Martin Fowler)](https://martinfowler.com/articles/micro-frontends.html)
-  - 📖 [JAMstack.org](https://jamstack.org/)
-  - 📺 [O que são Micro-frontends? (Vídeo)](https://www.youtube.com/watch?v=1-b_9d-m4bE)
-
----
-
-### 🚀 Tópicos Avançados: Indo Aonde Nenhum Dev Jamais Esteve
-
-- **WebSockets:** Permite uma comunicação de "duas vias" em tempo real entre o cliente e o servidor. Pense em um chat ou um jogo online.
-- **WebAssembly (Wasm):** Permite rodar código de outras linguagens (como C++ ou Rust) no navegador, com performance quase nativa.
-- **GraphQL:** Uma forma mais eficiente de buscar dados de uma API. Em vez de receber um "pacote" de dados fixo, você pede exatamente o que precisa.
-- **Web Performance:** Otimizar seu site para que ele carregue o mais rápido possível. Porque ninguém gosta de esperar.
-
-- **Recursos:**
-  - 📖 [Documentação de WebSockets (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API)
-  - 📖 [WebAssembly.org](https://webassembly.org/)
-  - 📺 [Otimização de Performance Web (Vídeo)](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+- [**Voltar para o Início**](../../index.md)
+- [**Ver Conselhos de Carreira**](../../advices.md)

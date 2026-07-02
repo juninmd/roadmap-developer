@@ -1,85 +1,180 @@
 # 📱 Trilha Mobile: O Mundo na Palma da Mão
 
-"Tem um app pra isso." Essa frase define a era em que vivemos. A trilha mobile te coloca no centro dessa revolução, permitindo que você crie as ferramentas, jogos e experiências que as pessoas carregam no bolso para onde quer que vão. Você não vai apenas construir um software, vai construir um companheiro digital.
+> **Edição 2026:** Com foco em On-Device AI, NPU Acceleration e Hybrid AI.
+
+```mermaid
+flowchart TD
+    Start([Início]) --> Lang(Kotlin/Swift/React Native/Flutter)
+    Lang --> UI(UI/UX Mobile)
+    UI --> API(Conectividade & APIs)
+    API --> State(Estado & Persistência)
+    State --> Sensors(Sensores & Nativo)
+    Sensors --> Store(Publicação & CI/CD)
+    Store --> Arch(Arquitetura Limpa)
+    Arch --> AI(On-Device AI & NPU)
+    AI --> Spec([Especialista])
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Spec fill:#bbf,stroke:#333,stroke-width:2px
+```
+
+"Tem um app pra isso." A trilha mobile te coloca no centro dessa revolução. Você não vai apenas construir um software, vai construir um companheiro digital.
+
+Esta trilha está dividida em níveis para guiar sua evolução profissional.
 
 ---
 
-### 🎯 Nativo vs. Híbrido: A Grande Escolha
+## 🐣 Nível Iniciante (Júnior)
 
-- **Desenvolvimento Nativo:** Construir o app especificamente para um sistema operacional (iOS ou Android). É como um alfaiate que faz um terno sob medida. O resultado é um desempenho impecável e acesso total a todos os recursos do celular.
-  - **Android (Kotlin):** A linguagem moderna e preferida pelo Google para construir apps Android.
-  - **iOS (Swift):** A linguagem elegante e poderosa da Apple para o universo iOS.
+Comece entendendo como os apps funcionam e publique seu primeiro "Hello World".
 
-- **Desenvolvimento Híbrido:** Escrever um código que funciona tanto em Android quanto em iOS. É como ter uma "chave mestra". Você economiza tempo e dinheiro, mas pode ter algumas limitações.
-  - **React Native:** "Aprenda uma vez, escreva em qualquer lugar." Permite que devs web usem seus conhecimentos de React para criar apps mobile.
-  - **Flutter:** A aposta do Google para o futuro do desenvolvimento multiplataforma. Conhecido por suas interfaces bonitas e performance incrível.
+### 🎯 Escolha sua Jornada (Nativo vs. Híbrido)
 
-- **Recursos:**
-  - 📖 [Documentação Oficial do Android](https://developer.android.com/docs)
-  - 📖 [Documentação Oficial do Swift (Apple)](https://developer.apple.com/swift/)
-  - 📖 [Documentação Oficial do React Native](https://reactnative.dev/docs/getting-started)
-  - 📖 [Documentação Oficial do Flutter](https://flutter.dev/docs)
-  - 📺 [Nativo vs. Híbrido (Vídeo)](https://www.youtube.com/watch?v=z-j7gC_D-Yg)
+- **Nativo (Especialista):**
+  - **Android (Kotlin):** O padrão moderno do Google.
+  - **iOS (Swift):** A linguagem elegante da Apple.
+- **Híbrido & Multiplataforma:**
+  - **React Native:** Use seus conhecimentos de web (JavaScript/React).
+  - **Flutter:** Desenhe em qualquer pixel com Dart. Alta performance.
+  - **Kotlin Multiplatform (KMP):** Compartilhe a lógica de negócios (e até UI com Compose Multiplatform) mantendo a performance 100% nativa.
 
----
+### 🧩 Fundamentos de UI/UX Mobile
 
-### 🧠 Gerenciamento de Estado: Quem Controla a Bagunça?
+- **Layouts:** Flexbox (React Native), Rows/Columns (Flutter) ou AutoLayout (iOS). Como criar telas responsivas.
+- **Navegação:** Stack, TabBar, Drawer. Como o usuário vai de A para B.
+- **Ciclo de Vida:** Entenda quando a tela é criada, pausada (background) e destruída.
 
-- **O que é?** Apps mobile têm telas que mudam o tempo todo. O gerenciamento de estado é a forma como você controla e compartilha os dados (o "estado") entre essas telas de forma organizada. É o cérebro do seu app, garantindo que a informação certa apareça no lugar certo.
+### 🌐 Conectividade Básica
 
-- **Padrões e Ferramentas:**
-  - **Redux:** Um padrão previsível, muito usado no ecossistema React Native.
-  - **BLoC (Flutter):** Um padrão popular no mundo Flutter para separar a lógica de negócio da interface.
-
-- **Recursos:**
-  - 📖 [Gerenciamento de Estado com Flutter (Doc Oficial)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options)
-  - 📺 [Gerenciamento de Estado em Apps Mobile (Vídeo)](https://www.youtube.com/watch?v=D_yxtCD_Vi0)
+- Consumo de APIs REST (GET, POST).
+- Tratamento de estados de carregamento (Loading) e erro (Error handling).
 
 ---
 
-### 🗄��� Banco de Dados Mobile: Guardando as Coisas no Celular
+## 🚀 Nível Intermediário (Pleno)
 
-- **O que é?** Muitas vezes, seu app precisa salvar informações diretamente no celular do usuário, para que funcionem offline ou para guardar preferências.
+Construa apps robustos, que funcionam offline e encantam o usuário.
 
-- **Opções:**
-  - **SQLite:** O "veterano" dos bancos de dados mobile, leve e confiável.
-  - **Realm:** Um banco de dados moderno, rápido e fácil de usar.
-  - **Firebase Realtime Database:** Um banco de dados na nuvem que sincroniza os dados em tempo real com todos os usuários conectados. Mágico!
+### 🧠 Gerenciamento de Estado
 
-- **Recursos:**
-  - 📖 [Documentação do SQLite](https://www.sqlite.org/docs.html)
-  - 📖 [Documentação do Firebase Realtime Database](https://firebase.google.com/docs/database)
-  - 📺 [Bancos de Dados para Mobile (Vídeo)](https://www.youtube.com/watch?v=YgK6Al_ml-A)
+- **React Native:** Context API, Redux Toolkit, Zustand.
+- **Flutter:** Provider, Riverpod, BLoC (Business Logic Component).
+- **Nativo:** ViewModel, LiveData/StateFlow (Android), Combine (iOS).
 
----
+### 🗄️ Persistência de Dados (Offline-First)
 
-### 🏗️ Arquitetura: Construindo um Arranha-Céu, Não uma Cabana
+- **Bancos Locais:** SQLite, Room, Realm ou WatermelonDB.
+- **Estratégia Offline:** O app deve funcionar sem internet e sincronizar quando a conexão voltar.
 
-- **O que é?** A forma como você estrutura seu código. Uma boa arquitetura torna seu app mais fácil de testar, manter e escalar. É a diferença entre um castelo de cartas e uma fortaleza.
+### 📲 Recursos do Dispositivo
 
-- **Padrões Populares:**
-  - **Clean Architecture:** Separa o código em camadas, como uma cebola, protegendo a lógica de negócio de mudanças em tecnologias externas.
-  - **MVVM (Model-View-ViewModel):** Separa a interface (View) da lógica de apresentação (ViewModel) e dos dados (Model).
-  - **MVI (Model-View-Intent):** Um padrão moderno e reativo, onde o fluxo de dados é unidirecional e previsível.
+- **Sensores:** Câmera, GPS, Acelerômetro.
+- **Notificações Push:** Engajamento com Firebase Cloud Messaging (FCM).
+- **Biometria:** Login com FaceID ou TouchID.
 
-- **Recursos:**
-  - 📖 [Guia de Arquitetura de App Android (Doc Oficial)](https://developer.android.com/jetpack/guide)
-  - 📺 [Clean Architecture para Mobile (Vídeo)](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+### 🚢 Publicação e CI/CD
+
+- **Lojas:** Google Play Console e Apple App Store Connect.
+- **Fastlane:** Automatize a geração de prints, assinaturas digitais e o upload para a loja.
 
 ---
 
-### 📲 Tópicos Essenciais do Dia a Dia
+## 🧙‍♂️ Nível Avançado (Sênior / Especialista)
 
-- **Notificações Push:** As "cutucadas" que seu app dá no usuário para lembrá-lo de algo importante. Use com sabedoria!
-- **Integração com APIs:** Como seu app conversa com o "mundo exterior" (o backend) para buscar e enviar informações.
-- **Publicação de Apps:** O "rito de passagem". O processo de enviar seu app para as lojas oficiais.
-  - **Google Play Store (Android)**
-  - **Apple App Store (iOS)**
-- **Segurança:** Proteger os dados do usuário é sua responsabilidade. Pense em criptografia e em como guardar informações sensíveis.
-- **Performance:** Ninguém gosta de um app lento e que trava. Otimizar o uso de bateria e memória é crucial.
+Otimização extrema, arquitetura limpa e Inteligência Artificial no dispositivo.
 
-- **Recursos:**
-  - 📖 [Documentação de Notificações Push (Firebase)](https://firebase.google.com/docs/cloud-messaging)
-  - 📖 [Guia de Publicação na Play Store](https://developer.android.com/studio/publish)
-  - 📖 [Guia de Publicação na App Store](https://developer.apple.com/app-store/submissions/)
-  - 📺 [Performance e Segurança em Apps (Vídeo)](https://www.youtube.com/watch?v=1-b_9d-m4bE)
+### 🏗️ Arquitetura Mobile Avançada
+
+- **Compose Multiplatform (Avançado):** Levar a UI declarativa do Kotlin para além do Android e iOS, compilando telas nativas para Desktop (Mac/Windows) e WebAssembly a partir do mesmo código.
+- **Clean Architecture:** Separação de responsabilidades (Domain, Data, Presentation).
+- **MVVM / MVI:** Padrões unidirecionais para interfaces reativas e testáveis.
+- **Modularização:** Dividir o app em múltiplos pacotes/módulos para acelerar o build e escalar times grandes.
+
+### ⚡ Performance e Segurança
+
+- **Profiling:** Ferramentas para detectar memory leaks e gargalos de renderização (60fps é a lei).
+- **Segurança:** Obfuscação (ProGuard/R8), Certificate Pinning e uso seguro do Keychain/Keystore.
+
+### 📱 IA no Mobile (On-Device AI & NPU Acceleration)
+
+A IA não precisa mais apenas da Nuvem, ela cabe no seu bolso.
+
+- **Small Language Models (SLMs) e Quantização:** Aprender a usar _Quantization_ (4-bit/8-bit) para espremer modelos como Phi-3, Gemma, ou Mistral na RAM limitada do celular sem perder raciocínio lógico.
+- **Frameworks de IA Nativos:**
+  - **ExecuTorch:** O sucessor do PyTorch Mobile. Permite carregar modelos grandes otimizados nativamente para iOS/Android consumindo a menor memória e bateria possível.
+  - **Apple CoreML (Avançado):** Utilizar o Apple Neural Engine (ANE) e o formato de pesos `.mlmodelc` em Swift.
+  - **Google MediaPipe & Gemini Nano:** O Android 15 e superior traz o Gemini Nano (AICore) injetado diretamente no sistema operacional (System Service), reduzindo o payload e permitindo prompts ultrarrápidos locais em APIs seguras do Google.
+- **Aceleração via Hardware (NPU):** A diferença entre um app inteligente que esgota a bateria e um eficiente. Utilizar APIs nativas para rotear a carga de processamento das CPUs para Unidades de Processamento Neural (NPUs), que fazem contas matriciais consumindo miliwatts.
+- **RAG com Privacidade Local (Local RAG):** Conectar os SLMs com os dados privados do usuário (contatos, fotos, SQLite app) gerando insights hiper-personalizados na nuvem do bolso, sem enviar um único byte via internet e facilitando a conformidade com leis complexas como a GDPR.
+
+### 📡 Arquitetura Local-First (Sincronização Avançada de 2026)
+
+Uma API REST não é a forma que se entrega uma experiência 5 estrelas. Apps móveis modernos não podem sofrer por causa de Wi-Fi de metrô ou zonas sem sinal.
+
+- **Reatividade e "UI de Latência Zero":** Todo dado é primeiramente modificado na memória cache ou no Banco SQLite local (`Room` no Android, `CoreData` no iOS). O sistema devolve o resultado em 1 milissegundo para o Reactivity (Compose / SwiftUI).
+- **CRDTs e Resolução de Conflitos em Background:** Quando você modifica o nome de um "Task" offline, e outro amigo faz o mesmo com sua conta num tablet sincronizado, ocorrem conflitos. A sincronização em 2026 utiliza os **Conflict-Free Replicated Data Types** (CRDT) embarcados em soluções como PowerSync, Realm, ou Ditto para resolver automaticamente sem intervenção, mantendo consistência eventual invisível ao usuário final.
+
+### 🗣️ Interfaces Naturais
+
+- **Voice UI:** Integração com Whisper local para comandos de voz rápidos.
+- **Multimodalidade:** Usar a câmera para analisar objetos e textos em tempo real.
+
+### 🎓 Recursos Oficiais (A Verdade Direta da Fonte)
+
+Em mobile, as coisas mudam todo ano nas conferências oficiais. Acompanhe:
+
+- **[Android Developers (YouTube)](https://www.youtube.com/user/androiddevelopers):** O canal oficial. Assista aos vídeos da _Google I/O_ todo ano.
+- **[Apple Developer (WWDC)](https://developer.apple.com/wwdc/):** Instale o app "Developer" da Apple. Assista às sessões da _WWDC_ para saber o que há de novo no Swift e SwiftUI.
+
+### 🌿 Green Mobile Development
+
+Apps mal otimizados matam a bateria e geram lixo eletrônico (troca de aparelhos).
+
+- **Eficiência Energética:** Evite wake-locks desnecessários e polling contínuo de rede.
+- **Tamanho do App:** Apps menores são baixados mais rápido (menos dados) e ocupam menos espaço.
+- **Retrocompatibilidade:** Suportar aparelhos antigos evita que eles virem lixo precocemente.
+
+### 🧠 Soft Skills & Diferencial Humano
+
+- **Contexto de Uso:** O usuário usa seu app na fila do banco, no ônibus, com sol na tela. Desenvolva pensando nessas condições (contraste, áreas de toque grandes, modo offline).
+- **Respeito aos Recursos:** Não drene a bateria do usuário com processos em background desnecessários. Isso gera desinstalação imediata.
+- **Paciência com as Lojas:** A Apple e o Google vão rejeitar seu app por motivos aleatórios. Respire fundo, leia a guideline e tente de novo.
+
+### 🏆 Desafios Práticos (Projetos)
+
+- **Júnior:** Crie um App de Lista de Compras. Requisitos: Layout responsivo, adicionar/remover itens e salvar os dados localmente (AsyncStorage/SharedPrefs) para não perder ao fechar o app.
+- **Pleno:** Desenvolva um App de Filmes consumindo a API do TMDB. Requisitos: Navegação entre telas (Home -> Detalhes), Busca, Favoritos (Banco local: Room/Realm/WatermelonDB) e Tratamento de erros (ex: sem internet).
+- **Sênior:** Crie um "Diário Inteligente" com IA On-Device. Requisitos: O usuário digita ou fala (Speech-to-Text) como foi o dia, e o app usa um modelo local (MediaPipe/TFLite) para classificar o sentimento (Feliz/Triste) e armazenar de forma criptografada.
+
+---
+
+## 📚 Materiais de Estudo Recomendados
+
+Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+
+**Para o Júnior (Fundamentos e Bases):**
+
+- **Cursos Oficiais Android e iOS:** As plataformas de documentação da [Apple (Swift Playgrounds)](https://developer.apple.com/swift/) e [Google (Android Codelabs)](https://developer.android.com/courses) são os melhores lugares absolutos para iniciar.
+- **[Flutter.dev (Documentação Oficial)](https://flutter.dev/):** Considerado o melhor guia para entrar no mundo Mobile Híbrido, repleto de "Codelabs" práticos.
+- **[React Native - Core Components](https://reactnative.dev/docs/components-and-apis):** Se você veio do mundo React, a documentação oficial sobre componentes principais vai acelerar seus estudos.
+
+**Para o Pleno (Arquitetura, Gerenciamento e Conexão):**
+
+- **[Philipp Lackner (YouTube)](https://www.youtube.com/@PhilippLackner):** Excelente para aprender Kotlin moderno, Jetpack Compose e as melhores práticas do Android.
+- **[Vanderbilt University - Coursera (Android App Development)](https://www.coursera.org/specializations/android-app-development):** Uma base estruturada maravilhosa.
+- **[Andrea Bizzotto (Flutter)](https://codewithandrea.com/):** O melhor material avançado e atualizado sobre arquitetura no Flutter (Riverpod, Clean Architecture).
+
+**Para o Sênior/Especialista (On-Device AI, NPU, Compose Multiplatform):**
+
+- **[ExecuTorch Docs (PyTorch)](https://pytorch.org/executorch):** Aprenda como preparar grandes modelos LLM/SLM e rodar de forma leve nos dispositivos móveis.
+- **[Hugging Face Spaces - Local/On-Device AI](https://huggingface.co/spaces):** Acompanhe modelos como o Llama.cpp adaptado para iOS/Android e WebNN, além do Transformers.js rodando em React Native.
+- **[Kotlin Multiplatform (KMP) by JetBrains](https://kotlinlang.org/docs/multiplatform.html):** Documentação técnica que explica como compartilhar lógicas de negócio C++/Kotlin entre iOS/Android em larga escala.
+- **[Ditto](https://www.ditto.live/) / [PowerSync](https://www.powersync.com/) Docs:** Aprenda na prática a projetar e sincronizar bancos de dados Local-First, essencial para arquiteturas Resilientes.
+- **[Android AICore & Gemini Nano](https://developer.android.com/ai/aicore):** A documentação oficial mais recente para incorporar as APIs seguras do Google injetadas diretamente no SO (System Service) para processamento ultra-rápido.
+
+---
+
+## ↩️ Navegação
+
+- [**Voltar para o Início**](../../index.md)
+- [**Ver Conselhos de Carreira**](../../advices.md)
