@@ -74,7 +74,7 @@ Arquitetar (System Design) um "Sistema de Suporte ao Cliente Autônomo e Resilie
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
 ### Para o Júnior (Introdução ao Wasm e IA)
 

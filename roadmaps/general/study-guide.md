@@ -88,7 +88,7 @@ Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decis
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para garantir a melhor base atualizada e de altíssima qualidade em 2026, selecionamos os melhores materiais focados no **Desenvolvedor Completo**:
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
 ### 🐣 Para Nível Júnior (A Base)
 
