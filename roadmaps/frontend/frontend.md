@@ -63,6 +63,8 @@ Em 2026, a IA Generativa é cidadã de primeira classe no Frontend. O usuário n
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 **Para o Júnior (Fundamentos e Bases):**
 
 - **[MDN Web Docs](https://developer.mozilla.org/):** A bíblia do desenvolvimento web.

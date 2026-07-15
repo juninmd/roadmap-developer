@@ -137,7 +137,7 @@ Dados com bugs geram modelos de IA perigosos. "Garbage in, Garbage out".
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para atingir a excelência em 2026, recomendamos os seguintes recursos práticos e teóricos:
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
 **Para o Júnior (SQL, Python, Modelagem Básico):**
 

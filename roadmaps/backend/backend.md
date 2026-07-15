@@ -67,6 +67,8 @@ Os desenvolvedores backend de 2026 são os pilares centrais da Inteligência Art
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 **Para o Júnior (Fundamentos de Backend e APIs):**
 
 - **[Boot.dev](https://www.boot.dev/):** Plataforma gamificada focada puramente na engenharia de backend e linguagens robustas.

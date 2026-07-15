@@ -60,6 +60,8 @@ Sêniores projetam agentes corporativos cognitivos e reduzem dependência (e cus
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 **Para o Júnior (A Base Científica e Algorítmica):**
 
 - **[DeepLearning.AI (Andrew Ng)](https://www.deeplearning.ai/):** A principal universidade aberta em inteligência do planeta. Cursos indispensáveis como AI for Everyone para moldar mentes e a fabulosa ML Specialization baseada em Python.
