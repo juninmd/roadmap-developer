@@ -135,23 +135,24 @@ A integração profunda de modelos de IA no produto.
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-**Para o Júnior (Fundamentos e Bases):**
+### 🐣 Para Nível Júnior (Fundamentos e Bases)
 
-- **[The Odin Project](https://www.theodinproject.com/):** O melhor currículo gratuito e guiado por projetos para full stack (Ruby on Rails ou Node.js).
-- **[Full Stack Open (Universidade de Helsinque)](https://fullstackopen.com/):** Curso maravilhoso focado em React, Redux, Node.js, MongoDB, GraphQL e TypeScript.
+- **[MDN Web Docs](https://developer.mozilla.org/):** A documentação oficial mais completa e confiável sobre tecnologias web (HTML, CSS, JS).
+- **[The Odin Project](https://www.theodinproject.com/):** Excelente currículo prático para iniciar do zero no ecossistema Full Stack (JS/Ruby).
+- **[FreeCodeCamp](https://www.freecodecamp.org/):** Exercícios interativos e projetos para consolidar a base inicial de desenvolvimento.
 
-**Para o Pleno (Next.js, Arquitetura e Monorepos):**
+### 🚀 Para Nível Pleno (Aprofundamento e Arquitetura)
 
-- **[Next.js Learn (Curso Oficial)](https://nextjs.org/learn):** A documentação da Vercel tem um curso passo a passo criando um dashboard full stack. Imperdível.
-- **[Prisma / Drizzle Docs](https://www.prisma.io/docs):** Aprenda ORMs modernos lendo os guias iniciais e tutorias práticos em seus sites oficiais.
-- **[Joy of React (Josh Comeau)](https://joyofreact.com/):** Uma profunda exploração das fundações do React, excelente para consolidar conceitos antes de tentar construir apps complexos.
+- **[Full Stack Open (University of Helsinki)](https://fullstackopen.com/en/):** Curso formidável de React, Redux, Node.js, MongoDB, GraphQL e TypeScript.
+- **[Frontend Masters](https://frontendmasters.com/):** Acesso a desenvolvedores líderes de grandes empresas. Essencial para padrões de projeto e performance web moderna.
+- **[Node.js Design Patterns](https://www.nodejsdesignpatterns.com/):** A leitura fundamental para dominar arquitetura e fluxos assíncronos no Backend Node.
 
-**Para o Sênior/Especialista (Edge Computing, Local-First e IA):**
+### 🏛️ Para Nível Sênior/Especialista (Monorepos, IA e Performance Web)
 
-- **[Next.js 15+ Oficial Docs](https://nextjs.org/docs):** Domine Server Actions, Partial Prerendering (PPR) e a arquitetura mista do App Router.
-- **[Vercel AI SDK & Next.js AI Chatbot](https://github.com/vercel/ai-chatbot):** Estude o código-fonte desse repositório para entender como arquitetar e deployar o que há de mais moderno em GenUI com Server Actions e Agents.
-- **[Local-First Web Development (Automerge / Yjs Docs)](https://localfirstweb.dev/):** Este manifesto explica a arquitetura necessária para as aplicações offline-first premium de 2026. Leia e acompanhe projetos como o PowerSync.
-- **[Turborepo](https://turbo.build/) e [Nx](https://nx.dev/) Docs:** O padrão absoluto em 2026 para criar monorepos eficientes, essenciais para dividir componentes entre projetos Admin, API e App Cliente.
+- **[Turborepo Docs](https://turbo.build/repo/docs) & [Nx Dev](https://nx.dev/):** Domine a estrutura e os padrões de um Monorepo para grandes projetos corporativos distribuídos.
+- **[Vercel AI SDK Docs](https://sdk.vercel.ai/docs):** O coração da Generative UI. Aprenda como streaming Server Actions conectam Frontend dinâmico com modelos locais.
+- **[Local-First Web Development](https://localfirstweb.dev/):** A evolução corporativa do Offline-First, utilizando o poder dos CRDTs e WebAssembly.
+- **[Web.dev - Core Web Vitals](https://web.dev/vitals/):** Referência principal do Google para entregar e metrificar o melhor tempo de resposta possível em Edge Computing.
 - **[SST (Serverless Stack) Docs](https://sst.dev/):** Guias arquitetônicos excelentes de como desenhar pipelines nativos de Nuvem (AWS, Cloudflare) a partir de uma base de código unificada (TypeScript) usando IaC moderna.
 
 ---
