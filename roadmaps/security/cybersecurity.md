@@ -136,23 +136,23 @@ Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um ocea
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-**Para o Júnior (Redes, Linux e Fundamentos de Cyber):**
+### 🐣 Para Nível Júnior (Fundamentos de Redes, Linux e OWASP)
 
-- **[TryHackMe](https://tryhackme.com/):** A forma mais didática do mundo para aprender e praticar Redes (Nmap, Wireshark), Linux e as técnicas ofensivas/defensivas gamificadas. É mandatório para o Júnior.
-- **[Professor Messer (CompTIA Security+ / Network+)](https://www.youtube.com/@professormesser):** Cursos gratuitos incríveis que englobam todo o syllabus fundamental da teoria e jargões da segurança em nuvem, encriptação e hardware.
-- **[OverTheWire (Bandit)](https://overthewire.org/wargames/bandit/):** Um wargame muito querido na comunidade, ensina o aluno a utilizar um terminal bash com confiança para as etapas mais avançadas.
+- **[TryHackMe (Plataforma Completa)](https://tryhackme.com/):** O lugar definitivo em 2026 para iniciar sua jornada, focado enormemente em fundamentos de Linux, TCP/IP, criptografia e vetores iniciais de penetração Web em uma abordagem super gamificada.
+- **[OWASP Top 10 (Documentação)](https://owasp.org/www-project-top-ten/):** A cartilha mundial absoluta que baseia quase todo o escopo primário e avançado dos perigos lógicos para todas as aplicações web globais.
+- **[PortSwigger Web Security Academy](https://portswigger.net/web-security):** Criado pelos fundadores do Burp Suite. Gratuito, moderno, com laboratórios gigantescos essenciais desde Injections até perigos baseados em OAuth e JWT.
 
-**Para o Pleno (AppSec, Pentesting e Cloud):**
+### 🚀 Para Nível Pleno (DevSecOps e Offensive / Defensive Security)
 
-- **[HackTheBox](https://www.hackthebox.com/):** A principal arena focada em atacar caixas (servidores virtuais). Exige esforço e persistência. Comece através dos tutoriais do HTB Academy antes.
-- **[PortSwigger Web Security Academy](https://portswigger.net/web-security):** Criado pelos desenvolvedores do famosíssimo _Burp Suite_. É o lugar definitivo para aprender exploração Web moderna baseada nos Top 10 vulnerabilidades.
-- **[OWASP Top 10 (Site Oficial)](https://owasp.org/www-project-top-ten/):** Aprenda detalhadamente os defeitos corporativos comuns que mais causam roubo de informações confidenciais do servidor aos cookies no Browser.
+- **[Hack The Box (HTB)](https://www.hackthebox.com/):** Mergulho aprimorado em "máquinas" complexas, testes diretos com ambientes Active Directory corporativos gigantes, engenharia reversa pesada e desafios fortíssimos contra as proteções e defesas modernas de sistemas operacionais.
+- **[TruffleHog e CodeQL](https://trufflesecurity.com/trufflehog/):** Entre a fundo nas documentações e ecossistemas open-source sobre detecções corporativas pesadas de segredos, além de rastreamentos semânticos no código-fonte em processos contínuos de DevSecOps via pipelines no GitHub Actions e GitLab CI.
+- **[CyberMentor / TCM Security](https://tcm-sec.com/):** Excelentes trilhas independentes sobre Ethical Hacking completo, análise pesada sobre Ransomwares corporativos em redes da empresa, mitigação, análise profunda de Malwares (Engenharia Reversa) e OSINT Avançado no mercado civil atual.
 
-**Para o Sênior/Especialista (AI Red Teaming, Pós-Quântica, DevSecOps):**
+### 🏛️ Para Nível Sênior/Especialista (Zero Trust, eBPF e IA Red Teaming)
 
-- **[OWASP Top 10 for Large Language Models](https://owasp.org/www-project-top-10-for-large-language-models/):** Leitura de suma importância se você quer proteger prompts e gerenciar _data poisoning_ no Backend da IA Corporativa do seu time.
-- **[NIST Post-Quantum Cryptography Guidelines](https://csrc.nist.gov/projects/post-quantum-cryptography):** Entenda as padronizações FIPS oficiais do governo americano de 2024 que os sistemas bancários em 2026 são ordenados a utilizar para impedir espionagem retroativa.
-- **[Snyk (DevSecOps Platform) / Trivy Documentation](https://snyk.io/learn/):** Plataforma incrível para entender "Shift-Left", containers, infraestrutura de vulnerabilidades em repositórios Git, mitigando o NPM falso e vazamentos do GitHub.
+- **[CISA e NIST (Arquiteturas Globais de Confiança Zero - Zero Trust)](https://www.cisa.gov/zero-trust-maturity-model):** Todo especialista profundo se baseia em relatórios rigorosos criados pelo NIST. O conhecimento vital e holístico da matriz cibernética corporativa baseada exclusivamente nos modelos avançados e certificados na adoção mundial (RBAC/ABAC), arquitetura governamental de Confiança Zero.
+- **[eBPF.io (Segurança Absoluta do Kernel via Cilium)](https://ebpf.io/):** Uma quebra histórica no isolamento de rede global e da segurança mundial através da execução rigorosa via máquinas virtuais isoladas internamente na estrutura monolítica do kernel do Linux sem dependência pesada baseada no IPTable, proporcionando filtragens na camada L7 em microsserviços modernos ultrarrápidos e seguros de maneira transparente às aplicações corporativas do lado do desenvolvedor.
+- **[AI Red Teaming & OWASP Machine Learning Security Top 10](https://owasp.org/www-project-machine-learning-security-top-10/):** Domínio vital na Fronteira 2026 mundial abordando o estudo maciço contra a Injeção de Prompts indiretos massivos (Prompt Injection) invadindo frameworks de Inteligência Artificial na empresa, exfiltração oculta de modelos SLM/LLM rodando localmente (Data Poisoning) por invasores modernos globais que subvertem LLMs e desviam dados sigilosos e sensíveis dos processos automatizados de forma transparente e sutil (Sleeper Agents / Jailbreaks em LLMOps).
 - **[PicoCTF (Carnegie Mellon University)](https://picoctf.org/):** Jogue Capture The Flag de alta classe universitária e foque intensamente em "Reverse Engineering", "Binary Exploitation" e Criptografia.
 - **[AI Red Teaming (Microsoft / NVIDIA)](https://www.microsoft.com/en-us/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/):** Guias de elite sobre como hackear e auditar modelos fundacionais e LLMs com Prompt Injection, Jailbreaks estruturados e extração de dados.
 

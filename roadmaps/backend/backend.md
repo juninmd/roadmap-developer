@@ -69,20 +69,20 @@ Os desenvolvedores backend de 2026 são os pilares centrais da Inteligência Art
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-**Para o Júnior (Fundamentos de Backend e APIs):**
+### 🐣 Para Nível Júnior (Fundamentos de Backend e APIs)
 
 - **[Boot.dev](https://www.boot.dev/):** Plataforma gamificada focada puramente na engenharia de backend e linguagens robustas.
 - **[FreeCodeCamp (Backend & APIs)](https://www.freecodecamp.org/):** Currículo open-source essencial abordando Node.js, Express, MongoDB e Auth.
 - **Documentações Oficiais:** Leia a fundo a documentação de seu framework principal (FastAPI, Spring Boot, Go, NestJS).
 
-**Para o Pleno (Arquitetura Prática, Concorrência e Cloud):**
+### 🚀 Para Nível Pleno (Arquitetura Prática, Concorrência e Cloud)
 
 - **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** Masterclass em Database Internals, Proxies e Redes (TCP, gRPC, HTTP/3).
 - **[Full Cycle](https://fullcycle.com.br/):** Capacitação premium em arquitetura moderna (Microsserviços, Docker, Go, Kubernetes).
 - **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Treinamento oficial e prático focado em arquiteturas Serverless e computação distribuída.
 - **[Test-Driven Development with Python](https://www.obeythetestinggoat.com/):** Leitura de "Obey the Testing Goat" focada em TDD e testes robustos.
 
-**Para o Sênior/Especialista (Escala, FinOps, Wasm e IA):**
+### 🏛️ Para Nível Sênior/Especialista (Escala, FinOps, Wasm e IA)
 
 - **[Designing Data-Intensive Applications](https://dataintensive.net/):** A bíblia de sistemas distribuídos e concorrência escrita por Martin Kleppmann.
 - **[ByteByteGo (Alex Xu)](https://bytebytego.com/):** Plataforma de ponta e altíssima qualidade visual para estudos de System Design e entrevistas Staff.

@@ -151,23 +151,23 @@ DevOps é cultura, e cultura se aprende com histórias e práticas.
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-**Para o Júnior (Fundamentos, Linux, Docker):**
+### 🐣 Para Nível Júnior (Linux, Redes e CI/CD Básicos)
 
-- **[KodeKloud](https://kodekloud.com/):** A melhor plataforma hands-on (prática no terminal) para aprender Linux, Docker e Git, com cenários simulados fantásticos.
-- **[NetworkChuck (YouTube)](https://www.youtube.com/@NetworkChuck):** Canal muito didático e acessível para quem precisa começar no mundo das redes, subnetting, e roteadores.
-- **[ACloudGuru (agora Pluralsight)](https://www.pluralsight.com/cloud-guru):** O clássico absoluto para certificações Cloud Practitioner da AWS, GCP e Azure.
+- **[Linux Journey](https://linuxjourney.com/):** Excelente fundação sobre permissões, serviços, terminal e bash scripting.
+- **[GitHub Actions Documentation](https://docs.github.com/en/actions):** Aprenda a automatizar CI/CD direto da fonte. A base moderna dos pipelines ágeis.
+- **[Docker (Documentação)](https://docs.docker.com/):** Dominar containers é o ponto de partida de qualquer cultura DevOps sólida e moderna.
 
-**Para o Pleno (Cloud, CI/CD, Terraform e Kubernetes):**
+### 🚀 Para Nível Pleno (Infra como Código e Orquestração)
 
-- **[Nana Janashia (TechWorld with Nana)](https://www.youtube.com/@TechWorldwithNana):** Um canal essencial. Os "Crash Courses" gratuitos sobre Terraform, Ansible, Docker e Kubernetes são de ouro.
-- **[KubeAcademy (VMware)](https://kube.academy/):** Cursos curtos e gratuitos e bem desenhados focados nos mínimos detalhes do ecossistema Kubernetes.
-- **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Utilize a plataforma oficial da AWS e seu lab guiado para aprender a conectar lambdas com redes sem medo.
+- **[Kubernetes (Documentação e Cursos)](https://kubernetes.io/docs/tutorials/):** Entre de cabeça na orquestração corporativa mundial. Pratique com minikube.
+- **[HashiCorp Learn (Terraform)](https://developer.hashicorp.com/terraform/tutorials):** Certificação base e conhecimento em Infraestrutura como Código. Indispensável no mercado de trabalho.
+- **[Prometheus & Grafana (Vídeos Oficiais)](https://prometheus.io/docs/introduction/overview/):** Acompanhe palestras na Cloud Native Computing Foundation (CNCF) sobre a base sólida da observabilidade moderna.
 
-**Para o Sênior/Especialista (eBPF, FinOps, GitOps e IDPs):**
+### 🏛️ Para Nível Sênior/Especialista (Platform Engineering, FinOps e eBPF)
 
-- **[The Phoenix Project / The DevOps Handbook (Livros)](https://itrevolution.com/):** Não subestime a parte humana e cultural, estas são as "Bíblias" que orientam Staff Engineers na jornada de DevOps corporativa.
-- **[eBPF.io - O portal oficial do eBPF](https://ebpf.io/):** Documentação profunda, papers de arquitetura, e exemplos de programação em Rust/C para criar os próximos programas do kernel.
-- **[FinOps Foundation](https://www.finops.org/):** A fundação oficial com guias, certificações e frameworks para implementar gestão financeira de cloud (Cloud Financial Management) em escala corporativa.
+- **[eBPF.io](https://ebpf.io/):** Documentação oficial e revolucionária. O coração invisível da observabilidade extrema, redes complexas e segurança avançada moderna.
+- **[Backstage (Spotify)](https://backstage.io/):** O principal framework mundial sobre como criar um Developer Portal de verdade (Internal Developer Platform).
+- **[FinOps Foundation](https://www.finops.org/):** Estude o framework definitivo sobre a relação entre infraestrutura, escala brutal de processamento de Inteligência Artificial, e custos em cloud no mercado de TI global de 2026.
 - **[Backstage (Spotify)](https://backstage.io/):** O framework definitivo para construir Internal Developer Platforms (IDPs) em grandes empresas corporativas.
 - **[ArgoCD / Flux Docs](https://argo-cd.readthedocs.io/):** O guia mais atualizado para escalar GitOps real e contínuo.
 - **[CNCF (Cloud Native Computing Foundation) Landscape](https://landscape.cncf.io/):** Mapeamento atualizado anualmente pela fundação, focando em ferramentas mantidas e criadas pelas empresas top tier. Navegue nos projetos (Graduados) de segurança (Trivy), Observabilidade (OpenTelemetry), e Proxies (Envoy).

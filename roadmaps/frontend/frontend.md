@@ -65,20 +65,20 @@ Em 2026, a IA Generativa é cidadã de primeira classe no Frontend. O usuário n
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-**Para o Júnior (Fundamentos e Bases):**
+### 🐣 Para Nível Júnior (A Base)
 
 - **[MDN Web Docs](https://developer.mozilla.org/):** A bíblia do desenvolvimento web.
 - **[The Odin Project](https://www.theodinproject.com/):** Currículo open-source focado em projetos para o desenvolvedor completo.
 - **[JavaScript.info](https://javascript.info/) & [FreeCodeCamp](https://www.freecodecamp.org/):** Guias completos para JavaScript moderno e HTML/CSS.
 
-**Para o Pleno (Arquitetura e TypeScript):**
+### 🚀 Para Nível Pleno (Arquitetura e TypeScript)
 
 - **[Total TypeScript](https://www.totaltypescript.com/):** Domine TypeScript avançado no ecossistema moderno.
 - **[Frontend Masters](https://frontendmasters.com/):** Plataforma premium para aprofundar em React, Vue, performance e a11y.
 - **[Testing JavaScript](https://testingjavascript.com/):** Teste com confiança e sem fragilidades usando Vitest, RTL e Playwright.
 - **[Epic React](https://epicreact.dev/) / [React.dev](https://react.dev/):** Padrões avançados, hooks e concorrência no React 19+.
 
-**Para o Sênior/Especialista (Performance, IA e Edge):**
+### 🏛️ Para Nível Sênior/Especialista (Performance, IA e Edge)
 
 - **[web.dev](https://web.dev/):** A referência absoluta para Core Web Vitals e alta performance.
 - **[Vercel AI SDK Docs](https://sdk.vercel.ai/docs) & [ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/):** Aprenda a criar Generative UI conectadas a LLMs e Local-First AI com WebNN e Wasm.

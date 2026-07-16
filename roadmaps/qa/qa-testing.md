@@ -113,22 +113,23 @@ O QA não será substituído pela IA, mas o QA que usa IA substituirá o que nã
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-**Para o Júnior (Fundamentos e Teste Manual):**
+### 🐣 Para Nível Júnior (Fundamentos e Automação Básica)
 
-- **[Syllabus CTFL (ISTQB)](https://bstqb.org.br/):** O currículo oficial de certificação internacional, fornecendo a teoria base em testes de qualidade que vai diferenciar a base do júnior.
-- **[FreeCodeCamp - Software Testing Course](https://www.freecodecamp.org/):** Excelente curso prático gratuito com vídeos sobre o ciclo de vida do software e tipos de teste para um testador iniciante.
+- **[Ministry of Testing](https://www.ministryoftesting.com/):** Comunidade global massiva, essencial para mergulhar nos fundamentos, explorar glossários e compreender o profundo viés exploratório contra sistemas frágeis da visão inicial global.
+- **[TestAutomationU (Applitools)](https://testautomationu.applitools.com/):** Trilhas gigantes e gratuitas para todos os iniciantes entrarem rápido e aprenderem automação via Selenium, base pesada com Java e sintaxes via BDD utilizando frameworks corporativos essenciais atuais globais mundiais.
+- **[Documentação do Vitest / Jest](https://vitest.dev/):** Comece no frontend e backend a aprender tudo sobre "Unit Tests" diretamente nas origens vitais globais, implementando e praticando os "Asserts/Expects" na raiz principal.
 
-**Para o Pleno (Automação Web E2E, APIs):**
+### 🚀 Para Nível Pleno (E2E Avançado e Testes de Performance)
 
-- **[Documentação Oficial do Playwright](https://playwright.dev/):** A melhor documentação entre as ferramentas de QA atuais. Leia o "Getting Started" e os guias fundamentais (Locators e Assertions).
-- **[Cypress Real World App (Repo GitHub)](https://github.com/cypress-io/cypress-realworld-app):** A Cypress forneceu este repositório de um App clone inteiro com os melhores exemplos práticos de como automatizar pagamentos e criar testes escaláveis.
-- **[Ministry of Testing (MoT)](https://www.ministryoftesting.com/):** Uma comunidade mundial riquíssima que aborda os desafios práticos do engenheiro QA além do código.
+- **[Playwright Oficial Docs](https://playwright.dev/):** Entenda como a Microsoft arquitetou a maior revolução E2E em 2026. A automação ultra-ágil que resolve a assincronia pesada baseada nos seletores robustos da nuvem, suprimindo instabilidades antigas e rodando rápido de forma paralela nos servidores globais e locais das aplicações.
+- **[k6 Documentation (Grafana)](https://k6.io/docs/):** Framework matador programático utilizando lógicas JavaScript e Golang pesadas rodando simultaneamente centenas de usuários virtuais que bombardeiam sistemas críticos. Testes maciços essenciais que todo SDET deve validar para impedir o completo "Crash" na hora do pico intenso e crítico das aplicações do mercado.
+- **[Testing JavaScript (Kent C. Dodds)](https://testingjavascript.com/):** A principal filosofia técnica moderna de frontends. "O quanto mais parecido com o uso real do cliente for o nosso teste, mais estabilidade teremos". Aprendendo o massivo e poderoso Testing Library da web atual global corporativa moderna em 2026.
 
-**Para o Sênior/Especialista (Testes de Performance, IA e Shift-Left):**
+### 🏛️ Para Nível Sênior/Especialista (Test-Driven Agentic Workflow e TDD Avançado)
 
-- **[Grafana k6 Docs](https://k6.io/docs/):** A ferramenta moderna baseada em JavaScript/Go para aplicar carga, picos massivos e verificar "Testes de Stress" contra APIs da arquitetura Backend.
-- **[Test Automation University (Applitools)](https://testautomationu.applitools.com/):** Uma infinidade de cursos gratuitos, avançados (em Java/Python/JavaScript), sobre testes visuais impulsionados por IA (Visual AI e Auto-Healing).
-- **[The Pragmatic Engineer (Newsletter/Blog)](https://blog.pragmaticengineer.com/):** Ótimo para um QA Sênior entender as estratégias massivas que empresas (Uber, Stripe) tomam sobre "Engineering Productivity" em vez de apenas achar bugs.
+- **[Anthropic Prompt Engineering & Tool Calling](https://github.com/anthropics/courses):** Em 2026 a orquestração estruturada do Prompting e injeção do contexto garante robustez em sistemas TDAW na corporação mundial global sem gerar loops cognitivos e regressões visíveis do modelo corporativo.
+- **[GitHub Actions & Testcontainers (Integração Total)](https://testcontainers.com/):** Um especialista garante a isolação absoluta do sistema na base profunda dos testes de pipeline CI/CD na nuvem antes mesmo dos usuários testarem o produto via instâncias gigantes corporativas temporárias.
+- **Livros Obrigatórios em 2026:** Leitura brutal de fundações inabaláveis focada intensamente na base: "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation" de Jez Humble / David Farley para masterização DevOps da esteira do Shift-Left pesada, e o "Agile Testing" clássico modernizado para englobar as novas métricas massivas da Qualidade.
 
 ---
 
