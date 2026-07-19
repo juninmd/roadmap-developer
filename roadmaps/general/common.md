@@ -125,19 +125,19 @@ Com a IA escrevendo código, suas habilidades humanas valem ouro.
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-**Júnior (Começando a Jornada):**
+### 🐣 Para Nível Júnior (Começando a Jornada)
 
 - **[FreeCodeCamp](https://www.freecodecamp.org/) & [The Odin Project](https://www.theodinproject.com/):** Prática essencial interativa e currículo open-source focado em projetos para base Full Stack.
 - **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso universitário de introdução à ciência da computação.
 - **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Essencial para dar os primeiros passos na era da IA.
 
-**Pleno (Aprofundamento e Prática Contínua):**
+### 🚀 Para Nível Pleno (Aprofundamento e Prática Contínua)
 
 - **[Frontend Masters](https://frontendmasters.com/) & [Roadmap.sh](https://roadmap.sh/):** O mais alto nível de ensino web (TypeScript) e excelentes guias visuais interativos de carreira.
 - **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima de aprendizado focado em Inteligência Artificial, LangChain e ML.
 - **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Aprenda a estruturar prompts avançados e heurísticas Few-Shot para modelos complexos em 2026.
 
-**Sênior e Especialista (Arquitetura e Escala):**
+### 🏛️ Para Nível Sênior/Especialista (Arquitetura e Escala)
 
 - **[Full Cycle](https://fullcycle.com.br/) & [ByteByteGo](https://www.youtube.com/@ByteByteGo):** Masterclass de aprofundamento arquitetural moderno (Go, Microsserviços, Mensageria, System Design).
 - **[Local-First Web Dev](https://localfirstweb.dev/) & [AWS Skill Builder](https://explore.skillbuilder.aws/):** Padrões resilientes offline-first, WebAssembly e arquitetura cloud nativa avançada corporativa.
