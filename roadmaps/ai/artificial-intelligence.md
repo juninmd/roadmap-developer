@@ -62,17 +62,17 @@ Sêniores projetam agentes corporativos cognitivos e reduzem dependência (e cus
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-### 🐣 Para Nível Júnior (A Base Científica e Algorítmica)
+### 🐣 Para Nível Júnior
 
 - **[DeepLearning.AI (Andrew Ng)](https://www.deeplearning.ai/):** A principal universidade aberta em inteligência do planeta. Cursos indispensáveis como AI for Everyone para moldar mentes e a fabulosa ML Specialization baseada em Python.
 - **[Fast.ai](https://course.fast.ai/):** Metodologia incrivelmente focada em top-down, que permite programadores iniciantes gerarem incríveis visualizações com Redes Neurais nas suas primeiras semanas antes da matemática pesada exaurir seus cérebros estatísticos.
 
-### 🚀 Para Nível Pleno (Machine Learning, RAG e Observabilidade Cognitiva)
+### 🚀 Para Nível Pleno
 
 - **[Hugging Face NLP Courses](https://huggingface.co/learn):** Foco maciço em compreender todo o motor prático e aplicabilidade extrema das arquiteturas Transformers, Processamento de Textos Naturais Corporativos e as métricas absolutas em Reinforcement Learning e otimização RLHF na nuvem.
 - **[Cohere LLM University](https://llm.university/):** Todo o aprimoramento em matemática de álgebra posicional da teoria gigantesca de embeddings e sua aplicabilidade definitiva em arquiteturas corporativas de RAG complexo com busca híbrida de extrema conversão local e empresarial na indústria mundial de T.I.
 
-### 🏛️ Para Nível Sênior/Especialista (Modelos, Agentes Autônomos e Escalabilidade Pura)
+### 🏛️ Para Nível Sênior/Especialista
 
 - **[LangChain Academy](https://academy.langchain.com/):** Masterclass absoluta, pesada e atualizada na indústria global focado imensamente em arquitetar complexos ecossistemas na matriz baseada em grafos do LangGraph com os autônomos e maravilhosos Agentes cognitivos.
 - **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** O principal curso corporativo atual focado nas diretrizes massivas de heurísticas sintáticas avançadas (Zero-Shot avançado, Cadeias Dinâmicas de Raciocínio, Avaliações Massivas Corporativas baseadas em Nuvem e Agentes Avaliadores independentes).

@@ -135,19 +135,19 @@ A integração profunda de modelos de IA no produto.
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-### 🐣 Para Nível Júnior (Fundamentos e Bases)
+### 🐣 Para Nível Júnior
 
 - **[MDN Web Docs](https://developer.mozilla.org/):** A documentação oficial mais completa e confiável sobre tecnologias web (HTML, CSS, JS).
 - **[The Odin Project](https://www.theodinproject.com/):** Excelente currículo prático para iniciar do zero no ecossistema Full Stack (JS/Ruby).
 - **[FreeCodeCamp](https://www.freecodecamp.org/):** Exercícios interativos e projetos para consolidar a base inicial de desenvolvimento.
 
-### 🚀 Para Nível Pleno (Aprofundamento e Arquitetura)
+### 🚀 Para Nível Pleno
 
 - **[Full Stack Open (University of Helsinki)](https://fullstackopen.com/en/):** Curso formidável de React, Redux, Node.js, MongoDB, GraphQL e TypeScript.
 - **[Frontend Masters](https://frontendmasters.com/):** Acesso a desenvolvedores líderes de grandes empresas. Essencial para padrões de projeto e performance web moderna.
 - **[Node.js Design Patterns](https://www.nodejsdesignpatterns.com/):** A leitura fundamental para dominar arquitetura e fluxos assíncronos no Backend Node.
 
-### 🏛️ Para Nível Sênior/Especialista (Monorepos, IA e Performance Web)
+### 🏛️ Para Nível Sênior/Especialista
 
 - **[Turborepo Docs](https://turbo.build/repo/docs) & [Nx Dev](https://nx.dev/):** Domine a estrutura e os padrões de um Monorepo para grandes projetos corporativos distribuídos.
 - **[Vercel AI SDK Docs](https://sdk.vercel.ai/docs):** O coração da Generative UI. Aprenda como streaming Server Actions conectam Frontend dinâmico com modelos locais.

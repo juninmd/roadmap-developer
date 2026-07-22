@@ -113,19 +113,19 @@ O QA não será substituído pela IA, mas o QA que usa IA substituirá o que nã
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-### 🐣 Para Nível Júnior (Fundamentos e Automação Básica)
+### 🐣 Para Nível Júnior
 
 - **[Ministry of Testing](https://www.ministryoftesting.com/):** Comunidade global massiva, essencial para mergulhar nos fundamentos, explorar glossários e compreender o profundo viés exploratório contra sistemas frágeis da visão inicial global.
 - **[TestAutomationU (Applitools)](https://testautomationu.applitools.com/):** Trilhas gigantes e gratuitas para todos os iniciantes entrarem rápido e aprenderem automação via Selenium, base pesada com Java e sintaxes via BDD utilizando frameworks corporativos essenciais atuais globais mundiais.
 - **[Documentação do Vitest / Jest](https://vitest.dev/):** Comece no frontend e backend a aprender tudo sobre "Unit Tests" diretamente nas origens vitais globais, implementando e praticando os "Asserts/Expects" na raiz principal.
 
-### 🚀 Para Nível Pleno (E2E Avançado e Testes de Performance)
+### 🚀 Para Nível Pleno
 
 - **[Playwright Oficial Docs](https://playwright.dev/):** Entenda como a Microsoft arquitetou a maior revolução E2E em 2026. A automação ultra-ágil que resolve a assincronia pesada baseada nos seletores robustos da nuvem, suprimindo instabilidades antigas e rodando rápido de forma paralela nos servidores globais e locais das aplicações.
 - **[k6 Documentation (Grafana)](https://k6.io/docs/):** Framework matador programático utilizando lógicas JavaScript e Golang pesadas rodando simultaneamente centenas de usuários virtuais que bombardeiam sistemas críticos. Testes maciços essenciais que todo SDET deve validar para impedir o completo "Crash" na hora do pico intenso e crítico das aplicações do mercado.
 - **[Testing JavaScript (Kent C. Dodds)](https://testingjavascript.com/):** A principal filosofia técnica moderna de frontends. "O quanto mais parecido com o uso real do cliente for o nosso teste, mais estabilidade teremos". Aprendendo o massivo e poderoso Testing Library da web atual global corporativa moderna em 2026.
 
-### 🏛️ Para Nível Sênior/Especialista (Test-Driven Agentic Workflow e TDD Avançado)
+### 🏛️ Para Nível Sênior/Especialista
 
 - **[Anthropic Prompt Engineering & Tool Calling](https://github.com/anthropics/courses):** Em 2026 a orquestração estruturada do Prompting e injeção do contexto garante robustez em sistemas TDAW na corporação mundial global sem gerar loops cognitivos e regressões visíveis do modelo corporativo.
 - **[GitHub Actions & Testcontainers (Integração Total)](https://testcontainers.com/):** Um especialista garante a isolação absoluta do sistema na base profunda dos testes de pipeline CI/CD na nuvem antes mesmo dos usuários testarem o produto via instâncias gigantes corporativas temporárias.
