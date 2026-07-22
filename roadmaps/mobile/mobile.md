@@ -152,19 +152,19 @@ Apps mal otimizados matam a bateria e geram lixo eletrônico (troca de aparelhos
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-### 🐣 Para Nível Júnior (Fundamentos e Bases)
+### 🐣 Para Nível Júnior
 
 - **Cursos Oficiais Android e iOS:** As plataformas de documentação da [Apple (Swift Playgrounds)](https://developer.apple.com/swift/) e [Google (Android Codelabs)](https://developer.android.com/courses) são os melhores lugares absolutos para iniciar.
 - **[Flutter.dev (Documentação Oficial)](https://flutter.dev/):** Considerado o melhor guia para entrar no mundo Mobile Híbrido, repleto de "Codelabs" práticos.
 - **[React Native - Core Components](https://reactnative.dev/docs/components-and-apis):** Se você veio do mundo React, a documentação oficial sobre componentes principais vai acelerar seus estudos.
 
-### 🚀 Para Nível Pleno (Arquitetura, Gerenciamento e Conexão)
+### 🚀 Para Nível Pleno
 
 - **[Philipp Lackner (YouTube)](https://www.youtube.com/@PhilippLackner):** Excelente para aprender Kotlin moderno, Jetpack Compose e as melhores práticas do Android.
 - **[Vanderbilt University - Coursera (Android App Development)](https://www.coursera.org/specializations/android-app-development):** Uma base estruturada maravilhosa.
 - **[Andrea Bizzotto (Flutter)](https://codewithandrea.com/):** O melhor material avançado e atualizado sobre arquitetura no Flutter (Riverpod, Clean Architecture).
 
-### 🏛️ Para Nível Sênior/Especialista (On-Device AI, NPU, Compose Multiplatform)
+### 🏛️ Para Nível Sênior/Especialista
 
 - **[ExecuTorch Docs (PyTorch)](https://pytorch.org/executorch):** Aprenda como preparar grandes modelos LLM/SLM e rodar de forma leve nos dispositivos móveis.
 - **[Hugging Face Spaces - Local/On-Device AI](https://huggingface.co/spaces):** Acompanhe modelos como o Llama.cpp adaptado para iOS/Android e WebNN, além do Transformers.js rodando em React Native.

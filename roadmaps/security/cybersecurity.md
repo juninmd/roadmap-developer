@@ -136,19 +136,19 @@ Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um ocea
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-### 🐣 Para Nível Júnior (Fundamentos de Redes, Linux e OWASP)
+### 🐣 Para Nível Júnior
 
 - **[TryHackMe (Plataforma Completa)](https://tryhackme.com/):** O lugar definitivo em 2026 para iniciar sua jornada, focado enormemente em fundamentos de Linux, TCP/IP, criptografia e vetores iniciais de penetração Web em uma abordagem super gamificada.
 - **[OWASP Top 10 (Documentação)](https://owasp.org/www-project-top-ten/):** A cartilha mundial absoluta que baseia quase todo o escopo primário e avançado dos perigos lógicos para todas as aplicações web globais.
 - **[PortSwigger Web Security Academy](https://portswigger.net/web-security):** Criado pelos fundadores do Burp Suite. Gratuito, moderno, com laboratórios gigantescos essenciais desde Injections até perigos baseados em OAuth e JWT.
 
-### 🚀 Para Nível Pleno (DevSecOps e Offensive / Defensive Security)
+### 🚀 Para Nível Pleno
 
 - **[Hack The Box (HTB)](https://www.hackthebox.com/):** Mergulho aprimorado em "máquinas" complexas, testes diretos com ambientes Active Directory corporativos gigantes, engenharia reversa pesada e desafios fortíssimos contra as proteções e defesas modernas de sistemas operacionais.
 - **[TruffleHog e CodeQL](https://trufflesecurity.com/trufflehog/):** Entre a fundo nas documentações e ecossistemas open-source sobre detecções corporativas pesadas de segredos, além de rastreamentos semânticos no código-fonte em processos contínuos de DevSecOps via pipelines no GitHub Actions e GitLab CI.
 - **[CyberMentor / TCM Security](https://tcm-sec.com/):** Excelentes trilhas independentes sobre Ethical Hacking completo, análise pesada sobre Ransomwares corporativos em redes da empresa, mitigação, análise profunda de Malwares (Engenharia Reversa) e OSINT Avançado no mercado civil atual.
 
-### 🏛️ Para Nível Sênior/Especialista (Zero Trust, eBPF e IA Red Teaming)
+### 🏛️ Para Nível Sênior/Especialista
 
 - **[CISA e NIST (Arquiteturas Globais de Confiança Zero - Zero Trust)](https://www.cisa.gov/zero-trust-maturity-model):** Todo especialista profundo se baseia em relatórios rigorosos criados pelo NIST. O conhecimento vital e holístico da matriz cibernética corporativa baseada exclusivamente nos modelos avançados e certificados na adoção mundial (RBAC/ABAC), arquitetura governamental de Confiança Zero.
 - **[eBPF.io (Segurança Absoluta do Kernel via Cilium)](https://ebpf.io/):** Uma quebra histórica no isolamento de rede global e da segurança mundial através da execução rigorosa via máquinas virtuais isoladas internamente na estrutura monolítica do kernel do Linux sem dependência pesada baseada no IPTable, proporcionando filtragens na camada L7 em microsserviços modernos ultrarrápidos e seguros de maneira transparente às aplicações corporativas do lado do desenvolvedor.

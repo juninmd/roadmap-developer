@@ -151,19 +151,19 @@ DevOps é cultura, e cultura se aprende com histórias e práticas.
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-### 🐣 Para Nível Júnior (Linux, Redes e CI/CD Básicos)
+### 🐣 Para Nível Júnior
 
 - **[Linux Journey](https://linuxjourney.com/):** Excelente fundação sobre permissões, serviços, terminal e bash scripting.
 - **[GitHub Actions Documentation](https://docs.github.com/en/actions):** Aprenda a automatizar CI/CD direto da fonte. A base moderna dos pipelines ágeis.
 - **[Docker (Documentação)](https://docs.docker.com/):** Dominar containers é o ponto de partida de qualquer cultura DevOps sólida e moderna.
 
-### 🚀 Para Nível Pleno (Infra como Código e Orquestração)
+### 🚀 Para Nível Pleno
 
 - **[Kubernetes (Documentação e Cursos)](https://kubernetes.io/docs/tutorials/):** Entre de cabeça na orquestração corporativa mundial. Pratique com minikube.
 - **[HashiCorp Learn (Terraform)](https://developer.hashicorp.com/terraform/tutorials):** Certificação base e conhecimento em Infraestrutura como Código. Indispensável no mercado de trabalho.
 - **[Prometheus & Grafana (Vídeos Oficiais)](https://prometheus.io/docs/introduction/overview/):** Acompanhe palestras na Cloud Native Computing Foundation (CNCF) sobre a base sólida da observabilidade moderna.
 
-### 🏛️ Para Nível Sênior/Especialista (Platform Engineering, FinOps e eBPF)
+### 🏛️ Para Nível Sênior/Especialista
 
 - **[eBPF.io](https://ebpf.io/):** Documentação oficial e revolucionária. O coração invisível da observabilidade extrema, redes complexas e segurança avançada moderna.
 - **[Backstage (Spotify)](https://backstage.io/):** O principal framework mundial sobre como criar um Developer Portal de verdade (Internal Developer Platform).

@@ -139,18 +139,18 @@ Dados com bugs geram modelos de IA perigosos. "Garbage in, Garbage out".
 
 Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
-### 🐣 Para Nível Júnior (SQL, Python, Modelagem Básico)
+### 🐣 Para Nível Júnior
 
 - **[DataCamp](https://www.datacamp.com/):** O lugar ideal (interativo no browser) para quem quer pegar intimidade prática com SQL, Python (Pandas/NumPy) e os primeiros passos para dados estruturados.
 - **[Kaggle](https://www.kaggle.com/):** A comunidade onde habitam os datasets. Baixe CSVs (filmes, temperatura do mundo, dados criminais), suba no Postgres/Colab e aprenda limpando a "sujeira" do mundo real.
 
-### 🚀 Para Nível Pleno (ETL, dbt, Airflow e Warehouses)
+### 🚀 Para Nível Pleno
 
 - **[dbt Learn (Fundamentals)](https://courses.getdbt.com/):** O dbt (data build tool) é obrigatório hoje, e este curso oficial e gratuito de 5 horas ensina do zero o conceito do Analytics Engineering e ELT.
 - **[Marc Lamberti (Udemy/YouTube)](https://www.youtube.com/@marclamberti):** A referência suprema quando o assunto é Apache Airflow (orquestração corporativa).
 - **Livro: "Data Warehouse Toolkit" (Ralph Kimball):** Um livro das antigas, mas a modelagem dimensional (Star Schema) ainda dita as regras em ambientes BigQuery/Snowflake.
 
-### 🏛️ Para Nível Sênior/Especialista (Big Data, Lakehouse, Streaming e Governança)
+### 🏛️ Para Nível Sênior/Especialista
 
 - **[Data Engineering Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/data-engineering-zoomcamp):** Bootcamp intensivo, de código aberto e comunitário do GitHub abrangendo Airflow, Kafka, Spark, Terraform e GCP/AWS. Absolutamente fantástico.
 - **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A leitura definitiva sobre bancos de dados distribuídos e transações, recomendada igualmente para Devs de Backend.
