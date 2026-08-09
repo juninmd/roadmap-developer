@@ -11,7 +11,7 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "lint": "eslint .",
-    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore .vitepress/dist",
+    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore .vitepress/dist --ignore playwright-report --ignore test-results",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test",
