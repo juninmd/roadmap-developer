@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4] - 2026-Edition Verification
+
+### Verificado
+
+- **VitePress Site:** Confirmado que os arquivos Markdown já estão configurados e funcionais como um site estático.
+- **Materiais de Estudo Recomendados:** Validada a categorização completa para os níveis Júnior (🐣), Pleno (🚀) e Sênior/Especialista (🏛️) para formar desenvolvedores de ponta a ponta.
+
 ## [1.0.3] - 2026-Edition Update
 
 ### Adicionado
