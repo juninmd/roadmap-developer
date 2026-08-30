@@ -28,6 +28,26 @@ Transformar o modo como as carreiras de desenvolvimento de software são trilhad
 - [#25](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/25): Revisar métricas DORA no roadmap de DevOps.
 - [#34](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/34): Expandir conteúdo sobre ExecuTorch e On-Device AI no roadmap Mobile.
 
+## 📚 Materiais de Estudo Recomendados
+
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
+### 🐣 Para Nível Júnior
+
+- **[The Odin Project](https://www.theodinproject.com/):** Currículo open-source focado em projetos para o desenvolvedor completo.
+- **[DeepLearning.AI (Andrew Ng)](https://www.deeplearning.ai/):** A principal universidade aberta em inteligência do planeta. Cursos indispensáveis como AI for Everyone para moldar mentes e a fabulosa ML Specialization baseada em Python.
+
+### 🚀 Para Nível Pleno
+
+- **[Full Cycle](https://fullcycle.com.br/):** Capacitação premium em arquitetura moderna (Microsserviços, Docker, Go, Kubernetes).
+- **[Anthropic Prompt Engineering](https://github.com/anthropics/courses):** Modele Prompts incríveis com os cursos da Anthropic.
+
+### 🏛️ Para Nível Sênior/Especialista
+
+- **[LangChain Academy](https://academy.langchain.com/):** Vanguarda da Engenharia de IA. Aprenda RAG corporativo.
+- **[Hugging Face](https://huggingface.co/learn/nlp-course):** Alinhe os modelos SLMs na plataforma líder global.
+- **[Local-First Web Development](https://localfirstweb.dev/):** Leia o vital manifesto sobre arquitetura e CRDTs.
+
 ---
 
 _Inspirado na jornada do desenvolvedor que evolui e não se acomoda._
