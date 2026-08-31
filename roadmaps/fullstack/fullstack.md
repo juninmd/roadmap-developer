@@ -42,7 +42,7 @@ Você não precisa ser um DBA, mas precisa saber guardar dados.
 - **ORMs Modernos:** Prisma (Node/TS), Drizzle, Django ORM (Python). Eles facilitam a conversa entre seu código e o SQL.
 - **Modelagem Básica:** Relacionamentos 1:N e N:N. Chaves Estrangeiras.
 
-### 🚀 Frameworks Fullstack (Meta-Frameworks)
+### Frameworks Fullstack (Meta-Frameworks)
 
 A forma moderna de construir web.
 
