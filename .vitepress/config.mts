@@ -15,6 +15,7 @@ export default withMermaid(
       "CHANGELOG.md",
       "CONTRIBUTING.md",
       "SECURITY.md",
+      "HOMOLOG_TEST.md",
     ],
     head: [
       ["link", { rel: "icon", href: "/coder-cat.jpg" }],
