@@ -23,10 +23,10 @@ Transformar o modo como as carreiras de desenvolvimento de software são trilhad
 
 ## 🐛 Issues Ativos no GitHub
 
-- [#12](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/12): Adicionar guia prático de DSPy para otimização de prompts.
-- [#18](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/18): Atualizar seção de WebAssembly com exemplos em Rust + Node.js.
-- [#25](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/25): Revisar métricas DORA no roadmap de DevOps.
-- [#34](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/34): Expandir conteúdo sobre ExecuTorch e On-Device AI no roadmap Mobile.
+- [Issue 12](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/12): Adicionar guia prático de DSPy para otimização de prompts.
+- [Issue 18](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/18): Atualizar seção de WebAssembly com exemplos em Rust + Node.js.
+- [Issue 25](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/25): Revisar métricas DORA no roadmap de DevOps.
+- [Issue 34](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/34): Expandir conteúdo sobre ExecuTorch e On-Device AI no roadmap Mobile.
 
 ## 📚 Materiais de Estudo Recomendados
 
