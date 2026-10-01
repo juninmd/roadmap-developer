@@ -1,94 +1,143 @@
-# 🌟 Padrões de Especialista 2026: O Nível Arquétipo
+# 🌟 Padrões de Especialista 2026
 
-> **Edição 2026:** Uma visão profunda e holística sobre as arquiteturas, ferramentas e abordagens que separam um Sênior de um Arquiteto e Especialista Global.
+> **Edição 2026 (atualizada em out/2026):** padrões que um Sênior/Staff precisa saber avaliar. Para cada um: quando usar, quando evitar e como medir.
 
 ```mermaid
 flowchart TD
-    Start([Especialista]) --> Wasm(WebAssembly & Edge)
+    Start([Especialista]) --> Agents(Agentes de Código & Revisão Humana)
+    Agents --> Wasm(WebAssembly & Edge)
     Wasm --> Rust(Rust & Performance)
-    Rust --> AI_Agents(Sistemas Multi-Agente & RAG Avançado)
-    AI_Agents --> LocalFirst(Arquitetura Local-First & CRDTs)
-    LocalFirst --> FinOps(Green Coding & FinOps)
-    FinOps --> Spec([Mastery])
+    Rust --> AI_Agents(Sistemas com LLMs, RAG & MCP)
+    AI_Agents --> LocalFirst(Local-First & CRDTs)
+    LocalFirst --> FinOps(Green Software & FinOps)
+    FinOps --> Spec([Decisões Baseadas em Medição])
 
     style Start fill:#f9f,stroke:#333,stroke-width:2px
     style Spec fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-Chegar ao nível de Especialista (ou Arquiteto Principal / Staff Engineer) em 2026 exige mais do que saber codificar. Exige compreender o cenário tecnológico em sua completude, antecipar gargalos arquiteturais e dominar paradigmas emergentes. Este documento consolida os maiores diferenciais técnicos e estratégicos para 2026.
+Nível Sênior/Staff é menos sobre dominar muitas ferramentas e mais sobre decidir bem: entender trade-offs, medir antes de otimizar e documentar o raciocínio (ADRs, RFCs). Nenhum padrão abaixo é obrigatório; cada um resolve um problema específico.
 
 ---
 
-## 🚀 1. WebAssembly (Wasm) e Edge Computing
+## 🤖 1. Engenharia com Agentes de Código
 
-O backend moderno não vive mais apenas em containers dentro de um datacenter centralizado. O Wasm democratizou a capacidade de rodar código compilado (Rust, Go, C++) no Edge (na borda, mais perto do usuário) e dentro do próprio navegador, de forma segura e quase nativa.
+Agentes de código (Claude Code, GitHub Copilot coding agent, Codex CLI, Cursor, entre outros) já fazem parte do fluxo de muitos times. Como Sênior, você define as regras de uso.
 
-- **Por que importa?** Tempos de inicialização de milissegundos (Cold Starts mínimos). Execução segura em sandboxes. Reuso de código pesado entre Frontend e Backend.
-- **O que dominar:** Cloudflare Workers, Wasmtime, Spin, e integração de módulos Wasm com Node.js e Deno.
+- **Quando usar:** tarefas bem delimitadas, migrações repetitivas, testes, correção de bugs reproduzíveis.
+- **Cuidados:** exija testes e CI verdes; PR pequeno; revisão humana obrigatória (inclusive para código gerado por agente); permissões mínimas e sandbox; segredos fora do contexto; atenção a prompt injection vindo de issues e páginas externas.
+- **Contexto do projeto:** mantenha `AGENTS.md` com comandos, convenções e arquitetura. Trate-o como documentação viva.
+- **MCP (Model Context Protocol):** padrão aberto para expor ferramentas e dados a agentes. Audite servidores como qualquer dependência e restrinja o que cada um pode fazer (somente leitura quando possível).
+- **Métricas:** acompanhe taxa de retrabalho, tempo de revisão, defeitos em produção e custo por tarefa, e não apenas "linhas geradas".
+- 📖 [Model Context Protocol](https://modelcontextprotocol.io/)
+- 📖 [AGENTS.md](https://agents.md/)
+- 📖 [OWASP GenAI Security Project](https://genai.owasp.org/)
 
-## 🦀 2. Rust no Backend e Infraestrutura
+## 🚀 2. WebAssembly (Wasm) e Edge Computing
 
-A era de "memória infinita e instâncias gigantes" na nuvem está acabando por causa dos custos. Linguagens com gerenciamento automático (Garbage Collection), como Java e Node, estão sendo substituídas em serviços críticos (core) por Rust e Go.
+Wasm roda código compilado (Rust, Go, C++) no navegador e em runtimes no servidor ou na borda, com isolamento (sandbox) e inicialização rápida.
 
-- **Por que importa?** Rust oferece segurança de memória sem Garbage Collector, resultando em previsibilidade de CPU e economia financeira massiva na AWS/GCP (FinOps).
-- **O que dominar:** Axum, Actix, Tauri (para Desktop) e reescrita de microsserviços pesados visando economia de computação (Green Software).
+- **Quando usar:** trechos de CPU intensiva (parsing, imagem, criptografia), reuso de código entre cliente e servidor, plugins seguros e funções no Edge.
+- **Quando evitar:** lógica comum de CRUD e I/O. O custo de ida e volta JS ↔ Wasm pode anular o ganho.
+- **O que conhecer:** Cloudflare Workers, Wasmtime, Spin, WASI, e integração de módulos Wasm com Node.js e Deno.
 
-## 🤖 3. Arquitetura de Sistemas Multi-Agentes
+### 🧩 Exemplo prático: Rust + Node.js com Wasm
 
-LLMs sozinhos são apenas calculadoras de palavras. O valor real em 2026 vem de _Sistemas Compostos de IA_, onde múltiplos agentes autônomos colaboram entre si.
+1. Instale o alvo: `rustup target add wasm32-unknown-unknown` e `cargo install wasm-pack`.
+2. Crie a lib: `cargo new --lib calc` e adicione `wasm-bindgen` ao `Cargo.toml` (`crate-type = ["cdylib"]`).
+3. Exporte a função:
 
-- **Por que importa?** Um agente pode falhar ou ter alucinações. Um sistema com um agente planejador, um agente codificador, um agente revisor e um agente executivo (com acesso ao terminal) alcança uma taxa de sucesso imensamente maior.
-- **O que dominar:** LangGraph, AutoGen, CrewAI, DSPy (compilação e otimização de prompts ao invés de hardcoding), e MCP (Model Context Protocol).
+   ```rust
+   use wasm_bindgen::prelude::*;
 
-## 📡 4. Arquitetura Local-First e CRDTs
+   #[wasm_bindgen]
+   pub fn fib(n: u32) -> u32 {
+       if n < 2 { n } else { fib(n - 1) + fib(n - 2) }
+   }
+   ```
 
-Os usuários de 2026 não toleram mais telas de "carregando" (spinners). A aplicação deve funcionar instantaneamente e offline, sincronizando com a nuvem apenas em background.
+4. Compile para Node: `wasm-pack build --target nodejs`.
+5. Use no Node: `const { fib } = require("./pkg/calc"); console.log(fib(30));`
+6. Meça contra a versão em JS puro e registre o ganho (e o custo de ida e volta JS ↔ Wasm).
 
-- **Por que importa?** Garante UX perfeita (latência zero percebida). Reduz a carga brutal nos servidores. Permite colaboração em tempo real estilo Google Docs.
-- **O que dominar:** Conflict-free Replicated Data Types (CRDTs), Yjs, Automerge, PWA avançado, IndexedDB, SQLite no navegador via Wasm.
+- 📖 [Rust para WebAssembly (MDN)](https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Rust_to_Wasm) e [wasm-bindgen](https://wasm-bindgen.github.io/wasm-bindgen/) — o `wasm-pack` foi arquivado em 2025; para builds novos, use `cargo build --target wasm32-unknown-unknown` + `wasm-bindgen-cli`.
 
-## 🌿 5. Green Coding e FinOps Avançado
+## 🦀 3. Rust e Go em Serviços Críticos
 
-Em 2026, código ruim não apenas trava, mas custa milhares de dólares e emite toneladas de carbono.
+Rust oferece segurança de memória sem coletor de lixo; Go oferece simplicidade e concorrência produtiva. Ambos reduzem uso de CPU e memória em serviços de alta carga.
 
-- **Por que importa?** "Desenvolvimento Sustentável" tornou-se uma métrica de engenharia (DevSecFinOps). O Especialista sabe exatamente quanto um loop O(n^2) custa no final do mês.
-- **O que dominar:** Profiling de memória avançado, redução de pacotes de rede (gRPC em vez de REST para serviços internos), cache agressivo (Edge Caching, ISR/SSG) e monitoramento de Cloud Carbon Footprint.
+- **Quando usar:** serviços sensíveis a latência ou custo, ferramentas de linha de comando, componentes de infraestrutura, módulos Wasm.
+- **Quando evitar:** reescrever sem medição ou quando o gargalo é banco de dados e rede. Considere também o custo de formação do time.
+- **O que conhecer:** Axum, Tokio, Tauri (desktop) e, em Go, a biblioteca padrão e `pprof`.
+- 📖 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+
+## 🧠 4. Sistemas com LLMs, RAG e Agentes
+
+Muitos produtos combinam modelos, busca e ferramentas. A parte difícil é a confiabilidade, não a chamada de API.
+
+- **Comece simples:** uma chamada bem desenhada, com saída estruturada, costuma bastar. Adote agentes ou múltiplos agentes só quando o fluxo exigir decisões em várias etapas.
+- **RAG:** boa indexação, busca híbrida (vetorial + palavra-chave), reranking e citação de fontes. GraphRAG pode ajudar em dados muito relacionais, com custo maior de construção.
+- **Avaliação (evals):** conjunto de casos de teste, métricas e regressão a cada mudança de modelo ou prompt.
+- **Operação:** custo por requisição, latência, cache, limites de taxa, observabilidade e plano de fallback.
+- **Segurança:** prompt injection, vazamento de dados, permissões das ferramentas e aprovação humana em ações sensíveis (reembolsos, exclusões).
+- **O que conhecer:** LangGraph, DSPy, SDKs de agentes dos provedores e MCP.
+- 📖 [LangChain Academy](https://academy.langchain.com/)
+- 📖 [DSPy](https://dspy.ai/)
+
+## 📡 5. Local-First e CRDTs
+
+Aplicações local-first guardam dados no dispositivo e sincronizam em segundo plano. Funcionam offline e respondem sem esperar a rede.
+
+- **Quando usar:** edição colaborativa, apps de campo, ferramentas de produtividade com uso offline.
+- **Quando evitar:** dados com regras de consistência estritas (saldos, estoque), em que o servidor precisa ser a única fonte de verdade.
+- **O que conhecer:** CRDTs, Yjs, Automerge, IndexedDB, SQLite no navegador via Wasm e motores de sincronização.
+- 📖 [Local-First Web Development](https://localfirstweb.dev/)
+
+## 🌿 6. Green Software e FinOps
+
+Eficiência reduz custo e emissões ao mesmo tempo.
+
+- **Como aplicar:** meça uso de CPU, memória, rede e custo por requisição; otimize os maiores gargalos; use cache e compressão; dimensione instâncias corretamente; desligue ambientes ociosos; inclua o custo de inferência de IA.
+- **O que conhecer:** profiling (pprof, perf, flamegraphs), OpenTelemetry, Cloud Carbon Footprint e práticas de FinOps.
+- 📖 [Green Software Foundation](https://greensoftware.foundation/)
+- 📖 [FinOps Foundation](https://www.finops.org/)
 
 ---
 
 ## 🏆 Desafio do Especialista
 
-**O Projeto Final:**
-Arquitetar (System Design) um "Sistema de Suporte ao Cliente Autônomo e Resiliente".
+**Projeto final:** projete (System Design) um sistema de suporte ao cliente com assistência de IA.
 
-- Ele deve rodar primariamente no Edge (Cloudflare Workers via Wasm).
-- Usar uma arquitetura RAG Avançada (GraphRAG) conectada ao banco de conhecimento corporativo.
-- Integrar um sistema Multi-Agente (LangGraph/CrewAI) em que o "Agente Triagem" categoriza, e o "Agente Solução" acessa as APIs internas via _Function Calling_ para emitir reembolsos ou gerar links.
-- O Frontend do operador humano deve ser Local-First (usando Yjs/CRDT) para que o gerente possa revisar as ações do Agente mesmo se o Wi-Fi da empresa cair.
+- Escreva um ADR justificando cada escolha, incluindo o que você decidiu **não** usar.
+- Rode o fluxo principal no Edge (por exemplo, Cloudflare Workers), usando Wasm apenas onde a medição justificar.
+- Use RAG sobre a base de conhecimento, com citação de fontes e conjunto de evals.
+- Um agente de triagem classifica os chamados; um segundo componente consulta APIs internas por ferramentas (MCP ou function calling) com permissões mínimas.
+- Ações sensíveis, como reembolsos, exigem aprovação humana.
+- A interface do operador deve funcionar offline para consulta e rascunho (local-first), sincronizando depois.
+- Defina métricas de custo, latência e qualidade, e um plano de fallback.
 
 ---
 
 ## ↩️ Navegação
 
+- [**Voltar para a Trilha Comum**](./common.md)
 - [**Voltar para o Início**](../../index.md)
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **[MDN WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts):** A documentação oficial da Mozilla é o melhor lugar para entender como o Wasm funciona por baixo dos panos.
-- **[OpenAI Cookbook](https://cookbook.openai.com/):** O melhor lugar para entender como usar APIs de IA na prática.
+- **[MDN: Conceitos de WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts):** como o Wasm funciona.
+- **[Model Context Protocol](https://modelcontextprotocol.io/):** introdução ao padrão que conecta agentes a ferramentas.
 
 ### 🚀 Para Nível Pleno
 
-- **[The Rust Programming Language (The Book)](https://doc.rust-lang.org/book/):** O livro oficial e gratuito para aprender Rust do zero.
-- **[Local-First Web Development](https://localfirstweb.dev/):** O manifesto e guia prático para entender como construir aplicações offline-first com CRDTs.
-- **[FinOps Foundation](https://www.finops.org/):** A fundação oficial que dita as melhores práticas de gerenciamento financeiro na nuvem.
+- **[The Rust Programming Language](https://doc.rust-lang.org/book/):** o livro oficial e gratuito.
+- **[Local-First Web Development](https://localfirstweb.dev/):** guia prático de aplicações local-first.
+- **[FinOps Foundation](https://www.finops.org/):** boas práticas de gestão de custos na nuvem.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **[LangChain Academy](https://academy.langchain.com/):** Cursos avançados sobre como orquestrar sistemas multi-agente complexos com LangGraph.
-- **[Cloudflare Workers Docs](https://developers.cloudflare.com/workers/):** Domine a computação no Edge e Wasm Serverless.
-- **[Green Software Foundation](https://greensoftware.foundation/):** Princípios, padrões e ferramentas para construir software que emite menos carbono.
+- **[LangChain Academy](https://academy.langchain.com/):** orquestração de agentes com LangGraph.
+- **[Cloudflare Workers Docs](https://developers.cloudflare.com/workers/):** computação no Edge e Wasm.
+- **[Green Software Foundation](https://greensoftware.foundation/):** princípios e ferramentas para software de menor impacto.

@@ -1,94 +1,114 @@
 # 🗄️ Trilha Backend: O Arquiteto dos Bastidores
 
-> **Edição 2026:** Focado em Microsserviços, Rust/Go, IA Engineering e Local-First.
+> **Edição 2026:** TypeScript/Go/Python/Java/Rust, APIs seguras, dados confiáveis, observabilidade e integração de LLMs e agentes.
 
 ```mermaid
 flowchart TD
-    Start([Início]) --> Lang(Linguagens: Go/Rust/Node/Python)
-    Lang --> API(APIs & Protocolos)
-    API --> DB(Banco de Dados)
+    Start([Início]) --> Lang(Linguagens: Node/TS, Python, Go, Java, C#, Rust)
+    Lang --> API(APIs, Protocolos & Segurança OWASP)
+    API --> DB(Banco de Dados: Postgres)
     DB --> Cache(Caching & Redis)
     Cache --> Async(Mensageria & Filas)
-    Async --> DevOps(Containers & CI/CD)
-    DevOps --> Arch(Arquitetura: Microservices/Event-Driven)
-    Arch --> AI(AI Engineering: Agentes & LLMOps)
+    Async --> Test(Testes & Contratos)
+    Test --> DevOps(Containers, CI/CD & Observabilidade)
+    DevOps --> Arch(Arquitetura: Monolito Modular/Event-Driven)
+    Arch --> AI(AI Engineering: LLMs, MCP & Agentes)
     AI --> Spec([Especialista])
 ```
 
-Seja o engenheiro que projeta sistemas distribuídos de alta escala, garante a resiliência dos dados corporativos e integra Sistemas Multi-Agente em 2026.
+Esta trilha cobre o caminho de quem constrói APIs e serviços confiáveis, seguros e com custo sob controle, incluindo a integração com LLMs e agentes.
 
 ## 🐣 Nível Iniciante (Júnior): O Construtor
 
-Neste nível o foco é criar lógicas fundamentais, manipular conexões de bancos e entregar endpoints que o frontend consiga consumir.
+Foco: lógica fundamental, bancos de dados e endpoints que o frontend consiga consumir.
 
-- **Linguagens e Frameworks:** Node.js/TypeScript (NestJS/Express), Python (FastAPI/Django), Java (Spring Boot), ou C# (.NET Core). Entenda sintaxe, tipos, e controle de fluxo.
-- **APIs e Protocolos Web:** HTTP/REST, JSON, status codes corretos (ex: 201 Created), Headers, CORS (Cross-Origin Resource Sharing).
-- **Bancos de Dados Relacionais (SQL):** PostgreSQL, MySQL. Entenda queries essenciais (`SELECT`, `JOIN`, `GROUP BY`), modelagem conceitual, normalização (1NF a 3NF) e integridade referencial.
-- **Git & Versionamento:** Controle de versão contínuo no dia a dia. Criação de branches, pull requests e resolução de conflitos básicos.
-- **Tratamento de Erros:** Não retorne stack traces ao usuário final. Crie middlewares de erro centralizados e logs estruturados locais.
+- **Linguagens e Frameworks (escolha uma e vá fundo):**
+  - Node.js 24 LTS com TypeScript (NestJS, Fastify, Hono, Express 5). Bun 1.x e Deno 2 são alternativas de runtime.
+  - Python 3.13+ (FastAPI, Django) com `uv` para dependências e ambientes.
+  - Java 25 LTS (Spring Boot 4) ou C# com .NET 10 LTS (ASP.NET Core).
+  - Go 1.2x (biblioteca padrão `net/http` já resolve muita coisa).
+- **APIs e Protocolos Web:** HTTP/REST, JSON, status codes corretos (ex: 201 Created, 409 Conflict), headers, CORS, idempotência e paginação. Documente com OpenAPI.
+- **Bancos Relacionais (SQL):** PostgreSQL 18 (ou MySQL). `SELECT`, `JOIN`, `GROUP BY`, modelagem, normalização (1FN a 3FN), chaves e integridade referencial. Use migrations versionadas.
+- **Git & Versionamento:** branches, pull requests, commits claros e resolução de conflitos.
+- **Tratamento de Erros e Logs:** não retorne stack traces ao cliente. Use middleware de erro centralizado, formato padronizado (Problem Details, RFC 9457) e logs estruturados em JSON.
+- **Segurança básica:** valide toda entrada (Zod, Pydantic, Bean Validation), use queries parametrizadas, nunca versione segredos e leia o [OWASP Top 10](https://owasp.org/www-project-top-ten/).
 
 ## 🚀 Nível Intermediário (Pleno): O Otimizador
 
-A evolução para o nível pleno exige pensar em concorrência, segurança, deploy escalável e redução de acoplamento entre módulos.
+Foco: concorrência, segurança, desempenho e baixo acoplamento.
 
-- **Autenticação & Segurança:** JWT, OAuth 2.0 / OpenID Connect, Session Cookies Seguros (HttpOnly, Secure, SameSite). Hashing poderoso (Bcrypt/Argon2) e Rate Limiting/Throttling.
-- **APIs Modernas e Comunicação:** GraphQL (Apollo/Relay) para o frontend e gRPC (Protocol Buffers) para comunicação ultrarrápida entre microsserviços.
-- **Bancos NoSQL e Otimização SQL:** MongoDB, DynamoDB para esquemas dinâmicos. Redis (Cache) para evitar chamadas lentas. Em bancos relacionais (SQL): otimização via Índices, plano de execução de queries (Explain) e Transações ACID.
-- **Docker e Containers:** Empacote suas aplicações e garanta que rodem de maneira idêntica no servidor e na máquina de desenvolvimento.
-- **Mensageria e Filas (Message Brokers):** Trabalhos assíncronos e processamento de background via RabbitMQ, Apache Kafka, ou Cloud SQS. Não faça processamento pesado (envio de email, conversão de vídeo) travando o Event Loop.
-- **Testes Backend:** Test-Driven Development (TDD) via testes unitários (Vitest/Jest, PyTest, JUnit). Mocks controlados para dependências externas e Testes de Integração usando Testcontainers.
+- **Autenticação & Autorização:** OAuth 2.0 / OpenID Connect, JWT com expiração curta, cookies de sessão seguros (`HttpOnly`, `Secure`, `SameSite`), hash de senha com Argon2id, RBAC/ABAC e rate limiting.
+- **Segurança de API (OWASP API Security Top 10):** autorização por objeto (BOLA) e por função, mass assignment, SSRF, limites de tamanho e de recursos, inventário de endpoints, CORS restritivo, segredos em cofre (Vault, AWS Secrets Manager) e varredura de dependências (Dependabot, `npm audit`, Trivy).
+- **APIs e Comunicação:** REST bem desenhado, GraphQL quando o cliente precisa de composição flexível, gRPC (Protocol Buffers) entre serviços internos, WebSockets/SSE para tempo real. Em stacks TypeScript, tRPC e Hono RPC dão tipagem ponta a ponta.
+- **ORMs e Acesso a Dados:** Drizzle ou Prisma (TypeScript), SQLAlchemy/SQLModel (Python), JPA/jOOQ (Java), EF Core (.NET), sqlc (Go). Saiba ler o SQL que o ORM gera e evite consultas N+1.
+- **Otimização SQL:** índices (B-tree, GIN, parciais), `EXPLAIN (ANALYZE)`, transações ACID, níveis de isolamento, connection pooling (PgBouncer) e `JSONB` quando fizer sentido.
+- **NoSQL:** MongoDB e DynamoDB para modelos de acesso bem definidos. Não troque Postgres por NoSQL só por moda.
+- **Cache:** Redis ou Valkey. Padrão cache-aside, TTL, invalidação, proteção contra cache stampede e cache HTTP (`ETag`, `Cache-Control`, CDN).
+- **Mensageria e Filas:** processamento assíncrono com RabbitMQ, Apache Kafka, NATS, AWS SQS ou BullMQ/Celery. Garanta idempotência dos consumidores, retries com backoff, dead-letter queue e o padrão Outbox para publicar eventos de forma consistente com o banco.
+- **Docker e Containers:** imagens multi-stage, usuário não-root, healthchecks e Docker Compose para o ambiente local.
+- **Testes:** pirâmide de testes (Vitest/Jest, pytest, JUnit 5, `go test`), testes de integração com Testcontainers e **testes de contrato** (Pact ou schema OpenAPI) para evitar quebra entre serviços.
+- **CI/CD:** GitHub Actions com lint, testes, build da imagem e scan de vulnerabilidades a cada pull request.
 
 ## 🧙‍♂️ Nível Avançado (Sênior / Especialista): O Arquiteto
 
-Arquitetar em 2026 requer focar na redução de custos de nuvem (FinOps), em tecnologias ultra-performantes e na orquestração complexa.
+Foco: arquitetura, resiliência, observabilidade e custo.
 
-- **Arquitetura de Sistemas (System Design):** Microsserviços vs Monolitos Modulares (Modular Monoliths). Event-Driven Architecture, CQRS (Command Query Responsibility Segregation), e Saga Pattern para transações distribuídas consistentes.
-- **Linguagens de Alta Performance (Core Systems):** A nuvem está cara. Reescreva serviços críticos com Rust (Segurança absoluta de memória, WebAssembly no backend) ou Go (Concorrência leve via Goroutines, perfeito para Cloud Native e APIs densas).
-- **Engenharia de Dados Básica:** Conhecimento de ETL vs ELT, Data Warehouses (Snowflake, BigQuery), Data Lakes e conceitos como Change Data Capture (CDC) usando Debezium.
-- **Observabilidade Total:** OpenTelemetry, métricas customizadas, Prometheus, Grafana, Logs unificados e Tracing Distribuído completo para identificar gargalos em uma cadeia de microsserviços.
-- **Green Software & FinOps:** Otimização arquitetural para reduzir drasticamente o uso desnecessário de CPU, diminuindo a conta na nuvem (AWS/GCP) e a pegada de carbono da infraestrutura corporativa.
-- **Web3 & Edge Computing (Opcional Especialista):** Smart Contracts em Solidity e Rust, implantações Wasm e a descentralização do processamento do backend na Borda (Edge).
+- **System Design:** comece por um monolito modular e extraia microsserviços só quando houver motivo claro (escala, times, ciclo de deploy). Event-Driven Architecture, CQRS, Event Sourcing (onde cabe) e Saga para transações distribuídas.
+- **Resiliência:** timeouts, retries com jitter, circuit breaker, bulkhead, backpressure, degradação graciosa e SLOs com error budget.
+- **Linguagens de Alta Performance:** Go para serviços de rede e ferramentas cloud native; Rust (Axum, Tokio) quando memória e latência pesam; JVM com virtual threads (Java 21+) para alta concorrência. Meça antes de reescrever.
+- **Dados e Engenharia de Dados:** ETL vs ELT, Data Warehouses (BigQuery, Snowflake), formatos abertos (Parquet, Iceberg), CDC com Debezium. Migrações de schema sem downtime (expand/contract).
+- **Observabilidade:** [OpenTelemetry](https://opentelemetry.io/) para traces, métricas e logs; Prometheus, Grafana, Loki e Tempo (ou um backend OTLP gerenciado). Defina SLIs/SLOs e alertas que acionam ação.
+- **Kubernetes e Platform Engineering:** Deployments, HPA, probes e Helm/Kustomize. Entenda o básico antes de adotar service mesh.
+- **Segurança avançada:** threat modeling, mTLS entre serviços, SBOM e assinatura de imagens (Sigstore), princípio do menor privilégio e auditoria.
+- **FinOps & Green Software:** meça custo por serviço e por requisição, ajuste dimensionamento (right-sizing), use cache e processamento em lote, e prefira regiões com menor intensidade de carbono. Veja os princípios da [Green Software Foundation](https://learn.greensoftware.foundation/).
+- **Edge e WebAssembly (opcional):** Cloudflare Workers, Deno Deploy e Wasm com WASI para lógica leve próxima ao usuário.
 
-### 🤖 IA Engineering para Backend (O Diferencial de 2026)
+### 🤖 IA Engineering para Backend
 
-Os desenvolvedores backend de 2026 são os pilares centrais da Inteligência Artificial Corporativa.
+Backend é quem expõe dados e ações para modelos de forma segura, medida e com custo previsível.
 
-- **Orquestração de Agentes e Sistemas Multi-Agente:** Arquitetar fluxos lógicos e memória persistente em LLMs corporativos através de frameworks como LangChain, LangGraph, DSPy ou CrewAI.
-- **Function Calling & MCP (Model Context Protocol):** Criar as "ferramentas" da IA. Conectar modelos externos de linguagem diretamente e de forma segura ao banco SQL local, APIs e sistemas de estoque da empresa via MCP.
-- **Gateways de LLM e Roteamento:** LiteLLM, Kong AI Gateway ou Cloudflare AI Gateway. Balanceamento de carga, Fallbacks e cacheamento semântico entre diferentes provedores de IA para evitar quedas e reduzir o custo das faturas.
-- **Advanced RAG (Retrieval-Augmented Generation):** Dominar Vector Databases (Pinecone, Qdrant, Milvus, ou extensões como o `pgvector`). Implementar GraphRAG (Knowledge Graphs corporativos) e sistemas avançados de Hybrid Search + Reranking semântico.
-- **Modelos Locais & LLMOps:** vLLM, Ollama. Saber rodar e hospedar (Deploy) Modelos de Linguagem Menores (SLMs, como Llama 3/Mistral) na infraestrutura local da empresa, para economizar os altos custos de APIs cloud e proteger dados sensíveis. Rastrear alucinações da IA usando LangSmith ou Arize Phoenix (Observabilidade de IA).
+- **Chamadas a LLMs:** use os SDKs oficiais dos provedores, saídas estruturadas (JSON Schema), streaming, timeouts, retries e limites de tokens. Trate a saída do modelo como entrada não confiável.
+- **Function Calling e MCP (Model Context Protocol):** crie **MCP servers** que exponham ferramentas, recursos e prompts de seus sistemas, usando os SDKs oficiais (TypeScript, Python, Go, Java, C#, Rust). Autenticação OAuth 2.1, escopos mínimos, confirmação humana em ações destrutivas e proteção contra prompt injection.
+- **Agentes e Multi-Agente:** orquestração com LangGraph, OpenAI Agents SDK, Claude Agent SDK, Google ADK, Mastra ou Pydantic AI. Comece com fluxo simples e só adicione autonomia quando necessário. Para agentes de times ou fornecedores diferentes, conheça o protocolo **A2A (Agent2Agent)**.
+- **Gateways de LLM:** LiteLLM, Kong AI Gateway ou Cloudflare AI Gateway para roteamento, fallback, cache, limites por chave e controle de orçamento.
+- **RAG e Busca:** PostgreSQL com `pgvector` cobre muitos casos; Qdrant, Milvus ou Pinecone para escala maior. Combine busca híbrida (BM25 + vetor) com reranking e avalie com um conjunto de perguntas de referência.
+- **Modelos Abertos e Locais:** vLLM, Ollama e llama.cpp para modelos abertos (Llama, Mistral, Qwen, Gemma) quando privacidade, latência ou custo justificarem hospedar.
+- **Avaliação e Observabilidade de IA:** evals automatizados, tracing com OpenTelemetry (convenções GenAI), Langfuse, LangSmith ou Arize Phoenix.
+- **Custos de IA:** acompanhe tokens por feature e por cliente, use prompt caching, modelos menores para tarefas simples, processamento em lote (batch) e limites de orçamento por agente.
+- **Segurança de IA:** consulte o [OWASP Top 10 para aplicações LLM](https://genai.owasp.org/llm-top-10/): injeção de prompt, vazamento de dados, uso excessivo de permissões (excessive agency).
 
 ## 🏆 Desafios Práticos
 
-- **Júnior:** Crie uma API REST de To-Do list ou Blog usando seu framework favorito (Express/FastAPI). Implemente Autenticação com JWT, e operações completas de CRUD com relacionamentos simples usando PostgreSQL (via ORM como Prisma ou Sequelize).
-- **Pleno:** Crie um encurtador de URLs escalável. Requisitos: Redis para fazer o cache das rotas originais, banco relacional para persistência dos dados e Docker para subir toda a estrutura facilmente. Implemente Testes de Integração.
-- **Sênior:** Crie um sistema de chat corporativo distribuído e orquestrado com Inteligência Artificial. Requisitos: WebSockets escaláveis com Go/Node, pub/sub no Redis para sincronização entre múltiplas instâncias da API, e integração com um Vector DB (`pgvector`) para buscas semânticas antigas. Conecte um framework de IA (LangGraph) que analise e resuma automaticamente as longas threads do chat, usando LLMs roteados via LiteLLM para otimização de custo corporativo.
+- **Júnior:** API REST de To-Do ou Blog (Express/Fastify ou FastAPI) com autenticação JWT, CRUD com relacionamentos em PostgreSQL (Drizzle, Prisma ou SQLAlchemy), validação de entrada e documentação OpenAPI.
+- **Pleno:** encurtador de URLs. Redis para cache, Postgres para persistência, rate limiting, fila para contagem de cliques, Docker Compose, testes de integração com Testcontainers e checagem contra o OWASP API Top 10.
+- **Sênior:** chat corporativo distribuído com IA. WebSockets em Go ou Node, pub/sub no Redis ou NATS entre instâncias, `pgvector` para busca semântica, um **MCP server** que expõe a busca de mensagens, um agente (LangGraph) que resume threads via LiteLLM, traces com OpenTelemetry e painel de custo por tenant.
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **[Boot.dev](https://www.boot.dev/):** Plataforma gamificada focada puramente na engenharia de backend e linguagens robustas.
-- **[FreeCodeCamp (Backend & APIs)](https://www.freecodecamp.org/):** Currículo open-source essencial abordando Node.js, Express, MongoDB e Auth.
-- **Documentações Oficiais:** Leia a fundo a documentação de seu framework principal (FastAPI, Spring Boot, Go, NestJS).
+- **[Boot.dev](https://www.boot.dev/):** trilhas práticas de backend (Python, Go, SQL, Docker).
+- **[freeCodeCamp](https://www.freecodecamp.org/):** currículo aberto com Node.js, APIs e bancos de dados.
+- **Documentação oficial:** [Node.js](https://nodejs.org/en/docs), [FastAPI](https://fastapi.tiangolo.com/), [Spring Boot](https://spring.io/projects/spring-boot), [Go](https://go.dev/doc/), [PostgreSQL](https://www.postgresql.org/docs/).
 
 ### 🚀 Para Nível Pleno
 
-- **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** Masterclass em Database Internals, Proxies e Redes (TCP, gRPC, HTTP/3).
-- **[Full Cycle](https://fullcycle.com.br/):** Capacitação premium em arquitetura moderna (Microsserviços, Docker, Go, Kubernetes).
-- **[AWS Skill Builder](https://explore.skillbuilder.aws/):** Treinamento oficial e prático focado em arquiteturas Serverless e computação distribuída.
-- **[Test-Driven Development with Python](https://www.obeythetestinggoat.com/):** Leitura de "Obey the Testing Goat" focada em TDD e testes robustos.
+- **[Hussein Nasser (YouTube)](https://www.youtube.com/@hnasr):** bancos de dados, proxies e redes (TCP, HTTP/3, gRPC).
+- **[Full Cycle](https://fullcycle.com.br/):** formação em arquitetura, Go, Docker e Kubernetes (em português).
+- **[OWASP API Security Project](https://owasp.org/www-project-api-security/):** riscos e mitigações para APIs.
+- **[Testcontainers](https://testcontainers.com/guides/):** guias de testes de integração por linguagem.
+- **[Test-Driven Development with Python](https://www.obeythetestinggoat.com/):** TDD e testes robustos.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **[Designing Data-Intensive Applications](https://dataintensive.net/):** A bíblia de sistemas distribuídos e concorrência escrita por Martin Kleppmann.
-- **[ByteByteGo (Alex Xu)](https://bytebytego.com/):** Plataforma de ponta e altíssima qualidade visual para estudos de System Design e entrevistas Staff.
-- **[LangChain Academy](https://academy.langchain.com/) & [LiteLLM Docs](https://docs.litellm.ai/docs/):** Vanguarda da Engenharia de IA. Aprenda RAG corporativo e Gateways LLM sustentáveis.
-- **[WebAssembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts):** Documentação fundamental para Wasm Serverless Edge, trazendo Rust/Go proxima ao usuário.
-- **[The Rust Programming Language Book](https://doc.rust-lang.org/book/):** A introdução oficial para a linguagem favorita de sistemas em 2026. Aprofunde-se no Borrow Checker para dominar a performance absoluta e o Green Coding extremo.
+- **[Designing Data-Intensive Applications](https://dataintensive.net/):** referência em sistemas distribuídos (Martin Kleppmann).
+- **[ByteByteGo](https://bytebytego.com/):** System Design com diagramas.
+- **[Documentação do OpenTelemetry](https://opentelemetry.io/docs/):** instrumentação e Collector.
+- **[Model Context Protocol](https://modelcontextprotocol.io/):** especificação e SDKs para criar MCP servers.
+- **[A2A Protocol](https://a2a-protocol.org/):** especificação do protocolo Agent2Agent.
+- **[LangChain Academy](https://academy.langchain.com/) e [LiteLLM Docs](https://docs.litellm.ai/docs/):** agentes, RAG e gateways de LLM.
+- **[The Rust Programming Language](https://doc.rust-lang.org/book/):** introdução oficial a Rust.
+- **[WebAssembly (MDN)](https://developer.mozilla.org/en-US/docs/WebAssembly):** conceitos de Wasm.
 
 ## ↩️ Navegação
 

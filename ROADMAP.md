@@ -1,53 +1,56 @@
 # Visão Geral (ROADMAP)
 
-O **Desenvolvedor Completo 2026** é o guia definitivo para atualizar desenvolvedores de todos os níveis (do Júnior ao Especialista) para o cenário tecnológico moderno, focando em Inteligência Artificial, Arquitetura Local-First, Green Coding (Sustentabilidade) e WebAssembly.
+O **Desenvolvedor Completo 2026** é um guia para desenvolvedores de todos os níveis (do Júnior ao Especialista) se atualizarem no cenário atual (out/2026): fundamentos sólidos, desenvolvimento assistido por IA com revisão humana, arquitetura pragmática, eficiência de recursos (Green Software) e WebAssembly.
 
 ## 🎯 Visão do Produto
 
-Transformar o modo como as carreiras de desenvolvimento de software são trilhadas. Em vez de focar apenas na sintaxe das linguagens, a visão para 2026 integra as _Soft Skills_, a Engenharia de IA (_Agentic Workflows_), e o pensamento arquitetural, preparando os desenvolvedores para trabalharem lado a lado com Agentes Autônomos.
+Ajudar pessoas a trilhar uma carreira de desenvolvimento de software com foco em fundamentos (algoritmos, redes, SQL, Git), uso responsável de agentes de código e MCP, pensamento arquitetural e soft skills. A sintaxe das linguagens importa, mas decidir, verificar e comunicar importa mais.
 
 ## 📊 Status Atual
 
-- **Frontend:** Atualizado para Server Components, WebGPU, Local First AI e WebNN.
-- **Backend:** Focado em Rust, Go, Microsserviços, LLM Gateways e GraphRAG.
-- **DevOps:** Migração completa para Platform Engineering e Observabilidade com IA (eBPF).
-- **Engenharia de Dados:** Lakehouse Architecture, Data Mesh e Data Contracts para GenAI.
-- **Cybersecurity:** Zero Trust, DevSecOps e Segurança de IA (AI Red Teaming e Prompt Injection).
+- **Trilha Comum:** fundamentos (Git/GitHub moderno, algoritmos, redes, SQL), desenvolvimento assistido por IA, carreira e soft skills.
+- **Frontend:** Server Components, WebGPU, IA local no navegador e WebNN.
+- **Backend:** Rust, Go, microsserviços, LLM gateways e RAG/GraphRAG.
+- **DevOps:** Platform Engineering e observabilidade com OpenTelemetry e eBPF.
+- **Engenharia de Dados:** Lakehouse, Data Mesh e Data Contracts para IA.
+- **Cybersecurity:** Zero Trust, DevSecOps e segurança de IA (red teaming e prompt injection).
 
 ## 📅 Metas Trimestrais (Q1-Q4 2026)
 
-- **Q1:** Lançamento das trilhas base (Comum) e Fundamentos de IA para Juniores.
-- **Q2:** Aprofundamento em WebAssembly, Edge Computing e Arquitetura Local-First para Plenos/Sêniores.
-- **Q3:** Workshops em Sistemas Multi-Agente (LangGraph/DSPy) e LLMOps em produção.
-- **Q4:** Especialização em Green Software, On-Device AI e FinOps.
+- **Q1 (concluído):** trilhas base (Comum) e fundamentos de IA para Juniores.
+- **Q2 (concluído):** WebAssembly, Edge e arquitetura Local-First para Plenos/Sêniores.
+- **Q3 (concluído):** sistemas com agentes (LangGraph/DSPy), avaliação (evals) e LLMOps.
+- **Q4 (em andamento):** Green Software, IA no dispositivo, FinOps e revisão geral de links e conteúdo.
 
-## 🐛 Issues Ativos no GitHub
+## ✅ Lacunas Fechadas
 
-- [Issue 12](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/12): Adicionar guia prático de DSPy para otimização de prompts.
-- [Issue 18](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/18): Atualizar seção de WebAssembly com exemplos em Rust + Node.js.
-- [Issue 25](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/25): Revisar métricas DORA no roadmap de DevOps.
-- [Issue 34](https://github.com/roadmap-developer-community/roadmap-developer-2026/issues/34): Expandir conteúdo sobre ExecuTorch e On-Device AI no roadmap Mobile.
+- Issue 12: guia prático de DSPy em [Inteligência Artificial](/roadmaps/ai/artificial-intelligence).
+- Issue 18: exemplo Rust + Node.js com Wasm em [Padrões de Especialista](/roadmaps/general/2026-specialist-patterns).
+- Issue 25: métricas DORA revisadas em [DevOps](/roadmaps/devops/devops).
+- Issue 34: passo a passo de ExecuTorch em [Mobile](/roadmaps/mobile/mobile).
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **[The Odin Project](https://www.theodinproject.com/):** Currículo open-source focado em projetos para o desenvolvedor completo.
-- **[DeepLearning.AI (Andrew Ng)](https://www.deeplearning.ai/):** A principal universidade aberta em inteligência do planeta. Cursos indispensáveis como AI for Everyone para moldar mentes e a fabulosa ML Specialization baseada em Python.
+- **[The Odin Project](https://www.theodinproject.com/):** currículo open source baseado em projetos.
+- **[CS50x (Harvard)](https://cs50.harvard.edu/x/):** introdução à ciência da computação, gratuita.
+- **[Pro Git](https://git-scm.com/book/pt-br/v2):** livro gratuito de Git.
 
 ### 🚀 Para Nível Pleno
 
-- **[Full Cycle](https://fullcycle.com.br/):** Capacitação premium em arquitetura moderna (Microsserviços, Docker, Go, Kubernetes).
-- **[Anthropic Prompt Engineering](https://github.com/anthropics/courses):** Modele Prompts incríveis com os cursos da Anthropic.
+- **[Full Cycle](https://fullcycle.com.br/):** arquitetura moderna (microsserviços, Docker, Go, Kubernetes).
+- **[Anthropic Courses](https://github.com/anthropics/courses):** prompts e uso de ferramentas com modelos de linguagem.
+- **[Model Context Protocol](https://modelcontextprotocol.io/):** padrão aberto para conectar agentes a ferramentas e dados.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **[LangChain Academy](https://academy.langchain.com/):** Vanguarda da Engenharia de IA. Aprenda RAG corporativo.
-- **[Hugging Face](https://huggingface.co/learn/nlp-course):** Alinhe os modelos SLMs na plataforma líder global.
-- **[Local-First Web Development](https://localfirstweb.dev/):** Leia o vital manifesto sobre arquitetura e CRDTs.
+- **[LangChain Academy](https://academy.langchain.com/):** RAG e agentes com LangGraph.
+- **[Hugging Face Learn](https://huggingface.co/learn):** modelos abertos, SLMs e fine-tuning.
+- **[Local-First Web Development](https://localfirstweb.dev/):** arquitetura local-first e CRDTs.
 
----
+## ↩️ Navegação
 
-_Inspirado na jornada do desenvolvedor que evolui e não se acomoda._
+- [Trilha Comum](/roadmaps/general/common)
+- [Guia de Estudos](/roadmaps/general/study-guide)
+- [Início](/)

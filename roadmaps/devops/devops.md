@@ -1,6 +1,6 @@
 # ♾️ Trilha DevOps: A Ponte entre o Código e o Mundo
 
-> **Edição 2026:** Focado em Platform Engineering, GitOps e Observabilidade com IA.
+> **Edição 2026:** Foco em Platform Engineering, GitOps, Observabilidade com OpenTelemetry e segurança da cadeia de suprimentos.
 
 ```mermaid
 flowchart TD
@@ -9,17 +9,17 @@ flowchart TD
     Container --> Git(Git Avançado)
     Git --> CICD(CI/CD)
     CICD --> Cloud(Cloud AWS/Azure/GCP)
-    Cloud --> IaC(Terraform & Ansible)
+    Cloud --> IaC(Terraform/OpenTofu & Ansible)
     IaC --> K8s(Kubernetes)
-    K8s --> Obs(Observabilidade)
-    Obs --> Plat(Platform Engineering & AI Ops)
+    K8s --> Obs(Observabilidade & SRE)
+    Obs --> Plat(Platform Engineering & FinOps)
     Plat --> Spec([Especialista])
 
     style Start fill:#f9f,stroke:#333,stroke-width:2px
     style Spec fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-"DevOps não é um cargo, é uma cultura." Mas convenhamos, alguém precisa configurar o Kubernetes, certo? Esta trilha te transforma no guardião da infraestrutura, garantindo que o código saia da máquina do dev e chegue ao usuário final com segurança, rapidez e confiabilidade.
+DevOps é cultura, mas alguém precisa operar o Kubernetes. Esta trilha leva você do terminal até a construção de plataformas internas, para que o código chegue à produção com segurança, rapidez e confiabilidade.
 
 Esta trilha está dividida em níveis para guiar sua evolução profissional.
 
@@ -27,150 +27,175 @@ Esta trilha está dividida em níveis para guiar sua evolução profissional.
 
 ## 🐣 Nível Iniciante (Júnior)
 
-O foco aqui é sair da interface gráfica e dominar a linha de comando e os fundamentos da infraestrutura.
+O foco aqui é dominar a linha de comando e os fundamentos de infraestrutura.
 
-### 🐧 Linux e Terminal (O Habitat Natural)
+### 🐧 Linux e Terminal
 
-- **Shell Scripting:** Bash/Zsh. Automatize tarefas repetitivas. Se você faz algo mais de duas vezes, faça um script.
-- **Permissões:** `chmod`, `chown`. Entenda quem pode fazer o que.
-- **Networking Básico:** SSH (chaves, não senhas!), DNS, HTTP/S, Firewalls (iptables/ufw).
+- **Shell Scripting:** Bash/Zsh. Automatize o que você faz mais de duas vezes.
+- **Permissões:** `chmod`, `chown`, usuários e grupos.
+- **Networking Básico:** SSH (chaves, não senhas), DNS, HTTP/S, TLS, firewalls (`nftables`/`ufw`).
 
-### 🐳 Containers (O Novo Binário)
+### 🐳 Containers
 
-- **Docker:** Como criar `Dockerfile` eficientes (Multi-stage builds).
+- **Docker:** `Dockerfile` eficientes (multi-stage builds, usuário não-root, imagens mínimas).
 - **Docker Compose:** Orquestrar múltiplos containers localmente.
-- **Conceito:** Imutabilidade. Uma vez construída, a imagem não muda.
+- **Conceito:** Imutabilidade. Construiu a imagem, ela não muda; o que muda é a configuração injetada.
 
 ### 📜 Git Avançado
 
-- **Branching Strategies:** Git Flow, Trunk Based Development.
-- **Hooks:** Automatizar checagens antes do commit (Pre-commit hooks).
+- **Branching:** Trunk Based Development como padrão; Git Flow só quando o produto exige várias versões em paralelo.
+- **Hooks:** Checagens antes do commit (pre-commit).
 
 ---
 
 ## 🚀 Nível Intermediário (Pleno)
 
-Aqui você começa a tratar infraestrutura como código e automatizar o ciclo de vida do software.
+Aqui você trata infraestrutura como código e automatiza o ciclo de vida do software.
 
-### 🔄 CI/CD (Integração e Entrega Contínuas)
+### 🔄 CI/CD
 
-- **GitHub Actions / GitLab CI:** Pipelines que testam, buildam e deployam seu código automaticamente a cada push.
-- **Conceitos:** Linting, SAST (Static Application Security Testing), Artifact Management.
+- **GitHub Actions / GitLab CI:** Pipelines que testam, buildam e fazem deploy a cada push.
+- **Conceitos:** Lint, testes, SAST, cache de dependências, gestão de artefatos.
+- **Segurança de pipeline:** Autenticação via OIDC (sem chaves de longa duração), versões de actions fixadas por hash e permissões mínimas no token.
 
-### ☁️ Cloud Providers (A Nuvem)
+### ☁️ Cloud Providers
 
-Escolha uma principal, mas entenda os conceitos universais (Compute, Storage, Networking).
+Escolha uma principal, mas entenda os conceitos universais (compute, storage, rede).
 
 - **AWS:** EC2, S3, RDS, Lambda, VPC.
 - **Azure/GCP:** Equivalentes (VMs, Blob Storage, Cloud Functions).
-- **IAM:** Gerenciamento de identidade e permissões (Princípio do Menor Privilégio).
+- **IAM:** Princípio do menor privilégio e credenciais temporárias.
 
 ### 🏗️ Infrastructure as Code (IaC)
 
-Nunca configure servidores manualmente (ClickOps).
+Nunca configure recursos manualmente (ClickOps).
 
-- **Terraform / OpenTofu:** O padrão da indústria para provisionar infraestrutura. Entenda State Files e Modules.
-- **Ansible:** Para configuração de servidores (Configuration Management).
+- **Terraform / OpenTofu:** Provisionam infraestrutura de forma declarativa. O Terraform usa licença BSL; o **OpenTofu** é o fork open source mantido pela Linux Foundation e compatível na prática. Entenda state remoto, locking, módulos e workspaces.
+- **Ansible:** Configuração de servidores (Configuration Management).
+- **Crossplane:** Gerencia recursos de nuvem como objetos do Kubernetes (CNCF graduado). Útil quando a plataforma oferece infraestrutura por API.
 
-### ☸️ Kubernetes (O Capitão)
+### ☸️ Kubernetes
 
-- **Conceitos:** Pods, Deployments, Services, Ingress, ConfigMaps, Secrets.
-- **Gerenciamento:** `kubectl`, Helm Charts (o "npm" do Kubernetes).
+- **Conceitos:** Pods, Deployments, Services, ConfigMaps, Secrets, probes, requests/limits, HPA.
+- **Versões:** O Kubernetes lança uma versão minor (1.3x) a cada ~4 meses e suporta só as três mais recentes. Planeje upgrades regulares e confira as notas de depreciação.
+- **Tráfego de entrada:** Use a **Gateway API** (`Gateway`, `HTTPRoute`) em vez de `Ingress`. O projeto **ingress-nginx foi aposentado em março de 2026** e não recebe mais correções; quem ainda o usa deve migrar (Envoy Gateway, Cilium, NGINX Gateway Fabric, etc.).
+- **Gerenciamento:** `kubectl`, Helm e Kustomize.
 
-### ☁️ Cloud Native & Serverless
+### ☁️ Serverless e Service Mesh
 
-A evolução natural de Containers.
-
-- **Serverless Containers:** AWS Fargate, Google Cloud Run ou Azure Container Apps. Execute containers sem gerenciar as máquinas (EC2/Nodes).
-- **Service Mesh:** Istio ou Linkerd. Desacoplar a lógica de rede, TLS, métricas e retentativas (retries) do código da aplicação, colocando tudo num "sidecar" ou via eBPF.
+- **Serverless Containers:** AWS Fargate, Google Cloud Run ou Azure Container Apps rodam containers sem gerenciar nós.
+- **Service Mesh:** Istio (inclusive o modo ambient, sem sidecar) ou Linkerd movem mTLS, métricas e retries para a malha. Adote só se você realmente precisa disso; muitas vezes a Gateway API e o Cilium bastam.
 
 ---
 
 ## 🧙‍♂️ Nível Avançado (Sênior / Especialista)
 
-Onde você constrói plataformas para outros desenvolvedores e garante a estabilidade de sistemas globais.
+Onde você constrói plataformas para outros desenvolvedores e garante a estabilidade de sistemas em escala.
 
-### 🔭 Observabilidade Avançada (AI Ops & eBPF)
+### 🔭 Observabilidade e eBPF
 
-Em arquiteturas de milhões de reqs/s, você não pode inspecionar logs manualmente.
+- **OpenTelemetry (OTel):** Padrão aberto e neutro de fornecedor para traces, métricas e logs (APIs, SDKs e Collector). Instrumente uma vez e escolha o backend depois (Grafana, Prometheus, Jaeger, Tempo etc.).
+- **eBPF:** Programas executados com segurança no kernel Linux. **Cilium** (CNI, CNCF graduado) usa eBPF para rede, network policies e observabilidade (Hubble); **Falco** e **Tetragon** cobrem segurança em runtime.
+- **AIOps (com cautela):** Assistentes de IA ajudam a resumir alertas e sugerir causas, mas ações automáticas em produção exigem guardrails, escopo restrito e aprovação humana.
 
-- **eBPF (Extended Berkeley Packet Filter):** A revolução da infraestrutura em 2026. A habilidade de rodar programas ultra rápidos e seguros dentro do Kernel do Linux sem alterar o código-fonte da aplicação ou adicionar pesados "sidecars". Ferramentas como **Cilium** controlam a rede, balanceamento de carga e observabilidade em altíssima performance.
-- **OpenTelemetry (OTel):** A padronização de dados corporativos. Uma API unificada que processa Traces, Metrics, e Logs para sistemas backend complexos em Golang, Rust, Node, e AI Engines, injetando tudo de maneira diagnóstica.
-- **AIOps:** Usar Agentes de Inteligência Artificial para não apenas criar "alertas do PagerDuty", mas para resolver automaticamente as panes e diagnosticar anomalias no Grafana/Prometheus (Self-healing).
+### 🎯 SRE, SLIs e SLOs
 
-### 🐙 GitOps (Controle de Versão Declarativo)
+- **SLI/SLO:** Defina indicadores (latência, disponibilidade, erros) e metas por serviço, por exemplo 99,9% de requisições bem-sucedidas em 30 dias.
+- **Error Budget:** O orçamento de erro é a margem restante do SLO. Se acabou, prioriza-se confiabilidade antes de novas features.
+- **Alertas:** Alerte por consumo de error budget (burn rate), não por cada pico de CPU.
+- **Incidentes:** Runbooks, on-call sustentável e post-mortems sem culpa.
 
-- **ArgoCD e Flux:** A infraestrutura nunca é "apertada num botão na nuvem". Todo e qualquer estado (bancos de dados, ingressos, certificados de Kubernetes) é um código YAML/HCL dentro de um repositório Git. O ArgoCD monitora o Git 24/7.
-- **Drift Detection e Reconciliação Contínua:** Se um desenvolvedor manualmente alterar um servidor de 2GB de RAM para 8GB na interface web da nuvem (o famoso "Drift"), o ArgoCD detecta a anomalia e, em segundos, forçará a volta para 2GB, pois a "Fonte da Verdade" (o GitHub) não contém a modificação. O "Deploy" vira, puramente, o ato de aprovar e dar merge num PR.
+### 🐙 GitOps
 
-### 🏗️ Platform Engineering (Engenharia de Plataforma)
+- **Argo CD e Flux (CNCF graduados):** O estado desejado fica no Git (YAML/Helm/Kustomize) e o controlador reconcilia o cluster continuamente.
+- **Drift Detection:** Se alguém altera um recurso manualmente, o controlador detecta a diferença e a corrige (self-heal) ou alerta. Deploy vira merge de Pull Request.
+- **Segredos:** Nunca no Git em texto puro. Use External Secrets Operator, Sealed Secrets ou SOPS.
 
-A cultura DevOps evolui para a Engenharia de Plataforma. Não seja a "equipe de suporte que faz o deploy", seja a equipe que constrói o Produto (A Nuvem) pros Devs.
+### 🏗️ Platform Engineering
 
-- **Internal Developer Platforms (IDPs):** Criar Portais unificados como **Backstage (Spotify)** ou **Port**.
-- **Golden Paths (Caminhos Pavimentados):** O engenheiro júnior no seu primeiro dia de emprego preenche um formulário no IDP com o nome de sua "API de Vendas". Em 1 minuto, o Backstage roda o Terraform e cria um Repositório Git, pipelines de CI/CD, banco de dados isolado no ambiente dev, dashboards no Grafana e políticas de segurança, devolvendo a URL pronta pra ele codar. Isso zera a sobrecarga cognitiva do time de Dev e reduz gargalos absurdos.
+Em vez de ser a equipe que "faz o deploy" para os outros, construa uma plataforma interna como produto.
 
-### 🛡️ DevSecOps & Supply Chain Security
+- **Internal Developer Platforms (IDPs):** **Backstage** (CNCF incubating) ou **Port** oferecem catálogo de serviços, templates e documentação num só portal.
+- **Golden Paths:** Templates que criam repositório, pipeline, observabilidade e políticas por padrão, reduzindo carga cognitiva. Meça adoção e satisfação dos devs.
 
-A fronteira de segurança não é o firewall, é o "NPM Install" que o dev júnior roda.
+### 🛡️ DevSecOps e Supply Chain
 
-- **Software Bill of Materials (SBOM) & Sigstore:** O projeto gera uma "Nota Fiscal" (`syft`) com a lista exata de cada lib open source utilizada, garantindo que código adulterado por ataques à cadeia de suprimentos seja bloqueado via assinaturas (`Cosign`).
-- **Policy as Code (OPA & Kyverno):** Todo Pull Request no Kubernetes passa por um Agente Validador de Segurança. Se o container for rodar como usuário root, ou não tiver _Resource Limits_, o deploy é bloqueado por uma falha na validação da política de segurança, não importa quem o solicitou.
-- **Container Scanning Contínuo:** Trivy, Grype ou Clair escaneiam imagens em tempo de build, parando a esteira caso se detecte as graves vulnerabilidades de dia zero (CVE).
+- **SBOM:** Gere a lista de componentes (`syft`, formatos SPDX ou CycloneDX).
+- **Assinatura e proveniência:** **Sigstore/Cosign** assinam imagens e atestados; **SLSA** define níveis de maturidade de build e proveniência. Verifique assinaturas no cluster.
+- **Policy as Code:** OPA/Gatekeeper, **Kyverno** ou ValidatingAdmissionPolicy (nativo do Kubernetes) bloqueiam containers como root ou sem limits.
+- **Scanning:** Trivy ou Grype no build e no registry; trate CVEs por criticidade e exploitabilidade.
 
-### 💰 FinOps & Green Software
+### 📈 Métricas DORA (Performance de Entrega)
 
-A nuvem é a coisa mais fácil do mundo de se pagar caro. A fatura mensal tem que ser monitorada pela infra.
+As cinco métricas do [DORA](https://dora.dev/guides/dora-metrics/) medem velocidade e estabilidade juntas:
 
-- **Kubecost:** Transparência financeira. O IDP mostra para a equipe comercial exatamente quantos dólares aquela "API de Pagamentos" está custando aos cofres na AWS. Se passar de 20%, gera alerta.
-- **Green Software Foundation e Sustentabilidade:** Cortar desperdício é ajudar o planeta. Aplicar ferramentas como _Karpenter_ no AWS EKS garante _Node Auto-provisioning_ perfeito: A máquina do servidor só é alugada com as exatas vCPUs pedidas. Destruir VMs durante madrugadas ociosas via cronjobs.
+| Métrica | O que mede | Meta de elite (referência) |
+| --- | --- | --- |
+| Lead Time for Changes | Commit → produção | < 1 dia |
+| Deployment Frequency | Frequência de deploys | Sob demanda (várias por dia) |
+| Change Failure Rate | % de deploys que causam falha | < 5% |
+| Failed Deployment Recovery Time | Tempo para restaurar o serviço | < 1 hora |
+| Deployment Rework Rate | % de deploys não planejados (correções) | Baixo e em queda |
 
-### 📚 Livros e Cultura (Leitura Obrigatória)
+- **Como medir:** extraia dados do Git, do CI/CD e do gestor de incidentes (ex.: Four Keys, Backstage, Grafana).
+- **Cuidado:** use como diagnóstico do time, nunca como ranking individual.
 
-DevOps é cultura, e cultura se aprende com histórias e práticas.
+### 💰 FinOps e Green Software
 
-- **["The Phoenix Project" (Gene Kim)](https://itrevolution.com/product/the-phoenix-project/):** Um romance (sim, uma história!) que explica porque o trabalho de TI costuma ser caótico e como o DevOps resolve isso. Leitura leve e essencial.
-- **["The DevOps Handbook"](https://itrevolution.com/product/the-devops-handbook/):** O manual prático que segue o "Phoenix Project".
-- **["Site Reliability Engineering" (Google)](https://sre.google/books/):** Como o Google mantém seus sistemas no ar. O nascimento do conceito de SRE.
+- **FinOps:** Prática de responsabilizar engenharia, finanças e negócio pelo custo de nuvem. Ciclo: informar (visibilidade), otimizar e operar. Comece com tags/labels obrigatórias e alocação de custo por time e serviço.
+- **Ferramentas:** **OpenCost** (CNCF) ou Kubecost para custo por namespace/serviço; relatórios nativos de AWS, Azure e GCP.
+- **Otimização:** Right-sizing de requests/limits, **Karpenter** (ou autoscaler equivalente) para nós, Spot/preemptible em cargas tolerantes, Savings Plans/CUDs para a carga estável e desligar ambientes ociosos.
+- **Unit economics:** Meça custo por cliente, requisição ou transação, não só a fatura total.
+- **Green Software:** Menos desperdício é menos emissão. Veja os princípios da Green Software Foundation (eficiência de energia, de hardware e consciência de carbono).
 
-### 🧠 Soft Skills & Diferencial Humano
+### 📚 Livros e Cultura
 
-- **Cultura Sem Culpa (Blameless):** Quando algo quebra, não procure o culpado, procure a causa raiz. Se um dev derrubou a produção, é porque o pipeline permitiu.
-- **Evangelista de Automação:** Seu trabalho é eliminar o seu próprio trabalho manual. Ensine os times de desenvolvimento a serem autônomos.
-- **Gestão de Crise:** Manter a calma quando o Slack está pegando fogo é a sua habilidade mais valiosa.
+- **["The Phoenix Project" (Gene Kim)](https://itrevolution.com/product/the-phoenix-project/):** Romance sobre por que o trabalho de TI é caótico e como o DevOps ajuda.
+- **["The DevOps Handbook"](https://itrevolution.com/product/the-devops-handbook/):** O manual prático que complementa o Phoenix Project.
+- **["Site Reliability Engineering" (Google)](https://sre.google/books/):** Livros gratuitos online sobre SRE, SLOs e gestão de incidentes.
+
+### 🧠 Soft Skills
+
+- **Cultura sem culpa:** Se um dev derrubou a produção, o pipeline permitiu. Busque a causa sistêmica.
+- **Automação:** Elimine seu próprio trabalho manual e ensine os times a serem autônomos.
+- **Gestão de incidentes:** Calma, comunicação clara e papéis definidos.
 
 ### 🏆 Desafios Práticos (Projetos)
 
-- **Júnior:** Configure um pipeline básico de CI/CD com GitHub Actions para uma aplicação Node.js. Requisitos: Rodar o lint, os testes e construir a imagem Docker apenas se passar nos testes.
-- **Pleno:** Provisione a infraestrutura para uma aplicação de 3 camadas (Frontend, Backend, Banco) na AWS (pode usar LocalStack) usando Terraform. Requisitos: Use módulos para reutilização de código e armazene o estado no S3.
-- **Sênior:** Implemente uma arquitetura GitOps completa com ArgoCD e Kubernetes. Requisitos: O cluster deve ter monitoramento (Prometheus/Grafana), auto-scaling (HPA) e políticas de segurança (OPA/Kyverno) para impedir deploys sem limits de CPU/RAM definidos.
+- **Júnior:** Pipeline de CI/CD com GitHub Actions para uma aplicação Node.js: lint, testes e build da imagem Docker só se os testes passarem.
+- **Pleno:** Infraestrutura de 3 camadas (frontend, backend, banco) na AWS (pode usar LocalStack) com Terraform ou OpenTofu, usando módulos e state remoto no S3.
+- **Sênior:** GitOps completo com Argo CD num cluster Kubernetes: Gateway API, monitoramento (OpenTelemetry, Prometheus, Grafana), HPA, SLOs com alerta de burn rate, imagens assinadas com Cosign e políticas Kyverno que barram deploys sem limits.
 
 ---
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **[Linux Journey](https://linuxjourney.com/):** Excelente fundação sobre permissões, serviços, terminal e bash scripting.
-- **[GitHub Actions Documentation](https://docs.github.com/en/actions):** Aprenda a automatizar CI/CD direto da fonte. A base moderna dos pipelines ágeis.
-- **[Docker (Documentação)](https://docs.docker.com/):** Dominar containers é o ponto de partida de qualquer cultura DevOps sólida e moderna.
+- **[Linux Journey](https://linuxjourney.com/):** Fundamentos de Linux, permissões, serviços e terminal.
+- **[GitHub Actions Documentation](https://docs.github.com/en/actions):** CI/CD direto da fonte.
+- **[Docker Docs](https://docs.docker.com/):** Containers, Dockerfile e Compose.
 
 ### 🚀 Para Nível Pleno
 
-- **[Kubernetes (Documentação e Cursos)](https://kubernetes.io/docs/tutorials/):** Entre de cabeça na orquestração corporativa mundial. Pratique com minikube.
-- **[HashiCorp Learn (Terraform)](https://developer.hashicorp.com/terraform/tutorials):** Certificação base e conhecimento em Infraestrutura como Código. Indispensável no mercado de trabalho.
-- **[Prometheus & Grafana (Vídeos Oficiais)](https://prometheus.io/docs/introduction/overview/):** Acompanhe palestras na Cloud Native Computing Foundation (CNCF) sobre a base sólida da observabilidade moderna.
+- **[Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/):** Pratique com minikube ou kind.
+- **[Gateway API](https://gateway-api.sigs.k8s.io/):** Documentação oficial do substituto do Ingress.
+- **[HashiCorp Developer (Terraform)](https://developer.hashicorp.com/terraform/tutorials):** Tutoriais oficiais de IaC.
+- **[OpenTofu Docs](https://opentofu.org/docs/):** Alternativa open source ao Terraform.
+- **[Prometheus Docs](https://prometheus.io/docs/introduction/overview/):** Base de métricas e alertas.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **[eBPF.io](https://ebpf.io/):** Documentação oficial e revolucionária. O coração invisível da observabilidade extrema, redes complexas e segurança avançada moderna.
-- **[Backstage (Spotify)](https://backstage.io/):** O principal framework mundial sobre como criar um Developer Portal de verdade (Internal Developer Platform).
-- **[FinOps Foundation](https://www.finops.org/):** Estude o framework definitivo sobre a relação entre infraestrutura, escala brutal de processamento de Inteligência Artificial, e custos em cloud no mercado de TI global de 2026.
-- **[Backstage (Spotify)](https://backstage.io/):** O framework definitivo para construir Internal Developer Platforms (IDPs) em grandes empresas corporativas.
-- **[ArgoCD / Flux Docs](https://argo-cd.readthedocs.io/):** O guia mais atualizado para escalar GitOps real e contínuo.
-- **[CNCF (Cloud Native Computing Foundation) Landscape](https://landscape.cncf.io/):** Mapeamento atualizado anualmente pela fundação, focando em ferramentas mantidas e criadas pelas empresas top tier. Navegue nos projetos (Graduados) de segurança (Trivy), Observabilidade (OpenTelemetry), e Proxies (Envoy).
+- **[OpenTelemetry Docs](https://opentelemetry.io/docs/):** Instrumentação e Collector.
+- **[eBPF.io](https://ebpf.io/) e [Cilium Docs](https://docs.cilium.io/):** eBPF na prática para rede e segurança.
+- **[Argo CD Docs](https://argo-cd.readthedocs.io/) e [Flux Docs](https://fluxcd.io/flux/):** GitOps.
+- **[Backstage](https://backstage.io/):** Framework de portal de desenvolvedores.
+- **[Crossplane](https://docs.crossplane.io/):** Infraestrutura via API do Kubernetes.
+- **[Sigstore](https://docs.sigstore.dev/) e [SLSA](https://slsa.dev/):** Assinatura e proveniência de software.
+- **[DORA](https://dora.dev/):** Pesquisa e guias de métricas de entrega.
+- **[Google SRE Workbook](https://sre.google/workbook/table-of-contents/):** Implementação prática de SLOs e alertas.
+- **[FinOps Foundation](https://www.finops.org/framework/):** Framework de FinOps.
+- **[CNCF Landscape](https://landscape.cncf.io/):** Mapa dos projetos cloud native (graduados, incubating e sandbox).
 
 ---
 

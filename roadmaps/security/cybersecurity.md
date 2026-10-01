@@ -1,6 +1,6 @@
 # 🔐 Trilha Cybersecurity: O Guardião Digital
 
-> **Edição 2026:** Focado em Zero Trust, DevSecOps e Segurança de IA (AI Red Teaming).
+> **Edição 2026:** Zero Trust, DevSecOps, cadeia de suprimentos, criptografia pós-quântica e segurança de IA (LLMs e agentes).
 
 ```mermaid
 flowchart TD
@@ -17,7 +17,7 @@ flowchart TD
     style Spec fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-Em um mundo onde tudo está conectado, a segurança não é um "extra", é a fundação. O profissional de cibersegurança é o estrategista que protege os dados, a infraestrutura e a reputação das empresas contra ameaças cada vez mais sofisticadas.
+Segurança faz parte do produto, não é etapa final. O profissional da área protege dados, infraestrutura e sistemas, e ajuda times a reduzir risco com controles práticos e mensuráveis.
 
 Esta trilha está dividida em níveis para guiar sua evolução profissional.
 
@@ -32,7 +32,7 @@ O foco aqui é entender como os computadores conversam e como trancar as portas 
 Você não pode proteger o que não entende.
 
 - **Modelo OSI/TCP-IP:** Camadas de transporte, rede e aplicação.
-- **Protocolos:** DNS (e DNS Sec), HTTP vs HTTPS (TLS/SSL), SSH, FTP.
+- **Protocolos:** DNS (e DNSSEC), HTTP/HTTPS com TLS 1.3, HTTP/3 (QUIC), SSH, SMTP com SPF/DKIM/DMARC.
 - **Ferramentas:** Wireshark (analisar pacotes), Nmap (scan de portas).
 
 ### 🐧 Sistemas Operacionais & Hardening
@@ -44,8 +44,13 @@ Você não pode proteger o que não entende.
 ### 🔑 Criptografia Básica
 
 - **Simétrica vs Assimétrica:** Chaves públicas e privadas.
-- **Hashing:** Entenda que MD5/SHA-1 estão mortos. Use SHA-256 ou Argon2 para senhas.
-- **Certificados Digitais:** Como funciona a confiança na web (PKI).
+- **Hashing:** MD5 e SHA-1 não servem para segurança. Use SHA-256/SHA-3 para integridade e Argon2id (ou scrypt/bcrypt) para senhas.
+- **Certificados Digitais:** PKI, ACME/Let's Encrypt e a redução da validade dos certificados TLS públicos (rumo a 47 dias), que exige automação da renovação.
+
+### 🔐 Identidade e Autenticação
+
+- **MFA e Passkeys (FIDO2/WebAuthn):** Passkeys resistem a phishing e substituem senhas. Prefira-as a SMS e TOTP quando possível.
+- **OAuth 2.1, OpenID Connect e JWT:** Fluxos corretos (Authorization Code com PKCE) e erros comuns na validação de tokens.
 
 ---
 
@@ -55,8 +60,9 @@ Aqui você começa a atacar (para testar) e defender sistemas reais.
 
 ### 🕸️ Web Security (AppSec)
 
-- **OWASP Top 10:** A bíblia das vulnerabilidades. SQL Injection, XSS, Broken Access Control.
-- **Ferramentas:** Burp Suite (Proxy de interceptação), OWASP ZAP.
+- **OWASP Top 10:2025:** Referência para riscos web: Broken Access Control (continua em 1º), Security Misconfiguration, falhas na cadeia de suprimentos de software, falhas criptográficas, injeção (SQLi, XSS), design inseguro e tratamento inadequado de condições excepcionais. Confira a lista vigente no site da OWASP.
+- **APIs:** OWASP API Security Top 10 (2023): BOLA, autenticação quebrada, SSRF.
+- **Ferramentas:** Burp Suite (proxy de interceptação), ZAP (Checkmarx).
 
 ### ☁️ Cloud Security
 
@@ -64,12 +70,13 @@ A nuvem é o novo perímetro.
 
 - **IAM (Identity and Access Management):** Princípio do Menor Privilégio. Nunca use chaves de root.
 - **Segurança de Infra:** Security Groups, WAF (Web Application Firewall), VPCs privadas.
-- **Compliance:** CIS Benchmarks para AWS/Azure.
+- **CSPM e IaC:** Escaneie Terraform/Kubernetes antes do deploy (Checkov, Trivy) e monitore a configuração em produção (Prowler, ScoutSuite).
+- **Compliance:** CIS Benchmarks para AWS/Azure/GCP, LGPD, ISO/IEC 27001 e SOC 2.
 
 ### ⚔️ Pentesting Básico (Red Team)
 
 - **Reconhecimento (Recon):** OSINT (Open Source Intelligence).
-- **Exploração:** Metasploit Framework.
+- **Exploração:** Metasploit Framework, Nmap Scripting Engine, sqlmap. Pratique apenas em ambientes autorizados.
 - **Escalação de Privilégio:** Como virar admin depois de entrar.
 
 ---
@@ -82,41 +89,47 @@ Onde você projeta arquiteturas resilientes e lidera a resposta a incidentes.
 
 Segurança automatizada no ciclo de desenvolvimento.
 
-- **SAST/DAST:** SonarQube, Snyk. Achar bugs antes do deploy.
-- **Dependency Scanning:** Evitar vulnerabilidades em bibliotecas de terceiros (Log4Shell).
-- **Container Security:** Trivy para scannear imagens Docker.
+- **SAST/DAST:** CodeQL, Semgrep, SonarQube e ZAP no pipeline. Triagem de falsos positivos é parte do trabalho.
+- **Dependências e Cadeia de Suprimentos:** SCA (Dependabot, Renovate, Snyk, OSV-Scanner), SBOM (CycloneDX/SPDX), assinatura com Sigstore/cosign, níveis SLSA e proteção contra pacotes maliciosos e typosquatting (ataques recentes a npm e PyPI).
+- **Segredos:** Detecção com TruffleHog ou Gitleaks, push protection e rotação automática. Prefira credenciais efêmeras (OIDC) a chaves de longa duração no CI.
+- **Containers e Kubernetes:** Trivy/Grype para imagens, Pod Security Standards, políticas com Kyverno ou OPA Gatekeeper, e detecção em runtime com Falco.
 
 ### 🚫 Zero Trust Architecture
 
 "Nunca confie, sempre verifique."
 
 - **Conceitos:** Micro-segmentação, autenticação contínua, acesso condicional.
-- **BeyondCorp:** O modelo do Google que matou a VPN corporativa.
+- **Referências:** NIST SP 800-207 (Zero Trust Architecture) e o modelo de maturidade da CISA. BeyondCorp (Google) é um caso de estudo de acesso sem VPN tradicional.
+- **Identidade como perímetro:** SSO, acesso condicional, privilégio just-in-time e proteção contra roubo de tokens de sessão.
 
 ### 🚨 Blue Team & Incident Response
 
-- **SIEM (Security Information and Event Management):** Splunk, Elastic Security. Centralizar logs para achar anomalias.
-- **Threat Hunting:** Procurar ativamente por ameaças que passaram pelas defesas.
-- **Forensics:** Analisar memória e disco para entender o que o atacante fez.
+- **SIEM, EDR/XDR e SOAR:** Splunk, Elastic Security, Microsoft Sentinel, Wazuh (open source). Centralize logs e automatize respostas repetitivas.
+- **Detecção como código:** Regras Sigma, mapeamento no MITRE ATT&CK e testes de detecção.
+- **Threat Hunting e Threat Intelligence:** Hipóteses baseadas em TTPs, não só em IOCs.
+- **Resposta a incidentes:** Ciclo do NIST SP 800-61 (Rev. 3, alinhado ao CSF 2.0), playbooks, comunicação e exercícios de mesa. Ransomware: backups imutáveis e testados.
+- **Forensics:** Memória (Volatility), disco e logs de nuvem.
+- **Frameworks:** NIST Cybersecurity Framework 2.0 (inclui a função Govern) e CIS Controls v8.
 
 ### ⚛️ Criptografia Pós-Quântica (PQC)
 
-Computadores quânticos vão quebrar RSA e ECC em breve. Prepare-se agora.
+Computadores quânticos capazes de quebrar RSA e ECC ainda não existem, mas dados com vida longa já correm risco.
 
-- **Ameaça "Harvest Now, Decrypt Later":** Atacantes estão salvando dados criptografados hoje para quebrar no futuro.
-- **Novos Padrões NIST:** Migre para algoritmos resistentes a ataques quânticos.
-  - **Kyber (ML-KEM):** Para troca de chaves (Key Encapsulation).
-  - **Dilithium (ML-DSA):** Para assinaturas digitais.
+- **"Harvest Now, Decrypt Later":** Tráfego cifrado hoje pode ser armazenado e decifrado no futuro.
+- **Padrões NIST (agosto/2024):** **ML-KEM** (FIPS 203, baseado em CRYSTALS-Kyber) para troca de chaves, **ML-DSA** (FIPS 204, Dilithium) e **SLH-DSA** (FIPS 205, SPHINCS+) para assinaturas. O **HQC** foi selecionado em 2025 como algoritmo adicional de KEM.
+- **Migração na prática:** Faça inventário criptográfico (CBOM), adote modo híbrido (ex.: X25519MLKEM768 no TLS, já disponível em navegadores e bibliotecas atuais) e planeje agilidade criptográfica. O NIST prevê desativar RSA/ECC de 112 bits até 2030 e proibi-los até 2035 (NIST IR 8547).
 
-### 🤖 AI Security & AI Red Teaming (O Novo Front de 2026)
+### 🤖 AI Security & AI Red Teaming
 
-Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um oceano inteiro de novas superfícies de ataque para 2026.
+IA adiciona novas superfícies de ataque, principalmente quando modelos recebem ferramentas e acesso a dados.
 
-- **OWASP Top 10 para LLMs:** A extensão natural das vulnerabilidades tradicionais aplicadas para a era GenAI.
-- **Prompt Injection e Jailbreaking (Avançado):** Usuários forçando modelos corporativos a exfiltrarem chaves de banco de dados e senhas via injeção de comandos maliciosos disfarçados de linguagem natural.
-- **Data Poisoning & Supply Chain Attacks (HuggingFace):** Risco de corromper o output de um modelo de IA ao importar pesos infectados do HuggingFace ou ao usar dados maliciosos durante o Fine-Tuning.
-- **AI Red Teaming:** O papel mais valorizado em 2026. Você ataca seu próprio modelo, simulando atores maliciosos. Tenta fazê-lo gerar conteúdo tóxico ou vazar segredos financeiros, para que a equipe aplique o alinhamento adequado (Guardrails).
-- **Model Theft (Roubo de Pesos):** Proteger o segredo industrial, o intelecto treinado do seu modelo LLM privado, contra vazamentos de instâncias.
+- **OWASP Top 10 para LLMs (2025):** Prompt Injection, Divulgação de Informações Sensíveis, Cadeia de Suprimentos, Envenenamento de Dados e Modelos, Tratamento Inadequado de Saída, Agência Excessiva, Vazamento de System Prompt, Fraquezas em Vetores e Embeddings, Desinformação e Consumo Ilimitado. Há também o OWASP Top 10 para Aplicações Agênticas.
+- **Prompt Injection (direta e indireta):** Instruções escondidas em e-mails, páginas ou documentos que o agente lê. Mitigação: privilégio mínimo, separação entre dados e instruções, confirmação humana para ações sensíveis, sandbox e filtragem de saída.
+- **Segurança de MCP e agentes:** Servidores MCP não confiáveis, "tool poisoning", tokens com escopo amplo e exfiltração por ferramentas. Autentique com OAuth, restrinja escopos e revise servidores de terceiros como qualquer dependência.
+- **Cadeia de suprimentos de modelos:** Pesos e datasets de hubs públicos podem conter código malicioso (pickle). Prefira o formato safetensors, verifique origem e escaneie artefatos.
+- **AI Red Teaming:** Teste adversarial do seu próprio sistema com ferramentas como garak, PyRIT e promptfoo, guiado por MITRE ATLAS e NIST AI 100-2 (taxonomia de ataques adversariais).
+- **Governança:** NIST AI RMF, ISO/IEC 42001 e EU AI Act.
+- **IA na defesa e no ataque:** Triagem de alertas assistida por IA exige validação humana; atacantes também usam IA para phishing e deepfakes, o que reforça verificação fora de banda e passkeys.
 
 ### 🧠 Soft Skills & Diferencial Humano
 
@@ -127,34 +140,40 @@ Onde há código, há vulnerabilidade. A Inteligência Artificial trouxe um ocea
 ### 🏆 Desafios Práticos (Projetos)
 
 - **Júnior:** Configure um servidor Linux em uma VM, feche todas as portas exceto SSH (com chave, sem senha) e configure um firewall (UFW). Use o Nmap para verificar se está seguro.
-- **Pleno:** Suba uma aplicação vulnerável (ex: OWASP Juice Shop) em um container isolado e use o Burp Suite para explorar 3 vulnerabilidades do OWASP Top 10. Documente como corrigir.
-- **Sênior:** Implemente um pipeline de CI/CD no GitHub Actions que bloqueie o deploy se encontrar segredos (chaves de API) no código ou vulnerabilidades críticas nas dependências (usando Trivy/Snyk).
+- **Pleno:** Suba uma aplicação vulnerável (ex: OWASP Juice Shop) em um container isolado e use o Burp Suite para explorar 3 vulnerabilidades do OWASP Top 10. Documente como corrigir e adicione um teste automatizado que impeça a regressão.
+- **Sênior:** Implemente um pipeline de CI/CD no GitHub Actions que bloqueie o deploy se encontrar segredos (chaves de API) no código ou vulnerabilidades críticas nas dependências (usando Gitleaks/TruffleHog, Trivy ou OSV-Scanner), gere um SBOM e assine a imagem com cosign.
+- **Especialista:** Escreva um agente com ferramentas MCP e ataque-o com prompt injection indireta. Documente as mitigações e meça a taxa de sucesso antes e depois.
 
 ---
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **[TryHackMe (Plataforma Completa)](https://tryhackme.com/):** O lugar definitivo em 2026 para iniciar sua jornada, focado enormemente em fundamentos de Linux, TCP/IP, criptografia e vetores iniciais de penetração Web em uma abordagem super gamificada.
-- **[OWASP Top 10 (Documentação)](https://owasp.org/www-project-top-ten/):** A cartilha mundial absoluta que baseia quase todo o escopo primário e avançado dos perigos lógicos para todas as aplicações web globais.
-- **[PortSwigger Web Security Academy](https://portswigger.net/web-security):** Criado pelos fundadores do Burp Suite. Gratuito, moderno, com laboratórios gigantescos essenciais desde Injections até perigos baseados em OAuth e JWT.
+- **[TryHackMe](https://tryhackme.com/):** Trilhas guiadas de Linux, redes, criptografia e web.
+- **[OWASP Top 10](https://owasp.org/www-project-top-ten/):** Lista de riscos web, edição 2025.
+- **[PortSwigger Web Security Academy](https://portswigger.net/web-security):** Laboratórios gratuitos, de injeções a OAuth e JWT.
+- **[OverTheWire](https://overthewire.org/wargames/):** Wargames para treinar Linux e linha de comando.
 
 ### 🚀 Para Nível Pleno
 
-- **[Hack The Box (HTB)](https://www.hackthebox.com/):** Mergulho aprimorado em "máquinas" complexas, testes diretos com ambientes Active Directory corporativos gigantes, engenharia reversa pesada e desafios fortíssimos contra as proteções e defesas modernas de sistemas operacionais.
-- **[TruffleHog e CodeQL](https://trufflesecurity.com/trufflehog/):** Entre a fundo nas documentações e ecossistemas open-source sobre detecções corporativas pesadas de segredos, além de rastreamentos semânticos no código-fonte em processos contínuos de DevSecOps via pipelines no GitHub Actions e GitLab CI.
-- **[CyberMentor / TCM Security](https://tcm-sec.com/):** Excelentes trilhas independentes sobre Ethical Hacking completo, análise pesada sobre Ransomwares corporativos em redes da empresa, mitigação, análise profunda de Malwares (Engenharia Reversa) e OSINT Avançado no mercado civil atual.
+- **[Hack The Box](https://www.hackthebox.com/):** Máquinas e cenários de Active Directory.
+- **[TCM Security](https://tcm-sec.com/):** Cursos de ethical hacking e segurança de redes.
+- **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/):** Guias práticos de defesa por tema.
+- **[Flaws.cloud](https://flaws.cloud/) e [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat):** Prática de segurança em AWS.
+- **[CodeQL](https://codeql.github.com/docs/) e [TruffleHog](https://github.com/trufflesecurity/trufflehog):** Análise de código e detecção de segredos no CI.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **[CISA e NIST (Arquiteturas Globais de Confiança Zero - Zero Trust)](https://www.cisa.gov/zero-trust-maturity-model):** Todo especialista profundo se baseia em relatórios rigorosos criados pelo NIST. O conhecimento vital e holístico da matriz cibernética corporativa baseada exclusivamente nos modelos avançados e certificados na adoção mundial (RBAC/ABAC), arquitetura governamental de Confiança Zero.
-- **[eBPF.io (Segurança Absoluta do Kernel via Cilium)](https://ebpf.io/):** Uma quebra histórica no isolamento de rede global e da segurança mundial através da execução rigorosa via máquinas virtuais isoladas internamente na estrutura monolítica do kernel do Linux sem dependência pesada baseada no IPTable, proporcionando filtragens na camada L7 em microsserviços modernos ultrarrápidos e seguros de maneira transparente às aplicações corporativas do lado do desenvolvedor.
-- **[AI Red Teaming & OWASP Machine Learning Security Top 10](https://owasp.org/www-project-machine-learning-security-top-10/):** Domínio vital na Fronteira 2026 mundial abordando o estudo maciço contra a Injeção de Prompts indiretos massivos (Prompt Injection) invadindo frameworks de Inteligência Artificial na empresa, exfiltração oculta de modelos SLM/LLM rodando localmente (Data Poisoning) por invasores modernos globais que subvertem LLMs e desviam dados sigilosos e sensíveis dos processos automatizados de forma transparente e sutil (Sleeper Agents / Jailbreaks em LLMOps).
-- **[PicoCTF (Carnegie Mellon University)](https://picoctf.org/):** Jogue Capture The Flag de alta classe universitária e foque intensamente em "Reverse Engineering", "Binary Exploitation" e Criptografia.
-- **[AI Red Teaming (Microsoft / NVIDIA)](https://www.microsoft.com/en-us/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/):** Guias de elite sobre como hackear e auditar modelos fundacionais e LLMs com Prompt Injection, Jailbreaks estruturados e extração de dados.
+- **[NIST SP 800-207 (Zero Trust)](https://csrc.nist.gov/pubs/sp/800/207/final) e [CISA Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model):** Arquitetura e maturidade.
+- **[NIST Post-Quantum Cryptography](https://csrc.nist.gov/projects/post-quantum-cryptography):** Padrões FIPS 203, 204 e 205 e guias de migração.
+- **[NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework):** Estrutura de gestão de risco.
+- **[MITRE ATT&CK](https://attack.mitre.org/) e [MITRE ATLAS](https://atlas.mitre.org/):** Técnicas de ataque a sistemas tradicionais e de IA.
+- **[OWASP Top 10 para LLMs](https://genai.owasp.org/llm-top-10/):** Riscos de aplicações com IA generativa.
+- **[Microsoft AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/):** Guias e a ferramenta PyRIT.
+- **[SLSA](https://slsa.dev/) e [Sigstore](https://www.sigstore.dev/):** Integridade da cadeia de suprimentos.
+- **[eBPF.io](https://ebpf.io/) e [Cilium](https://cilium.io/):** Observabilidade e políticas de rede/segurança no kernel Linux.
+- **[picoCTF](https://picoctf.org/):** CTFs de engenharia reversa, exploração e criptografia.
 
 ---
 
