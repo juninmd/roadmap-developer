@@ -47,6 +47,26 @@ Sêniores projetam agentes corporativos cognitivos e reduzem dependência (e cus
 - **Ecossistema de Agentes Autônomos (Compound AI):** Substituição brutal do fluxo síncrono da API pelo planejamento autônomo e assíncrono das LLMs. Frameworks complexos de loop cognitivo (LangGraph, CrewAI, AutoGen). DSPy (programar e compilar as heurísticas ao invés de codificar strings de prompts frágeis e longos), orquestração de Agentes usando ferramentas da internet/terminal da máquina (Tool Use) integrado ao MCP (Model Context Protocol).
 - **LLM Ops Corporativo:** Total Observabilidade do RAG via plataformas maduras (LangSmith, Langfuse). Uso analítico intensivo de Evals e IA-as-a-Judge para automatizar testes (Ragas). Model Serving corporativo seguro de SLMs on-premise com vLLM e Ollama em clusters Kubernetes, para privacidade extrema na arquitetura Local First AI corporativa sem dependência externa em dados Sigilosos bancários (Zero-Trust Local).
 
+### 🧪 Guia Prático: DSPy (Otimização de Prompts)
+
+Em vez de ajustar prompts à mão, você declara _o que_ o modelo deve fazer e deixa o DSPy _compilar_ o prompt.
+
+1. **Signature:** descreva entrada e saída (`"pergunta -> resposta"`).
+2. **Module:** escolha a estratégia (`dspy.Predict`, `dspy.ChainOfThought`, `dspy.ReAct`).
+3. **Métrica:** crie uma função que pontua a resposta (exact match ou LLM-as-a-judge).
+4. **Optimizer:** rode `MIPROv2` ou `BootstrapFewShot` sobre 20-50 exemplos para gerar o prompt otimizado.
+5. **Avalie e versione:** compare antes/depois com `dspy.Evaluate` e salve o programa compilado.
+
+```python
+import dspy
+
+dspy.configure(lm=dspy.LM("openai/gpt-4o-mini"))
+qa = dspy.ChainOfThought("pergunta -> resposta")
+print(qa(pergunta="O que é Local-First?").resposta)
+```
+
+- 📖 [Tutoriais oficiais do DSPy](https://dspy.ai/tutorials/)
+
 ## 🛡️ IA Responsável e Alinhamento Ético Corporativo (Obrigatório em 2026)
 
 - **Segurança Cognitiva:** Engenharia intensa de proteção massiva de agentes contra as temidas falhas de Prompt Injection corporativo, corrupção da base analítica e envenenamento oculto (Data Poisoning).

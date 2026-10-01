@@ -118,6 +118,21 @@ A fronteira de segurança não é o firewall, é o "NPM Install" que o dev júni
 - **Policy as Code (OPA & Kyverno):** Todo Pull Request no Kubernetes passa por um Agente Validador de Segurança. Se o container for rodar como usuário root, ou não tiver _Resource Limits_, o deploy é bloqueado por uma falha na validação da política de segurança, não importa quem o solicitou.
 - **Container Scanning Contínuo:** Trivy, Grype ou Clair escaneiam imagens em tempo de build, parando a esteira caso se detecte as graves vulnerabilidades de dia zero (CVE).
 
+### 📈 Métricas DORA (Performance de Entrega)
+
+As cinco métricas do [DORA](https://dora.dev/guides/dora-metrics/) medem velocidade e estabilidade juntas:
+
+| Métrica | O que mede | Meta de elite (referência) |
+| --- | --- | --- |
+| Lead Time for Changes | Commit → produção | < 1 dia |
+| Deployment Frequency | Frequência de deploys | Sob demanda (várias por dia) |
+| Change Failure Rate | % de deploys que causam falha | < 5% |
+| Failed Deployment Recovery Time | Tempo para restaurar o serviço | < 1 hora |
+| Deployment Rework Rate | % de deploys não planejados (correções) | Baixo e em queda |
+
+- **Como medir:** extraia dados do Git, do CI/CD e do gestor de incidentes (ex.: Four Keys, Backstage, Grafana).
+- **Cuidado:** use como diagnóstico do time, nunca como ranking individual.
+
 ### 💰 FinOps & Green Software
 
 A nuvem é a coisa mais fácil do mundo de se pagar caro. A fatura mensal tem que ser monitorada pela infra.

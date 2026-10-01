@@ -102,6 +102,7 @@ A IA não precisa mais apenas da Nuvem, ela cabe no seu bolso.
 - **Small Language Models (SLMs) e Quantização:** Aprender a usar _Quantization_ (4-bit/8-bit) para espremer modelos como Phi-3, Gemma, ou Mistral na RAM limitada do celular sem perder raciocínio lógico.
 - **Frameworks de IA Nativos:**
   - **ExecuTorch:** O sucessor do PyTorch Mobile. Permite carregar modelos grandes otimizados nativamente para iOS/Android consumindo a menor memória e bateria possível.
+  - **Passo a passo com ExecuTorch:** (1) exporte o modelo com `torch.export`; (2) quantize (8-bit/4-bit) e escolha o backend (XNNPACK na CPU, Core ML/ANE no iOS, QNN/Vulkan no Android); (3) gere o arquivo `.pte` com `to_edge()` e `to_executorch()`; (4) embarque o `.pte` e execute pelo runtime (Kotlin/Java no Android, Swift/Obj-C no iOS); (5) meça latência, memória e bateria em aparelhos reais de entrada.
   - **Apple CoreML (Avançado):** Utilizar o Apple Neural Engine (ANE) e o formato de pesos `.mlmodelc` em Swift.
   - **Google MediaPipe & Gemini Nano:** O Android 15 e superior traz o Gemini Nano (AICore) injetado diretamente no sistema operacional (System Service), reduzindo o payload e permitindo prompts ultrarrápidos locais em APIs seguras do Google.
 - **Aceleração via Hardware (NPU):** A diferença entre um app inteligente que esgota a bateria e um eficiente. Utilizar APIs nativas para rotear a carga de processamento das CPUs para Unidades de Processamento Neural (NPUs), que fazem contas matriciais consumindo miliwatts.

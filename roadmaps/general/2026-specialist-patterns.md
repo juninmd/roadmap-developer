@@ -26,6 +26,27 @@ O backend moderno não vive mais apenas em containers dentro de um datacenter ce
 - **Por que importa?** Tempos de inicialização de milissegundos (Cold Starts mínimos). Execução segura em sandboxes. Reuso de código pesado entre Frontend e Backend.
 - **O que dominar:** Cloudflare Workers, Wasmtime, Spin, e integração de módulos Wasm com Node.js e Deno.
 
+### 🧩 Exemplo prático: Rust + Node.js com Wasm
+
+1. Instale o alvo: `rustup target add wasm32-unknown-unknown` e `cargo install wasm-pack`.
+2. Crie a lib: `cargo new --lib calc` e adicione `wasm-bindgen` ao `Cargo.toml` (`crate-type = ["cdylib"]`).
+3. Exporte a função:
+
+   ```rust
+   use wasm_bindgen::prelude::*;
+
+   #[wasm_bindgen]
+   pub fn fib(n: u32) -> u32 {
+       if n < 2 { n } else { fib(n - 1) + fib(n - 2) }
+   }
+   ```
+
+4. Compile para Node: `wasm-pack build --target nodejs`.
+5. Use no Node: `const { fib } = require("./pkg/calc"); console.log(fib(30));`
+6. Meça contra a versão em JS puro e registre o ganho (e o custo de ida e volta JS ↔ Wasm).
+
+- 📖 [Guia wasm-pack](https://rustwasm.github.io/docs/wasm-pack/)
+
 ## 🦀 2. Rust no Backend e Infraestrutura
 
 A era de "memória infinita e instâncias gigantes" na nuvem está acabando por causa dos custos. Linguagens com gerenciamento automático (Garbage Collection), como Java e Node, estão sendo substituídas em serviços críticos (core) por Rust e Go.

@@ -18,12 +18,12 @@ export default withMermaid(
       "HOMOLOG_TEST.md",
     ],
     head: [
-      ["link", { rel: "icon", href: "/coder-cat.jpg" }],
+      ["link", { rel: "icon", href: "/logo.svg" }],
       ["meta", { property: "og:type", content: "website" }],
       ["meta", { property: "og:locale", content: "pt_BR" }],
       ["meta", { property: "og:title", content: "Roadmap Developer 2026" }],
       ["meta", { property: "og:site_name", content: "Roadmap Developer 2026" }],
-      ["meta", { property: "og:image", content: "/coder-cat.jpg" }],
+      ["meta", { property: "og:image", content: "/logo.svg" }],
     ],
     vite: {
       ssr: {
@@ -37,6 +37,11 @@ export default withMermaid(
       },
     },
     themeConfig: {
+      outline: { label: "Nesta página", level: [2, 3] },
+      docFooter: { prev: "Anterior", next: "Próximo" },
+      returnToTopLabel: "Voltar ao topo",
+      sidebarMenuLabel: "Menu",
+      darkModeSwitchLabel: "Tema",
       nav: [
         { text: "Home", link: "/" },
         { text: "Visão Geral (ROADMAP)", link: "/ROADMAP" },

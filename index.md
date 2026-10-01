@@ -6,8 +6,8 @@ hero:
   text: O Guia Definitivo para sua Carreira
   tagline: Trilhas de estudo completas e atualizadas para formar desenvolvedores de elite na Era da IA.
   image:
-    src: /coder-cat.jpg
-    alt: Coder Cat
+    src: /logo.svg
+    alt: Logo Roadmap Developer
   actions:
     - theme: brand
       text: Começar pela Base
