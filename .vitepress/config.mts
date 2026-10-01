@@ -68,6 +68,7 @@ export default withMermaid(
             { text: "QA & Testing", link: "/roadmaps/qa/qa-testing" },
           ],
         },
+        { text: "📡 Tech Radar", link: "/radar" },
         { text: "Conselhos", link: "/advices" },
       ],
 
@@ -77,6 +78,7 @@ export default withMermaid(
           items: [
             { text: "Início", link: "/" },
             { text: "Visão Geral (ROADMAP)", link: "/ROADMAP" },
+            { text: "📡 Tech Radar 2026", link: "/radar" },
             { text: "Conselhos de Carreira", link: "/advices" },
           ],
         },
