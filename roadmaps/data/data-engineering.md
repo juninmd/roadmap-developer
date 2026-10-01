@@ -1,23 +1,23 @@
-# 📊 Trilha Engenharia de Dados: O Petróleo do Século XXI
+# 📊 Trilha Engenharia de Dados: Do Pipeline ao Lakehouse
 
-> **Edição 2026:** Focado em Lakehouse Architecture, Real-time Streaming e Data Governance para IA.
+> **Edição 2026:** Foco em Lakehouse com tabelas abertas, streaming, qualidade de dados e governança para IA.
 
 ```mermaid
 flowchart TD
     Start([Início]) --> Lang(Python & SQL)
     Lang --> Modeling(Modelagem de Dados & OLAP)
-    Modeling --> ETL(ETL/ELT & Orchestration)
+    Modeling --> ETL(ELT, dbt & Orquestração)
     ETL --> Warehouse(Data Warehouses & Cloud)
-    Warehouse --> BigData(Big Data & Spark)
+    Warehouse --> BigData(Spark & Lakehouse)
     BigData --> Stream(Streaming & Real-time)
-    Stream --> Gov(Governança & DataOps)
+    Stream --> Gov(Qualidade, Governança & DataOps)
     Gov --> Spec([Especialista])
 
     style Start fill:#f9f,stroke:#333,stroke-width:2px
     style Spec fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-Dados são o novo petróleo, mas petróleo bruto não serve para nada. O Engenheiro de Dados é quem constrói as refinarias (pipelines) que transformam terabytes de logs brutos em insights valiosos e combustível para a Inteligência Artificial.
+O Engenheiro de Dados constrói os pipelines que transformam logs, eventos e tabelas brutas em dados confiáveis para análises, produtos e modelos de IA.
 
 Esta trilha está dividida em níveis para guiar sua evolução profissional.
 
@@ -29,28 +29,27 @@ O foco aqui é dominar as ferramentas básicas de manipulação e consulta de da
 
 ### 🐍 Python para Dados
 
-- **Pandas:** A biblioteca essencial para manipulação tabular.
-- **Scripting:** Automação de tarefas simples (mover arquivos, limpar CSVs).
-- **APIs:** Consumir dados de APIs REST (biblioteca `requests`).
+- **Pandas e Polars:** Manipulação tabular. Polars é mais rápido e usa menos memória em dados médios.
+- **DuckDB:** Banco analítico embutido; consulta Parquet e CSV com SQL direto no seu notebook ou script, sem servidor.
+- **Scripting e APIs:** Automatize tarefas, consuma APIs REST (`requests`/`httpx`) e trate erros e retentativas.
+- **Formatos:** CSV, JSON e principalmente **Parquet** (colunar e comprimido).
 
-### 🗄️ SQL Avançado (A Língua Franca)
-
-Não basta saber `SELECT *`.
+### 🗄️ SQL Avançado
 
 - **Window Functions:** `RANK()`, `LEAD()`, `LAG()`, `ROW_NUMBER()`.
-- **CTEs (Common Table Expressions):** Organizar queries complexas com `WITH`.
-- **Performance:** Entender índices e planos de execução (Explain Analyze).
+- **CTEs:** Organize queries complexas com `WITH`.
+- **Performance:** Índices e planos de execução (`EXPLAIN ANALYZE`).
 
 ### 🏗️ Modelagem de Dados
 
 - **Relacional (OLTP):** Normalização (3NF).
-- **Dimensional (OLAP):** Star Schema vs Snowflake Schema. Fatos e Dimensões.
-- **Conceitos:** Data Lake vs Data Warehouse.
+- **Dimensional (OLAP):** Star Schema, fatos e dimensões, SCD (dimensões que mudam no tempo).
+- **Conceitos:** Data Lake vs Data Warehouse vs Lakehouse.
 
-### 🐧 Linux & Bash
+### 🐧 Linux, Git e Docker
 
-- Manipulação de arquivos grandes via terminal (`awk`, `sed`, `grep`).
-- Agendamento básico com `cron`.
+- Terminal (`awk`, `sed`, `grep`), `cron` e Git.
+- **Docker:** Rode pipelines e bancos localmente de forma isolada.
 
 ---
 
@@ -60,104 +59,138 @@ Aqui você constrói pipelines robustos e escaláveis na nuvem.
 
 ### 🔄 ETL vs ELT
 
-- **ETL (Extract, Transform, Load):** Transformar antes de carregar (Legado/Segurança).
-- **ELT (Extract, Load, Transform):** Carregar bruto e transformar no destino (Modern Data Stack). Ferramenta padrão: **dbt (data build tool)**.
+- **ETL:** Transforma antes de carregar; útil quando dados sensíveis precisam ser tratados antes de chegar ao destino.
+- **ELT:** Carrega o dado bruto e transforma no warehouse/lakehouse. Ferramenta padrão: **dbt**, com modelos SQL versionados, testes, documentação e linhagem. Conheça também o **dbt Core** (open source) e a plataforma dbt.
+- **Ingestão:** Airbyte, dlt ou Fivetran para conectores; CDC com Debezium para replicar bancos transacionais.
 
 ### ☁️ Cloud Data Warehouses
 
 Escolha um e domine:
 
-- **Snowflake:** Separação de Compute e Storage. Zero-copy cloning.
-- **Google BigQuery:** Serverless e escalabilidade massiva.
-- **AWS Redshift:** O clássico da AWS.
+- **Snowflake:** Compute e storage separados, zero-copy cloning.
+- **Google BigQuery:** Serverless, cobrança por bytes lidos ou slots.
+- **AWS Redshift:** Integrado ao ecossistema AWS.
+- **Databricks SQL:** Warehouse sobre o lakehouse.
 
 ### 🎼 Orquestração de Pipelines
 
-Não use crontab para tudo.
+Não use `cron` para tudo.
 
-- **Apache Airflow:** O padrão da indústria (Python-based). Entenda DAGs, Operators e Sensors.
-- **Prefect / Dagster:** Alternativas modernas com foco em experiência do desenvolvedor.
+- **Apache Airflow 3:** O padrão de mercado. Entenda DAGs, operators, sensors, retries e backfills. Airflow 3 trouxe a nova API de execução de tarefas e agendamento orientado a assets.
+- **Dagster:** Modelo orientado a assets, bom para testes e linhagem.
+- **Prefect:** Fluxos Python simples e flexíveis.
+- **Boas práticas:** Tarefas idempotentes, parâmetros de data (não `now()`), alertas de falha e SLAs de entrega.
 
-### 🐳 Containerização
+### 🌐 Cloud e Infraestrutura
 
-- **Docker:** Rodar seus pipelines e bancos de dados localmente de forma isolada.
+- Object storage (S3, GCS, ADLS), IAM com menor privilégio e Terraform/OpenTofu para provisionar o ambiente.
 
 ---
 
 ## 🧙‍♂️ Nível Avançado (Sênior / Especialista)
 
-Onde você lida com Big Data real, streaming e arquitetura de dados corporativa.
+Onde você lida com grande volume, streaming e arquitetura de dados corporativa.
 
-### 🐘 Processamento Distribuído (Big Data)
+### 🐘 Processamento Distribuído
 
-Quando o Pandas trava por falta de memória RAM.
+Quando uma máquina só não dá conta (e DuckDB/Polars já não resolvem).
 
-- **Apache Spark:** Processamento em memória distribuído. (PySpark).
-- **Databricks:** A plataforma unificada para dados e IA baseada em Spark.
+- **Apache Spark 4.x:** Processamento distribuído (PySpark, Spark SQL). Destaques do 4.0: ANSI mode por padrão, tipo `VARIANT` para JSON semiestruturado, Spark Connect e Python Data Source API.
+- **Databricks:** Plataforma gerenciada de lakehouse baseada em Spark e Delta Lake. Alternativas: EMR, Dataproc, Snowflake e Microsoft Fabric.
+- **Otimização:** Particionamento, skew, shuffle, broadcast joins e compactação de arquivos pequenos.
 
-### 🌊 Real-time Streaming
+### 🌊 Streaming e Real-time
 
-Dados que perdem valor em segundos (fraude, IoT, mercado financeiro).
+Use streaming quando a latência de segundos ou minutos tem valor de negócio (fraude, IoT, operações). Caso contrário, batch é mais simples e barato.
 
-- **Apache Kafka:** O backbone de mensagens. Tópicos, Partições, Offsets.
-- **Stream Processing:** Kafka Streams, Apache Flink ou Spark Structured Streaming.
+- **Apache Kafka 4.x:** Funciona somente em modo **KRaft** (o ZooKeeper foi removido no Kafka 4.0). Entenda tópicos, partições, offsets, consumer groups, retenção, compactação e semântica de entrega (at-least-once, exactly-once). Alternativas compatíveis: Redpanda e serviços gerenciados (MSK, Confluent Cloud).
+- **Schema Registry:** Avro/Protobuf com regras de compatibilidade evitam quebrar consumidores.
+- **Processamento:** **Apache Flink 2.x** (estado, janelas, event time, watermarks), Kafka Streams ou Spark Structured Streaming.
+- **Streaming + Lakehouse:** Gravar eventos em tabelas Iceberg/Delta com Flink ou Spark. Conceitos de CDC, late data e reprocessamento.
 
-### 🏠 Arquitetura de Dados em 2026: Lakehouse, Data Mesh e Data Fabric
+### 🏠 Arquitetura: Lakehouse, Data Mesh e Data Fabric
 
-A arquitetura de dados não é mais um "monolito de DW onde os dados vão para morrer". Ela deve focar na distribuição, governança autônoma e em servir de combustível para GenAI.
+- **Lakehouse:** Object storage barato com transações ACID, schema evolution e time travel via tabelas abertas.
+  - **Apache Iceberg:** Formato mais amplamente suportado entre engines (Spark, Flink, Trino, Snowflake, BigQuery, Athena, DuckDB). Catálogos REST permitem acesso multi-engine.
+  - **Delta Lake:** Nativo no Databricks, com bom suporte no ecossistema Spark. **Apache Hudi** é forte em upserts/CDC. Há esforço de interoperabilidade (Delta UniForm, Apache XTable).
+  - **Catálogos:** Unity Catalog, Apache Polaris, AWS Glue e Nessie. Escolha o catálogo com o mesmo cuidado que o formato.
+  - **Manutenção:** Compactação, expiração de snapshots e remoção de arquivos órfãos.
+  - **Arquitetura Medalhão:** _Bronze_ (bruto), _Silver_ (limpo, tipado) e _Gold_ (agregado para consumo).
+- **Data Mesh:** Abordagem organizacional: domínios donos de seus dados como produto, com plataforma self-service e governança federada. Só faz sentido em organizações grandes; em times pequenos, uma plataforma central bem feita basta.
+- **Data Fabric:** Conceito de integração baseada em metadados e automação; trate como visão de arquitetura, não como produto único.
+- **Serving:** Trino/Athena para consultas federadas, ClickHouse, Druid ou Pinot para analytics em baixa latência.
 
-- **Lakehouse Architecture (O Padrão Ouro):** A união entre a escalabilidade e o baixo custo de armazenamento (Data Lakes no S3/Blob) com a robustez e transações ACID dos bancos de dados tradicionais.
-  - Formatos Open Table: **Apache Iceberg**, **Delta Lake**, **Apache Hudi**. Usar o formato correto evita a dependência de fornecedores (Vendor Lock-in).
-  - Arquitetura Medalhão: A evolução passo a passo dos dados: _Bronze_ (Dado Raw/Bruto como o JSON da API), _Prata_ (Dado limpo, padronizado com schema, ex: data convertida de String para Timestamp) e _Ouro_ (Agregações corporativas prontas para consumo e dashboards do PowerBI).
-- **Data Mesh (Malha de Dados):** Paradigma cultural e arquitetural. Pare de ter um "time centralizado de dados" que vira gargalo na empresa. Trate "Dados como Produto", onde a equipe de RH gerencia e publica os dados do RH num formato padronizado na malha para as outras equipes consumirem por self-service.
-- **Data Fabric:** O uso de IA e Machine Learning para descobrir e conectar padrões de metadados em toda a empresa automaticamente (automação extrema de governança e mapeamento).
+### ✅ Qualidade de Dados e Observabilidade
 
-### 👮 Governança, DataOps e Data Contracts
+- **Testes:** Testes do dbt (`not_null`, `unique`, relationships), **Great Expectations** ou **Soda** para regras de qualidade.
+- **Dimensões de qualidade:** Frescor, volume, schema, completude, unicidade e validade.
+- **Observabilidade de dados:** Monitore atrasos, anomalias de volume e mudanças de schema, com alertas para o dono do dado. Linhagem com **OpenLineage**.
+- **Data Contracts:** Acordo versionado entre produtor e consumidor (schema, semântica, SLA de frescor, dono). Padrão aberto: **Open Data Contract Standard** (Bitol). Valide no CI do produtor para que mudanças que quebram consumidores sejam barradas antes do deploy.
 
-Dados com bugs geram modelos de IA perigosos. "Garbage in, Garbage out".
+### 👮 Governança e Privacidade
 
-- **Catálogo de Dados (Data Discovery):** DataHub ou Collibra. Onde está o dado? Quem é o dono dele? Quando foi atualizado a última vez?
-- **Qualidade de Dados & Data Contracts:** A evolução suprema do ETL. Um _Data Contract_ é um acordo técnico assinado em código entre os Devs de Software e os Eng de Dados. Se o dev alterar a tabela de vendas retirando a coluna "Preço", a esteira CI/CD barra o deploy dele, pois quebrou o contrato que o Engenheiro de Dados validava no pipeline de consumo. Ferramentas: **Great Expectations**, **Soda**.
-- **Privacidade e Governança:** Mascaramento dinâmico de dados sensíveis em tempo real (PII - Personally Identifiable Information). LGPD/GDPR by design.
-- **Vector Engineering (Data para GenAI):** Criar os pipelines automáticos (ETL vetorial) que transformam os Pdfs financeiros diários da empresa em Embeddings para popular os Vector Databases do time de Inteligência Artificial.
+- **Catálogo e descoberta:** DataHub, OpenMetadata, Unity Catalog ou Collibra: dono, descrição, linhagem e classificação de cada dataset.
+- **Controle de acesso:** RBAC/ABAC, row-level security e column masking.
+- **Privacidade:** Classifique PII, aplique mascaramento, pseudonimização e política de retenção. LGPD/GDPR desde o desenho, com suporte a pedidos de exclusão.
+- **Auditoria:** Registre quem acessou o quê.
 
-### 🧠 Soft Skills & Diferencial Humano
+### 🤖 Dados para IA
 
-- **Data Storytelling:** Um CSV gigante não convence ninguém. Aprenda a contar a história por trás dos números para a diretoria.
-- **Ética e Privacidade:** Você tem acesso a dados sensíveis. Seja o guardião da privacidade do usuário, não apenas quem move bytes.
-- **Tradutor de Negócios:** Entenda que "quero ver as vendas" pode significar 10 métricas diferentes. Pergunte "para que decisão você precisa desse dado?".
+- **Pipelines de embeddings:** Extração e limpeza de documentos, chunking, geração de embeddings e carga em um banco vetorial. Atualização incremental e remoção de dados excluídos na origem.
+- **Vector DBs:** **pgvector** (Postgres) atende a muitos casos; use Qdrant, Milvus, Weaviate ou OpenSearch quando precisar de escala e filtros avançados.
+- **Qualidade e proveniência:** Versione datasets, registre origem e permissões dos dados usados em treino e RAG.
+
+### 💰 FinOps de Dados
+
+- Custo por pipeline, query e time (tags, labels e views de billing).
+- Particione e clusterize tabelas, evite `SELECT *`, use materializações incrementais e defina políticas de ciclo de vida no storage.
+- Limite custos com quotas, monitores de orçamento e desligamento automático de clusters ociosos.
+
+### 🧠 Soft Skills
+
+- **Data Storytelling:** Conte a história por trás dos números.
+- **Ética e Privacidade:** Você acessa dados sensíveis; proteja-os.
+- **Tradutor de Negócios:** Pergunte "que decisão você vai tomar com esse dado?" antes de construir.
 
 ### 🏆 Desafios Práticos (Projetos)
 
-- **Júnior:** Baixe um dataset público (Kaggle), limpe-o com Python, modele um Star Schema e carregue em um banco Postgres. Crie queries SQL respondendo perguntas de negócio.
-- **Pleno:** Crie um pipeline no Airflow que extrai dados de uma API (ex: CoinGecko), salva no S3 (MinIO local), transforma com dbt e carrega no Snowflake/BigQuery.
-- **Sênior:** Implemente uma arquitetura Lakehouse (com Delta Lake ou Iceberg) processando um stream de eventos em tempo real (Kafka) e servindo métricas para um dashboard.
+- **Júnior:** Baixe um dataset público (Kaggle), limpe com Python/DuckDB, modele um Star Schema e carregue em Postgres. Responda perguntas de negócio com SQL.
+- **Pleno:** Pipeline no Airflow ou Dagster que extrai dados de uma API (ex.: CoinGecko), salva em object storage (MinIO local), transforma com dbt e carrega em BigQuery ou Snowflake, com testes de qualidade.
+- **Sênior:** Lakehouse com Iceberg: eventos em Kafka (modo KRaft) processados com Flink ou Spark, gravados em tabelas Iceberg com data contract validado no CI, testes de qualidade, linhagem OpenLineage e métricas num dashboard.
 
 ---
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **[DataCamp](https://www.datacamp.com/):** O lugar ideal (interativo no browser) para quem quer pegar intimidade prática com SQL, Python (Pandas/NumPy) e os primeiros passos para dados estruturados.
-- **[Kaggle](https://www.kaggle.com/):** A comunidade onde habitam os datasets. Baixe CSVs (filmes, temperatura do mundo, dados criminais), suba no Postgres/Colab e aprenda limpando a "sujeira" do mundo real.
+- **[DuckDB Docs](https://duckdb.org/docs/):** SQL analítico local, ótimo para praticar.
+- **[Kaggle Learn](https://www.kaggle.com/learn):** Cursos curtos de Python, Pandas e SQL, mais datasets para praticar.
+- **[Mode SQL Tutorial](https://mode.com/sql-tutorial):** SQL do básico às window functions.
 
 ### 🚀 Para Nível Pleno
 
-- **[dbt Learn (Fundamentals)](https://courses.getdbt.com/):** O dbt (data build tool) é obrigatório hoje, e este curso oficial e gratuito de 5 horas ensina do zero o conceito do Analytics Engineering e ELT.
-- **[Marc Lamberti (Udemy/YouTube)](https://www.youtube.com/@marclamberti):** A referência suprema quando o assunto é Apache Airflow (orquestração corporativa).
-- **Livro: "Data Warehouse Toolkit" (Ralph Kimball):** Um livro das antigas, mas a modelagem dimensional (Star Schema) ainda dita as regras em ambientes BigQuery/Snowflake.
+- **[dbt Learn](https://learn.getdbt.com/):** Cursos oficiais de dbt e Analytics Engineering.
+- **[Apache Airflow Docs](https://airflow.apache.org/docs/):** Documentação e tutoriais oficiais.
+- **[Dagster University](https://courses.dagster.io/):** Cursos gratuitos de Dagster.
+- **Livro: "The Data Warehouse Toolkit" (Ralph Kimball):** Base da modelagem dimensional.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **[Data Engineering Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/data-engineering-zoomcamp):** Bootcamp intensivo, de código aberto e comunitário do GitHub abrangendo Airflow, Kafka, Spark, Terraform e GCP/AWS. Absolutamente fantástico.
-- **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** A leitura definitiva sobre bancos de dados distribuídos e transações, recomendada igualmente para Devs de Backend.
-- **Livro: "Data Mesh: Delivering Data-Driven Value at Scale" (Zhamak Dehghani):** A criadora do conceito ensina arquiteturas descentralizadas corporativas focadas em escalabilidade e cultura.
-- **[Databricks Academy (Cursos de Lakehouse e Spark)](https://www.databricks.com/learn/training/home):** Mergulhe na fundação de um Data Lakehouse robusto via Apache Spark, Delta Lake e MLflow corporativo para integrar as equipes de Engenharia e IA de forma profissional.
-- **[Apache Iceberg Documentation](https://iceberg.apache.org/docs/latest/):** Estude o formato de tabela aberta (Open Table Format) que se tornou o padrão absoluto da indústria em 2026 para Data Lakes de alta performance.
-- **[Data Contracts (Gable.ai / Chad Sanderson)](https://www.gable.ai/):** Aprofunde-se no ecossistema e ferramentas para garantir qualidade de dados extrema (Shift-Left Data Quality) e contratos de dados.
+- **[Data Engineering Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/data-engineering-zoomcamp):** Curso aberto e prático com Kafka, Spark, dbt e orquestração.
+- **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** Referência sobre sistemas de dados distribuídos.
+- **Livro: "Fundamentals of Data Engineering" (Joe Reis e Matt Housley):** Visão completa do ciclo de vida de dados.
+- **[Apache Spark Docs](https://spark.apache.org/docs/latest/):** Guia de Spark 4.x.
+- **[Apache Kafka Docs](https://kafka.apache.org/documentation/):** Kafka 4.x e KRaft.
+- **[Apache Flink Docs](https://nightlies.apache.org/flink/flink-docs-stable/):** Streaming com estado.
+- **[Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/):** Formato de tabela aberto.
+- **[Delta Lake Docs](https://docs.delta.io/latest/index.html):** Formato de tabela do ecossistema Spark/Databricks.
+- **[Databricks Academy](https://www.databricks.com/learn/training/home):** Cursos de Spark, Delta Lake e lakehouse.
+- **[OpenLineage](https://openlineage.io/docs/):** Padrão aberto de linhagem.
+- **[Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/latest/):** Especificação de data contracts.
+- **[DataHub Docs](https://datahubproject.io/docs/) e [OpenMetadata](https://docs.open-metadata.org/):** Catálogo e governança open source.
+- **[FinOps Foundation](https://www.finops.org/framework/):** Práticas de gestão de custos em nuvem.
+- **Livro: "Data Mesh" (Zhamak Dehghani):** Origem do conceito.
 
 ---
 

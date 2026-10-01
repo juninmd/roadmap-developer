@@ -1,161 +1,207 @@
-# 🗺️ Trilha Comum: A Base para Toda Grande Jornada DEV
+# 🗺️ Trilha Comum: A Base para Toda Jornada DEV
 
-> **Edição 2026:** Inclui Alfabetização em IA e novos paradigmas de trabalho com Agentes.
+> **Edição 2026 (atualizada em out/2026):** fundamentos, Git/GitHub moderno, desenvolvimento assistido por IA com revisão humana, carreira e soft skills.
 
-**O Desafio do Desenvolvedor Completo 2026:** O conhecimento esperado abrange desde a lógica estruturada do nível Júnior até a orquestração avançada e pensamento arquitetural de um Especialista. Não se trata apenas de escrever código, mas de garantir alta qualidade, sustentabilidade (Green Coding) e estar plenamente engajado com ferramentas modernas e ciclos de feedback otimizados.
+Esta trilha vale para qualquer especialização. A IA acelera quem já entende o que está pedindo; sem fundamentos, você não consegue julgar o que ela entrega. Por isso a ordem é: base sólida, ferramentas, e só então o uso intenso de agentes.
 
 ```mermaid
 flowchart TD
     Start([Início]) --> Git(Git & GitHub)
-    Git --> AI(Alfabetização em IA)
-    AI --> Logic(Lógica & Algoritmos)
+    Git --> Logic(Lógica, Algoritmos & Estruturas de Dados)
     Logic --> English(Inglês Técnico)
-    English --> HTTP(HTTP, DNS & Internet)
-    HTTP --> OS(Sistemas Operacionais & Terminal)
-    OS --> Next([Próximos Passos: Especialização])
+    English --> OS(Terminal & Sistemas Operacionais)
+    OS --> Net(HTTP, DNS & Redes)
+    Net --> SQL(SQL & Bancos de Dados)
+    SQL --> AI(Desenvolvimento Assistido por IA)
+    AI --> Career(Carreira & Soft Skills)
+    Career --> Next([Próximos Passos: Especialização])
 
     style Start fill:#f9f,stroke:#333,stroke-width:2px
     style Next fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-Todo grande herói de uma saga de fantasia precisa de um mapa, uma espada e um conjunto de habilidades básicas, certo? No universo do desenvolvimento, esta trilha é o seu kit de sobrevivência. São os feitiços e habilidades que todo(a) dev, não importa a especialização, precisa dominar.
-
 ---
 
 ## 🐣 Nível 1: A Fundação (Obrigatório)
 
-Antes de tentar voar, você precisa aprender a andar. Estes são os pilares que sustentam todo o resto.
+### 📦 Git & GitHub
 
-### 📦 Git & GitHub: Salvando seu Progresso
-
-- **O que é?** Pense no Git como um sistema de "save points" para o seu código. Ele permite que você salve versões do seu projeto, volte no tempo se algo der errado e trabalhe em equipe sem que um sobrescreva o trabalho do outro. O GitHub é como uma grande biblioteca online para seus projetos Git, um lugar para guardá-los e compartilhá-los com o mundo. É o seu portfólio, sua base de operações.
-- **Por que aprender?** "Com grandes poderes vêm grandes responsabilidades". Sem Git, você corre o risco de perder trabalho, criar conflitos de versão e ter uma dor de cabeça digna de um vilão da Marvel.
+- **O que é?** Git versiona seu código: salva histórico, permite voltar no tempo e trabalhar em paralelo. GitHub hospeda repositórios e organiza a colaboração (Issues, Pull Requests, Actions).
+- **O que dominar:**
+  - Fluxo diário: `clone`, `switch -c`, `add`, `commit`, `push`, `pull --rebase`, `merge`, `rebase`, `stash`, `restore`, `reflog` (para desfazer erros).
+  - Commits pequenos e com mensagem clara (ex.: [Conventional Commits](https://www.conventionalcommits.org/pt-br/)).
+  - Pull Requests: descrição objetiva, diff pequeno, revisão de código, resolução de conflitos.
+  - Branch protection e rulesets, `CODEOWNERS` e revisão obrigatória antes do merge.
+  - GitHub Actions para testes e lint a cada PR; `git worktree` para trabalhar em várias branches (ou várias sessões de agente) em paralelo.
+  - Segurança básica: chaves SSH ou assinatura de commits, nunca versionar segredos, ativar secret scanning e Dependabot.
 - **Recursos:**
-  - 📖 [Documentação Oficial do Git](https://git-scm.com/doc)
-  - 📺 [Git e GitHub para Iniciantes (Vídeo)](https://www.youtube.com/watch?v=UMhskLXJuq4)
+  - 📖 [Pro Git (livro gratuito)](https://git-scm.com/book/pt-br/v2)
+  - 📖 [Documentação do Git](https://git-scm.com/doc)
+  - 📖 [Documentação do GitHub](https://docs.github.com/pt)
+  - 🎮 [GitHub Skills (cursos interativos)](https://skills.github.com/)
 
-### 🧠 Lógica de Programação e Algoritmos
+### 🧠 Lógica, Algoritmos e Estruturas de Dados
 
-- **O que são?** Algoritmos são como receitas de bolo: um passo a passo para resolver um problema. Estruturas de Dados são as "prateleiras" e "potes" onde você organiza seus ingredientes (dados) da forma mais eficiente.
-- **Por que aprender?** Um bom cozinheiro sabe organizar sua cozinha para pegar os ingredientes rapidamente. Um(a) bom(a) dev sabe como estruturar seus dados para que o programa rode rápido e sem travar. É a diferença entre um feitiço que funciona instantaneamente e um que demora uma eternidade.
+- **O que estudar:** complexidade (Big O), arrays, listas, pilhas, filas, hash maps, árvores, grafos, ordenação, busca binária, recursão e programação dinâmica básica.
+- **Por que ainda importa com IA?** Você precisa perceber quando o código gerado é O(n²) onde poderia ser O(n log n), e entrevistas técnicas continuam cobrando isso.
+- **Como praticar:** resolva poucos problemas por semana, mas explique a solução em voz alta e analise a complexidade. Não use IA para dar a resposta; use-a para pedir dicas e revisar depois.
 - **Recursos:**
-  - 📖 [Visualgo: Visualizando Algoritmos e Estruturas de Dados](https://visualgo.net/en)
-  - 📺 [Curso de Algoritmos e Lógica de Programação (Vídeo)](https://www.youtube.com/watch?v=8mei6uVttho)
+  - 📖 [Visualgo: algoritmos animados](https://visualgo.net/en)
+  - 🎓 [CS50x (Harvard)](https://cs50.harvard.edu/x/)
+  - 🧩 [LeetCode](https://leetcode.com/) e [Exercism](https://exercism.org/)
 
-### 🌍 Inglês para Devs: A Língua Universal
+### 🌍 Inglês Técnico
 
-- **Por que aprender?** A documentação, os fóruns (Stack Overflow, GitHub Issues), os vídeos e as ferramentas de IA mais avançadas são, majoritariamente, em inglês. Saber inglês abre as portas do conhecimento global. Não precisa ser fluente para começar, mas a "leitura técnica" é essencial.
-- **Dicas:**
-  - Mude o idioma do seu celular e computador para inglês.
-  - Tente ler a documentação original antes de procurar a tradução.
-  - Consuma conteúdo de IA em inglês (newsletters, vídeos), pois a tradução de termos técnicos costuma ser confusa.
+- Documentação, issues, RFCs e papers saem primeiro em inglês. Foque em leitura técnica e em escrever PRs e commits claros.
+- **Dicas:** leia a documentação original antes da tradução; mantenha ferramentas em inglês; anote termos novos no Anki.
 
 ---
 
 ## 🛠️ Nível 2: Ferramentas do Dia a Dia
 
-Agora que você tem a base teórica, vamos para as ferramentas que você usará todo santo dia.
+### 🐧 Terminal e Sistemas Operacionais
 
-### 🤖 Alfabetização em IA: O Novo Superpoder
-
-A Inteligência Artificial não vai substituir os desenvolvedores, mas os desenvolvedores que usam IA vão substituir os que não usam.
-
-- **Coding Assistants (Copilotos):**
-  - **GitHub Copilot / Cursor / Windsurf:** Aprenda a usar essas ferramentas para gerar boilerplate, explicar código legado e escrever testes.
-  - **Context Awareness:** Entenda que a IA precisa de contexto. Não peça apenas "crie uma função". Peça "crie uma função que faça X, dado que o banco de dados é Y e estamos usando a biblioteca Z".
-- **Prompt Engineering para Devs:**
-  - **Zero-Shot vs Few-Shot:** Não espere que a IA adivinhe a arquitetura do seu projeto. Dê exemplos de código existentes. "Gere testes unitários para a função X seguindo exatamente o padrão do arquivo `test_Y.ts`: [cole o código aqui]".
-  - **Chain of Thought (CoT):** Obrigue o modelo a raciocinar antes de codar. "Pense passo a passo em como resolver esse bug antes de escrever a correção. Liste as possíveis causas raízes."
-  - **Structured Outputs:** O poder de transformar texto livre em dados estruturados. Peça respostas em JSON estrito (usando Zod/Pydantic) para automatizar pipelines de CI/CD ou scripts locais.
-- **Agentes e Ferramentas (Tool Calling):** Entenda a diferença entre um chatbot estático (que alucina) e um Agente Autônomo (que pode usar a ferramenta `grep` no seu repositório, ler a documentação da API em tempo real e corrigir o próprio erro no terminal).
-- **Agentic Coding Workflows (O Padrão Ouro de 2026):**
-  - **Uso de LLMs como pares:** Ferramentas como Aider, SWE-agent, Cline ou Cursor não são "autocompletes gigantes". Você atua como o **Tech Lead**; a IA é o Desenvolvedor Júnior. Você aprova a PR, ela escreve o boilerplate.
-  - **Test-Driven Agentic Workflow (TDAW):** Em vez de pedir para a IA escrever a feature, você escreve um teste que falha e pede para o Agente: "Modifique o código até esse teste passar". Isso evita regressões invisíveis.
-  - **Contexto é Rei:** Dominar como passar o contexto correto (regras de linter, `.cursorrules`, arquivos README de arquitetura) para que a IA gere código que parece ter sido escrito por você.
-
-### 🐧 Linux, Terminal e Sistemas Operacionais
-
-- **Terminal:** A "tela preta" dos hackers. É uma forma poderosa de interagir com o computador. Aprenda comandos básicos (`cd`, `ls`, `grep`, `curl`).
-- **Sistemas Operacionais:** Entenda o básico de Processos, Threads e Gerenciamento de Memória.
+- **Terminal:** navegação, pipes, `grep`, `find`, `curl`, `jq`, `ssh`, scripts Bash e variáveis de ambiente.
+- **Sistemas Operacionais:** processos, threads, memória, sistema de arquivos, permissões e sinais.
 - **Recursos:**
   - 📖 [Linux Journey](https://linuxjourney.com/)
+  - 🎓 [The Missing Semester (MIT)](https://missing.csail.mit.edu/)
 
-### 🌐 HTTP, DNS e Internet
+### 🌐 HTTP, DNS e Redes
 
-- **Como a Web Funciona:** Entenda o ciclo Request/Response.
-- **DNS:** O sistema de nomes da internet.
-- **APIs REST:** Os garçons da web. Entenda os verbos (GET, POST, PUT, DELETE) e Status Codes (200, 404, 500).
+- **Modelo básico:** TCP/IP, portas, DNS, TLS/HTTPS, cookies, CORS, cache HTTP.
+- **HTTP:** ciclo request/response, verbos, status codes (2xx, 3xx, 4xx, 5xx), headers, HTTP/2 e HTTP/3 (QUIC).
+- **APIs:** REST bem desenhado (recursos, idempotência, paginação, versionamento), JSON, noções de gRPC e GraphQL, autenticação com OAuth 2.0/OIDC e JWT.
+- **Prática:** use `curl -v` e a aba Network do navegador para ver o que realmente trafega; use `dig` para DNS.
+- **Recursos:**
+  - 📖 [MDN: HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP)
+  - 📖 [High Performance Browser Networking](https://hpbn.co/)
+  - 📖 [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
+
+### 🗄️ SQL e Bancos de Dados
+
+- **SQL é base de todo dev:** `SELECT`, `JOIN`, `GROUP BY`, subqueries, CTEs, funções de janela, `INSERT/UPDATE/DELETE`.
+- **Modelagem:** normalização, chaves primárias e estrangeiras, índices, transações (ACID) e níveis de isolamento.
+- **Desempenho:** leia `EXPLAIN ANALYZE`, entenda índices B-tree e o problema N+1.
+- **Escolha pragmática:** PostgreSQL resolve a maioria dos casos (inclusive JSON e busca vetorial com pgvector). Use NoSQL quando o padrão de acesso justificar.
+- **Recursos:**
+  - 📖 [SQLBolt](https://sqlbolt.com/)
+  - 📖 [Tutorial oficial do PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html)
+  - 📖 [Use The Index, Luke](https://use-the-index-luke.com/)
 
 ### 🐳 Docker (Básico)
 
-- **O que é?** Imagine empacotar sua aplicação em uma caixa que roda igual em qualquer lugar.
-- **Por que aprender?** Para acabar com o "na minha máquina funciona".
-- **Recursos:**
-  - 📖 [Documentação Oficial do Docker](https://docs.docker.com/)
+- Imagens, containers, volumes, redes, `Dockerfile` e Docker Compose. Objetivo: ambiente reproduzível, sem "na minha máquina funciona".
+- Boas práticas: imagens pequenas, multi-stage build, usuário não-root, sem segredos na imagem.
+- 📖 [Documentação do Docker](https://docs.docker.com/)
 
 ---
 
-## 🚀 Nível 3: O Profissional Completo (Soft Skills & Gestão)
+## 🤖 Nível 3: Desenvolvimento Assistido por IA
 
-Código é a parte fácil. Lidar com pessoas, prazos e sua própria mente é o verdadeiro desafio.
+Assistentes e agentes de código fazem parte do fluxo normal de trabalho em 2026. Eles aceleram tarefas repetitivas, mas **você continua responsável pelo código que entra em produção**.
 
-### 🧠 Soft Skills na Era da IA
+### Ferramentas
 
-Com a IA escrevendo código, suas habilidades humanas valem ouro.
+- **Assistentes no editor:** GitHub Copilot, Cursor, entre outros. Bons para autocomplete, explicar código e refatorações pequenas.
+- **Agentes de código:** executam tarefas em várias etapas (ler o repositório, editar arquivos, rodar testes e comandos). Exemplos: Claude Code, GitHub Copilot coding agent, Codex CLI, Cursor Agent, Cline e Aider. Eles funcionam no terminal, na IDE ou na nuvem, abrindo PRs.
+- **MCP (Model Context Protocol):** padrão aberto para conectar agentes a ferramentas e dados (GitHub, bancos, documentação, navegador, tickets). Conheça o conceito de servidores MCP, e trate cada um como uma dependência: confira a origem, limite permissões e não exponha segredos.
 
-- **Pensamento Crítico:** A IA alucina. Você é o revisor final. Nunca aceite código gerado sem entender e testar.
-- **Comunicação Clara:** Explicar problemas técnicos para pessoas não-técnicas (Product Managers, Designers) é essencial.
-- **Comunicação Assíncrona:** Escrever bem (no Slack, nos Pull Requests, na documentação) é mais importante que falar bem em reuniões.
-- **Inteligência Emocional:** Empatia pelo usuário final e pelos colegas de time. A IA não tem sentimentos; você tem.
+### Fluxo recomendado
 
-### 📚 Aprender a Aprender (Meta-Learning)
+1. **Defina o escopo:** tarefa pequena, critério de aceite claro e arquivos relevantes.
+2. **Dê contexto:** arquivos de instruções do projeto (`AGENTS.md`, `CLAUDE.md`, regras do Cursor/Copilot) com comandos de build/test, convenções e arquitetura.
+3. **Planeje antes:** peça um plano e revise antes de deixar o agente editar.
+4. **Teste primeiro:** escreva ou peça um teste que falha e deixe o agente iterar até passar (TDD com agente). Testes são a melhor rede de segurança.
+5. **Revise o diff como se fosse de outra pessoa:** entenda cada mudança, procure dependências inventadas, tratamento de erro ausente, falhas de segurança e escopo excedido.
+6. **Rode CI e revisão humana:** nenhum código gerado por IA entra sem PR, testes verdes e pelo menos uma revisão humana.
+7. **Registre o que aprendeu:** atualize as instruções do projeto quando o agente errar de forma recorrente.
 
-- **Técnica Pomodoro:** Foco total por 25 minutos, descanso de 5.
-- **Repetição Espaçada (Anki):** Para memorizar conceitos de longo prazo.
-- **Deep Work:** Blocos de tempo sem interrupções para resolver problemas complexos.
+### Práticas essenciais
+
+- **Prompts úteis:** objetivo, contexto, restrições, exemplo de formato esperado e como verificar. Para saídas estruturadas, use JSON Schema (Zod/Pydantic).
+- **Segurança:** nunca cole segredos ou dados de clientes em ferramentas não aprovadas; rode agentes com permissões mínimas, de preferência em sandbox ou container; cuidado com prompt injection em issues, páginas web e dependências lidas pelo agente.
+- **Licenças e política da empresa:** verifique o que sua organização permite.
+- **Limites:** IA erra com confiança. Verifique APIs na documentação oficial e desconfie de código que "parece certo".
+- **Não terceirize o aprendizado:** como Júnior, tente primeiro, depois peça revisão à IA; senão você não desenvolve julgamento.
+- 📖 [Model Context Protocol](https://modelcontextprotocol.io/)
+- 📖 [Documentação do GitHub Copilot](https://docs.github.com/pt/copilot)
+- 📖 [Claude Code (documentação)](https://docs.claude.com/en/docs/claude-code/overview)
+- 📖 [AGENTS.md (formato aberto de instruções)](https://agents.md/)
+- 📖 [OWASP GenAI Security Project](https://genai.owasp.org/)
+
+---
+
+## 🚀 Nível 4: O Profissional Completo (Carreira & Soft Skills)
+
+### 🤝 Soft Skills
+
+- **Pensamento crítico:** questione o que a IA e os colegas dizem; peça evidência e teste.
+- **Comunicação clara:** explique problemas técnicos para pessoas não técnicas; escreva PRs, ADRs e documentação objetivos.
+- **Comunicação assíncrona:** textos bem escritos reduzem reuniões.
+- **Receber e dar feedback:** code review é diálogo, não julgamento pessoal. Comente o código, não a pessoa.
+- **Colaboração e ownership:** peça ajuda depois de tentar por um tempo razoável, assuma a entrega de ponta a ponta e avise cedo sobre riscos.
+- **Estimativas e prioridades:** divida o trabalho, diga o que não cabe no prazo e alinhe expectativas.
+- 📖 [Google Engineering Practices: Code Review](https://google.github.io/eng-practices/review/)
+
+### 💼 Carreira
+
+- **Portfólio:** poucos projetos bem acabados, com README, testes, CI e deploy, valem mais que muitos repositórios soltos. Mostre também PRs em projetos open source.
+- **Currículo e LinkedIn:** descreva resultados (o que melhorou, em quanto), não só tecnologias.
+- **Entrevistas:** treine algoritmos básicos, SQL, explicar projetos seus e, para Pleno/Sênior, System Design. Pratique também a conversa comportamental (método STAR).
+- **Crescimento:** do Júnior ao Sênior, o escopo cresce de tarefas para sistemas e pessoas. Busque feedback regular e mentoria.
+- 📖 [Staff Engineer (staffeng.com)](https://staffeng.com/)
+- 📖 [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+
+### 📚 Aprender a Aprender
+
+- **Prática deliberada:** construa projetos, não apenas assista aulas.
+- **Repetição espaçada:** [Anki](https://apps.ankiweb.net/) para conceitos de longo prazo.
+- **Foco:** blocos sem interrupção (Pomodoro ou Deep Work), conforme sua rotina.
+- **Ensine:** escreva notas públicas, responda dúvidas, mentore alguém.
 
 ### ❤️ Saúde Mental
 
-- **Burnout:** Reconheça os sinais. Cansaço crônico, cinismo, falta de eficácia.
-- **Descanso Ativo:** Sair das telas. Caminhar, dormir bem, ter hobbies offline.
+- **Burnout:** cansaço crônico, cinismo e queda de eficácia são sinais para agir cedo; converse com gestão e busque apoio profissional se necessário.
+- **Rotina sustentável:** sono, pausas, atividade física e hobbies fora das telas.
+
+---
+
+## 🏆 Desafios Práticos
+
+- **Nível 1 (Fundação):** publique um repositório no GitHub com README, abra um PR em outro repositório seu, resolva um conflito de merge de propósito e implemente busca binária com testes e análise de complexidade.
+- **Nível 2 (Ferramentas):** crie uma API simples com 2 endpoints e PostgreSQL, tudo em Docker Compose; adicione um índice e compare o `EXPLAIN ANALYZE` antes e depois; inspecione as chamadas com `curl -v`.
+- **Nível 3 (IA):** adicione uma funcionalidade pequena à API usando um agente de código: escreva o teste primeiro, revise o diff linha a linha, rode a CI e descreva no PR o que o agente fez e o que você corrigiu.
+- **Nível 4 (Carreira):** escreva um post ou ADR curto explicando uma decisão técnica do seu projeto e peça feedback a uma pessoa da comunidade.
 
 ---
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **[FreeCodeCamp](https://www.freecodecamp.org/) & [The Odin Project](https://www.theodinproject.com/):** Prática essencial interativa e currículo open-source focado em projetos para base Full Stack.
-- **[CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science):** O melhor curso universitário de introdução à ciência da computação.
-- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** Essencial para dar os primeiros passos na era da IA.
+- **[freeCodeCamp](https://www.freecodecamp.org/) e [The Odin Project](https://www.theodinproject.com/):** prática guiada e currículo baseado em projetos.
+- **[CS50x (Harvard)](https://cs50.harvard.edu/x/):** introdução à ciência da computação, gratuita.
+- **[Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners):** primeiros passos com IA generativa.
 
 ### 🚀 Para Nível Pleno
 
-- **[Frontend Masters](https://frontendmasters.com/) & [Roadmap.sh](https://roadmap.sh/):** O mais alto nível de ensino web (TypeScript) e excelentes guias visuais interativos de carreira.
-- **[DeepLearning.AI](https://www.deeplearning.ai/):** A referência máxima de aprendizado focado em Inteligência Artificial, LangChain e ML.
-- **[Anthropic Prompt Engineering Tutorial](https://github.com/anthropics/courses):** Aprenda a estruturar prompts avançados e heurísticas Few-Shot para modelos complexos em 2026.
+- **[Frontend Masters](https://frontendmasters.com/) e [Roadmap.sh](https://roadmap.sh/):** cursos aprofundados e guias visuais de carreira.
+- **[DeepLearning.AI](https://www.deeplearning.ai/):** cursos curtos sobre IA aplicada.
+- **[Anthropic Courses](https://github.com/anthropics/courses):** prompts e uso de ferramentas com modelos de linguagem.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **[Full Cycle](https://fullcycle.com.br/) & [ByteByteGo](https://www.youtube.com/@ByteByteGo):** Masterclass de aprofundamento arquitetural moderno (Go, Microsserviços, Mensageria, System Design).
-- **[Local-First Web Dev](https://localfirstweb.dev/) & [AWS Skill Builder](https://explore.skillbuilder.aws/):** Padrões resilientes offline-first, WebAssembly e arquitetura cloud nativa avançada corporativa.
-- **[LangChain Academy](https://academy.langchain.com/) & [Hugging Face](https://huggingface.co/learn):** Orquestração massiva multi-agente, fine-tuning e deployment contínuo de modelos abertos.
-
-### 🏆 Desafios Práticos (Projetos)
-
-- **Nível 1 (Fundação):** Crie uma conta no GitHub, aprenda comandos básicos do Git (add, commit, push, pull) e publique um repositório com um README descrevendo você. Escreva um algoritmo simples em pseudo-código para resolver um problema lógico do seu dia a dia.
-- **Nível 2 (Ferramentas):** Utilize uma IA (como ChatGPT ou Copilot) como parceiro de aprendizado para entender como funciona o protocolo HTTP. Tente criar um container Docker simples (ex: rodando uma imagem do Nginx) usando o terminal do Linux.
-- **Nível 3 (Profissional Completo):** Leia um artigo técnico em inglês, aplique a técnica Pomodoro para focar por 2 horas nos estudos, e escreva um pequeno resumo no GitHub explicando o que aprendeu. Reflita sobre sua comunicação em interações passadas.
+- **[Full Cycle](https://fullcycle.com.br/) e [ByteByteGo](https://www.youtube.com/@ByteByteGo):** arquitetura, mensageria e System Design.
+- **[System Design Primer](https://github.com/donnemartin/system-design-primer):** base para entrevistas e decisões de arquitetura.
+- **[Hugging Face Learn](https://huggingface.co/learn):** modelos abertos, fine-tuning e agentes.
 
 ---
 
 ## 📚 Aprofunde seus Estudos
 
-Para maximizar seu aprendizado e entender exatamente o que focar em cada etapa da sua carreira, confira nosso guia detalhado:
-
 - [**Guia de Estudos 2026: Do Júnior ao Especialista**](./study-guide.md)
+- [**Padrões de Especialista 2026**](./2026-specialist-patterns.md)
 
 ---
 

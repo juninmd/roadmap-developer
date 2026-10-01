@@ -1,122 +1,133 @@
 # 📚 Guia de Estudos 2026: Do Júnior ao Especialista
 
-> **Edição 2026:** Um guia prático de como organizar seus estudos para atingir o nível de excelência exigido pelo mercado moderno, focando imensamente em IA, arquitetura avançada e sustentabilidade.
+> **Edição 2026 (atualizada em out/2026):** como organizar seus estudos com fundamentos sólidos, uso responsável de IA e foco em carreira.
 
-## 🌟 O Desenvolvedor Completo 2026
+## 🌟 O Desenvolvedor Completo em 2026
 
-Para ser considerado um **Desenvolvedor Completo em 2026**, o profissional precisa ir além de escrever código que compila. Em todas as trilhas e especializações (Frontend, Backend, Mobile, etc.), as habilidades essenciais que permeiam do Júnior ao Especialista são:
+Escrever código que compila não basta. Em qualquer trilha, três eixos aparecem do Júnior ao Especialista:
 
-- **Alfabetização em Inteligência Artificial:** Desde a geração de código com LLMs até a orquestração de **Sistemas Multi-Agentes** e _Agentic Workflows_. A IA atua como um par contínuo de desenvolvimento e, no nível avançado, torna-se o núcleo do produto através de soluções como _Local-First AI_ e integrações nativas (RAG Avançado).
-- **Arquitetura de Sistemas Resilientes:** Sair do paradigma cliente/servidor acoplado. Compreender Local-First, Offline-First, Micro-frontends, WebAssembly (Wasm) no Edge, e infraestrutura como código (IaC).
-- **Green Coding & FinOps:** Sustentabilidade digital e eficiência financeira. Código eficiente reduz o consumo de recursos, o custo em nuvem e o impacto ambiental. Profissionais avançados medem o custo por requisição e utilizam linguagens de alta performance (Rust, Go) para partes vitais do sistema.
-
-Esta mentalidade de "Desenvolvedor Completo" orienta a transição desde a execução básica (Júnior) até a maestria arquitetural (Especialista).
+- **Fundamentos:** algoritmos e estruturas de dados, redes (HTTP, DNS, TLS), SQL, sistemas operacionais e Git. Mudam pouco e sustentam todo o resto.
+- **Desenvolvimento assistido por IA:** usar assistentes e agentes de código (Copilot, Cursor, Claude Code, Codex CLI etc.) e conectá-los a ferramentas via MCP, **sempre com testes, CI e revisão humana**. A IA acelera; a responsabilidade é sua.
+- **Engenharia e carreira:** arquitetura, custo (FinOps), eficiência de recursos (Green Software), comunicação, feedback e mentoria.
 
 ```mermaid
 flowchart TD
     Start([Início da Jornada]) --> JR(Fase 1: O Executor - Júnior)
     JR --> Mid(Fase 2: O Otimizador - Pleno)
     Mid --> Sr(Fase 3: O Arquiteto - Sênior/Especialista)
-    Sr --> Mastery([Maestria Contínua])
+    Sr --> Mastery([Aprendizado Contínuo])
 
     style Start fill:#f9f,stroke:#333,stroke-width:2px
     style Mastery fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-O mercado de tecnologia em 2026 não tolera mais desenvolvedores que apenas "escrevem código". Com a ascensão dos agentes autônomos de IA e ferramentas como Copilot e Cursor, a habilidade de _pensar_ e _arquitetar_ tornou-se mais valiosa do que a habilidade de _digitar_.
-
-Este guia foi desenhado para maximizar seu tempo e garantir que você estude **o que realmente importa**.
+Com agentes escrevendo parte do código, o valor do desenvolvedor se desloca para entender o problema, decidir, verificar e comunicar. Este guia ajuda a investir tempo no que mais rende.
 
 ---
 
-## 🌱 Fase 1: O Executor (Nível Júnior)
+## 🌱 Fase 1: O Executor (Júnior)
 
-O objetivo desta fase não é criar a arquitetura perfeita, mas sim **fazer funcionar de forma previsível e entender os fundamentos**. Você deve dominar a base antes de tentar escalar.
+Objetivo: entregar tarefas pequenas de forma previsível e entender os fundamentos.
 
-### 🎯 Foco Principal:
+### 🎯 Foco principal
 
-- **Lógica e Estruturas de Dados:** Compreender Big O Notation básico. Saber quando usar um Array vs um Map (Dicionário).
-- **A Linguagem (Sua Ferramenta de Trabalho):** Escolha UMA linguagem (ex: JavaScript/TypeScript, Python, Go) e entenda como ela funciona por baixo dos panos (Event Loop, Garbage Collection).
-- **Git & Versionamento:** Commits atômicos, branch management e como resolver conflitos sem pânico.
-- **Alfabetização em IA (Obrigatório):** Aprender a escrever prompts estruturados (_Zero-Shot_, _Few-Shot_) para que a IA gere código boilerplate, testes simples ou explique mensagens de erro.
+- **Lógica e estruturas de dados:** Big O básico; quando usar array, map, set, pilha, fila e árvore.
+- **Uma linguagem a fundo:** JavaScript/TypeScript, Python ou Go. Entenda tipos, erros, assincronismo e gerenciamento de memória.
+- **Git e GitHub:** commits pequenos, branches, Pull Requests, resolução de conflitos, `rebase` e `reflog`.
+- **SQL básico:** `JOIN`, `GROUP BY`, índices, modelagem simples.
+- **Redes e HTTP:** request/response, status codes, DNS, uso do DevTools e do `curl`.
+- **IA com disciplina:** use assistentes para explicar erros e revisar seu código depois de tentar sozinho; não aceite o que não entende.
 
-### 📅 Rotina Sugerida (1 a 2 horas/dia):
+### 📅 Rotina sugerida (1 a 2 horas/dia)
 
-1. **Teoria (30%):** Assista a uma aula de CS50 ou leia documentações oficiais (MDN, docs de frameworks).
-2. **Prática Focada (50%):** Resolva problemas no LeetCode (foco em Easy/Medium) ou implemente pequenos scripts.
-3. **Revisão com IA (20%):** Peça para o ChatGPT/Claude revisar seu código: _"Este código funciona, mas existe uma forma mais idiomática ou eficiente de escrevê-lo nesta linguagem?"_
-
----
-
-## 🚀 Fase 2: O Otimizador (Nível Pleno)
-
-Você já consegue entregar features. Agora, o desafio é entregar features **rápidas, seguras, testáveis e sustentáveis**.
-
-### 🎯 Foco Principal:
-
-- **Testes Automatizados & TDD:** Você não testa apenas para achar bugs, mas para documentar o comportamento esperado. O Padrão de 2026 é o **Test-Driven Agentic Workflow (TDAW)**: você escreve o teste falho e pede para o Agente de IA implementar a lógica até o teste passar.
-- **Banco de Dados (Avançado):** Sair do CRUD básico. Entender Índices, Transações (ACID), N+1 Queries e quando usar SQL vs NoSQL.
-- **CI/CD & Docker:** Sua máquina não importa. O código tem que rodar de forma idêntica em produção. Domine o básico de GitHub Actions e containerização.
-- **System Design (Básico):** Como dois microsserviços conversam? (REST vs gRPC vs Mensageria/RabbitMQ).
-
-### 📅 Rotina Sugerida (2 a 3 horas/dia):
-
-1. **Refatoração (30%):** Pegue um projeto antigo seu e aplique princípios SOLID ou Clean Architecture.
-2. **Infraestrutura Prática (40%):** Crie pipelines de deploy. Suba um banco de dados real no Docker, integre no seu pipeline (Testcontainers).
-3. **Estudo de Casos reais (30%):** Leia blogs de engenharia de grandes empresas (Uber, Netflix, Discord) para entender os problemas que eles enfrentam ao escalar.
+1. **Teoria (30%):** aulas do CS50 ou documentação oficial (MDN, docs da linguagem).
+2. **Prática (50%):** exercícios (Exercism, LeetCode nível fácil/médio) e mini-projetos com deploy.
+3. **Revisão (20%):** peça a IA ou a um colega para revisar o código: "existe forma mais idiomática ou segura de escrever isto?". Compare com sua solução.
 
 ---
 
-## 🏛️ Fase 3: O Arquiteto (Nível Sênior / Especialista)
+## 🚀 Fase 2: O Otimizador (Pleno)
 
-Aqui, o código é a parte mais fácil do seu dia. Seu trabalho é **tomar decisões que afetam o negócio, os custos da empresa e a equipe como um todo**.
+Objetivo: entregar funcionalidades testáveis, seguras e fáceis de manter.
 
-### 🎯 Foco Principal:
+### 🎯 Foco principal
 
-- **Sistemas Multi-Agente & RAG Avançado:** Integrar LLMs não é apenas chamar uma API. É criar sistemas onde múltiplos agentes validam as respostas uns dos outros (GraphRAG, LangGraph).
-- **Green Coding & FinOps:** Escolher entre Node.js e Rust/Go não é mais apenas preferência, é uma decisão financeira. Entender o custo de CPU/Memória na nuvem e otimizar para reduzir a pegada de carbono.
-- **Local-First & Edge Computing:** Arquitetar aplicações que funcionam perfeitamente offline (via CRDTs/Yjs) e rodam no Edge (Cloudflare Workers, Wasm) para latência zero global.
-- **Mentoria e Liderança Técnica:** Desenvolver Soft Skills. Um Sênior que não consegue explicar decisões complexas de forma simples para um Product Manager ou mentorar um Júnior não é Sênior de verdade.
+- **Testes automatizados:** unitários, integração e end-to-end. Com agentes de código, escrever o teste antes e deixar o agente iterar até passar é um fluxo eficiente e seguro.
+- **Agentes de código no dia a dia:** arquivos de instruções (`AGENTS.md`), planos revisados antes da implementação, diffs pequenos, MCP com permissões mínimas, sandbox e revisão humana obrigatória no PR.
+- **Bancos de dados:** transações (ACID), isolamento, índices, `EXPLAIN ANALYZE`, N+1, migrações e quando usar NoSQL.
+- **CI/CD e containers:** GitHub Actions, Docker, ambientes reproduzíveis, Testcontainers.
+- **Redes e APIs:** REST, gRPC, filas/mensageria, timeouts, retries, idempotência, OAuth 2.0/OIDC.
+- **Observabilidade básica:** logs estruturados, métricas e traces (OpenTelemetry).
+- **Segurança:** OWASP Top 10, gestão de segredos, dependências.
+- **Soft skills:** revisar código com respeito, dar e receber feedback, estimar e comunicar riscos.
 
-### 📅 Rotina Sugerida (Foco em Profundidade):
+### 📅 Rotina sugerida (2 a 3 horas/dia)
 
-1. **Provas de Conceito (PoC) (40%):** Teste tecnologias emergentes (ex: WebAssembly, novos modelos locais com Ollama) antes de colocá-las em produção.
-2. **Arquitetura (40%):** Estude padrões complexos (Event-Sourcing, CQRS, Data Mesh) e pratique desenhos de arquitetura de sistemas distribuídos.
-3. **Mentoria & Comunicação (20%):** Escreva RFCs (Request for Comments) detalhando suas propostas arquiteturais, dê palestras internas na sua empresa ou crie conteúdo técnico.
+1. **Refatoração (30%):** melhore um projeto antigo com testes, SOLID e arquitetura limpa onde fizer sentido.
+2. **Infraestrutura prática (40%):** pipeline de CI/CD, banco real em container, deploy automatizado.
+3. **Estudo de casos (30%):** blogs de engenharia (Uber, Netflix, Discord, Cloudflare) e post-mortems públicos.
+
+---
+
+## 🏛️ Fase 3: O Arquiteto (Sênior / Especialista)
+
+Objetivo: tomar decisões que afetam produto, custo e equipe, e multiplicar o time.
+
+### 🎯 Foco principal
+
+- **System Design:** consistência, disponibilidade, filas, caches, particionamento, modelagem de falhas; registre decisões em ADRs.
+- **IA nos produtos e nos times:** integrar LLMs com RAG, avaliação (evals), custo e latência; definir políticas de uso de agentes de código, revisão e segurança (prompt injection, vazamento de dados, permissões de MCP).
+- **Custo e eficiência:** FinOps e Green Software. Meça antes de otimizar; escolha a linguagem (Rust, Go, Java, Node) pelo perfil de carga, não por moda.
+- **Local-first e Edge:** use quando o requisito pedir (offline, latência, colaboração); avalie a complexidade de sincronização (CRDTs) antes de adotar.
+- **Liderança técnica:** RFCs, mentoria, comunicação com produto e negócio, priorização e gestão de dívida técnica.
+
+### 📅 Rotina sugerida (foco em profundidade)
+
+1. **Provas de conceito (40%):** teste tecnologias novas com critérios e métricas definidos antes de adotá-las.
+2. **Arquitetura (40%):** estude padrões (Event Sourcing, CQRS, particionamento) e pratique desenhos de sistemas distribuídos.
+3. **Mentoria e comunicação (20%):** escreva RFCs, dê palestras internas, revise PRs de outras pessoas.
+
+---
+
+## 💼 Carreira ao Longo das Fases
+
+- **Júnior:** portfólio pequeno e bem acabado, primeiras contribuições open source, networking com comunidades.
+- **Pleno:** autonomia em funcionalidades de ponta a ponta, entrevistas com System Design básico, visibilidade interna (documentação, apresentações).
+- **Sênior/Especialista:** influência além do próprio código, mentoria, decisões documentadas. Escolha entre trilha de gestão ou de engenharia (Staff+).
+- **Sempre:** peça feedback regular, registre conquistas com resultados mensuráveis e cuide da saúde mental.
 
 ---
 
 ## 📚 Materiais de Estudo Recomendados
 
-Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
-
 ### 🐣 Para Nível Júnior
 
-- **Cursos Essenciais e Prática:** Domine os fundamentos com [CS50 (Harvard)](https://pll.harvard.edu/course/cs50-introduction-computer-science), [FreeCodeCamp](https://www.freecodecamp.org/) e os projetos reais e desafiadores do [The Odin Project](https://www.theodinproject.com/).
-- **Lógica e Fundamentos Práticos:** Compreenda algoritmos com [Visualgo](https://visualgo.net/) e leia "Entendendo Algoritmos" (Aditya Y. Bhargava) e "Código Limpo" (Robert C. Martin).
-- **IA e Qualidade:** Automatize via [Playwright](https://playwright.dev/) / [Vitest](https://vitest.dev/) e inicie em IA via [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) integrando Copilot e Cursor no fluxo.
+- **Cursos e prática:** [CS50x (Harvard)](https://cs50.harvard.edu/x/), [freeCodeCamp](https://www.freecodecamp.org/) e [The Odin Project](https://www.theodinproject.com/).
+- **Fundamentos:** [Visualgo](https://visualgo.net/), [SQLBolt](https://sqlbolt.com/), [Pro Git](https://git-scm.com/book/pt-br/v2), [MDN: HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP) e [The Missing Semester](https://missing.csail.mit.edu/).
+- **IA e qualidade:** [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners), [Playwright](https://playwright.dev/) e [Vitest](https://vitest.dev/).
 
 ### 🚀 Para Nível Pleno
 
-- **Frontend/Backend Avançado:** Aprenda performance extrema com [Frontend Masters](https://frontendmasters.com/) e a concorrência brutal de Go através do [Go.dev/learn](https://go.dev/learn/).
-- **IA e Arquitetura:** Modele Prompts incríveis com [Anthropic Courses](https://github.com/anthropics/courses) e aprofunde em RAG/LangChain no [DeepLearning.AI](https://www.deeplearning.ai/).
-- **Infra e Dados:** Escale Docker/[AWS Skill Builder](https://explore.skillbuilder.aws/) e estude modelagem com "Projetando Sistemas Intensivos em Dados" (Martin Kleppmann) e o [SystemDesignPrimer](https://github.com/donnemartin/system-design-primer).
+- **Linguagens e web:** [Frontend Masters](https://frontendmasters.com/) e [Go.dev/learn](https://go.dev/learn/).
+- **IA aplicada:** [Anthropic Courses](https://github.com/anthropics/courses), [DeepLearning.AI](https://www.deeplearning.ai/) e [Model Context Protocol](https://modelcontextprotocol.io/).
+- **Infra e dados:** [Docker Docs](https://docs.docker.com/), [Use The Index, Luke](https://use-the-index-luke.com/), [System Design Primer](https://github.com/donnemartin/system-design-primer) e o livro "Designing Data-Intensive Applications" (Martin Kleppmann).
 
 ### 🏛️ Para Nível Sênior/Especialista
 
-- **Arquitetura Resiliente e DevOps:** Aprofunde no [Full Cycle](https://fullcycle.com.br/) (eBPF, Service Mesh, Go) e leia o vital manifesto sobre arquitetura e CRDTs [Local-First Web Development](https://localfirstweb.dev/).
-- **IA Engineering & Agentic Flow:** Domine GraphRAG corporativo usando a [LangChain Academy](https://academy.langchain.com/) e alinhe os modelos SLMs na plataforma líder global [Hugging Face](https://huggingface.co/learn/nlp-course).
-- **Deep Tech Sustentável e FinOps:** Explore [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) na nuvem e o guia da [Green Software Foundation](https://greensoftware.foundation/). Para liderança técnica exata, estude arquiteturas via [ByteByteGo](https://www.youtube.com/@ByteByteGo).
+- **Arquitetura:** [Full Cycle](https://fullcycle.com.br/), [ByteByteGo](https://www.youtube.com/@ByteByteGo) e [AWS Skill Builder](https://explore.skillbuilder.aws/).
+- **IA Engineering:** [LangChain Academy](https://academy.langchain.com/), [Hugging Face Learn](https://huggingface.co/learn) e [OWASP GenAI Security Project](https://genai.owasp.org/).
+- **Eficiência e liderança:** [WebAssembly (MDN)](https://developer.mozilla.org/en-US/docs/WebAssembly), [Green Software Foundation](https://greensoftware.foundation/), [FinOps Foundation](https://www.finops.org/) e [Staff Engineer](https://staffeng.com/).
 
 ---
 
-## 🧠 Dica de Ouro para 2026: Aprenda a Aprender
+## 🧠 Dica de Ouro: Aprenda a Aprender
 
-Com novas ferramentas de IA saindo a cada semana, decorar sintaxe tornou-se inútil. Desenvolva as seguintes meta-habilidades:
+Ferramentas mudam rápido; fundamentos não. Desenvolva meta-habilidades:
 
-1. **Leitura Dinâmica de Documentação:** Vá direto para a seção de "Getting Started" e depois para "Architecture/Concepts".
-2. **Pensamento Crítico:** Não aceite o primeiro código gerado pela IA. Entenda _por que_ ela escolheu aquela abordagem.
-3. **Inglês Técnico:** A vanguarda da tecnologia é documentada primeiro em inglês. Não dependa de traduções que demoram meses para sair.
+1. **Leitura de documentação:** comece em "Getting Started", depois "Concepts/Architecture".
+2. **Pensamento crítico:** entenda por que a IA escolheu aquela abordagem e valide em fonte oficial.
+3. **Inglês técnico:** documentação e discussões saem primeiro em inglês.
+4. **Projetos reais:** consolide cada tema com um projeto pequeno publicado.
 
 ---
 
