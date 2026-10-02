@@ -31,20 +31,17 @@ O foco aqui é dominar a linha de comando e os fundamentos de infraestrutura.
 
 ### 🐧 Linux e Terminal
 
-- **Shell Scripting:** Bash/Zsh. Automatize o que você faz mais de duas vezes.
-- **Permissões:** `chmod`, `chown`, usuários e grupos.
+- **Shell Scripting:** Bash/Zsh. Automatize o que você faz mais de duas vezes. **Permissões:** `chmod`, `chown`, usuários e grupos.
 - **Networking Básico:** SSH (chaves, não senhas), DNS, HTTP/S, TLS, firewalls (`nftables`/`ufw`).
 
 ### 🐳 Containers
 
-- **Docker:** `Dockerfile` eficientes (multi-stage builds, usuário não-root, imagens mínimas).
-- **Docker Compose:** Orquestrar múltiplos containers localmente.
+- **Docker:** `Dockerfile` eficientes (multi-stage builds, usuário não-root, imagens mínimas). **Docker Compose:** Orquestrar múltiplos containers localmente.
 - **Conceito:** Imutabilidade. Construiu a imagem, ela não muda; o que muda é a configuração injetada.
 
 ### 📜 Git Avançado
 
-- **Branching:** Trunk Based Development como padrão; Git Flow só quando o produto exige várias versões em paralelo.
-- **Hooks:** Checagens antes do commit (pre-commit).
+- **Branching:** Trunk Based Development como padrão; Git Flow só quando o produto exige várias versões em paralelo. **Hooks:** Checagens antes do commit (pre-commit).
 
 ---
 
@@ -54,16 +51,14 @@ Aqui você trata infraestrutura como código e automatiza o ciclo de vida do sof
 
 ### 🔄 CI/CD
 
-- **GitHub Actions / GitLab CI:** Pipelines que testam, buildam e fazem deploy a cada push.
-- **Conceitos:** Lint, testes, SAST, cache de dependências, gestão de artefatos.
+- **GitHub Actions / GitLab CI:** Pipelines que testam, buildam e fazem deploy a cada push. **Conceitos:** Lint, testes, SAST, cache de dependências, gestão de artefatos.
 - **Segurança de pipeline:** Autenticação via OIDC (sem chaves de longa duração), versões de actions fixadas por hash e permissões mínimas no token.
 
 ### ☁️ Cloud Providers
 
 Escolha uma principal, mas entenda os conceitos universais (compute, storage, rede).
 
-- **AWS:** EC2, S3, RDS, Lambda, VPC.
-- **Azure/GCP:** Equivalentes (VMs, Blob Storage, Cloud Functions).
+- **AWS:** EC2, S3, RDS, Lambda, VPC. **Azure/GCP:** Equivalentes (VMs, Blob Storage, Cloud Functions).
 - **IAM:** Princípio do menor privilégio e credenciais temporárias.
 
 ### 🏗️ Infrastructure as Code (IaC)
@@ -102,8 +97,7 @@ Onde você constrói plataformas para outros desenvolvedores e garante a estabil
 
 - **SLI/SLO:** Defina indicadores (latência, disponibilidade, erros) e metas por serviço, por exemplo 99,9% de requisições bem-sucedidas em 30 dias.
 - **Error Budget:** O orçamento de erro é a margem restante do SLO. Se acabou, prioriza-se confiabilidade antes de novas features.
-- **Alertas:** Alerte por consumo de error budget (burn rate), não por cada pico de CPU.
-- **Incidentes:** Runbooks, on-call sustentável e post-mortems sem culpa.
+- **Alertas:** Alerte por consumo de error budget (burn rate), não por cada pico de CPU. **Incidentes:** Runbooks, on-call sustentável e post-mortems sem culpa.
 
 ### 🐙 GitOps
 
@@ -129,13 +123,13 @@ Em vez de ser a equipe que "faz o deploy" para os outros, construa uma plataform
 
 As cinco métricas do [DORA](https://dora.dev/guides/dora-metrics/) medem velocidade e estabilidade juntas:
 
-| Métrica | O que mede | Meta de elite (referência) |
-| --- | --- | --- |
-| Lead Time for Changes | Commit → produção | < 1 dia |
-| Deployment Frequency | Frequência de deploys | Sob demanda (várias por dia) |
-| Change Failure Rate | % de deploys que causam falha | < 5% |
-| Failed Deployment Recovery Time | Tempo para restaurar o serviço | < 1 hora |
-| Deployment Rework Rate | % de deploys não planejados (correções) | Baixo e em queda |
+| Métrica                         | O que mede                              | Meta de elite (referência)   |
+| ------------------------------- | --------------------------------------- | ---------------------------- |
+| Lead Time for Changes           | Commit → produção                       | < 1 dia                      |
+| Deployment Frequency            | Frequência de deploys                   | Sob demanda (várias por dia) |
+| Change Failure Rate             | % de deploys que causam falha           | < 5%                         |
+| Failed Deployment Recovery Time | Tempo para restaurar o serviço          | < 1 hora                     |
+| Deployment Rework Rate          | % de deploys não planejados (correções) | Baixo e em queda             |
 
 - **Como medir:** extraia dados do Git, do CI/CD e do gestor de incidentes (ex.: Four Keys, Backstage, Grafana).
 - **Cuidado:** use como diagnóstico do time, nunca como ranking individual.
@@ -157,8 +151,7 @@ As cinco métricas do [DORA](https://dora.dev/guides/dora-metrics/) medem veloci
 ### 🧠 Soft Skills
 
 - **Cultura sem culpa:** Se um dev derrubou a produção, o pipeline permitiu. Busque a causa sistêmica.
-- **Automação:** Elimine seu próprio trabalho manual e ensine os times a serem autônomos.
-- **Gestão de incidentes:** Calma, comunicação clara e papéis definidos.
+- **Automação:** Elimine seu próprio trabalho manual e ensine os times a serem autônomos. **Gestão de incidentes:** Calma, comunicação clara e papéis definidos.
 
 ### 🏆 Desafios Práticos (Projetos)
 
@@ -170,11 +163,12 @@ As cinco métricas do [DORA](https://dora.dev/guides/dora-metrics/) medem veloci
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[Linux Journey](https://linuxjourney.com/):** Fundamentos de Linux, permissões, serviços e terminal.
-- **[GitHub Actions Documentation](https://docs.github.com/en/actions):** CI/CD direto da fonte.
-- **[Docker Docs](https://docs.docker.com/):** Containers, Dockerfile e Compose.
+- **[GitHub Actions Documentation](https://docs.github.com/en/actions):** CI/CD direto da fonte. **[Docker Docs](https://docs.docker.com/):** Containers, Dockerfile e Compose.
 
 ### 🚀 Para Nível Pleno
 
@@ -189,8 +183,7 @@ As cinco métricas do [DORA](https://dora.dev/guides/dora-metrics/) medem veloci
 - **[OpenTelemetry Docs](https://opentelemetry.io/docs/):** Instrumentação e Collector.
 - **[eBPF.io](https://ebpf.io/) e [Cilium Docs](https://docs.cilium.io/):** eBPF na prática para rede e segurança.
 - **[Argo CD Docs](https://argo-cd.readthedocs.io/) e [Flux Docs](https://fluxcd.io/flux/):** GitOps.
-- **[Backstage](https://backstage.io/):** Framework de portal de desenvolvedores.
-- **[Crossplane](https://docs.crossplane.io/):** Infraestrutura via API do Kubernetes.
+- **[Backstage](https://backstage.io/):** Framework de portal de desenvolvedores. **[Crossplane](https://docs.crossplane.io/):** Infraestrutura via API do Kubernetes.
 - **[Sigstore](https://docs.sigstore.dev/) e [SLSA](https://slsa.dev/):** Assinatura e proveniência de software.
 - **[DORA](https://dora.dev/):** Pesquisa e guias de métricas de entrega.
 - **[Google SRE Workbook](https://sre.google/workbook/table-of-contents/):** Implementação prática de SLOs e alertas.
@@ -201,5 +194,4 @@ As cinco métricas do [DORA](https://dora.dev/guides/dora-metrics/) medem veloci
 
 ## ↩️ Navegação
 
-- [**Voltar para o Início**](../../index.md)
-- [**Ver Conselhos de Carreira**](../../advices.md)
+- [**Voltar para o Início**](../../index.md) [**Ver Conselhos de Carreira**](../../advices.md)

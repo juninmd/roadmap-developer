@@ -85,6 +85,8 @@ Backend é quem expõe dados e ações para modelos de forma segura, medida e co
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[Boot.dev](https://www.boot.dev/):** trilhas práticas de backend (Python, Go, SQL, Docker).

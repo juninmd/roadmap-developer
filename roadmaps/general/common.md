@@ -62,8 +62,7 @@ flowchart TD
 ### 🐧 Terminal e Sistemas Operacionais
 
 - **Terminal:** navegação, pipes, `grep`, `find`, `curl`, `jq`, `ssh`, scripts Bash e variáveis de ambiente.
-- **Sistemas Operacionais:** processos, threads, memória, sistema de arquivos, permissões e sinais.
-- **Recursos:**
+- **Sistemas Operacionais:** processos, threads, memória, sistema de arquivos, permissões e sinais. **Recursos:**
   - 📖 [Linux Journey](https://linuxjourney.com/)
   - 🎓 [The Missing Semester (MIT)](https://missing.csail.mit.edu/)
 
@@ -72,8 +71,7 @@ flowchart TD
 - **Modelo básico:** TCP/IP, portas, DNS, TLS/HTTPS, cookies, CORS, cache HTTP.
 - **HTTP:** ciclo request/response, verbos, status codes (2xx, 3xx, 4xx, 5xx), headers, HTTP/2 e HTTP/3 (QUIC).
 - **APIs:** REST bem desenhado (recursos, idempotência, paginação, versionamento), JSON, noções de gRPC e GraphQL, autenticação com OAuth 2.0/OIDC e JWT.
-- **Prática:** use `curl -v` e a aba Network do navegador para ver o que realmente trafega; use `dig` para DNS.
-- **Recursos:**
+- **Prática:** use `curl -v` e a aba Network do navegador para ver o que realmente trafega; use `dig` para DNS. **Recursos:**
   - 📖 [MDN: HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP)
   - 📖 [High Performance Browser Networking](https://hpbn.co/)
   - 📖 [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
@@ -83,8 +81,7 @@ flowchart TD
 - **SQL é base de todo dev:** `SELECT`, `JOIN`, `GROUP BY`, subqueries, CTEs, funções de janela, `INSERT/UPDATE/DELETE`.
 - **Modelagem:** normalização, chaves primárias e estrangeiras, índices, transações (ACID) e níveis de isolamento.
 - **Desempenho:** leia `EXPLAIN ANALYZE`, entenda índices B-tree e o problema N+1.
-- **Escolha pragmática:** PostgreSQL resolve a maioria dos casos (inclusive JSON e busca vetorial com pgvector). Use NoSQL quando o padrão de acesso justificar.
-- **Recursos:**
+- **Escolha pragmática:** PostgreSQL resolve a maioria dos casos (inclusive JSON e busca vetorial com pgvector). Use NoSQL quando o padrão de acesso justificar. **Recursos:**
   - 📖 [SQLBolt](https://sqlbolt.com/)
   - 📖 [Tutorial oficial do PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html)
   - 📖 [Use The Index, Luke](https://use-the-index-luke.com/)
@@ -138,8 +135,7 @@ Assistentes e agentes de código fazem parte do fluxo normal de trabalho em 2026
 
 - **Pensamento crítico:** questione o que a IA e os colegas dizem; peça evidência e teste.
 - **Comunicação clara:** explique problemas técnicos para pessoas não técnicas; escreva PRs, ADRs e documentação objetivos.
-- **Comunicação assíncrona:** textos bem escritos reduzem reuniões.
-- **Receber e dar feedback:** code review é diálogo, não julgamento pessoal. Comente o código, não a pessoa.
+- **Comunicação assíncrona:** textos bem escritos reduzem reuniões. **Receber e dar feedback:** code review é diálogo, não julgamento pessoal. Comente o código, não a pessoa.
 - **Colaboração e ownership:** peça ajuda depois de tentar por um tempo razoável, assuma a entrega de ponta a ponta e avise cedo sobre riscos.
 - **Estimativas e prioridades:** divida o trabalho, diga o que não cabe no prazo e alinhe expectativas.
 - 📖 [Google Engineering Practices: Code Review](https://google.github.io/eng-practices/review/)
@@ -155,10 +151,8 @@ Assistentes e agentes de código fazem parte do fluxo normal de trabalho em 2026
 
 ### 📚 Aprender a Aprender
 
-- **Prática deliberada:** construa projetos, não apenas assista aulas.
-- **Repetição espaçada:** [Anki](https://apps.ankiweb.net/) para conceitos de longo prazo.
-- **Foco:** blocos sem interrupção (Pomodoro ou Deep Work), conforme sua rotina.
-- **Ensine:** escreva notas públicas, responda dúvidas, mentore alguém.
+- **Prática deliberada:** construa projetos, não apenas assista aulas. **Repetição espaçada:** [Anki](https://apps.ankiweb.net/) para conceitos de longo prazo.
+- **Foco:** blocos sem interrupção (Pomodoro ou Deep Work), conforme sua rotina. **Ensine:** escreva notas públicas, responda dúvidas, mentore alguém.
 
 ### ❤️ Saúde Mental
 
@@ -200,8 +194,7 @@ Assistentes e agentes de código fazem parte do fluxo normal de trabalho em 2026
 
 ## 📚 Aprofunde seus Estudos
 
-- [**Guia de Estudos 2026: Do Júnior ao Especialista**](./study-guide.md)
-- [**Padrões de Especialista 2026**](./2026-specialist-patterns.md)
+- [**Guia de Estudos 2026: Do Júnior ao Especialista**](./study-guide.md) [**Padrões de Especialista 2026**](./2026-specialist-patterns.md)
 
 ---
 
@@ -209,12 +202,8 @@ Assistentes e agentes de código fazem parte do fluxo normal de trabalho em 2026
 
 Agora que você tem a base, escolha sua especialização:
 
-- [**Backend**](../backend/backend.md)
-- [**Frontend**](../frontend/frontend.md)
-- [**Full Stack**](../fullstack/fullstack.md)
-- [**Mobile**](../mobile/mobile.md)
-- [**DevOps**](../devops/devops.md)
-- [**Engenharia de Dados**](../data/data-engineering.md)
-- [**Cybersecurity**](../security/cybersecurity.md)
-- [**Inteligência Artificial**](../ai/artificial-intelligence.md)
+- [**Backend**](../backend/backend.md) [**Frontend**](../frontend/frontend.md)
+- [**Full Stack**](../fullstack/fullstack.md) [**Mobile**](../mobile/mobile.md)
+- [**DevOps**](../devops/devops.md) [**Engenharia de Dados**](../data/data-engineering.md)
+- [**Cybersecurity**](../security/cybersecurity.md) [**Inteligência Artificial**](../ai/artificial-intelligence.md)
 - [**QA & Testing (Qualidade de Software)**](../qa/qa-testing.md)
