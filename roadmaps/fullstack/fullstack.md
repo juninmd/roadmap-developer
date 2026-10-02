@@ -31,8 +31,7 @@ O foco aqui é conseguir construir uma aplicação completa (CRUD) sozinho, do b
 
 - **HTTP & REST:** Headers, status codes, cookies vs LocalStorage, cache HTTP e contratos OpenAPI.
 - **CORS (Cross-Origin Resource Sharing):** Entenda por que o browser bloqueia requisições e configure o backend com origens explícitas, sem `*` junto de credenciais.
-- **Validação:** valide entradas no cliente e, sempre, no servidor (Zod, Valibot ou Pydantic).
-- **Data Fetching:**
+- **Validação:** valide entradas no cliente e, sempre, no servidor (Zod, Valibot ou Pydantic). **Data Fetching:**
   - **Client-Side:** `fetch` com TanStack Query (React/Vue/Svelte). Evite `useEffect` para buscar dados.
   - **Server-Side:** Buscar dados no servidor antes de renderizar (Server Components, loaders, SSR).
 
@@ -81,16 +80,14 @@ Gerenciar múltiplos projetos (Web, Admin, Mobile, API) no mesmo repositório.
 
 ### ☁️ Deploy & Infraestrutura (PaaS)
 
-- **Vercel / Netlify / Cloudflare:** deploy de frontend e funções com git push.
-- **Railway / Render / Fly.io:** containers Docker, bancos e workers de fundo.
+- **Vercel / Netlify / Cloudflare:** deploy de frontend e funções com git push. **Railway / Render / Fly.io:** containers Docker, bancos e workers de fundo.
 - **Bancos Gerenciados:** Neon, Supabase (Postgres + Realtime), PlanetScale (Postgres ou MySQL), Turso (SQLite).
 - **Docker e CI/CD:** Dockerfile multi-stage e GitHub Actions rodando lint, testes e build a cada PR.
 - **Cache e Filas:** Redis/Valkey para cache e rate limiting; BullMQ ou Inngest/Trigger.dev para jobs em background.
 
 ### 🧪 Testes
 
-- **Unitários e componentes:** Vitest e Testing Library.
-- **E2E:** Playwright.
+- **Unitários e componentes:** Vitest e Testing Library. **E2E:** Playwright.
 - **Contrato:** valide o schema OpenAPI/tRPC no CI para que frontend e backend não quebrem um ao outro (Pact quando há times separados).
 - **Integração:** Testcontainers com Postgres real.
 
@@ -121,8 +118,7 @@ Local-First é uma opção para apps colaborativos e que precisam funcionar offl
 
 A integração profunda de modelos de IA no produto.
 
-- **Vercel AI SDK:** streaming de texto, saídas estruturadas e chat UI em React, Vue e Svelte, com vários provedores de modelo.
-- **RAG na Prática:**
+- **Vercel AI SDK:** streaming de texto, saídas estruturadas e chat UI em React, Vue e Svelte, com vários provedores de modelo. **RAG na Prática:**
   - Ingerir documentos (PDF/MD) com chunking adequado.
   - Armazenar em `pgvector` (Postgres) ou Qdrant/Pinecone.
   - Busca híbrida, reranking e avaliação com perguntas de referência.
@@ -135,14 +131,12 @@ A integração profunda de modelos de IA no produto.
 ### 🌿 Green Fullstack
 
 - **Static Generation (SSG):** se o dado não muda, gere HTML estático: mais rápido e sem computação por request.
-- **ISR / revalidação por tag:** atualize páginas estáticas sob demanda.
-- **Imagens:** CDN de imagens e formatos modernos (AVIF, WebP).
+- **ISR / revalidação por tag:** atualize páginas estáticas sob demanda. **Imagens:** CDN de imagens e formatos modernos (AVIF, WebP).
 - **Menos JavaScript:** envie ao cliente só o necessário (Server Components, islands). Meça com Lighthouse e Core Web Vitals.
 
 ### 🧠 Soft Skills & Diferencial Humano
 
-- **Visão de Produto:** entenda limites técnicos e de design e ajude a definir o MVP.
-- **Estimativas:** conhecer os dois lados ajuda a antecipar gargalos.
+- **Visão de Produto:** entenda limites técnicos e de design e ajude a definir o MVP. **Estimativas:** conhecer os dois lados ajuda a antecipar gargalos.
 - **Trade-offs:** escolher entre velocidade (dívida técnica consciente) e escalabilidade conforme a fase da empresa.
 
 ### 🏆 Desafios Práticos (Projetos)
@@ -155,7 +149,7 @@ A integração profunda de modelos de IA no produto.
 
 ## 📚 Materiais de Estudo Recomendados
 
-Seleção de materiais para o caminho do Júnior ao Especialista:
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
 
 ### 🐣 Para Nível Júnior
 
@@ -176,8 +170,7 @@ Seleção de materiais para o caminho do Júnior ao Especialista:
 - **[Local-First Web Development](https://localfirstweb.dev/):** comunidade e recursos sobre Local-First e CRDTs.
 - **[Model Context Protocol](https://modelcontextprotocol.io/):** especificação e SDKs para criar e consumir MCP servers.
 - **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/):** guias práticos de segurança (auth, sessões, CSRF, XSS).
-- **[Playwright Docs](https://playwright.dev/docs/intro):** testes E2E.
-- **[OpenTelemetry Docs](https://opentelemetry.io/docs/):** observabilidade ponta a ponta.
+- **[Playwright Docs](https://playwright.dev/docs/intro):** testes E2E. **[OpenTelemetry Docs](https://opentelemetry.io/docs/):** observabilidade ponta a ponta.
 - **[Web.dev - Core Web Vitals](https://web.dev/vitals/):** métricas de performance web e como melhorá-las.
 - **[SST (Serverless Stack) Docs](https://sst.dev/):** infraestrutura como código em TypeScript para AWS e Cloudflare.
 
@@ -185,5 +178,4 @@ Seleção de materiais para o caminho do Júnior ao Especialista:
 
 ## ↩️ Navegação
 
-- [**Voltar para o Início**](../../index.md)
-- [**Ver Conselhos de Carreira**](../../advices.md)
+- [**Voltar para o Início**](../../index.md) [**Ver Conselhos de Carreira**](../../advices.md)

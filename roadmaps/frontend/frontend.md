@@ -76,6 +76,8 @@ IA entra em dois lugares: na interface do produto e no seu fluxo de desenvolvime
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[MDN Web Docs](https://developer.mozilla.org/):** referência principal de HTML, CSS e JavaScript.

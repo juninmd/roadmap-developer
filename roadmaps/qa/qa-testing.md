@@ -129,6 +129,8 @@ IA acelera tarefas repetitivas, mas não substitui julgamento de risco. Todo có
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[Ministry of Testing](https://www.ministryoftesting.com/):** Comunidade, artigos e glossário sobre teste e testes exploratórios.

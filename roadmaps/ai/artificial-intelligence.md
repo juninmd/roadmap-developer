@@ -92,6 +92,8 @@ print(qa(pergunta="O que é Local-First?").resposta)
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[DeepLearning.AI](https://www.deeplearning.ai/):** Machine Learning Specialization, AI Python for Beginners e cursos curtos sobre LLMs, RAG e agentes.

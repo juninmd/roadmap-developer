@@ -36,14 +36,12 @@ O foco aqui é dominar as ferramentas básicas de manipulação e consulta de da
 
 ### 🗄️ SQL Avançado
 
-- **Window Functions:** `RANK()`, `LEAD()`, `LAG()`, `ROW_NUMBER()`.
-- **CTEs:** Organize queries complexas com `WITH`.
+- **Window Functions:** `RANK()`, `LEAD()`, `LAG()`, `ROW_NUMBER()`. **CTEs:** Organize queries complexas com `WITH`.
 - **Performance:** Índices e planos de execução (`EXPLAIN ANALYZE`).
 
 ### 🏗️ Modelagem de Dados
 
-- **Relacional (OLTP):** Normalização (3NF).
-- **Dimensional (OLAP):** Star Schema, fatos e dimensões, SCD (dimensões que mudam no tempo).
+- **Relacional (OLTP):** Normalização (3NF). **Dimensional (OLAP):** Star Schema, fatos e dimensões, SCD (dimensões que mudam no tempo).
 - **Conceitos:** Data Lake vs Data Warehouse vs Lakehouse.
 
 ### 🐧 Linux, Git e Docker
@@ -67,18 +65,15 @@ Aqui você constrói pipelines robustos e escaláveis na nuvem.
 
 Escolha um e domine:
 
-- **Snowflake:** Compute e storage separados, zero-copy cloning.
-- **Google BigQuery:** Serverless, cobrança por bytes lidos ou slots.
-- **AWS Redshift:** Integrado ao ecossistema AWS.
-- **Databricks SQL:** Warehouse sobre o lakehouse.
+- **Snowflake:** Compute e storage separados, zero-copy cloning. **Google BigQuery:** Serverless, cobrança por bytes lidos ou slots.
+- **AWS Redshift:** Integrado ao ecossistema AWS. **Databricks SQL:** Warehouse sobre o lakehouse.
 
 ### 🎼 Orquestração de Pipelines
 
 Não use `cron` para tudo.
 
 - **Apache Airflow 3:** O padrão de mercado. Entenda DAGs, operators, sensors, retries e backfills. Airflow 3 trouxe a nova API de execução de tarefas e agendamento orientado a assets.
-- **Dagster:** Modelo orientado a assets, bom para testes e linhagem.
-- **Prefect:** Fluxos Python simples e flexíveis.
+- **Dagster:** Modelo orientado a assets, bom para testes e linhagem. **Prefect:** Fluxos Python simples e flexíveis.
 - **Boas práticas:** Tarefas idempotentes, parâmetros de data (não `now()`), alertas de falha e SLAs de entrega.
 
 ### 🌐 Cloud e Infraestrutura
@@ -148,8 +143,7 @@ Use streaming quando a latência de segundos ou minutos tem valor de negócio (f
 
 ### 🧠 Soft Skills
 
-- **Data Storytelling:** Conte a história por trás dos números.
-- **Ética e Privacidade:** Você acessa dados sensíveis; proteja-os.
+- **Data Storytelling:** Conte a história por trás dos números. **Ética e Privacidade:** Você acessa dados sensíveis; proteja-os.
 - **Tradutor de Negócios:** Pergunte "que decisão você vai tomar com esse dado?" antes de construir.
 
 ### 🏆 Desafios Práticos (Projetos)
@@ -162,6 +156,8 @@ Use streaming quando a latência de segundos ou minutos tem valor de negócio (f
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[DuckDB Docs](https://duckdb.org/docs/):** SQL analítico local, ótimo para praticar.
@@ -172,16 +168,14 @@ Use streaming quando a latência de segundos ou minutos tem valor de negócio (f
 
 - **[dbt Learn](https://learn.getdbt.com/):** Cursos oficiais de dbt e Analytics Engineering.
 - **[Apache Airflow Docs](https://airflow.apache.org/docs/):** Documentação e tutoriais oficiais.
-- **[Dagster University](https://courses.dagster.io/):** Cursos gratuitos de Dagster.
-- **Livro: "The Data Warehouse Toolkit" (Ralph Kimball):** Base da modelagem dimensional.
+- **[Dagster University](https://courses.dagster.io/):** Cursos gratuitos de Dagster. **Livro: "The Data Warehouse Toolkit" (Ralph Kimball):** Base da modelagem dimensional.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
 - **[Data Engineering Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/data-engineering-zoomcamp):** Curso aberto e prático com Kafka, Spark, dbt e orquestração.
 - **[Designing Data-Intensive Applications (Martin Kleppmann)](https://dataintensive.net/):** Referência sobre sistemas de dados distribuídos.
 - **Livro: "Fundamentals of Data Engineering" (Joe Reis e Matt Housley):** Visão completa do ciclo de vida de dados.
-- **[Apache Spark Docs](https://spark.apache.org/docs/latest/):** Guia de Spark 4.x.
-- **[Apache Kafka Docs](https://kafka.apache.org/documentation/):** Kafka 4.x e KRaft.
+- **[Apache Spark Docs](https://spark.apache.org/docs/latest/):** Guia de Spark 4.x. **[Apache Kafka Docs](https://kafka.apache.org/documentation/):** Kafka 4.x e KRaft.
 - **[Apache Flink Docs](https://nightlies.apache.org/flink/flink-docs-stable/):** Streaming com estado.
 - **[Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/):** Formato de tabela aberto.
 - **[Delta Lake Docs](https://docs.delta.io/latest/index.html):** Formato de tabela do ecossistema Spark/Databricks.
@@ -189,12 +183,10 @@ Use streaming quando a latência de segundos ou minutos tem valor de negócio (f
 - **[OpenLineage](https://openlineage.io/docs/):** Padrão aberto de linhagem.
 - **[Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/latest/):** Especificação de data contracts.
 - **[DataHub Docs](https://datahubproject.io/docs/) e [OpenMetadata](https://docs.open-metadata.org/):** Catálogo e governança open source.
-- **[FinOps Foundation](https://www.finops.org/framework/):** Práticas de gestão de custos em nuvem.
-- **Livro: "Data Mesh" (Zhamak Dehghani):** Origem do conceito.
+- **[FinOps Foundation](https://www.finops.org/framework/):** Práticas de gestão de custos em nuvem. **Livro: "Data Mesh" (Zhamak Dehghani):** Origem do conceito.
 
 ---
 
 ## ↩️ Navegação
 
-- [**Voltar para o Início**](../../index.md)
-- [**Ver Conselhos de Carreira**](../../advices.md)
+- [**Voltar para o Início**](../../index.md) [**Ver Conselhos de Carreira**](../../advices.md)

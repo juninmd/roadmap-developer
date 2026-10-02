@@ -31,14 +31,12 @@ O foco aqui é entender como os computadores conversam e como trancar as portas 
 
 Você não pode proteger o que não entende.
 
-- **Modelo OSI/TCP-IP:** Camadas de transporte, rede e aplicação.
-- **Protocolos:** DNS (e DNSSEC), HTTP/HTTPS com TLS 1.3, HTTP/3 (QUIC), SSH, SMTP com SPF/DKIM/DMARC.
+- **Modelo OSI/TCP-IP:** Camadas de transporte, rede e aplicação. **Protocolos:** DNS (e DNSSEC), HTTP/HTTPS com TLS 1.3, HTTP/3 (QUIC), SSH, SMTP com SPF/DKIM/DMARC.
 - **Ferramentas:** Wireshark (analisar pacotes), Nmap (scan de portas).
 
 ### 🐧 Sistemas Operacionais & Hardening
 
-- **Linux:** Permissões, logs (`/var/log`), firewall (`iptables`/`ufw`).
-- **Windows:** Active Directory, Group Policies (GPO), PowerShell.
+- **Linux:** Permissões, logs (`/var/log`), firewall (`iptables`/`ufw`). **Windows:** Active Directory, Group Policies (GPO), PowerShell.
 - **Hardening:** O processo de fechar brechas padrão (desabilitar serviços inúteis, fechar portas).
 
 ### 🔑 Criptografia Básica
@@ -61,8 +59,7 @@ Aqui você começa a atacar (para testar) e defender sistemas reais.
 ### 🕸️ Web Security (AppSec)
 
 - **OWASP Top 10:2025:** Referência para riscos web: Broken Access Control (continua em 1º), Security Misconfiguration, falhas na cadeia de suprimentos de software, falhas criptográficas, injeção (SQLi, XSS), design inseguro e tratamento inadequado de condições excepcionais. Confira a lista vigente no site da OWASP.
-- **APIs:** OWASP API Security Top 10 (2023): BOLA, autenticação quebrada, SSRF.
-- **Ferramentas:** Burp Suite (proxy de interceptação), ZAP (Checkmarx).
+- **APIs:** OWASP API Security Top 10 (2023): BOLA, autenticação quebrada, SSRF. **Ferramentas:** Burp Suite (proxy de interceptação), ZAP (Checkmarx).
 
 ### ☁️ Cloud Security
 
@@ -75,8 +72,7 @@ A nuvem é o novo perímetro.
 
 ### ⚔️ Pentesting Básico (Red Team)
 
-- **Reconhecimento (Recon):** OSINT (Open Source Intelligence).
-- **Exploração:** Metasploit Framework, Nmap Scripting Engine, sqlmap. Pratique apenas em ambientes autorizados.
+- **Reconhecimento (Recon):** OSINT (Open Source Intelligence). **Exploração:** Metasploit Framework, Nmap Scripting Engine, sqlmap. Pratique apenas em ambientes autorizados.
 - **Escalação de Privilégio:** Como virar admin depois de entrar.
 
 ---
@@ -105,11 +101,9 @@ Segurança automatizada no ciclo de desenvolvimento.
 ### 🚨 Blue Team & Incident Response
 
 - **SIEM, EDR/XDR e SOAR:** Splunk, Elastic Security, Microsoft Sentinel, Wazuh (open source). Centralize logs e automatize respostas repetitivas.
-- **Detecção como código:** Regras Sigma, mapeamento no MITRE ATT&CK e testes de detecção.
-- **Threat Hunting e Threat Intelligence:** Hipóteses baseadas em TTPs, não só em IOCs.
+- **Detecção como código:** Regras Sigma, mapeamento no MITRE ATT&CK e testes de detecção. **Threat Hunting e Threat Intelligence:** Hipóteses baseadas em TTPs, não só em IOCs.
 - **Resposta a incidentes:** Ciclo do NIST SP 800-61 (Rev. 3, alinhado ao CSF 2.0), playbooks, comunicação e exercícios de mesa. Ransomware: backups imutáveis e testados.
-- **Forensics:** Memória (Volatility), disco e logs de nuvem.
-- **Frameworks:** NIST Cybersecurity Framework 2.0 (inclui a função Govern) e CIS Controls v8.
+- **Forensics:** Memória (Volatility), disco e logs de nuvem. **Frameworks:** NIST Cybersecurity Framework 2.0 (inclui a função Govern) e CIS Controls v8.
 
 ### ⚛️ Criptografia Pós-Quântica (PQC)
 
@@ -148,6 +142,8 @@ IA adiciona novas superfícies de ataque, principalmente quando modelos recebem 
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[TryHackMe](https://tryhackme.com/):** Trilhas guiadas de Linux, redes, criptografia e web.
@@ -179,5 +175,4 @@ IA adiciona novas superfícies de ataque, principalmente quando modelos recebem 
 
 ## ↩️ Navegação
 
-- [**Voltar para o Início**](../../index.md)
-- [**Ver Conselhos de Carreira**](../../advices.md)
+- [**Voltar para o Início**](../../index.md) [**Ver Conselhos de Carreira**](../../advices.md)

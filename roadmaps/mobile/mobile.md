@@ -39,8 +39,7 @@ Comece entendendo como os apps funcionam e publique seu primeiro "Hello World".
 ### 🧩 Fundamentos de UI/UX Mobile
 
 - **Layouts:** Flexbox (React Native), Rows/Columns (Flutter) ou AutoLayout (iOS). Como criar telas responsivas.
-- **Navegação:** Stack, TabBar, Drawer. Como o usuário vai de A para B.
-- **Ciclo de Vida:** Entenda quando a tela é criada, pausada (background) e destruída.
+- **Navegação:** Stack, TabBar, Drawer. Como o usuário vai de A para B. **Ciclo de Vida:** Entenda quando a tela é criada, pausada (background) e destruída.
 - **Acessibilidade:** TalkBack e VoiceOver, labels semânticos, Dynamic Type/tamanho de fonte, contraste e áreas de toque mínimas.
 - **Design nativo:** siga Material 3 (Expressive) no Android e as Human Interface Guidelines no iOS.
 
@@ -57,8 +56,7 @@ Construa apps robustos, que funcionam offline e encantam o usuário.
 
 ### 🧠 Gerenciamento de Estado
 
-- **React Native:** Context API, Redux Toolkit, Zustand, TanStack Query.
-- **Flutter:** Provider, Riverpod, BLoC (Business Logic Component).
+- **React Native:** Context API, Redux Toolkit, Zustand, TanStack Query. **Flutter:** Provider, Riverpod, BLoC (Business Logic Component).
 - **Nativo:** ViewModel e StateFlow (Android); Observation (`@Observable`) e async/await (iOS).
 
 ### 🗄️ Persistência de Dados (Offline-First)
@@ -68,8 +66,7 @@ Construa apps robustos, que funcionam offline e encantam o usuário.
 
 ### 📲 Recursos do Dispositivo
 
-- **Sensores:** Câmera, GPS, Acelerômetro.
-- **Notificações Push:** Engajamento com Firebase Cloud Messaging (FCM).
+- **Sensores:** Câmera, GPS, Acelerômetro. **Notificações Push:** Engajamento com Firebase Cloud Messaging (FCM).
 - **Biometria:** Face ID/Touch ID e BiometricPrompt, com Keychain/Keystore e passkeys para login sem senha.
 - **Permissões:** peça só o necessário, no momento do uso, e explique o motivo.
 
@@ -190,5 +187,4 @@ Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reuni
 
 ## ↩️ Navegação
 
-- [**Voltar para o Início**](../../index.md)
-- [**Ver Conselhos de Carreira**](../../advices.md)
+- [**Voltar para o Início**](../../index.md) [**Ver Conselhos de Carreira**](../../advices.md)
