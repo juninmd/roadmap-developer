@@ -5,7 +5,11 @@
   --vp-c-brand-soft: rgba(109, 93, 252, 0.14);
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(120deg, #6d5dfc 20%, #22d3ee);
-  --vp-home-hero-image-background-image: linear-gradient(135deg, #6d5dfc66, #22d3ee66);
+  --vp-home-hero-image-background-image: linear-gradient(
+    135deg,
+    #6d5dfc66,
+    #22d3ee66
+  );
   --vp-home-hero-image-filter: blur(56px);
 }
 
@@ -18,7 +22,10 @@
 .VPFeatures .VPFeature {
   border: 1px solid var(--vp-c-divider);
   border-radius: 16px;
-  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 .VPFeatures .VPFeature:hover {
   transform: translateY(-3px);
@@ -30,16 +37,26 @@
   margin-top: 40px;
   padding-top: 28px;
 }
-.vp-doc h3 { margin-top: 28px; }
+.vp-doc h3 {
+  margin-top: 28px;
+}
 .vp-doc blockquote {
   border-radius: 10px;
   border-left: 4px solid var(--vp-c-brand-1);
   background: var(--vp-c-brand-soft);
   padding: 8px 16px;
 }
-.vp-doc table { display: table; width: 100%; border-radius: 10px; overflow: hidden; }
-.vp-doc div[class*="language-"] { border-radius: 10px; }
-.vp-doc .mermaid, .vp-doc pre.mermaid {
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.vp-doc div[class*="language-"] {
+  border-radius: 10px;
+}
+.vp-doc .mermaid,
+.vp-doc pre.mermaid {
   display: flex;
   justify-content: center;
   padding: 16px;
@@ -49,5 +66,9 @@
   background: var(--vp-c-bg-soft);
   overflow-x: auto;
 }
-.vp-doc li { margin: 4px 0; }
-.vp-doc a { font-weight: 500; }
+.vp-doc li {
+  margin: 4px 0;
+}
+.vp-doc a {
+  font-weight: 500;
+}
