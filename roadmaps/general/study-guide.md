@@ -100,6 +100,8 @@ Objetivo: tomar decisões que afetam produto, custo e equipe, e multiplicar o ti
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **Cursos e prática:** [CS50x (Harvard)](https://cs50.harvard.edu/x/), [freeCodeCamp](https://www.freecodecamp.org/) e [The Odin Project](https://www.theodinproject.com/).

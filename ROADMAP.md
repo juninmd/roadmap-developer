@@ -31,6 +31,8 @@ Ajudar pessoas a trilhar uma carreira de desenvolvimento de software com foco em
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[The Odin Project](https://www.theodinproject.com/):** currículo open source baseado em projetos.

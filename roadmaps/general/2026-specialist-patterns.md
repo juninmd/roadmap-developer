@@ -125,6 +125,8 @@ Eficiência reduz custo e emissões ao mesmo tempo.
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[MDN: Conceitos de WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts):** como o Wasm funciona.
