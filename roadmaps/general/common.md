@@ -172,6 +172,8 @@ Assistentes e agentes de código fazem parte do fluxo normal de trabalho em 2026
 
 ## 📚 Materiais de Estudo Recomendados
 
+Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reunimos os conteúdos mais atualizados e de altíssima qualidade do mercado:
+
 ### 🐣 Para Nível Júnior
 
 - **[freeCodeCamp](https://www.freecodecamp.org/) e [The Odin Project](https://www.theodinproject.com/):** prática guiada e currículo baseado em projetos.
