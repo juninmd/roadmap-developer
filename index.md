@@ -19,7 +19,7 @@ hero:
 features:
   - title: Visão Geral (ROADMAP)
     details: Visão do projeto, status das trilhas e metas de atualização.
-    link: /ROADMAP
+    link: /roadmap
   - title: Guia de Estudos 2026
     details: Passo a passo de estudos do nível Júnior ao Especialista.
     link: /roadmaps/general/study-guide.md
