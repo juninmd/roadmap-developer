@@ -4,7 +4,7 @@
   "description": "Guia para desenvolvedores completo e atualizado para 2026. Transformado em site estático com VitePress.",
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.19"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
