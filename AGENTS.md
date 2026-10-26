@@ -60,6 +60,7 @@ Este arquivo contém diretrizes para agentes de Inteligência Artificial que tra
 O deploy é feito automaticamente via GitHub Actions para o GitHub Pages quando há push na branch `main`.
 
 <!-- base-actions-main-policy -->
+
 ## GitHub Actions — padrão obrigatório (@main)
 
 - Referencie as actions internas sempre pelo branch, nunca por SHA:
