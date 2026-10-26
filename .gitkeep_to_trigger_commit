@@ -15,5 +15,3 @@ trigger
 Update roadmaps for 2026 vitepress false-positive
 trigger
 roadmap 2026 vitepress false-positive
-Trigger commit for roadmap update
-Fix Prettier format and commit for VitePress site deployment since roadmap content is already updated.
