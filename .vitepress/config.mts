@@ -44,7 +44,7 @@ export default withMermaid(
       darkModeSwitchLabel: "Tema",
       nav: [
         { text: "Home", link: "/" },
-        { text: "Visão Geral (ROADMAP)", link: "/ROADMAP" },
+        { text: "Visão Geral (ROADMAP)", link: "/roadmap" },
         {
           text: "Trilhas",
           items: [
@@ -77,7 +77,7 @@ export default withMermaid(
           text: "Introdução",
           items: [
             { text: "Início", link: "/" },
-            { text: "Visão Geral (ROADMAP)", link: "/ROADMAP" },
+            { text: "Visão Geral (ROADMAP)", link: "/roadmap" },
             { text: "📡 Tech Radar 2026", link: "/radar" },
             { text: "Conselhos de Carreira", link: "/advices" },
           ],
