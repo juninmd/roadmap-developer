@@ -8,7 +8,7 @@ Este projeto usa [VitePress](https://vitepress.dev/) para gerar o site estático
 
 ### Pré-requisitos
 
-- Node.js (versão 18 ou superior)
+- Node.js (versão 20.19 ou superior)
 - NPM ou Yarn
 
 ### Passos
