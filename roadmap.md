@@ -38,18 +38,24 @@ Para formar o Desenvolvedor Completo em 2026 (do Júnior ao Especialista), reuni
 - **[The Odin Project](https://www.theodinproject.com/):** currículo open source baseado em projetos.
 - **[CS50x (Harvard)](https://cs50.harvard.edu/x/):** introdução à ciência da computação, gratuita.
 - **[Pro Git](https://git-scm.com/book/pt-br/v2):** livro gratuito de Git.
+- **[freeCodeCamp](https://www.freecodecamp.org/):** certificações gratuitas com trilhas práticas do zero ao avançado.
+- **[MDN Web Docs](https://developer.mozilla.org/pt-BR/):** a bíblia do desenvolvimento web (HTML, CSS, JS).
 
 ### 🚀 Para Nível Pleno
 
 - **[Full Cycle](https://fullcycle.com.br/):** arquitetura moderna (microsserviços, Docker, Go, Kubernetes).
 - **[Anthropic Courses](https://github.com/anthropics/courses):** prompts e uso de ferramentas com modelos de linguagem.
 - **[Model Context Protocol](https://modelcontextprotocol.io/):** padrão aberto para conectar agentes a ferramentas e dados.
+- **[DeepLearning.AI](https://www.deeplearning.ai/):** cursos fundamentais sobre engenharia de IA e RAG.
+- **[System Design Primer](https://github.com/donnemartin/system-design-primer):** o guia definitivo para arquitetura de sistemas escaláveis.
 
 ### 🏛️ Para Nível Sênior/Especialista
 
 - **[LangChain Academy](https://academy.langchain.com/):** RAG e agentes com LangGraph.
 - **[Hugging Face Learn](https://huggingface.co/learn):** modelos abertos, SLMs e fine-tuning.
 - **[Local-First Web Development](https://localfirstweb.dev/):** arquitetura local-first e CRDTs.
+- **[ByteByteGo](https://bytebytego.com/):** estudos de caso aprofundados sobre arquitetura de sistemas de larga escala.
+- **[Green Software Foundation](https://greensoftware.foundation/):** princípios e práticas para engenharia de software sustentável.
 
 ## ↩️ Navegação
 
