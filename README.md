@@ -38,7 +38,7 @@ Este projeto foi atualizado para refletir o mercado de tecnologia em **2026**, f
 
 ## 🚀 Rodando Localmente
 
-Para rodar o site de documentação na sua máquina (Node.js 18 ou superior):
+Para rodar o site de documentação na sua máquina (Node.js 20.19 ou superior):
 
 1.  **Clone o repositório e instale as dependências:**
 
@@ -103,7 +103,7 @@ Leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como ajudar.
 
 ## ⚠️ Limitações Conhecidas
 
-- Requer Node.js 18 ou superior (`engines` em `package.json`).
+- Requer Node.js 20.19 ou superior (`engines` em `package.json`).
 - O teste E2E roda em Chromium, Firefox e WebKit. Sem os navegadores do Playwright instalados (`npx playwright install`), os projetos Firefox e WebKit falham.
 - O repositório não traz workflow de deploy; ver [Deploy](#-deploy).
 
