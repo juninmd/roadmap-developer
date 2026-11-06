@@ -8,7 +8,7 @@ updates:
       interval: weekly
     groups:
       actions:
-        patterns: ['*']
+        patterns: ["*"]
     open-pull-requests-limit: 5
   - package-ecosystem: npm
     directory: /
@@ -16,8 +16,7 @@ updates:
       interval: weekly
     groups:
       npm:
-        patterns: ['*']
+        patterns: ["*"]
     open-pull-requests-limit: 5
     commit-message:
-      prefix: 'chore(deps)'
-
+      prefix: "chore(deps)"
