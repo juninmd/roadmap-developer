@@ -35,16 +35,16 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@playwright/test": "^1.65.0",
+    "@playwright/test": "^1.65.1",
     "@vitest/coverage-v8": "^5.1.0",
     "@vitest/mocker": "^5.1.0",
-    "eslint": "^10.14.0",
+    "eslint": "^10.15.0",
     "jiti": "^2.7.0",
 "markdownlint-cli": "^0.50.0",
     "mermaid": "^12.2.0",
-    "prettier": "^3.9.10",
+    "prettier": "^3.10.1",
     "typescript": "~7.0.2",
-    "typescript-eslint": "^8.72.1",
+    "typescript-eslint": "^8.72.2",
     "vitepress": "^2.0.0-alpha.20",
     "vitest": "^5.1.0"
   }
