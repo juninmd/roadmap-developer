@@ -58,13 +58,18 @@ const grouped = computed(() =>
 <template>
   <div class="radar">
     <div class="radar-filters" role="group" aria-label="Filtrar quadrante">
-      <button :class="{ on: filter === null }" @click="filter = null">
+      <button
+        :class="{ on: filter === null }"
+        :aria-pressed="filter === null"
+        @click="filter = null"
+      >
         Todos
       </button>
       <button
         v-for="(q, qi) in quadrants"
         :key="q"
         :class="{ on: filter === qi }"
+        :aria-pressed="filter === qi"
         @click="filter = qi"
       >
         {{ q }}
@@ -118,7 +123,10 @@ const grouped = computed(() =>
               hot: active === p.i,
             },
           ]"
-          tabindex="0"
+          role="img"
+          :aria-label="`${p.i + 1}. ${p.blip.name}, ${rings[p.ri].label}, ${quadrants[p.blip.quadrant]}`"
+          :aria-hidden="!visible(p.blip) || undefined"
+          :tabindex="visible(p.blip) ? 0 : -1"
           @mouseenter="active = p.i"
           @mouseleave="active = null"
           @focus="active = p.i"
@@ -184,9 +192,9 @@ const grouped = computed(() =>
 
 <style scoped>
 .radar {
-  --adote: #16a34a;
+  --adote: #15803d;
   --experimente: #2563eb;
-  --avalie: #d97706;
+  --avalie: #b45309;
   --evite: #dc2626;
   margin: 24px 0;
 }
@@ -195,6 +203,11 @@ const grouped = computed(() =>
   --experimente: #60a5fa;
   --avalie: #fbbf24;
   --evite: #f87171;
+}
+.dark .radar .blip text,
+.dark .radar .num {
+  fill: #0b0b0b;
+  color: #0b0b0b;
 }
 .radar-filters {
   display: flex;
