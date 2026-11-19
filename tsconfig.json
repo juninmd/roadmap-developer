@@ -8,8 +8,9 @@
     "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": ["vitest/globals"]
-  },
+    "baseUrl": ".",
+    "types": ["vitest/globals"],
+    "ignoreDeprecations": "7.0",
   "include": [
     "utils/**/*.ts",
     "tests/**/*.ts",
