@@ -8,8 +8,6 @@
     "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "baseUrl": ".",
-    "ignoreDeprecations": "5.0",
     "types": ["vitest/globals"]
   },
   "include": [
