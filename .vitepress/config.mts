@@ -45,6 +45,20 @@ export default withMermaid(
       returnToTopLabel: "Voltar ao topo",
       sidebarMenuLabel: "Menu",
       darkModeSwitchLabel: "Tema",
+      lightModeSwitchTitle: "Mudar para o tema claro",
+      darkModeSwitchTitle: "Mudar para o tema escuro",
+      skipToContentLabel: "Pular para o conteúdo",
+      langMenuLabel: "Mudar idioma",
+      lastUpdated: {
+        text: "Atualizado em",
+        formatOptions: { dateStyle: "short", timeStyle: "short", forceLocale: true },
+      },
+      notFound: {
+        title: "PÁGINA NÃO ENCONTRADA",
+        quote: "Este caminho não está no roadmap. Volte ao início e escolha outra trilha.",
+        linkLabel: "Ir para a página inicial",
+        linkText: "Voltar ao início",
+      },
       nav: [
         { text: "Home", link: "/" },
         { text: "Visão Geral (ROADMAP)", link: "/roadmap" },
@@ -130,6 +144,26 @@ export default withMermaid(
 
       search: {
         provider: "local",
+        options: {
+          translations: {
+            button: { buttonText: "Buscar", buttonAriaLabel: "Buscar" },
+            modal: {
+              displayDetails: "Mostrar lista detalhada",
+              resetButtonTitle: "Limpar busca",
+              backButtonTitle: "Fechar busca",
+              noResultsText: "Nenhum resultado para",
+              footer: {
+                selectText: "selecionar",
+                selectKeyAriaLabel: "Enter",
+                navigateText: "navegar",
+                navigateUpKeyAriaLabel: "seta para cima",
+                navigateDownKeyAriaLabel: "seta para baixo",
+                closeText: "fechar",
+                closeKeyAriaLabel: "Esc",
+              },
+            },
+          },
+        },
       },
     },
   }),
