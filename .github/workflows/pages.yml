@@ -1,0 +1,19 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  pages:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: juninmd/base-actions/.github/workflows/reusable-pages.yml@main
+    with:
+      build-command: |
+        npm ci
+        GH_PAGES=true NODE_OPTIONS=--max-old-space-size=4096 npm run docs:build
+      artifact-path: .vitepress/dist
