@@ -82,7 +82,7 @@ flowchart TD
     B --> D["npm run docs:build<br/>VitePress build"]
     C --> D
     D --> E[".vitepress/dist<br/>HTML estático"]
-    E --> F["netlify.toml<br/>publica .vitepress/dist"]
+    E --> F["GitHub Pages<br/>publica .vitepress/dist"]
 ```
 
 - **Sem servidor de aplicação:** o resultado do build são arquivos estáticos; não há banco de dados nem API em execução.
@@ -90,11 +90,9 @@ flowchart TD
 
 ## 📦 Deploy
 
-O arquivo `netlify.toml` define o build (`npm ci && npm run docs:build`), a versão do Node (20) e a pasta publicada (`.vitepress/dist`).
+O workflow `.github/workflows/pages.yml` faz o build (`npm ci && npm run docs:build` com `GH_PAGES=true`, base `/roadmap-developer/`) e publica `.vitepress/dist` no GitHub Pages a cada push na `master`: https://juninmd.github.io/roadmap-developer/
 
-Não há workflow de deploy em `.github/workflows/`. A publicação depende de o repositório estar conectado a um site no Netlify, configuração que não é verificável a partir deste código.
-
-Para publicar sua própria cópia, conecte o repositório a um site no Netlify; o `netlify.toml` já configura o build.
+Para publicar sua própria cópia, habilite Settings > Pages > Source: GitHub Actions no seu fork.
 
 ## 🤝 Contribuição
 

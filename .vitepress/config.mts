@@ -1,12 +1,16 @@
 import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 
+// GitHub Pages serves the site under /<repo>/; local dev and e2e keep the root.
+const base = process.env.GH_PAGES ? "/roadmap-developer/" : "/";
+
 export default withMermaid(
   defineConfig({
     lang: "pt-BR",
     title: "Roadmap Developer 2026",
     description:
       "Guia completo e atualizado para desenvolvedores em 2026. Transformado em site com VitePress.",
+    base,
     cleanUrls: true,
     lastUpdated: true,
     srcExclude: [
@@ -17,12 +21,12 @@ export default withMermaid(
       "SECURITY.md",
     ],
     head: [
-      ["link", { rel: "icon", href: "/logo.svg" }],
+      ["link", { rel: "icon", href: `${base}logo.svg` }],
       ["meta", { property: "og:type", content: "website" }],
       ["meta", { property: "og:locale", content: "pt_BR" }],
       ["meta", { property: "og:title", content: "Roadmap Developer 2026" }],
       ["meta", { property: "og:site_name", content: "Roadmap Developer 2026" }],
-      ["meta", { property: "og:image", content: "/logo.svg" }],
+      ["meta", { property: "og:image", content: `${base}logo.svg` }],
     ],
     vite: {
       ssr: {
